@@ -1,3 +1,1240 @@
+commit 363593543c504bd83e7974a1cee343fa878f96e2
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 14:48:16 2012 +0200
+
+    fix "make srpm"
+
+commit b8517c7d7fdce6d036a0bfb9a90397713ef4a720
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 14:30:53 2012 +0200
+
+    Add dialogs for TUI activate/deactivate
+
+commit 7509a82901a7558c16ecace975c0dd7c58b1df65
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 13:20:53 2012 +0200
+
+    inc version
+
+commit 1078b9103441c322f3ce5ce01de75616b3ff4943
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 13:21:00 2012 +0200
+
+    Add "Activate" and "Deactivate" buttons to the TUI
+
+commit eb05eb6c0518319f205bdbdb06ada07e3f5936e5
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 13:07:27 2012 +0200
+
+    set NM_CONTROLLED=no for TUI created devices
+
+commit f5c77ec83a9205e26cc543cea3b19291f45f263e
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 13:01:20 2012 +0200
+
+    netconfpkg/NC_functions.py: allow trailing dot for hostnames
+
+commit 282e60fd7309df768d43fe236866026414737d19
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Oct 12 12:50:08 2012 +0200
+
+    translation update
+
+commit 461804334637d814ecbe65e03fd571a014a46359
+Author: jassy <jassy@fedoraproject.org>
+Date:   Fri Oct 15 06:37:11 2010 +0000
+
+    l10n: Updates to Panjabi (Punjabi) (pa) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 9078f9bd4a2dc9c70fd0744c056c6579475be9b3
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Tue Jun 22 18:08:24 2010 +0200
+
+    version 1.6.0.el6.2-1
+
+commit b7fa985f144d1fcbbf5545d9a35434343e302eb1
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Jun 21 13:33:53 2010 +0200
+
+    Ported to use NSS library (bug #348321).
+    
+    We use python bindings for NSS/NSPR:
+    https://fedoraproject.org/wiki/Features/PythonNSS
+    
+    If there's no PythonNSS installed hashlib is used instead.
+
+commit e8ac0d9f92c2f7eb2e9fe02dd1dbf58801b081ba
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Jun 21 11:35:20 2010 +0200
+
+    Use hashlib instead of deprecated sha module.
+
+commit 294d19827b587a02692d5d5984a7b47629ea02e1
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Thu Jun 17 11:53:47 2010 +0200
+
+    Use hashlib instead of deprecated md5 module.
+
+commit 9b8fcb30d923df7fae24713dfd213bc0da26cfbd
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Thu Jun 17 11:00:12 2010 +0200
+
+    Fix writing of comments in ConfModules.py
+
+commit 1712d45dfd0dc6e87a6bf61cf0b2ecfcfe94f66e
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Jun 7 14:05:40 2010 +0200
+
+    Avoid saving of SetVolume = None into wvdial.conf (bug #601005).
+
+commit 05c630d1f23ad5aa03fb763f21a33c04b80e4ba6
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Feb 8 13:26:19 2010 +0100
+
+    Fix calling of join() when logging (bug #562292)
+
+commit cde1ffe741f054107f6bac81a7bf3f714e4326f4
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Jan 25 15:03:48 2010 +0100
+
+    Revert "NCPluginDevModem.py:getModemList() requires kudzu"
+    
+    This reverts commit cc6e29afbcc034d38a3857ef6f58e28ac4ab2b8c.
+
+commit 9a1872ac7f5c41219195a855d855863035a7caf1
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Jun 16 18:07:45 2010 +0200
+
+    /etc/modprobe.conf is deprecated (#589593).
+    
+    Read|write /etc/modprobe.d/network.conf instead.
+
+commit 60ecfca687d5ddc2058644a9f22860ff2b5f9887
+Author: mgiri <mgiri@fedoraproject.org>
+Date:   Tue May 11 10:34:24 2010 +0000
+
+    l10n: Updates to Oriya (or) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 95fb57470dc3257a237643bec787cf89d6a0c362
+Author: rajesh <rajesh@fedoraproject.org>
+Date:   Wed May 5 11:20:45 2010 +0000
+
+    l10n: Updates to Hindi (hi) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 64b4a371ca02557f1c16efcd528af7aef2e1af8e
+Author: enshahar <enshahar@fedoraproject.org>
+Date:   Wed Apr 28 03:59:22 2010 +0000
+
+    l10n: Updates to Korean (ko) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 9a7d0e89a2349e9341945bb2bcb08ddb26237f52
+Author: shanky <shanky@fedoraproject.org>
+Date:   Fri Apr 23 09:05:02 2010 +0000
+
+    l10n: Updates to Kannada (kn) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 96fa4b1af190dea09b60a39ad90d4d117a16e570
+Author: khasida <khasida@fedoraproject.org>
+Date:   Fri Apr 23 08:11:41 2010 +0000
+
+    l10n: Updates to Japanese (ja) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 90a6ca5727274d269204a4c77c27e654df8ca08e
+Author: anipeter <anipeter@fedoraproject.org>
+Date:   Wed Apr 14 05:35:52 2010 +0000
+
+    l10n: Updates to Malayalam (ml) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 3a2082461a06f046b69a9ee53645456c6342290c
+Author: mvdz <mvdz@fedoraproject.org>
+Date:   Tue Apr 13 12:35:08 2010 +0000
+
+    l10n: Updates to Ukrainian (uk) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 6bbe6af7ca46e8c264770427154442fa143a2e6d
+Author: gcintra <gcintra@fedoraproject.org>
+Date:   Wed Apr 7 03:34:21 2010 +0000
+
+    l10n: Updates to Portuguese (Brazilian) (pt_BR) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 3fbacb2aca1e38e0a48814e4a808306c2914f743
+Author: gcintra <gcintra@fedoraproject.org>
+Date:   Wed Apr 7 03:34:05 2010 +0000
+
+    l10n: Updates to Portuguese (Brazilian) (pt_BR) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit c1ce84f6c05860fd4821c06a87c1985f22cff870
+Author: jassy <jassy@fedoraproject.org>
+Date:   Tue Apr 6 06:29:22 2010 +0000
+
+    l10n: Updates to Panjabi (Punjabi) (pa) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit e41c6c9adea5740a7519805e35712e629d12dce0
+Author: gguerrer <gguerrer@fedoraproject.org>
+Date:   Mon Mar 29 06:44:34 2010 +0000
+
+    l10n: Updates to Spanish (Castilian) (es) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit b500dd062aa2d46313935e5392827b9736a36226
+Author: leahliu <leahliu@fedoraproject.org>
+Date:   Fri Mar 26 10:59:30 2010 +0000
+
+    l10n: Updates to Chinese (China) (zh_CN) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 0f1e351f892accb97fb9ada53e4ae8fd7ded896a
+Author: runab <runab@fedoraproject.org>
+Date:   Thu Mar 25 12:22:34 2010 +0000
+
+    l10n: Updates to Bengali (India) (bn_IN) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit b3a60a6d11b2e95cc3d803bd11d12dbc44cc49b7
+Author: ypoyarko <ypoyarko@fedoraproject.org>
+Date:   Thu Mar 25 03:12:15 2010 +0000
+
+    l10n: Updates to Russian (ru) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit cdf833eeb710bc3616d6f3960dbb7e3ce703c714
+Author: fvalen <fvalen@fedoraproject.org>
+Date:   Tue Mar 23 05:52:25 2010 +0000
+
+    l10n: Updates to Italian (it) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit cbf680497d3303ca33d3b181818a44ac47643708
+Author: ankit <ankit@fedoraproject.org>
+Date:   Tue Mar 23 05:35:56 2010 +0000
+
+    l10n: Updates to Gujarati (gu) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 610a5275deb52d8f8536c372e1a85d9240b1222f
+Author: ttrinks <ttrinks@fedoraproject.org>
+Date:   Tue Mar 16 05:19:48 2010 +0000
+
+    l10n: Updates to German (de) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 62073c5ed907df193d655a998f67c8a85ebd0611
+Author: kristho <kristho@fedoraproject.org>
+Date:   Mon Mar 15 18:49:08 2010 +0000
+
+    l10n: Updates to Danish (da) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit e017e9db65a4f1a417c252738927d0d756e35696
+Author: tchuang <tchuang@fedoraproject.org>
+Date:   Mon Mar 15 03:57:53 2010 +0000
+
+    l10n: Updates to Chinese (Taiwan) (zh_TW) translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit e011594355dbc60fbd50fc78a0c93fc133a41081
+Author: raven <raven@fedoraproject.org>
+Date:   Mon Mar 8 12:43:03 2010 +0000
+
+    Sending translation for Polish
+
+commit 07bbc83900aa9cacf0f62551024f4fe68394744e
+Author: milankerslager <milankerslager@fedoraproject.org>
+Date:   Mon Mar 8 06:29:23 2010 +0000
+
+    Sending translation for Czech
+
+commit f1dbd27892152c159b0a2e5e42773db5e8779a80
+Author: gguerrer <gguerrer@fedoraproject.org>
+Date:   Mon Mar 8 04:48:11 2010 +0000
+
+    Sending translation for Spanish
+
+commit 69a85b09f2080749577d63eb2f974ce33e59c213
+Author: mgiri <mgiri@fedoraproject.org>
+Date:   Fri Mar 5 12:20:05 2010 +0000
+
+    Sending translation for Oriya
+
+commit 2c54ca943fc3fbeaa9b3e97fd646fc96baace47e
+Author: sandeeps <sandeeps@fedoraproject.org>
+Date:   Fri Mar 5 11:15:56 2010 +0000
+
+    Sending translation for Marathi
+
+commit 19a98cd80afef3f7baed501a33776e29ee79ddf0
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Jan 15 15:16:35 2010 +0100
+
+    specfile update
+
+commit 86e8b02e6393e758705a756c34c12230a5c7fc84
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Jan 15 15:05:15 2010 +0100
+
+    translation update
+
+commit cd87a591b9e017975f767f95d5bfc449029c9b07
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Jan 15 14:55:42 2010 +0100
+
+    fixed qeth from cherry-pick
+
+commit e49906ccc413fa517e6b744253f02b81eb031272
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Jan 15 14:18:49 2010 +0100
+
+    NCPluginDevQeth.py: fixed initializing
+    
+    https://bugzilla.redhat.com/show_bug.cgi?id=555142
+
+commit 6c032160447351f5b3599a0e84431f983e673984
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Tue Jul 14 18:49:47 2009 +0200
+
+    NCQethInterface: use '' as default value for text entries (bug #507766)
+
+commit f4a5fe90a1fa4fffefde92762dc9c28157c1bb56
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed May 6 15:03:15 2009 +0200
+
+    add MACADDR handling to QETH, fixed TUI for QETH
+
+commit 528ea5f0cf9787b3e58b46a6f7885b6ed41a261a
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Fri Jan 15 13:24:50 2010 +0100
+
+    added OPTIONS for qeth interfaces and bring them online
+    
+    rhbz#441514
+    rhbz#440970
+
+commit 54833af55c9365e4ddbd6fd2b62c3a2af91272c3
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Nov 12 19:14:11 2008 +0100
+
+    added ungroup to deactivation and group to activation
+
+commit 145cc19b57cb593ee6e2f7e18331ed69f4bc3a7d
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Nov 16 11:56:44 2009 +0100
+
+    removed kudzu code
+
+commit d2ea61b6224390d55d2bb8049e8df424cfa47085
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Thu Jan 7 09:22:54 2010 +0100
+
+    Fix xDSL setup for T-Online Account (rhbz #552962).
+
+commit 57d11f5da519b4f8d80957c625e503917be3650f
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Tue Jan 5 12:25:39 2010 +0100
+
+    Fix crash in NCPluginWirelessInterface.py
+    when new wireless card is added (rhbz #544046).
+
+commit cc6e29afbcc034d38a3857ef6f58e28ac4ab2b8c
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Jan 4 09:05:21 2010 +0100
+
+    NCPluginDevModem.py:getModemList() requires kudzu
+
+commit 20663c8c1cf7d6a92dc09e2768ec787ea7a9f4d2
+Author: amitakhya <amitakhya@fedoraproject.org>
+Date:   Wed Dec 9 09:22:03 2009 +0000
+
+    Sending translation for Assamese
+
+commit aa1d9656a67c74ccd1670ee819286728a7ce9b30
+Author: anipeter <anipeter@fedoraproject.org>
+Date:   Wed Dec 9 06:35:10 2009 +0000
+
+    Sending translation for Malayalam
+
+commit c9d6820a8044fa06c8da39e55d663615f049989c
+Author: tchuang <tchuang@fedoraproject.org>
+Date:   Tue Dec 8 01:18:40 2009 +0000
+
+    Sending translation for Chinese (Traditional)
+
+commit bcbada726cf47322095d39bc286aed7f8d56aa78
+Author: eukim <eukim@fedoraproject.org>
+Date:   Tue Dec 8 00:29:57 2009 +0000
+
+    Sending translation for Korean
+
+commit fda90befca75d22f5fb95efdc3561f714039e609
+Author: ypoyarko <ypoyarko@fedoraproject.org>
+Date:   Mon Dec 7 23:35:43 2009 +0000
+
+    Sending translation for Russian
+
+commit 42d8f68cb6a908aa12c27cbbfbd6629fcfd2ef2d
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Mon Dec 7 11:25:38 2009 +0100
+
+    Fixed s-control-network crash when adding new modem (bz #544412)
+
+commit 62bae8910cc7f5ce150e435fc1b18f5cac168baf
+Author: runab <runab@fedoraproject.org>
+Date:   Mon Dec 7 08:54:43 2009 +0000
+
+    Sending translation for Bengali (India)
+
+commit c314d214cf8594e1d3d71511b7e60bce266e155a
+Author: bouska <bouska@fedoraproject.org>
+Date:   Sun Dec 6 20:44:29 2009 +0000
+
+    Sending translation for French
+
+commit 366e202fe83897208bff5da69a5ebddfdcb80eec
+Author: milankerslager <milankerslager@fedoraproject.org>
+Date:   Wed Nov 18 11:47:36 2009 +0000
+
+    Sending translation for Czech
+
+commit 01af52688a68f8a90d6dccf9bee28a819596666b
+Author: chenh <chenh@fedoraproject.org>
+Date:   Wed Nov 18 05:33:17 2009 +0000
+
+    Sending translation for Chinese (Simplified)
+
+commit 23e715f5f1c6d0163a0bf7876e788ff9c31b85c6
+Author: sandeeps <sandeeps@fedoraproject.org>
+Date:   Fri Nov 13 11:31:30 2009 +0000
+
+    Sending translation for Marathi
+
+commit 7b1f8a10867b3cc2b7d2b93d6a92ec2fa9728071
+Author: ifelix <ifelix@fedoraproject.org>
+Date:   Fri Nov 13 10:45:10 2009 +0000
+
+    Sending translation for Tamil
+
+commit 22fd838e2ad3f68275fcf55b0a9a880f0f3aaf58
+Author: shanky <shanky@fedoraproject.org>
+Date:   Fri Nov 13 08:49:13 2009 +0000
+
+    Sending translation for Kannada
+
+commit 0e2d7282779d52152a42828aacaf263e6ac06a0e
+Author: mgiri <mgiri@fedoraproject.org>
+Date:   Thu Nov 12 13:35:27 2009 +0000
+
+    Sending translation for Oriya
+
+commit 495ea9213b75c25529de174d863ca7263779b746
+Author: kkrothap <kkrothap@fedoraproject.org>
+Date:   Thu Nov 12 11:54:32 2009 +0000
+
+    Sending translation for Telugu
+
+commit 152adf6b1276fa7f27a9451e7d041a9b214b9ba3
+Author: rajesh <rajesh@fedoraproject.org>
+Date:   Thu Nov 12 11:02:29 2009 +0000
+
+    Sending translation for Hindi
+
+commit acf9f6877ae6c2cb2b34be1106d4e4eaf703fdaf
+Author: jassy <jassy@fedoraproject.org>
+Date:   Thu Nov 12 07:15:45 2009 +0000
+
+    Sending translation for Punjabi
+
+commit d4c2987a903d716ed0167e7eb03f9968bc39f718
+Author: swkothar <swkothar@fedoraproject.org>
+Date:   Thu Nov 12 07:10:55 2009 +0000
+
+    Sending translation for Gujarati
+
+commit e9e35527da8a5f7c0d52bc335656c380aa78b8f6
+Author: perplex <perplex@fedoraproject.org>
+Date:   Sat Nov 7 15:08:13 2009 +0000
+
+    Sending translation for Italian
+
+commit 3053c8b01ab3218fff013f2c10874ec584da464d
+Author: vpv <vpv@fedoraproject.org>
+Date:   Fri Nov 6 20:06:25 2009 +0000
+
+    Sending translation for Finnish
+
+commit 718eec7a4104004d354597c3c9528a6f17f10693
+Author: pkst <pkst@fedoraproject.org>
+Date:   Mon Nov 2 17:32:51 2009 +0000
+
+    Sending translation for Greek
+
+commit 86cebbf13b4b9162b0434013c6ad76d26a8135a1
+Author: pkst <pkst@fedoraproject.org>
+Date:   Sun Nov 1 11:34:47 2009 +0000
+
+    Sending translation for Greek
+
+commit 43af436b92670e72c4ac528df77b12288463b6b0
+Author: xconde <xconde@fedoraproject.org>
+Date:   Sun Oct 25 21:59:57 2009 +0000
+
+    Sending translation for Catalan
+
+commit 08cc03ef18859132edaf2f00c68c2d6ccf5f8ffd
+Author: igor <igor@fedoraproject.org>
+Date:   Sat Oct 17 18:55:31 2009 +0000
+
+    Sending translation for Brazilian Portuguese
+
+commit 8ef71941b066a3957c39d9270a2842175f2cb048
+Author: hyuuga <hyuuga@fedoraproject.org>
+Date:   Sat Oct 17 10:54:03 2009 +0000
+
+    Sending translation for Japanese
+
+commit 34ca44365e0c694aea2d9b5f852e3151aa656d77
+Author: kristho <kristho@fedoraproject.org>
+Date:   Fri Oct 16 20:47:39 2009 +0000
+
+    Sending translation for Danish
+
+commit 272934eaf5125e2b05f08d76c27685d89f8aeee5
+Author: warrink <warrink@fedoraproject.org>
+Date:   Fri Oct 16 19:10:46 2009 +0000
+
+    Sending translation for Dutch
+
+commit 64669cb726306a8fa2b65a0af8d1f8569beca0f9
+Author: kmilos <kmilos@fedoraproject.org>
+Date:   Thu Oct 15 21:43:18 2009 +0000
+
+    Sending translation for Serbian (Latin)
+
+commit 0ce0a55a28b610ae1eec62e74c14ae3cc9a95903
+Author: kmilos <kmilos@fedoraproject.org>
+Date:   Thu Oct 15 21:42:36 2009 +0000
+
+    Sending translation for Serbian
+
+commit 23b22e5856887c58a1eb11d4c7995d985471c5b9
+Author: jensm <jensm@fedoraproject.org>
+Date:   Thu Oct 15 18:45:32 2009 +0000
+
+    Sending translation for German
+
+commit f7d465a575cc96de7bfec3e50ed35f198609c316
+Author: jensm <jensm@fedoraproject.org>
+Date:   Thu Oct 15 18:43:44 2009 +0000
+
+    Sending translation for German
+
+commit 1232b32da4e269fbc2a86a9ffe69c14d96125879
+Author: logan <logan@fedoraproject.org>
+Date:   Thu Oct 15 12:54:20 2009 +0000
+
+    Sending translation for Spanish
+
+commit 5e918caf340244b85d89622d4bf751295ef66481
+Author: raven <raven@fedoraproject.org>
+Date:   Thu Oct 15 11:56:55 2009 +0000
+
+    Sending translation for Polish
+
+commit 7f6d93d8e2322f011ee72700bac8bf9ad22b0e0c
+Author: ruigo <ruigo@fedoraproject.org>
+Date:   Thu Oct 15 10:53:45 2009 +0000
+
+    Sending translation for Portuguese
+
+commit 1ae8788fd992ca57dbdc5bf96328cb6cfaddd94c
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Thu Oct 15 11:10:25 2009 +0200
+
+    netconf_tui.py: Added missing _() (bug #524537)
+
+commit b295202109142c70ba27b07ff6eaa7e6cbc8128b
+Author: chenh <chenh@fedoraproject.org>
+Date:   Wed Oct 7 06:16:18 2009 +0000
+
+    Sending translation for Chinese (Simplified)
+
+commit 5b0c7a34f4e1b1285919cc14414bd487aac1b598
+Author: runab <runab@fedoraproject.org>
+Date:   Tue Oct 6 12:05:42 2009 +0000
+
+    Sending translation for Bengali (India)
+
+commit b8c6e2a20e120a92f8af067efde09fdd16b0eccf
+Author: kmaraas <kmaraas@fedoraproject.org>
+Date:   Mon Oct 5 10:21:29 2009 +0000
+
+    Sending translation for Norwegian Bokm√•l
+
+commit eead243a30c9fc8a6c3140a31bfc02ea68a6447c
+Author: raven <raven@fedoraproject.org>
+Date:   Sat Sep 26 16:31:21 2009 +0000
+
+    Sending translation for Polish
+
+commit 5435ad597f87db641652381a2e6fe902d3c00116
+Author: mgiri <mgiri@fedoraproject.org>
+Date:   Wed Sep 23 06:17:05 2009 +0000
+
+    Sending translation for Oriya
+
+commit 1c28863431c09e731719ba3dca5d52b9a4b18498
+Author: mvdz <mvdz@fedoraproject.org>
+Date:   Tue Sep 22 19:22:09 2009 +0000
+
+    Sending translation for Ukrainian
+
+commit f5b6b98bac998ef56459b53feb1e4a11243dd6dc
+Author: rajesh <rajesh@fedoraproject.org>
+Date:   Tue Sep 22 17:22:03 2009 +0000
+
+    Sending translation for Maithili
+
+commit 44254f30c287d8a0ffeb17f2fbcb9791666580b3
+Author: amitakhya <amitakhya@fedoraproject.org>
+Date:   Tue Sep 22 12:12:41 2009 +0000
+
+    Sending translation for Assamese
+
+commit 8c305621029dc129117351ae77669fc454ca1a91
+Author: jassy <jassy@fedoraproject.org>
+Date:   Tue Sep 22 09:41:42 2009 +0000
+
+    Sending translation for Punjabi
+
+commit dfb38d716ba80b3382a3b7e0b2a731451693f5f5
+Author: ifelix <ifelix@fedoraproject.org>
+Date:   Tue Sep 22 08:45:21 2009 +0000
+
+    Sending translation for Tamil
+
+commit 0d729149125d96916672642df13fd418887733d6
+Author: rajesh <rajesh@fedoraproject.org>
+Date:   Tue Sep 22 07:00:10 2009 +0000
+
+    Sending translation for Hindi
+
+commit 513bcee705de40a058c367751897820e7972bd24
+Author: swkothar <swkothar@fedoraproject.org>
+Date:   Tue Sep 22 06:38:57 2009 +0000
+
+    Sending translation for Gujarati
+
+commit 69d23cbd83ffd2beb4afc1d39c027e7dc8452df4
+Author: shanky <shanky@fedoraproject.org>
+Date:   Tue Sep 22 05:21:04 2009 +0000
+
+    Sending translation for Kannada
+
+commit da7dd6f8316b9a01cd471ab70755e5ef38e96603
+Author: mrtom <mrtom@fedoraproject.org>
+Date:   Mon Sep 21 21:46:54 2009 +0000
+
+    Sending translation for French
+
+commit 616b25b104d17333933a12cc4fed902a6d9f4c7a
+Author: kristho <kristho@fedoraproject.org>
+Date:   Mon Sep 21 15:30:34 2009 +0000
+
+    Sending translation for Danish
+
+commit 23a1f15801e29f532cdf1c5f1979cd130d77ca75
+Author: kkrothap <kkrothap@fedoraproject.org>
+Date:   Mon Sep 21 10:54:50 2009 +0000
+
+    Sending translation for Telugu
+
+commit defe17cde7ec9f8356f272a9c235860771efb001
+Author: anipeter <anipeter@fedoraproject.org>
+Date:   Mon Sep 21 10:20:36 2009 +0000
+
+    Sending translation for Malayalam
+
+commit 88632d181ba940e9dbea63c3d1fd7cc61ee5db54
+Author: sandeeps <sandeeps@fedoraproject.org>
+Date:   Mon Sep 21 09:56:48 2009 +0000
+
+    Sending translation for Marathi
+
+commit 0684bdcc8bb0112843fbadd84fb7877113e18fe6
+Author: feonsu <feonsu@fedoraproject.org>
+Date:   Mon Sep 21 07:09:23 2009 +0000
+
+    Sending translation for Slovak
+
+commit 0656e42a2e960d3c9049c2d5a082b45be73dd9bf
+Author: vpv <vpv@fedoraproject.org>
+Date:   Sun Sep 20 18:20:32 2009 +0000
+
+    Sending translation for Finnish
+
+commit 33ce13a5944f06c86ec9632cf6d4f2bc1bd79c2d
+Author: xconde <xconde@fedoraproject.org>
+Date:   Sat Sep 19 15:46:40 2009 +0000
+
+    Sending translation for Catalan
+
+commit 06917975f4e67db365e0226f00eaa89a60a86824
+Author: goeran <goeran@fedoraproject.org>
+Date:   Fri Sep 18 17:45:58 2009 +0000
+
+    Sending translation for Swedish
+
+commit 7bc9562bbdf04f837bba1a4732e2fa24dde5054d
+Author: ifelix <ifelix@fedoraproject.org>
+Date:   Fri Sep 18 08:54:09 2009 +0000
+
+    Sending translation for Tamil
+
+commit aa34dea5820233b3af8a4306caa1e854c45fcf51
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Thu Sep 17 17:37:28 2009 +0200
+
+    Fixed following warnings:
+    
+    GtkWarnings : GtkSpinButton: setting an adjustment
+                  with non-zero page size is deprecated
+    libglade-WARNINGs: Error loading image: Failed to
+                       open file 'network.xpm'
+
+commit 1351ff261236b9f2797102b206b08143398cd9f3
+Author: samfreemanz <samfreemanz@fedoraproject.org>
+Date:   Fri Sep 18 05:39:41 2009 +0000
+
+    Sending translation for French
+
+commit df8496b2c17d04bd64206c4517391712d0326949
+Author: covex <covex@fedoraproject.org>
+Date:   Thu Sep 17 19:53:23 2009 +0000
+
+    Sending translation for Czech
+
+commit e8628ea96f3f3a9c2f4e7ad35d84e981d854eae0
+Author: tchuang <tchuang@fedoraproject.org>
+Date:   Thu Sep 17 04:32:57 2009 +0000
+
+    Sending translation for Chinese (Traditional)
+
+commit 21b1070627aa0310573049b619eea533789bbcce
+Author: swkothar <swkothar@fedoraproject.org>
+Date:   Wed Sep 16 06:43:10 2009 +0000
+
+    Sending translation for Gujarati
+
+commit 71b7d8e26e0963e05180116c1a4f66c87f1016dd
+Author: ypoyarko <ypoyarko@fedoraproject.org>
+Date:   Wed Sep 16 02:39:41 2009 +0000
+
+    Sending translation for Russian
+
+commit 4c6315fd3370e14524792dcea814a40b86e98a48
+Author: eukim <eukim@fedoraproject.org>
+Date:   Wed Sep 16 00:59:23 2009 +0000
+
+    Sending translation for Korean
+
+commit 8a420387ea2f273fa75ffe6eb96684fb024c1072
+Author: ruigo <ruigo@fedoraproject.org>
+Date:   Tue Sep 15 21:39:16 2009 +0000
+
+    Sending translation for Portuguese
+
+commit b67723399ba70261dad35485a9ff69d3bf1b9be6
+Author: khasida <khasida@fedoraproject.org>
+Date:   Tue Sep 15 08:27:19 2009 +0000
+
+    Sending translation for Japanese
+
+commit 3fd093ce5354f1fe565632bd7f6c2e5281121604
+Author: jassy <jassy@fedoraproject.org>
+Date:   Tue Sep 15 05:58:30 2009 +0000
+
+    Sending translation for Punjabi
+
+commit 5a1397c7e6d520e2156c5da1e3fa1e73c1dd2c96
+Author: igor <igor@fedoraproject.org>
+Date:   Tue Sep 15 03:39:34 2009 +0000
+
+    Sending translation for Brazilian Portuguese
+
+commit 71fa22b10eefc43f9fecdab4a4e3bb3f7fd52ba9
+Author: fvalen <fvalen@fedoraproject.org>
+Date:   Tue Sep 15 00:28:09 2009 +0000
+
+    Sending translation for Italian
+
+commit fb08f4e0c8d144a892e051deb121109791e0aa21
+Author: kmilos <kmilos@fedoraproject.org>
+Date:   Mon Sep 14 22:45:14 2009 +0000
+
+    Sending translation for Serbian (Latin)
+
+commit 240925c4baf7ec2b1ecd7d279008f8837f7bf744
+Author: kmilos <kmilos@fedoraproject.org>
+Date:   Mon Sep 14 22:44:14 2009 +0000
+
+    Sending translation for Serbian
+
+commit 0cd42502aad2743855aabadd8c495e0d6b8f5fdc
+Author: kenda <kenda@fedoraproject.org>
+Date:   Mon Sep 14 18:45:49 2009 +0000
+
+    Sending translation for German
+
+commit a5bef120f8886a21b60e9c45f5c40d1363457c01
+Author: warrink <warrink@fedoraproject.org>
+Date:   Mon Sep 14 16:49:34 2009 +0000
+
+    Sending translation for Dutch
+
+commit ffc4c4c25788033f7d32d2fd03907dead508fa61
+Author: elsupergomez <elsupergomez@fedoraproject.org>
+Date:   Mon Sep 14 16:41:47 2009 +0000
+
+    Sending translation for Spanish
+
+commit 39ac5b1aa1ba1da90aebc2092039a992eebbe135
+Author: raven <raven@fedoraproject.org>
+Date:   Mon Sep 14 16:31:53 2009 +0000
+
+    Sending translation for Polish
+
+commit 6c208d3564863b9f1a5a0052f8feb2cfea55d68b
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 13:46:28 2009 +0200
+
+    version 1.5.99-1
+
+commit 11a8282d84a74d6452a2b881855083e24128ec98
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 14:30:25 2009 +0200
+
+    src/Makefile.am: fixed for distcheck
+
+commit 3ff7a98a664678f379063d2ce20c964fa32f9c8c
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 13:54:14 2009 +0200
+
+    src/pixmaps/Makefile.am: removed duplicate network.xpm
+
+commit 7595324e3866ac361c53221ad11130e2ef5c21f2
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 13:50:44 2009 +0200
+
+    translation update
+
+commit 8b8df6e98d8770e16b8024d86de9d9ad72e0e96b
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 13:49:31 2009 +0200
+
+    git-diff -> git diff, git-log -> git log
+
+commit a0a853c94226fa7128badf9e818d006649075b3b
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Mon Sep 14 13:47:32 2009 +0200
+
+    src/netconfpkg/Makefile.am: add executil.py
+
+commit 55a44821d9b619e5a494d06e68c3c2238635645e
+Author: anipeter <anipeter@fedoraproject.org>
+Date:   Wed Sep 2 13:28:13 2009 +0000
+
+    Sending translation for Malayalam
+
+commit b41bb604c32e87a01a42e253fe689fb4186ba268
+Author: sveinki <sveinki@fedoraproject.org>
+Date:   Tue Sep 1 17:30:36 2009 +0000
+
+    Sending translation for Icelandic
+
+commit 433adf89aa9fba05dac39920aba17a1288702a4c
+Author: kmaraas <kmaraas@fedoraproject.org>
+Date:   Mon Aug 31 10:51:13 2009 +0000
+
+    Sending translation for Norwegian Bokm√•l
+
+commit a4fe1536f44f53ceb3b8f96b11384545572947d3
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Aug 12 16:27:45 2009 +0200
+
+    fixed fromstr() for import
+
+commit 857166542f9aa1ffaf1104721367f0dd7ec9a6f5
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Aug 12 16:27:17 2009 +0200
+
+    netconf_cmd.py: completly clear on "-c"
+
+commit b96cf2ce33ed654355f32e76ceee1b106e3a7e0e
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Aug 12 13:00:07 2009 +0200
+
+    system-config-network.spec.in: update requirements
+
+commit 5fa192672508fcc6da71afe492d6b41882f96c98
+Author: Roman Rakus <rrakus@redhat.com>
+Date:   Wed Aug 12 12:59:03 2009 +0200
+
+    Proposed patch that adds checking for valid IP addresses
+
+commit 0aba0c7fec2f42daa0a75339f59b4b94dc507c19
+Author: kmaraas <kmaraas@fedoraproject.org>
+Date:   Sat Aug 8 10:14:27 2009 +0000
+
+    Sending translation for Norwegian Bokm√•l
+
+commit 52db798a3920f8447ec41b9a8dda52a231c74e01
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Wed Jul 29 09:35:21 2009 +0200
+
+    replace rhpl.executil -> netconfpkg.executil
+
+commit 91607798959e36dc566173c949b366a3bdb75aa2
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Wed Jul 29 09:35:20 2009 +0200
+
+    replace rhpl.iwlib -> python-iwlib
+
+commit 584725a28d2d3e12e3d0f1ccd0bdd9664746a452
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Wed Jul 29 09:35:19 2009 +0200
+
+    replace rhpl.ethtool -> python-ethtool
+
+commit d44148165ebcba7f312bc3423af117b4145cedcd
+Author: Jiri Popelka <jpopelka@redhat.com>
+Date:   Wed Jul 29 09:35:18 2009 +0200
+
+    replace translations: rhpl.translate -> gettext
+
+commit f0a818086483e273d83c0853a1c67071a6c93fb4
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Tue Apr 14 15:58:04 2009 +0200
+
+    translation update and version bump
+
+commit 67e27183cfd46a2fc3b1dc8dea331945793f32d2
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Thu Apr 2 12:33:23 2009 +0200
+
+    removed kudzu requirement
+
+commit 35b4ba92f276e5f6add613ce7ca00f0bac46c748
+Author: hunter688 <hunter688@fedoraproject.org>
+Date:   Wed Jul 1 11:38:46 2009 +0000
+
+    Sending translation for Czech
+
+commit bb8a7d8c52fb02913191c73cbf40d70f809ccd50
+Author: kristho <kristho@fedoraproject.org>
+Date:   Sat Jun 13 17:43:11 2009 +0000
+
+    Sending translation for Danish
+
+commit e83b34e61bb03dadf6412f0345ece4f68aa3f775
+Author: kristho <kristho@fedoraproject.org>
+Date:   Fri Jun 12 17:14:08 2009 +0000
+
+    Sending translation for Danish
+
+commit 538d70a3d38093b6413ef86d44fd47522eee8a90
+Author: pkst <pkst@fedoraproject.org>
+Date:   Wed May 20 11:02:40 2009 +0000
+
+    Sending translation for Greek
+
+commit ce53b9949a76694952741d71d9006c90652e461c
+Author: thalia <thalia@fedoraproject.org>
+Date:   Tue Apr 7 20:38:54 2009 +0000
+
+    Sending translation for Greek
+
+commit d2e01b988a93bf49c424cdee5b7f77d7e2015ce0
+Author: bouska <bouska@fedoraproject.org>
+Date:   Tue Apr 7 19:01:19 2009 +0000
+
+    Sending translation for French
+
+commit a6f892e45af4d79e406f15ac3b3b6cb9a350f556
+Author: kkrothap <kkrothap@fedoraproject.org>
+Date:   Mon Apr 6 13:56:22 2009 +0000
+
+    Sending translation for Telugu
+
+commit 3bbc90926c6b98efe7c298c0d09309d1a7cca593
+Author: constanton <constanton@fedoraproject.org>
+Date:   Sun Apr 5 13:52:55 2009 +0000
+
+    Sending translation for Greek
+
+commit 41c0cfcd77bddcf2dcf4c7453a251b8808647a40
+Author: dominiksandjaja <dominiksandjaja@fedoraproject.org>
+Date:   Fri Apr 3 08:49:25 2009 +0000
+
+    Sending translation for German
+
+commit 50420cf12cf2b1382051beafbe884b68678c48c9
+Author: dominiksandjaja <dominiksandjaja@fedoraproject.org>
+Date:   Fri Apr 3 08:47:48 2009 +0000
+
+    Sending translation for German
+
+commit 4269193b495e02d56ba388808de28c47a93ea2ba
+Author: shanky <shanky@fedoraproject.org>
+Date:   Fri Apr 3 05:38:10 2009 +0000
+
+    Sending translation for Kannada
+
+commit a235bb7e578d3fdf7d436e4733a41bdcbf4833cd
+Author: feonsu <feonsu@fedoraproject.org>
+Date:   Thu Apr 2 13:17:21 2009 +0000
+
+    Sending translation for Slovak
+
+commit 5b9273c3917b3dcdf8b4711b1cf1e69174fc6501
+Author: nippur <nippur@fedoraproject.org>
+Date:   Thu Apr 2 13:14:08 2009 +0000
+
+    Sending translation for Dutch
+
+commit cb5647e7e2d362821fe674f069306c0ecf92f4a7
+Author: ypoyarko <ypoyarko@fedoraproject.org>
+Date:   Thu Apr 2 01:34:39 2009 +0000
+
+    Sending translation for Russian
+
+commit 4d9789a2bc79ac926e600890e8b65bb7eee6e5b3
+Author: anipeter <anipeter@fedoraproject.org>
+Date:   Wed Apr 1 22:28:27 2009 +0000
+
+    Sending translation for Malayalam
+
+commit b037bcccf09567ee0ac865f9dcda6b0f9f48a148
+Author: amitakhya <amitakhya@fedoraproject.org>
+Date:   Wed Apr 1 10:21:30 2009 +0000
+
+    Sending translation for Assamese
+
+commit 5e6372883328da869b35326d341938b1bcd70a9b
+Author: swkothar <swkothar@fedoraproject.org>
+Date:   Wed Apr 1 08:49:34 2009 +0000
+
+    Sending translation for Gujarati
+
+commit e8e287b3c09d6dea38c5994b30c9b8c62e0f618b
+Author: rajesh <rajesh@fedoraproject.org>
+Date:   Wed Apr 1 08:22:59 2009 +0000
+
+    Sending translation for Hindi
+
+commit 615bbd336b8a7f369eff344c16941912bfb40a25
+Author: ifelix <ifelix@fedoraproject.org>
+Date:   Wed Apr 1 07:39:56 2009 +0000
+
+    Sending translation for Tamil
+
+commit fd2d6d6f6205cb0d9553e1c2a8e3b29bfb7e4520
+Author: sandeeps <sandeeps@fedoraproject.org>
+Date:   Tue Mar 31 14:20:48 2009 +0000
+
+    Sending translation for Marathi
+
+commit 9a5f2be90c22ddc27672e87b5cbf041268b99091
+Author: runab <runab@fedoraproject.org>
+Date:   Tue Mar 31 12:41:06 2009 +0000
+
+    Sending translation for Bengali (India)
+
+commit 596e34808952a0c47a2e8fa4de66d023d6738d13
+Author: mgiri <mgiri@fedoraproject.org>
+Date:   Tue Mar 31 12:34:38 2009 +0000
+
+    Sending translation for Oriya
+
+commit d407aae2066fa84521fc237c6a5abf10822ab529
+Author: tchuang <tchuang@fedoraproject.org>
+Date:   Tue Mar 31 06:42:40 2009 +0000
+
+    Sending translation for Chinese (Traditional)
+
+commit e91307435b212288259753c220011d0099a8e38d
+Author: eukim <eukim@fedoraproject.org>
+Date:   Tue Mar 31 05:56:16 2009 +0000
+
+    Sending translation for Korean
+
+commit 362523a03bf81807448a976b6c24d3cf6ade0ec9
+Author: khasida <khasida@fedoraproject.org>
+Date:   Tue Mar 31 05:33:33 2009 +0000
+
+    Sending translation for Japanese
+
+commit 261d07a1b4cbd9faff598486005cd6b94abe4702
+Author: leahliu <leahliu@fedoraproject.org>
+Date:   Mon Mar 30 02:40:22 2009 +0000
+
+    Sending translation for Chinese (Simplified)
+
+commit 0301aab754d3e8d9d3eb7164baff516505259d48
+Author: tomee <tomee@fedoraproject.org>
+Date:   Sat Mar 28 14:44:41 2009 +0000
+
+    Sending translation for Hungarian
+
+commit c97ba26f1c9619962f403f46f128ba6c29576910
+Author: kmaraas <kmaraas@fedoraproject.org>
+Date:   Wed Mar 25 20:13:37 2009 +0000
+
+    Sending translation for Norwegian Bokm√•l
+
+commit 4c4df2e8d8a5448930bfe5d392090104340629f8
+Author: ruigo <ruigo@fedoraproject.org>
+Date:   Mon Mar 23 15:00:57 2009 +0000
+
+    Sending translation for Portuguese
+
+commit 365fe328b13270a5f447edffe57d6b2170a6899b
+Author: vpv <vpv@fedoraproject.org>
+Date:   Mon Mar 23 09:37:11 2009 +0000
+
+    Sending translation for Finnish
+
+commit 9dcd7e7cbe7110ece75fc73b13a71ceefa618991
+Author: tombo <tombo@fedoraproject.org>
+Date:   Mon Mar 23 05:09:27 2009 +0000
+
+    Sending translation for Italian
+
+commit e623a65350328910c0ac662683c3a4d9efebab4b
+Author: Milos Komarcevic <kmilos@gmail.com>
+Date:   Sat Mar 14 15:39:16 2009 +0000
+
+    Updated Serbian Latin translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit f82c033c3a9d064e39055e1b3fb80bc7879220db
+Author: Milos Komarcevic <kmilos@gmail.com>
+Date:   Sat Mar 14 15:38:11 2009 +0000
+
+    Updated Serbian translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit ff20c6312a9c4a7c64b4586aace43ad362b8da19
+Author: Magnus Larsson <fedoratrans@gmail.com>
+Date:   Sat Mar 14 14:02:57 2009 +0000
+
+    Finished Swedish
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 7329a4f9e48c24d746e097ca78cc71cb9091fb86
+Author: Xavier Conde <xavi.conde@gmail.com>
+Date:   Fri Mar 13 21:35:18 2009 +0000
+
+    Updated catalan po
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit f667f34bb1a2d3dff4e9d79685b630e72aa0d0af
+Author: Jaswinder Singh <jsingh@redhat.com>
+Date:   Wed Mar 4 06:26:39 2009 +0000
+
+    completed 100%
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 19e3d7911cb950cc445e4aa27e3fa58e900261c9
+Author: Rajesh Ranjan <rranjan@redhat.com>
+Date:   Thu Feb 26 19:57:39 2009 +0000
+
+    adding for maithili, translated by sangeeta
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit fe4f1714512332deaf8b9617765a47bdfc7f0aee
+Author: Igor Pires Soares <igorsoares@gmail.com>
+Date:   Mon Feb 23 20:29:33 2009 +0000
+
+    Updated Brazilian Portuguese translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit c9988d30187ec58cbd588e4a013fede2d6dfb0da
+Author: Domingo Becker <domingobecker@gmail.com>
+Date:   Sat Feb 21 04:35:46 2009 +0000
+
+    updated Spanish translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit 1c453825c29953d0792a124aac1572eef20c6761
+Author: Piotr DrƒÖg <piotrdrag@gmail.com>
+Date:   Fri Feb 20 23:55:15 2009 +0000
+
+    Updated Polish translation
+    
+    Transmitted-via: Transifex (translate.fedoraproject.org)
+
+commit f76b4195f33b027cba34bbf0ce73b429d0be40e9
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Feb 18 13:00:14 2009 +0100
+
+    version 1.5.96
+
+commit 4c02c16c1a3ef3cadb6912a5469060bdb8caa748
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Feb 18 12:57:47 2009 +0100
+
+    translation update
+
+commit 5904e0863d5ef03ffe8d00880a100589234e5fa2
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Feb 18 12:57:14 2009 +0100
+
+    added DNS1 and DNS2 to the device specific config
+
+commit 26787e93f54762d195760908382c0cffc5b66432
+Author: Harald Hoyer <harald@redhat.com>
+Date:   Wed Feb 18 10:56:15 2009 +0100
+
+    NCDevice.py:
+    raise NotImplementedError -> return None
+
 commit e50efa06e8fc85e5af53fb0b5002e9402824152f
 Author: Harald Hoyer <harald@redhat.com>
 Date:   Wed Dec 17 16:33:38 2008 +0100
@@ -2927,5416 +4164,3 @@ Date:   Fri Oct 12 13:47:56 2007 +0000
 
     - added version.py.in to POTFILES.in (rhbz#244053)
     - corrected URL (rhbz#237717)
-
-commit 06a6c2a2a9cedfb5dc586954a739e7f2253cb0ec
-Author: harald <harald>
-Date:   Mon Oct 8 11:59:38 2007 +0000
-
-    release 1.4.2-1 moved
-
-commit fe56d375e0698b6c6501e477e4b4a3294ee24336
-Author: harald <harald>
-Date:   Mon Oct 8 11:39:06 2007 +0000
-
-    release 1.4.2-1
-
-commit a215ffe6636351576a7be351cd33f2c642f76d16
-Author: harald <harald>
-Date:   Mon Oct 8 11:23:26 2007 +0000
-
-    release 1.4.2-1
-
-commit ace4b01f2cc6845eca578f473080b8bce3d60ea9
-Author: harald <harald>
-Date:   Mon Oct 8 11:17:23 2007 +0000
-
-    release 1.4.2-1
-
-commit 58181bfeb77b24978531003bd8a68d095fedc124
-Author: harald <harald>
-Date:   Mon Oct 8 11:11:23 2007 +0000
-
-    added comment
-
-commit 6e671eb366f0d52f5e5031dfba514c6bd0e0c9a1
-Author: harald <harald>
-Date:   Mon Oct 8 11:08:11 2007 +0000
-
-    version  1.4.2
-
-commit bb454578ebef13bb5c58d2adc7c021e1eb38a628
-Author: harald <harald>
-Date:   Mon Oct 8 11:07:12 2007 +0000
-
-    restorecon on system files
-    check on existence, before linking profile files
-
-commit 89994c3e6f13bc68df9bccaef997f89538bd76a8
-Author: harald <harald>
-Date:   Mon Oct 8 11:05:21 2007 +0000
-
-    removed "-d" option as a debug option
-
-commit 0cf6da3cab677604137af92e0226875ad2551d78
-Author: harald <harald>
-Date:   Mon Oct 8 11:04:33 2007 +0000
-
-    speedup genClass with properties
-
-commit 74a211c8f56bc45b30563e6adc73b97a88b7295c
-Author: harald <harald>
-Date:   Mon Oct 8 08:12:35 2007 +0000
-
-    require newt-python
-
-commit 6ac90857e6e34b6472f187f5c866487b39832dfa
-Author: harald <harald>
-Date:   Mon Oct 8 08:11:49 2007 +0000
-
-    call restorecon after hardlinking
-
-commit d6a2396939f83ccba4772ec87122942ed479b62f
-Author: kmaraas <kmaraas>
-Date:   Thu Oct 4 13:36:26 2007 +0000
-
-    Update
-
-commit 9ba06ec1781ff47fe221e022bceb23bb1eae0413
-Author: zepires <zepires>
-Date:   Tue Oct 2 11:31:51 2007 +0000
-
-    Some updates on specspo
-
-commit 4ff11baced6eb0b0127c74522033070592cafc7b
-Author: renato <renato>
-Date:   Mon Oct 1 07:04:16 2007 +0000
-
-    *** empty log message ***
-
-commit 20289bbb17465798a39fadbb2dc0240f91a8501b
-Author: kmaraas <kmaraas>
-Date:   Sun Sep 30 18:20:35 2007 +0000
-
-    Update translation
-
-commit 1b7f9e72fb5cb2b15923e98c2d8f83f62c14cd22
-Author: ra <ra>
-Date:   Sun Sep 30 15:35:01 2007 +0000
-
-    *** empty log message ***
-
-commit 9e29f53f4e36771e543aecb194a151b129ca6d97
-Author: pve-nl <pve-nl>
-Date:   Sat Sep 29 08:56:25 2007 +0000
-
-    Some fixes for system-config-network nl.po
-
-commit 902e5f72c6a3741dd5d813424e31cce685222e44
-Author: beckerde <beckerde>
-Date:   Wed Sep 26 12:38:50 2007 +0000
-
-    *** empty log message ***
-
-commit e5608538d8ab4b8b0c9d23c9104f96b21c50adb7
-Author: svenkate <svenkate>
-Date:   Wed Sep 26 06:02:10 2007 +0000
-
-    kannada translation updation
-
-commit c4b8d353f4ce0e3ac06046312c98722e6ef2e7f8
-Author: svenkate <svenkate>
-Date:   Wed Sep 26 05:38:09 2007 +0000
-
-    kannada translation updation
-
-commit 0b7f1b74092d43f1e882f86eae2b316654be11ec
-Author: sandeep <sandeep>
-Date:   Wed Sep 26 04:51:40 2007 +0000
-
-    updating transaltions
-
-commit 127f9adf8f8564062ab2670a0153bd9856c667e7
-Author: vpv <vpv>
-Date:   Tue Sep 25 19:59:34 2007 +0000
-
-    Updated Finnish translation
-
-commit ed4e40a51c4d11edcdc26eb5bb1a85d53a2623a1
-Author: kkrothap <kkrothap>
-Date:   Tue Sep 25 19:05:21 2007 +0000
-
-    Updating changes to file te.po
-
-commit 69880a19ea06a1c45f99a609fe8139dd48e9cfb0
-Author: hyuuga <hyuuga>
-Date:   Tue Sep 25 11:19:35 2007 +0000
-
-    translation completed. 733
-
-commit 4243d4676c10275e715b1426b74301fc408ade75
-Author: raven <raven>
-Date:   Tue Sep 25 10:30:17 2007 +0000
-
-    Updated Polish translation
-
-commit f693d7c505f867c48442a187f3f929faf271ab3c
-Author: amit <amit>
-Date:   Tue Sep 25 10:18:29 2007 +0000
-
-    Updated assamese translations
-
-commit 3832f1d837917eaf7c8856ae06853d8bcd117045
-Author: zepires <zepires>
-Date:   Tue Sep 25 09:42:10 2007 +0000
-
-    Some updates on specspo
-
-commit f7c341c980ec6498878c9e89a3ce9e402c374026
-Author: amit <amit>
-Date:   Tue Sep 25 08:55:21 2007 +0000
-
-    Updated assamese translations
-
-commit 1c3f0980a07fdfbf3109632be2b563f5eb8c71b0
-Author: amit <amit>
-Date:   Tue Sep 25 07:59:44 2007 +0000
-
-    Updated assamese translations
-
-commit 4fed0216c91e10d6a6aec1737880cecfb942cd17
-Author: amit <amit>
-Date:   Tue Sep 25 07:58:13 2007 +0000
-
-    Updated assamese translations
-
-commit 133915a88983bf29abb92e8e3e4b3a352f0ac0c0
-Author: sbehera <sbehera>
-Date:   Tue Sep 25 07:53:16 2007 +0000
-
-    Updated Oriya Translation
-
-commit cca4b6ba994298b9286990942378120443a36484
-Author: amit <amit>
-Date:   Tue Sep 25 07:41:59 2007 +0000
-
-    Updated assamese translations
-
-commit 9671c221571d6b5ddf142b06157776ed1a0d319d
-Author: fvalen <fvalen>
-Date:   Tue Sep 25 06:02:03 2007 +0000
-
-    Updated
-
-commit a13a1ecb4fcbf4a34b5505fc336236848c96c4cc
-Author: eukim <eukim>
-Date:   Tue Sep 25 01:04:34 2007 +0000
-
-    Updated
-
-commit 13a46ab067c65d0fa29dd107bf0afcec0dea6036
-Author: trinks <trinks>
-Date:   Mon Sep 24 22:31:22 2007 +0000
-
-    total:733 fuzzy:0 untranslated:0
-
-commit ad9e1e713349d4c465babb5ef099f10c4663afb0
-Author: kmilos <kmilos>
-Date:   Mon Sep 24 21:32:58 2007 +0000
-
-    Updated Serbian Latin translation
-
-commit 05ded5ddb093b9ada0fc39b61d661ca743a56c81
-Author: kmilos <kmilos>
-Date:   Mon Sep 24 21:32:18 2007 +0000
-
-    Updated Serbian translation
-
-commit e6973e9761054b688843d613ceac28be7038aad8
-Author: igor <igor>
-Date:   Mon Sep 24 14:52:10 2007 +0000
-
-    translation update
-
-commit a7087104762e5c454434cab070fa73a3a4b2f152
-Author: runab <runab>
-Date:   Mon Sep 24 12:39:45 2007 +0000
-
-    Updated Bengali India Translation
-
-commit 8580b8e6fcac5665122384ac146bb6e899f12706
-Author: ifelix <ifelix>
-Date:   Mon Sep 24 11:05:04 2007 +0000
-
-    Tamil translation updateded
-
-commit 95917c34660c9de75dd4c1007df170bcd72787a9
-Author: doncho <doncho>
-Date:   Mon Sep 24 10:39:18 2007 +0000
-
-    Finished.
-
-commit dee83e9a89e899c62bb0040d02b857f567555bf8
-Author: rranjan <rranjan>
-Date:   Mon Sep 24 09:27:54 2007 +0000
-
-    hindi sys-conf-network
-
-commit 1fc6ff47055d80673c45b9fb05ab339683910440
-Author: ankitp <ankitp>
-Date:   Mon Sep 24 09:25:28 2007 +0000
-
-    Updated Gujarati Translations
-
-commit ca239baebc0754f6a7de1c0c8ea8942fcb828654
-Author: harald <harald>
-Date:   Mon Sep 24 08:56:33 2007 +0000
-
-    release 1.4.1-1
-
-commit 8a33cfa31fc6b92532604aab18db0d9d284ecacd
-Author: harald <harald>
-Date:   Mon Sep 24 08:54:23 2007 +0000
-
-    readded log.py NCBackendHal.py
-
-commit a0c35065dceabe73fcb2615340620f1c44f7e568
-Author: harald <harald>
-Date:   Mon Sep 24 08:51:39 2007 +0000
-
-    release 1.4.1-1
-
-commit f053da864c2c2a9e49a1267b2a9c6312523eb08a
-Author: harald <harald>
-Date:   Mon Sep 24 08:40:16 2007 +0000
-
-    do not traceback for apply()
-
-commit 5e2972899bafc54422c858317e58ff08f59d11ff
-Author: harald <harald>
-Date:   Mon Sep 24 08:39:46 2007 +0000
-
-    allow routes with empty NETWORK or GATEWAY
-
-commit f38c11d019c43a1c798a312cb170e7d036335860
-Author: harald <harald>
-Date:   Mon Sep 24 08:38:44 2007 +0000
-
-    import ListType from types
-
-commit 9d6a4b5f36d3297daeef058448a365b430572e7b
-Author: harald <harald>
-Date:   Mon Sep 24 08:38:09 2007 +0000
-
-    do not provide the desktop files in the -tui package
-
-commit 537adb6d2688b442dd0144b3454c035b98f0f417
-Author: harald <harald>
-Date:   Mon Sep 24 08:37:15 2007 +0000
-
-    changed charset from ASCII to UTF-8
-
-commit 794878f64a6e2392754eafec10d06c527f2b3428
-Author: harald <harald>
-Date:   Mon Sep 24 08:33:48 2007 +0000
-
-    added translators to the credit dialog
-
-commit 085665889f76d712bef2ab3a29869f9161a62a35
-Author: harald <harald>
-Date:   Mon Sep 24 08:28:50 2007 +0000
-
-    changed output message
-
-commit 3a74e6534f9be81a5f96beae60e1523e7d1a025a
-Author: harald <harald>
-Date:   Mon Sep 24 08:28:03 2007 +0000
-
-    removed debugging output
-
-commit f0d3b5e4d75bef5616d6be10e2cd71bdbf850b3a
-Author: sandeep <sandeep>
-Date:   Mon Sep 24 04:40:27 2007 +0000
-
-    Updating translations
-
-commit a0749791bfa6f33c366d359ca34cce2a050238ba
-Author: frolix68 <frolix68>
-Date:   Sun Sep 23 13:21:44 2007 +0000
-
-    Updated Greek translation
-
-commit 141a8017ce294802f384fd8b4d846e3e49b08d05
-Author: raada <raada>
-Date:   Sun Sep 23 03:11:45 2007 +0000
-
-    *** empty log message ***
-
-commit aaf72d041d022d73252c6ab160d43702120429a8
-Author: svenkate <svenkate>
-Date:   Thu Sep 20 05:02:50 2007 +0000
-
-    kannada translation updationkn.po
-
-commit 7553d3a86f138c1d55c0f00a479fabfbb75ff296
-Author: svenkate <svenkate>
-Date:   Wed Sep 19 03:57:28 2007 +0000
-
-    kannada translation updationkn.po
-
-commit 49bc44bb581b1c784dfafe9e025f5d712bb44318
-Author: vpv <vpv>
-Date:   Fri Sep 14 22:12:03 2007 +0000
-
-    Updated Finnish translation
-
-commit f2ed5d4f7d0908618ac9edd776e920cbbfebfc31
-Author: ltenn <ltenn>
-Date:   Mon Sep 10 22:09:08 2007 +0000
-
-    Routine merge by l10n
-
-commit e78eb68ff208ff0a83b43ee4dcbaca80e7a701af
-Author: xconde <xconde>
-Date:   Fri Sep 7 21:51:55 2007 +0000
-
-    Update by XC
-
-commit a29d493e1d6a9ab3870be2480e6ebe90d0920b23
-Author: leah <leah>
-Date:   Wed Sep 5 00:51:34 2007 +0000
-
-    modified some files
-
-commit 41b5316074288f05eebbc1d0b0f52c49c05d137b
-Author: covex <covex>
-Date:   Tue Sep 4 20:57:05 2007 +0000
-
-    czech update
-
-commit e36ab756fef990fa784a116afe8675ef0b89da55
-Author: ifelix <ifelix>
-Date:   Mon Sep 3 09:09:38 2007 +0000
-
-    ta translation updated
-
-commit 7e2f01a460f0fc7fa4cd9ba9073732d0b03b9c3a
-Author: kmaraas <kmaraas>
-Date:   Mon Sep 3 08:36:06 2007 +0000
-
-    Update translation
-
-commit fb3e841823a34985eb27b2d5f8bca9973253df48
-Author: zepires <zepires>
-Date:   Sun Sep 2 13:08:03 2007 +0000
-
-    Finished changes on RH translations and some docs
-
-commit 811a259a92165f9c52828660223812b2a673cb0a
-Author: eukim <eukim>
-Date:   Sun Sep 2 04:39:49 2007 +0000
-
-    Updated
-
-commit 1187486984b61fadb667f9d311a8bec2cc153a55
-Author: zepires <zepires>
-Date:   Sat Sep 1 02:21:19 2007 +0000
-
-    Finished changes on RH translations and docs
-
-commit 5a9bf9e6c407268489000d5a8248fbe4cbd9fdc7
-Author: eukim <eukim>
-Date:   Fri Aug 31 05:43:07 2007 +0000
-
-    Updated
-
-commit 3e2e249b1be99859dc4fac7578553c5923a31b0e
-Author: rranjan <rranjan>
-Date:   Thu Aug 30 08:28:43 2007 +0000
-
-    hindi translation
-
-commit b0aa32408b50932dfeb7cc78e76e41bc817b3a26
-Author: arclynx <arclynx>
-Date:   Thu Aug 30 04:30:24 2007 +0000
-
-    Updated Malay translation
-
-commit 9a92dae08091ac4ca0fa08ec74a0c115c9b94f36
-Author: harald <harald>
-Date:   Tue Aug 28 15:09:24 2007 +0000
-
-    removed en_EN
-
-commit a026c0789ba8b9225c0d81d9de5ac590d1e55d45
-Author: apeter <apeter>
-Date:   Tue Aug 28 04:52:21 2007 +0000
-
-    Updated Malayalam Translation
-
-commit 0c80da707349090c45edf0b89542a3745282f180
-Author: hyuuga <hyuuga>
-Date:   Sat Aug 25 14:41:50 2007 +0000
-
-    translation completed. 733
-
-commit 941bcd31b9a3fc38b655350d7ee4052acd7e1ae0
-Author: doncho <doncho>
-Date:   Wed Aug 22 16:48:18 2007 +0000
-
-    Update
-
-commit e24fb5d3576a91f529df0e1a432a0aa6ea32f006
-Author: apeter <apeter>
-Date:   Wed Aug 22 12:01:59 2007 +0000
-
-    Updated Malayalam Translation
-
-commit 62648514e753b17b348c804b3966ff451c0fafcd
-Author: dionysos <dionysos>
-Date:   Wed Aug 22 08:35:06 2007 +0000
-
-    Updated
-
-commit 817e26065c66d419cf9ca56ab49f3a1fe54da252
-Author: maxik <maxik>
-Date:   Wed Aug 22 06:58:15 2007 +0000
-
-    Maxim Dziumanenko <dziumanenko@softprom.kiev.ua>
-    
-    	* Updated Ukrainian translation.
-
-commit 425a3e9b285c866a1f9eec64601093a8735fe1db
-Author: tombo <tombo>
-Date:   Tue Aug 21 23:09:45 2007 +0000
-
-    updated
-
-commit a6d8af814d8dc76b413b5ec363fe80c4a7a2aaeb
-Author: pve-nl <pve-nl>
-Date:   Mon Aug 20 20:42:26 2007 +0000
-
-    Some fixes for system-config-network nl.po
-
-commit 6118e5c139ac5a54b1cf7380bcfc1118ae5a777a
-Author: sbehera <sbehera>
-Date:   Fri Aug 17 15:05:44 2007 +0000
-
-    Updated Oriya Translation
-
-commit 2e2526caf97c154b6ba7d5d226b3771122dd36e6
-Author: harald <harald>
-Date:   Fri Aug 17 14:55:10 2007 +0000
-
-    fixed desktop categories and build root
-
-commit 86e7351ba447de8d61dd0c5d75575fc26aa9953a
-Author: jsingh <jsingh>
-Date:   Fri Aug 17 05:44:20 2007 +0000
-
-    Updated and commited
-
-commit 5a13a6b5b658a279fe22313e1c9eb32d085c796b
-Author: runab <runab>
-Date:   Fri Aug 17 04:49:45 2007 +0000
-
-    Updated Bengali India Translation
-
-commit b430b484c19a1fdb8a0c06ecc45196860c45f152
-Author: ankitp <ankitp>
-Date:   Fri Aug 17 04:41:03 2007 +0000
-
-    Updated Gujarati Translations
-
-commit eca12abd4de027b0ce4dfc68eb0643371340fd21
-Author: trinks <trinks>
-Date:   Fri Aug 17 04:26:48 2007 +0000
-
-    total:733 fuzzy:0 untranslated:0
-
-commit c862fb4634e3788c1aac3e1d997371f6a6e3b1d5
-Author: kmilos <kmilos>
-Date:   Thu Aug 16 20:09:47 2007 +0000
-
-    updated sr@Latn translation
-
-commit 0fb59ec24214770f2ce235235d3002a2e825ba50
-Author: kmilos <kmilos>
-Date:   Thu Aug 16 20:08:22 2007 +0000
-
-    updated sr translation
-
-commit 30e3aa1aaa1b2f382aa7c3c88bb60c6b63031b4c
-Author: raven <raven>
-Date:   Thu Aug 16 16:02:07 2007 +0000
-
-    Updated Polish translation
-
-commit a97365ad414ee4ce4f09e806b5d7b85fe350d078
-Author: beckerde <beckerde>
-Date:   Thu Aug 16 15:30:26 2007 +0000
-
-    *** empty log message ***
-
-commit 03beb16273a14e45d1633b715e22352ea24d0c12
-Author: igor <igor>
-Date:   Thu Aug 16 15:21:31 2007 +0000
-
-    Translation update
-
-commit 6fefbb5c43b243585303258ab16541cd7823b230
-Author: harald <harald>
-Date:   Thu Aug 16 14:58:49 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 1863c412dc37d610cfde1e57804b8d59ef378cb3
-Author: harald <harald>
-Date:   Thu Aug 16 14:55:33 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 3686cae099e5c65c9ddf44aee8a7e73bdfef4c73
-Author: harald <harald>
-Date:   Thu Aug 16 14:55:33 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 022fc717b57ccaf68b8ddc3c4cb3060e1419d25c
-Author: harald <harald>
-Date:   Thu Aug 16 14:55:32 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit e1f0d1782625ad63b865712501bfc32d74111422
-Author: harald <harald>
-Date:   Thu Aug 16 14:34:47 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 8292f7c216c0b587518e8f9d8a654803fc1e5de6
-Author: harald <harald>
-Date:   Thu Aug 16 14:34:00 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 99d374180e1890adecb64ac1b83a840d1433b4c3
-Author: harald <harald>
-Date:   Thu Aug 16 14:29:04 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit 1a9b0fcd78cdcfebf296fcffc31e3c2c01a8f933
-Author: harald <harald>
-Date:   Thu Aug 16 14:29:04 2007 +0000
-
-    release 1.4.0-1 moved
-
-commit a8034448c8e7d3b470bcb3362ac910f7530f4b54
-Author: harald <harald>
-Date:   Thu Aug 16 14:22:50 2007 +0000
-
-    release 1.4.0-1
-
-commit 940e876c192c9d295b6b0e22f8541ab9b19a02ea
-Author: harald <harald>
-Date:   Thu Aug 16 14:18:22 2007 +0000
-
-    changed category
-
-commit 2b8b7f3935b0d07100f3d2b6aae53678b20f078a
-Author: harald <harald>
-Date:   Thu Aug 16 14:17:36 2007 +0000
-
-    added snack to FLAGS
-
-commit f1e3e06d1b7723558cab816b79b5f777533b1bb6
-Author: harald <harald>
-Date:   Thu Aug 16 14:13:18 2007 +0000
-
-    fix the empty devicelist/profilelist case
-
-commit 41f2e6a12e1b117bb355a0d4734138d8e0ec41cb
-Author: harald <harald>
-Date:   Thu Aug 16 14:12:36 2007 +0000
-
-    added exception.py
-
-commit b287daaf99893460defdf14bcb9bb5c22dc75cfa
-Author: harald <harald>
-Date:   Thu Aug 16 14:12:10 2007 +0000
-
-    readded card infos for ISDN
-
-commit 1e9c32760d9b2e523c4bb6b8927b8565e4cfeb20
-Author: harald <harald>
-Date:   Thu Aug 16 14:11:41 2007 +0000
-
-    remove IRQ/IO from dialogs
-
-commit 666d839159daa3befa1791b529453cf4cb10c52d
-Author: harald <harald>
-Date:   Wed Aug 15 11:28:38 2007 +0000
-
-    obsolete netconfig
-
-commit 497e84a665e6c09faad91490d6194fb27e44eb2e
-Author: harald <harald>
-Date:   Wed Aug 15 11:28:18 2007 +0000
-
-    more langs
-
-commit 13042bf886160b9e8a91a6ddadcfd15957b6fbe8
-Author: harald <harald>
-Date:   Wed Aug 15 11:21:38 2007 +0000
-
-    more m4
-
-commit 22aa40e910366c9c919c22a5455d67a627f15faa
-Author: arclynx <arclynx>
-Date:   Mon Aug 13 16:33:31 2007 +0000
-
-    Updated Malay translation
-
-commit 8527df0465a3b25ec6196df83017c52f346bce5b
-Author: jsingh <jsingh>
-Date:   Tue Aug 7 05:25:56 2007 +0000
-
-    Completed
-
-commit 200ee878857d42d5704d094c6fe93239bcb5132f
-Author: arclynx <arclynx>
-Date:   Sat Aug 4 17:41:31 2007 +0000
-
-    Updated Malay translation
-
-commit 21ac3af0739c241a7122a7fbbf6ee34f5c0e9b7a
-Author: arclynx <arclynx>
-Date:   Sun Jul 29 05:55:03 2007 +0000
-
-    Updated Malay translation
-
-commit e872ec7f3fe0884132df56e00a8fcbfb7c872633
-Author: jovan <jovan>
-Date:   Sat Jul 28 20:20:01 2007 +0000
-
-    Updated Macedonian translation <jovan3.14@gmail.com>
-
-commit 4638c0b9991fd8fa3dc9b293f7a3584842ad6965
-Author: svenkate <svenkate>
-Date:   Fri Jul 27 10:45:15 2007 +0000
-
-    kannada translation updation
-
-commit 92a9e2dce9d4f95838bccb18d866c1ad0e816191
-Author: raada <raada>
-Date:   Thu Jul 19 15:37:55 2007 +0000
-
-    *** empty log message ***
-
-commit a49a4de5b96360ada3b45445b117838763b5eb7d
-Author: beckerde <beckerde>
-Date:   Tue Jul 17 15:24:56 2007 +0000
-
-    *** empty log message ***
-
-commit e50f04a0e1d41ff0ccee22254b336c13f55070e1
-Author: arclynx <arclynx>
-Date:   Sun Jul 15 08:27:08 2007 +0000
-
-    Updated Malay translation
-
-commit 8af197e91d7dc8eff57b29d1e1452a49468876d3
-Author: harald <harald>
-Date:   Fri Jul 13 13:11:12 2007 +0000
-
-    *** empty log message ***
-
-commit d010f1d8fd524e3cbc344b2c32b1ac9ebc7e9681
-Author: harald <harald>
-Date:   Fri Jul 13 13:04:15 2007 +0000
-
-    - more cvsignore
-
-commit da67039d27615dac199c8d3261ad202c5e1dc425
-Author: harald <harald>
-Date:   Fri Jul 13 13:03:49 2007 +0000
-
-    - added wireless modprobe.conf testcase
-
-commit 23a3616ad909edd66c8ea11cb245e97bdb40390f
-Author: harald <harald>
-Date:   Fri Jul 13 13:02:26 2007 +0000
-
-    - read mtu default value from system
-
-commit 72cbe4d10887db2e9aa3af11e4d9061c6f0b997d
-Author: harald <harald>
-Date:   Fri Jul 13 13:01:45 2007 +0000
-
-    - fixed imports
-    - added ipv6 localhost address check
-
-commit 636e24779354926bc8a9da750361fb16d7665a1b
-Author: harald <harald>
-Date:   Fri Jul 13 13:00:26 2007 +0000
-
-    - added FIXMEs
-
-commit a889b1905032391ee6e78081adfbedb6f601921a
-Author: harald <harald>
-Date:   Fri Jul 13 12:59:54 2007 +0000
-
-    - fixed imports
-    - added FIXMEs
-
-commit c6290a59ea1f88765ea201e9f2fdf2fc83c6df15
-Author: harald <harald>
-Date:   Fri Jul 13 12:59:07 2007 +0000
-
-    - added Callback MSN
-
-commit 9e0d9f3952a39d153cc936027e19a5bdb1ee95ce
-Author: harald <harald>
-Date:   Fri Jul 13 12:57:08 2007 +0000
-
-    - fixed import
-
-commit 1ec2c4fd3a93ac87f636027bd56f136f79b1c8e6
-Author: harald <harald>
-Date:   Fri Jul 13 12:56:00 2007 +0000
-
-    - fixed import
-    - fixed ConfEHosts
-
-commit 8255a67f20cee787261c50af3265efc25da6bf2f
-Author: harald <harald>
-Date:   Fri Jul 13 12:49:00 2007 +0000
-
-    *** empty log message ***
-
-commit a03233f53f1e71a7ca74c77cbfc543a95db60370
-Author: harald <harald>
-Date:   Fri Jul 13 12:48:21 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - make local variables private with __
-    - ConfFHosts -> ConfEHosts
-
-commit 48df9b6b4973d4f222af7689fa92c8a1387e3fc0
-Author: harald <harald>
-Date:   Fri Jul 13 12:45:38 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - make local variables private with __
-
-commit 628243f5e37cfa7bcded44f798042f404bf931f5
-Author: harald <harald>
-Date:   Fri Jul 13 12:31:36 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - fixed whitespace in modprobe.conf
-    - make more local vars private
-
-commit a93f7ddd16d891e8f351bb48ae9255362a666945
-Author: harald <harald>
-Date:   Fri Jul 13 12:29:36 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - init MTU with actual value
-    - set bootproto to dhcp as the default
-
-commit 4d02639a23825272987304647556755ae91252e6
-Author: harald <harald>
-Date:   Fri Jul 13 12:28:08 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - make local variables private with __
-
-commit 4cfb9f14a55604445007d7ac7d643d99abb44553
-Author: harald <harald>
-Date:   Fri Jul 13 12:27:14 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-    - fixed import
-
-commit 5ae925447f166d09bbef094e7956ea13260e439b
-Author: harald <harald>
-Date:   Fri Jul 13 12:25:56 2007 +0000
-
-    - handle devType=None case
-
-commit 0fc51670bd7a652b9dd6ff1c98eec8bdaf5f068c
-Author: harald <harald>
-Date:   Fri Jul 13 12:24:42 2007 +0000
-
-    - changed netconfpkg.ROOT to getRoot()
-
-commit 5891bed272ae2aaaec5cd083670a1791fc410d03
-Author: harald <harald>
-Date:   Fri Jul 13 12:23:45 2007 +0000
-
-    - made __isdnctrl var private and fix path checking
-
-commit 02a8ca30dae2d8c7640ca6a5cfb32a15e18c490b
-Author: harald <harald>
-Date:   Fri Jul 13 12:21:53 2007 +0000
-
-     - removed rhpl from doc generation
-
-commit 7a7c3da8bc4b3364b5fe146cadefbf6d75a09c1a
-Author: harald <harald>
-Date:   Fri Jul 13 12:20:30 2007 +0000
-
-    - fixed import
-    - gracefully handle device with no tui interface
-
-commit ec0ed69d963d9d9cc7dee334c71611840f57d853
-Author: harald <harald>
-Date:   Fri Jul 13 12:19:08 2007 +0000
-
-    - fixed chroot
-    - removed genClass import
-
-commit 265cb1326d3b187862bc544747aaf847afc379fd
-Author: svenkate <svenkate>
-Date:   Fri Jul 6 11:38:59 2007 +0000
-
-    kannada translation updation
-
-commit 46f84327dd4b25b174c00bf617928375c78f2989
-Author: svenkate <svenkate>
-Date:   Fri Jul 6 11:03:39 2007 +0000
-
-    kannada translation updation
-
-commit 9751d0e152ec16dc5b678ce885d0e229af3e3bc3
-Author: svenkate <svenkate>
-Date:   Fri Jul 6 10:05:08 2007 +0000
-
-    kannada translation updation
-
-commit 9d3c7544d3aba5928442e960a60feaa88153b434
-Author: svenkate <svenkate>
-Date:   Thu Jul 5 12:41:46 2007 +0000
-
-    kannada translation updation
-
-commit 8f6108db9c49eb57cbcdc7d7f60272cf560ddc1e
-Author: svenkate <svenkate>
-Date:   Wed Jul 4 11:18:16 2007 +0000
-
-    Kannada translation updation
-
-commit accdcd54da30f644fbf2793a15c66c0984faa0d5
-Author: svenkate <svenkate>
-Date:   Tue Jul 3 13:03:55 2007 +0000
-
-    Kannada translation updation
-
-commit b703ca042a9c21f19656c6b1274fac0784e16c6d
-Author: trinks <trinks>
-Date:   Mon Jul 2 23:05:25 2007 +0000
-
-    corrected several <b></b> errors in msgstrs
-
-commit 3668c95209b021dd11960d02e9ffe9fec781425e
-Author: ltenn <ltenn>
-Date:   Wed Jun 27 04:52:52 2007 +0000
-
-    Routine merge by l10n
-
-commit eab701b207560a59ea6e0054cee95dd5b8d9b99e
-Author: tombo <tombo>
-Date:   Sun Jun 17 14:57:24 2007 +0000
-
-    updated some entry with better translation
-
-commit 9338dc56733ee854a7bc8918392a345012f5069a
-Author: alan <alan>
-Date:   Mon Jun 11 14:45:11 2007 +0000
-
-    Autotranslate
-
-commit 60957ce69e2906bb76b19fbe116ae4926cda8cc9
-Author: raven <raven>
-Date:   Sun Jun 10 15:41:16 2007 +0000
-
-    Updated Polish Translation
-
-commit 2ed527d35d506b9a2b16c7e5353f74c1188271ef
-Author: arclynx <arclynx>
-Date:   Fri May 18 16:43:23 2007 +0000
-
-    Updated Malay translation
-
-commit 3d52c0fd01e757331fc017b99f6346a5956d3daa
-Author: arclynx <arclynx>
-Date:   Sun May 13 06:18:46 2007 +0000
-
-    Updated Malay translation
-
-commit 9d8c1a634989c856ff4a813b4204b111af255b62
-Author: svenkate <svenkate>
-Date:   Wed May 9 07:30:25 2007 +0000
-
-    kannada translation updation
-
-commit 08ca2c86915b672c0af70986b8f9a7f1572e02f0
-Author: xconde <xconde>
-Date:   Sun May 6 21:24:26 2007 +0000
-
-    Updated by XC
-
-commit 90e432fad94d95508cc41c670a318051ae42141d
-Author: ra <ra>
-Date:   Tue May 1 13:26:10 2007 +0000
-
-    *** empty log message ***
-
-commit 902ff44565442f4a1edbffde4e58a935a3fe324e
-Author: xconde <xconde>
-Date:   Sun Apr 22 11:47:49 2007 +0000
-
-    Updated by XC
-
-commit 096a8546e6efaa7f1fbbd72dd13d43c8110dbb49
-Author: keldsim <keldsim>
-Date:   Sun Apr 15 20:45:22 2007 +0000
-
-    updates
-    system-config-network/da.po
-
-commit 21c483ee639420ccb60ac771affba35be1915246
-Author: arclynx <arclynx>
-Date:   Sat Apr 14 15:54:47 2007 +0000
-
-    Updated Malay translation
-
-commit 9407a04d6265765fea812c7fc09f08ee9f3cdcb2
-Author: trinks <trinks>
-Date:   Mon Apr 9 22:01:27 2007 +0000
-
-    *** empty log message ***
-
-commit 6b8f69557a57c2df42ee715b15ddb5cbdf3ee08b
-Author: arclynx <arclynx>
-Date:   Sun Apr 8 15:34:52 2007 +0000
-
-    Updated Malay translation
-
-commit bc249fdd04bb38c11ec94552ed3e37ae78be95b2
-Author: arclynx <arclynx>
-Date:   Sun Apr 1 10:33:41 2007 +0000
-
-    Updated Malay translation
-
-commit d80b3295d4b64919c9dc0ddca361c10480404fc4
-Author: lanurmi <lanurmi>
-Date:   Fri Mar 30 23:28:31 2007 +0000
-
-    Updated translation.
-
-commit dccfb2c8d4174036136a6f12958217a803d1344b
-Author: igor <igor>
-Date:   Fri Mar 30 17:50:43 2007 +0000
-
-    Revision 2/2 for F7
-
-commit 70b0f59746efbcaebf8b090538dfad97abe44152
-Author: doncho <doncho>
-Date:   Thu Mar 29 21:51:46 2007 +0000
-
-    cosmetics
-
-commit b97fddeef4e08fae5ffe59f65a925cf0a50ff1a0
-Author: doncho <doncho>
-Date:   Thu Mar 29 21:49:39 2007 +0000
-
-    Fix bad translation of "root"
-
-commit 1dd50345fbdabc3647dc5a212ed55752583558d2
-Author: igor <igor>
-Date:   Thu Mar 29 02:48:25 2007 +0000
-
-    Revision 1/2 for F7
-
-commit 2aea2164b847c94d71d7e6d5c1dcb98779890d00
-Author: satyr <satyr>
-Date:   Wed Mar 28 11:10:27 2007 +0000
-
-    Update
-
-commit d7f45ab735182287ccf0730fa1e6bdb520214502
-Author: tszanto <tszanto>
-Date:   Tue Mar 27 21:13:34 2007 +0000
-
-    *** empty log message ***
-
-commit 4f70d976a29c9cff6bba6969951451f76a8d5d6a
-Author: trinks <trinks>
-Date:   Mon Mar 26 05:36:19 2007 +0000
-
-    *** empty log message ***
-
-commit 52a5dcc13a708a2548199398733cfd1a8a2bf9d7
-Author: apbrar <apbrar>
-Date:   Sun Mar 25 08:38:39 2007 +0000
-
-    updating for punjabi by alam
-
-commit b6291716cc83b6640fc4f7b39ec5e670862389da
-Author: harald <harald>
-Date:   Wed Mar 14 17:14:50 2007 +0000
-
-    replace old delimeter line with new ones
-
-commit 0257398b06883a9404f8159e97451689a338a7d6
-Author: harald <harald>
-Date:   Wed Mar 14 17:11:35 2007 +0000
-
-    removed "import *"
-
-commit 390d78b0ce8e284fce6157de2d4c8bed9bf560fd
-Author: harald <harald>
-Date:   Wed Mar 14 15:32:20 2007 +0000
-
-    fixed rhbz#161737: isdn status is wrong
-
-commit 4cbf5280a0b20125fbbbefff2a16e1b72384f162
-Author: harald <harald>
-Date:   Wed Mar 14 15:23:14 2007 +0000
-
-    fixed rhbz#146291: GUI adds trailing spaces to "options" lines in /etc/modprobe.conf when adding/deleting wireless devices
-
-commit 9b83189bf913903c0d4e780c13553ff58e1103f4
-Author: harald <harald>
-Date:   Wed Mar 14 14:06:23 2007 +0000
-
-    moved from rhpl
-
-commit 6b88cad0d6fd9232f9f2c69c3ec054caf6797bfa
-Author: harald <harald>
-Date:   Wed Mar 14 13:39:43 2007 +0000
-
-    adapt test cases
-
-commit 55b547db1ac6059745a3aa39e8a16156e306f9cb
-Author: harald <harald>
-Date:   Wed Mar 14 09:29:36 2007 +0000
-
-    reindent files to use 4-space indents and no hard tab characters.
-
-commit c37d8da437a26dbe22dccbc6058c89d3556e0df8
-Author: harald <harald>
-Date:   Wed Mar 14 09:16:43 2007 +0000
-
-    *** empty log message ***
-
-commit 1286785241fe078d24c26ce703e5281784c025df
-Author: harald <harald>
-Date:   Wed Mar 14 09:16:01 2007 +0000
-
-    fixed typos
-
-commit cea2efbaba1794f8ccfdc481a0031e58eb2244f2
-Author: harald <harald>
-Date:   Wed Mar 14 09:14:39 2007 +0000
-
-    fixed import
-    removed boolean true and false
-
-commit 00b27f7655d1521b2a986ab5165a4176bf9ae3f7
-Author: harald <harald>
-Date:   Wed Mar 14 09:13:37 2007 +0000
-
-    added FIXME comment
-
-commit 769a44a9072b4a3aaa2583e41670b4eda5bbbb39
-Author: harald <harald>
-Date:   Wed Mar 14 09:03:32 2007 +0000
-
-    untabified source
-
-commit 5fffff19975bc52b36540647296fbc954298d8ad
-Author: harald <harald>
-Date:   Thu Mar 8 12:56:41 2007 +0000
-
-    true -> True, false -> False
-
-commit 48553b0a94924de62266c2bf24e0fcde18ef9515
-Author: harald <harald>
-Date:   Wed Mar 7 14:00:39 2007 +0000
-
-    added static properties
-
-commit 1f72e77105eac963d63bd2851a8bab40b0624f89
-Author: harald <harald>
-Date:   Wed Mar 7 14:00:00 2007 +0000
-
-    more FIXME comments
-
-commit 2b41a73b985c8f8ee15366700360275d1f5e83eb
-Author: harald <harald>
-Date:   Wed Mar 7 13:57:35 2007 +0000
-
-    scan in more directories for kernel modules
-
-commit d936cbbb0345186e804f87483e89a5b51229b05e
-Author: harald <harald>
-Date:   Wed Mar 7 13:56:31 2007 +0000
-
-    add static properties
-
-commit 3849a09d597dda8fc3b29231110d4a050835e031
-Author: harald <harald>
-Date:   Wed Mar 7 13:56:02 2007 +0000
-
-    remove HW specific parameters
-
-commit 530fe8307aa902e8f5d233b91e62583c5e7ef33f
-Author: harald <harald>
-Date:   Wed Mar 7 13:55:33 2007 +0000
-
-    add static Type for HW plugins
-
-commit 32c67c2b664a186779203fc355e112483eeb5324
-Author: harald <harald>
-Date:   Wed Mar 7 13:44:40 2007 +0000
-
-    merged changes from EL5
-
-commit 05e0c8fbc308ac4b240613fb7c49039f4ea83bc0
-Author: harald <harald>
-Date:   Wed Mar 7 13:42:51 2007 +0000
-
-    moved from rhpl
-
-commit ecb6c3f55b54e90885468aba04e35e83f42f36d3
-Author: harald <harald>
-Date:   Wed Mar 7 13:42:21 2007 +0000
-
-    added m4 files
-
-commit 34b19195b374c9338734081f15836ee2947e4e7b
-Author: libbe <libbe>
-Date:   Sun Mar 4 22:27:41 2007 +0000
-
-    Updated Norwegian Bokmaal translation
-
-commit 8260fc655fe062a8e174ab6625e168229f02698f
-Author: joseppc <joseppc>
-Date:   Wed Feb 28 23:06:19 2007 +0000
-
-    Updated Catalan translation.
-
-commit a77e2aaf77333c4aabd209bf0c187029b676d688
-Author: vise <vise>
-Date:   Wed Feb 28 17:50:35 2007 +0000
-
-    *** empty log message ***
-
-commit ebce10665460ccd14e3a34020d89d14ba10dce25
-Author: trinks <trinks>
-Date:   Thu Feb 22 22:48:24 2007 +0000
-
-    consistency update
-
-commit fb7fbc5d54182784091a20dc48141ffafd5160e9
-Author: trinks <trinks>
-Date:   Sun Feb 11 22:30:39 2007 +0000
-
-    sanitising
-
-commit c80bc2bee5ce627b1897a7447ed78a638b6fcf97
-Author: arclynx <arclynx>
-Date:   Sun Feb 11 14:42:07 2007 +0000
-
-    Updated Malay translation
-
-commit bcc45492307aa8b7c25d97fae6a65f2c3c3d141e
-Author: dtypald <dtypald>
-Date:   Sat Feb 10 02:29:25 2007 +0000
-
-    Translation completed
-
-commit 46774106411cf024068e08b87080054151c5a3fb
-Author: apbrar <apbrar>
-Date:   Wed Feb 7 01:40:51 2007 +0000
-
-    updating for changes
-
-commit 7e1b54a08c552ea01055b0f162d0944a1e0170e0
-Author: glezos <glezos>
-Date:   Sat Feb 3 02:31:25 2007 +0000
-
-    Some updates (mostly new translation strings added recently)
-
-commit 303b5b7372457d91e4defd8dd718246ac9998658
-Author: arclynx <arclynx>
-Date:   Wed Jan 31 15:40:42 2007 +0000
-
-    Updated Malay translation
-
-commit 476e21fafa8862e47b0af0cd4e54fa248e16963f
-Author: libbe <libbe>
-Date:   Mon Jan 29 16:39:23 2007 +0000
-
-    Updated Norwegian Bokmaal translation
-
-commit cdfac7652ec52dec95a29bc9b745b22aad6b3ab1
-Author: zoliq <zoliq>
-Date:   Thu Jan 25 00:03:01 2007 +0000
-
-    po-update
-
-commit 13b1ac0e1c25f8cdf4ab08d87cbc90b2080ee383
-Author: absinthe <absinthe>
-Date:   Wed Jan 24 16:17:09 2007 +0000
-
-    translated system-config-network to bosnian
-
-commit 2327831ae977c52728c2b646aa4abb787158e685
-Author: maxik <maxik>
-Date:   Wed Jan 24 11:57:59 2007 +0000
-
-    Maxim Dziumanenko <dziumanenko@gmail.com>
-    
-    	* Updated Ukrainian trasnlation.
-
-commit fdc554fb4cb56c071b873d0fd27e7855c30a113e
-Author: laroche <laroche>
-Date:   Tue Jan 23 14:03:30 2007 +0000
-
-    - bz 210494
-
-commit c90f9d73dd75922aae6126dc946fcc3baa7a5080
-Author: zepires <zepires>
-Date:   Mon Jan 22 02:15:50 2007 +0000
-
-    Some updates on specspo/summary/pt.po. Removed spelling errors
-
-commit 06b8151e3dd4d548fb2898d30be96208557fc23a
-Author: zepires <zepires>
-Date:   Sun Jan 21 21:58:10 2007 +0000
-
-    Most of the apps' translations are finished. Only package info remaining
-
-commit a030834a14e91c2110c682e97fa2178546471ee6
-Author: vpv <vpv>
-Date:   Sun Jan 21 19:57:58 2007 +0000
-
-    Update Finnish translation
-
-commit 969b64956588a4e1d9c9cf8927ef5d3f824809a1
-Author: arclynx <arclynx>
-Date:   Sun Jan 21 18:15:11 2007 +0000
-
-    Updated Malay translation
-
-commit 538c77117db07a4d05ddb06c16a95562cb5d362a
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 04:58:53 2007 +0000
-
-    Routine merge by l10n
-
-commit 2e8520a055a132401f212644a45e7e79a5ee02dc
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 04:48:00 2007 +0000
-
-    Routine merge by l10n
-
-commit 3112e783f6b23647397bfbb957179d78b519775e
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 04:09:44 2007 +0000
-
-    Routine merge by l10n
-
-commit f685d3ea658f61687bb2dfb29eea11b2e4e3e6f1
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 03:57:34 2007 +0000
-
-    Routine merge by l10n
-
-commit 9c6ce8ea2a44698179291c6a4a987df5eb802575
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 03:27:25 2007 +0000
-
-    Routine merge by l10n
-
-commit 1e54b0f876446d066cd85ad6571b316b8341edd0
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 02:51:42 2007 +0000
-
-    Routine merge by l10n
-
-commit 796809e4d7f46105037691a58f4dda088a1e8991
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 02:12:31 2007 +0000
-
-    Routine merge by l10n
-
-commit ba0e11d3695977b87324ac80ca4242b22489ecd4
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 01:07:28 2007 +0000
-
-    Routine merge by l10n
-
-commit 62d671506c88c51ec56deaa12b432e992055467a
-Author: ltenn <ltenn>
-Date:   Fri Jan 19 00:49:21 2007 +0000
-
-    Routine merge by l10n
-
-commit 232bae447c626f864ee941861addda923280bb97
-Author: ltenn <ltenn>
-Date:   Thu Jan 18 23:55:01 2007 +0000
-
-    Routine merge by l10n
-
-commit 483745dc2719bd01b36fc3e5e6025acac18e0de6
-Author: ltenn <ltenn>
-Date:   Thu Jan 18 23:12:24 2007 +0000
-
-    Routine merge by l10n
-
-commit 6507fe4189314e3aa474942889c9c603e0f200d2
-Author: ltenn <ltenn>
-Date:   Thu Jan 18 22:27:38 2007 +0000
-
-    Routine merge by l10n
-
-commit 2e5485b43752f6dee106a067b58044ccd893c22c
-Author: ltenn <ltenn>
-Date:   Thu Jan 18 21:43:07 2007 +0000
-
-    Routine merge by l10n
-
-commit 67d5f41cc73757b1716d9c6195618cc64e407d2d
-Author: ltenn <ltenn>
-Date:   Thu Jan 18 21:13:04 2007 +0000
-
-    Routine merge by l10n
-
-commit e94daefd096ef3719b9f339128e1e3ad1cc4930c
-Author: sganesh <sganesh>
-Date:   Mon Dec 18 07:43:56 2006 +0000
-
-    Telugu translation commited
-
-commit 5940f823e95963e3ccc4a5b6e3e3331668a95f96
-Author: vise <vise>
-Date:   Fri Dec 15 19:58:06 2006 +0000
-
-    *** empty log message ***
-
-commit 0fa8d836ed28459ea58e2db6b5991763d8d7b14e
-Author: vise <vise>
-Date:   Thu Dec 14 18:18:57 2006 +0000
-
-    *** empty log message ***
-
-commit b7f75e6c233df5704005eb957388720c9e21e832
-Author: sganesh <sganesh>
-Date:   Thu Dec 14 12:28:27 2006 +0000
-
-    Telugu translation commited
-
-commit b49dde5dac5dde8c38baebc390c9e429880b014b
-Author: vise <vise>
-Date:   Wed Dec 13 20:21:40 2006 +0000
-
-    *** empty log message ***
-
-commit c4d681f2fc57821c6012b468696e0557a7339767
-Author: sganesh <sganesh>
-Date:   Wed Dec 13 17:38:05 2006 +0000
-
-    Telugutranslation is commited
-
-commit 34202a2c7c3d50175edda1762abd1fe03af3b269
-Author: vise <vise>
-Date:   Mon Dec 11 19:58:17 2006 +0000
-
-    *** empty log message ***
-
-commit 1b158c397668b47d12e65a0dff1b31572b3f87c1
-Author: vise <vise>
-Date:   Sun Dec 10 13:09:27 2006 +0000
-
-    *** empty log message ***
-
-commit 442af6772a5c5ada198b6945031b2e503136da58
-Author: vise <vise>
-Date:   Sat Dec 9 19:36:21 2006 +0000
-
-    *** empty log message ***
-
-commit 3ee9915bd3b31a507b5c2365b76d46ac2c6f273d
-Author: vise <vise>
-Date:   Thu Dec 7 17:06:46 2006 +0000
-
-    *** empty log message ***
-
-commit f56d9aa5b8f0b06208d356c4de904ff4ae6de89a
-Author: apbrar <apbrar>
-Date:   Thu Dec 7 05:36:22 2006 +0000
-
-    update for new strings
-
-commit 304d33e3f9523f9b3a0319724a6284b58332d1af
-Author: rranjan <rranjan>
-Date:   Wed Dec 6 08:18:50 2006 +0000
-
-    hindi proofchk
-
-commit 5d44e405c8ae65b78635a85441c46937b3857e91
-Author: pasha <pasha>
-Date:   Mon Dec 4 10:36:44 2006 +0000
-
-    Fixed several translation mistakes
-
-commit 2478fc731809bb591828e7879326580fb67d280d
-Author: arclynx <arclynx>
-Date:   Sun Dec 3 07:06:59 2006 +0000
-
-    Updated Malay translation
-
-commit b83b756b09f6028a485cbc65330f88a5c329978a
-Author: joseppc <joseppc>
-Date:   Sun Dec 3 01:07:51 2006 +0000
-
-    Updated Catalan translation.
-
-commit 5500a7bf3cda725e5d1cdf386907f908cfa88e8d
-Author: pasha <pasha>
-Date:   Fri Dec 1 12:41:03 2006 +0000
-
-    Added IPSec wizard
-
-commit c4a797ddec4274e3f668b3e60f5c0eb9c526ad62
-Author: raven <raven>
-Date:   Thu Nov 30 16:28:44 2006 +0000
-
-    Updated Polish translation
-
-commit 6f255e55507e58f15fa80fabeabf674cce7558b1
-Author: ifelix <ifelix>
-Date:   Wed Nov 29 12:26:16 2006 +0000
-
-    Fedora ta translation updated
-
-commit 75a0160b7cf0cd128ce3135eca043d6e1c702e40
-Author: rranjan <rranjan>
-Date:   Wed Nov 29 11:52:56 2006 +0000
-
-    hindi proof
-
-commit c1c365146166e8d502683ef78aca663239bee5e8
-Author: apeter <apeter>
-Date:   Wed Nov 29 06:34:41 2006 +0000
-
-    Updated Malaylam file
-
-commit cfab536052ff92a12331335a10e0ed870af371d6
-Author: ifelix <ifelix>
-Date:   Tue Nov 28 11:50:12 2006 +0000
-
-    Fedora ta translation updated
-
-commit a943002c28c29084f972d1efca52f3dd2454afea
-Author: ccheng <ccheng>
-Date:   Tue Nov 28 00:52:34 2006 +0000
-
-    Routine merge
-
-commit f373b3a564fc2bdae8b77771dd125e01ada3fa00
-Author: rranjan <rranjan>
-Date:   Mon Nov 27 06:58:33 2006 +0000
-
-    hindi proof
-
-commit 60fedcdfa31b29b3c703476682db3ea5aa799dc2
-Author: joseppc <joseppc>
-Date:   Sun Nov 26 13:03:58 2006 +0000
-
-    Updated Catalan translation.
-
-commit 995263b2c879e064d081668af419104fe84befbd
-Author: pasha <pasha>
-Date:   Fri Nov 24 14:22:06 2006 +0000
-
-    Added new dialogs
-
-commit 13180329a4cb91ea92c4a9baf6acf007d4e0564b
-Author: pasha <pasha>
-Date:   Fri Nov 24 12:12:50 2006 +0000
-
-    Initial revision
-
-commit 797e92a50105d2cb66fae8d5830483e6b65b272b
-Author: rbhalera <rbhalera>
-Date:   Fri Nov 24 08:00:11 2006 +0000
-
-    Updated Marathi Translation
-
-commit dbbd3e5fc3dda9cee5e4af06492e8931e795e1f8
-Author: rbhalera <rbhalera>
-Date:   Fri Nov 24 06:26:04 2006 +0000
-
-    Updated Marathi Translation
-
-commit 2a365d32a269de272482a79b9840f4d27f6655a0
-Author: rbhalera <rbhalera>
-Date:   Wed Nov 22 17:40:38 2006 +0000
-
-    Updated Marathi Translation
-
-commit dc2fbfec5861f7f08c800764eefd67b66df7b863
-Author: rbhalera <rbhalera>
-Date:   Tue Nov 21 15:44:47 2006 +0000
-
-    Updated translation
-
-commit 9d9938a81f5022b1bea3867a40584a99fa1c5a2d
-Author: rbhalera <rbhalera>
-Date:   Tue Nov 21 04:17:53 2006 +0000
-
-    Translation Updated
-
-commit 13b6362d6ef5ef0e147b1cc666c8ee76060650ea
-Author: apeter <apeter>
-Date:   Mon Nov 20 11:14:49 2006 +0000
-
-    Updated Malayalam file
-
-commit 0e1bd0e23ce975cadc78e525baa836981978ff9e
-Author: ltenn <ltenn>
-Date:   Mon Nov 20 04:46:00 2006 +0000
-
-    Routine merge by l10n
-
-commit 61403c783e031219b28ae3ed671f9ba5ecf1dd50
-Author: bershath <bershath>
-Date:   Tue Nov 14 13:21:06 2006 +0000
-
-    Updated Sinhala Translations
-
-commit 0e76912354d6d2c653e4fa14278e06710bd3539c
-Author: rbhalera <rbhalera>
-Date:   Tue Nov 14 13:02:12 2006 +0000
-
-    Updated translation
-
-commit 13d15f6c426c1b7533c979e581a9577f8a527e03
-Author: rbhalera <rbhalera>
-Date:   Mon Nov 13 15:39:46 2006 +0000
-
-    Updated Translation
-
-commit 252602ea09995998ed6c5705c08aa40b6f06330b
-Author: arclynx <arclynx>
-Date:   Sun Nov 12 11:12:09 2006 +0000
-
-    Updated Malay translation
-
-commit d03cf830572d0e7025c27ca74c2f07868896f67f
-Author: rbhalera <rbhalera>
-Date:   Fri Nov 10 11:53:52 2006 +0000
-
-    Updated Translation
-
-commit a7462c5068fe857bfadc91c72b913b9afce3aab0
-Author: bershath <bershath>
-Date:   Thu Nov 9 17:25:14 2006 +0000
-
-    translated a few
-
-commit 1e03f226e9faf8c6625434c5e8d76fd0b95d6c03
-Author: rbhalera <rbhalera>
-Date:   Thu Nov 9 15:15:54 2006 +0000
-
-    Updated Translation
-
-commit 19843294f4f0424a001e3443ff8cb132b0304961
-Author: rbhalera <rbhalera>
-Date:   Wed Nov 8 19:40:36 2006 +0000
-
-    Updated translation
-
-commit 371278d6144e6575f498c6e866bac6885053edde
-Author: rbhalera <rbhalera>
-Date:   Mon Nov 6 14:44:00 2006 +0000
-
-    Updated Translations
-
-commit fdfd4a3fff67076cb633ad9e10f428c1edf941ac
-Author: eukim <eukim>
-Date:   Wed Nov 1 08:26:53 2006 +0000
-
-    Updated
-
-commit f216f80a48ab227a72f447a961a79371a6643255
-Author: eukim <eukim>
-Date:   Wed Nov 1 08:24:23 2006 +0000
-
-    Updated
-
-commit 478ed65b9e6c9b440ce58ddc1aee26c307b65864
-Author: rbhalera <rbhalera>
-Date:   Thu Oct 26 06:37:10 2006 +0000
-
-    Updated Translation
-
-commit 197c012c451617e2f7790277076486151d3a95a9
-Author: aalam <aalam>
-Date:   Tue Oct 24 07:50:43 2006 +0000
-
-    update for Punjabi by alam
-
-commit 5680c541d07c6c07d2d49bb3f74c21afe5131dfb
-Author: rbhalera <rbhalera>
-Date:   Thu Oct 19 08:29:09 2006 +0000
-
-    Updated Translation
-
-commit 05c834303d6972d822d6770091a6cc3839cd8e3a
-Author: rbhalera <rbhalera>
-Date:   Tue Oct 17 15:19:44 2006 +0000
-
-    Updated Translation
-
-commit 09673c22deb6144a7b2f52b607c057949751b121
-Author: tfu <tfu>
-Date:   Fri Oct 13 03:23:51 2006 +0000
-
-    *** empty log message ***
-
-commit 6c0fc6c8e62227c1a0cbf65f7297a85b2bfec79c
-Author: ltenn <ltenn>
-Date:   Thu Oct 12 01:44:22 2006 +0000
-
-    Routine merge by l10n
-
-commit 18ad3f8b22445747132bb9d9c4876250e1fa96a6
-Author: ltenn <ltenn>
-Date:   Thu Oct 12 01:35:26 2006 +0000
-
-    Routine merge by l10n
-
-commit 20f8f5f543f5aabe3459b04f3987e905f2467b13
-Author: ltenn <ltenn>
-Date:   Wed Oct 11 15:45:15 2006 +0000
-
-    Routine merge by l10n
-
-commit 2ede9f29cfe8fb4d8a2214b54c1141d8c2a42509
-Author: trinks <trinks>
-Date:   Tue Oct 10 23:51:48 2006 +0000
-
-    total:715 fuzzy:0 untranslated:0
-
-commit e3faec17e8d4c209a6bc1272715cc79521dda2cf
-Author: zyang <zyang>
-Date:   Tue Oct 10 08:52:17 2006 +0000
-
-    *** empty log message ***
-
-commit d9f30a16af80dbdfc74c1a784644c77a90d3316a
-Author: zyang <zyang>
-Date:   Tue Oct 10 08:35:53 2006 +0000
-
-    *** empty log message ***
-
-commit 836375c950ee6bf8117a0d28b68cdc05b7c34da8
-Author: mhideo <mhideo>
-Date:   Tue Oct 10 04:09:43 2006 +0000
-
-    automerge Simplified Chinese
-
-commit 3f2afbb1ce374176f826e7cdaab478169a88cf04
-Author: mhideo <mhideo>
-Date:   Tue Oct 10 03:40:06 2006 +0000
-
-    automerge Korean
-
-commit 761f65af7ff035bcf7b232e769a97574fb4ffbcb
-Author: mhideo <mhideo>
-Date:   Tue Oct 10 03:02:07 2006 +0000
-
-    automerge German
-
-commit 1679a7b490a2cb400aad89ff8014f2a016f407c1
-Author: arclynx <arclynx>
-Date:   Fri Oct 6 16:11:44 2006 +0000
-
-    Updated Malay translation
-
-commit e8ed59b83f766f133e256b6da4eb0d4ea7df4a6c
-Author: zoliq <zoliq>
-Date:   Thu Oct 5 15:15:12 2006 +0000
-
-    po-update. translation done
-
-commit b3580fd83e10476d4877d46ac2fd48bd1e14f74b
-Author: frolix68 <frolix68>
-Date:   Mon Oct 2 21:03:06 2006 +0000
-
-    Update to ./system-config-network/
-
-commit 211f0d851885b5db69178fad62bacdaa74699151
-Author: apeter <apeter>
-Date:   Mon Oct 2 09:09:27 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit 9fd8f73b2e7940c31c55249223509271ac8b6ac4
-Author: amit <amit>
-Date:   Fri Sep 29 08:50:56 2006 +0000
-
-    system-config-network for translation
-
-commit aeca66cb0357d1c53291d6cbb3825ca991c3452b
-Author: zepires <zepires>
-Date:   Thu Sep 28 13:13:12 2006 +0000
-
-    Finished all the docs, translations and removed spelling errors and inconsistencies
-
-commit c81becf515848eceae3c77b4b49a799750d372b9
-Author: glezos <glezos>
-Date:   Thu Sep 28 12:42:12 2006 +0000
-
-    QA changes
-
-commit b019af5dcaf70555c5dc48e480e595f0418b1df0
-Author: runab <runab>
-Date:   Wed Sep 27 07:48:34 2006 +0000
-
-    Updated Bengali India Translation
-
-commit ab6c930aedb18d55d121977feae3eed9ac75b120
-Author: runab <runab>
-Date:   Wed Sep 27 06:08:35 2006 +0000
-
-    Updated Bengali India Translation
-
-commit 335af5aa6bfb2587c10de70609c99502aae2b84a
-Author: apeter <apeter>
-Date:   Tue Sep 26 06:34:40 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit 7aa1b3cd145314d9626de83aaadd4ae7a2e1536e
-Author: apeter <apeter>
-Date:   Tue Sep 26 04:09:53 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit 646fcf18ce193765d6873a33eea55b594967cd1e
-Author: apeter <apeter>
-Date:   Mon Sep 25 12:57:47 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit e2718720f6f6cc96d706c1dcc52ccbe545e9bdf0
-Author: apeter <apeter>
-Date:   Mon Sep 25 11:35:26 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit a6b7a4ed25ce8f7a5c3480c085cfdf97908212c9
-Author: apeter <apeter>
-Date:   Mon Sep 25 06:57:00 2006 +0000
-
-    Updated Malayalam ml.po
-
-commit 0b982e4cead4c37be4705f67c207eeb944ddeab5
-Author: sbehera <sbehera>
-Date:   Fri Sep 22 04:01:49 2006 +0000
-
-    Updated Oriya Translation
-
-commit 5cf08055b21d6bea92ac8c45fe8489a9109220aa
-Author: sbehera <sbehera>
-Date:   Thu Sep 21 13:34:24 2006 +0000
-
-    Updated Oriya Translation
-
-commit caefe007260059ee9c134145d7413ade95fc534a
-Author: zepires <zepires>
-Date:   Wed Sep 20 13:19:21 2006 +0000
-
-    Update Redhat I18N for now
-
-commit 2f9950d2f9dcc9a99a066cd07f85c28a590c8860
-Author: fvalen <fvalen>
-Date:   Wed Sep 20 02:08:02 2006 +0000
-
-    Updated
-
-commit dfeda9a6c935c0c02bdf7ba3159ff0626d018268
-Author: ifelix <ifelix>
-Date:   Mon Sep 18 12:58:57 2006 +0000
-
-    Tamil Translation updated
-
-commit 38e0e8d31f7520b79e56bd852468e9908dd84d71
-Author: renato <renato>
-Date:   Sun Sep 17 16:55:17 2006 +0000
-
-    final proofing
-
-commit cd5899d986c135c7973479605fa614e49933fb2d
-Author: sbehera <sbehera>
-Date:   Fri Sep 15 11:58:21 2006 +0000
-
-    Updated Oriya Translation
-
-commit 85d7c86d93e64492bfac9ff4f60d187e9222cd53
-Author: sbehera <sbehera>
-Date:   Fri Sep 15 10:22:11 2006 +0000
-
-    Updated Oriya Translation
-
-commit f2eb7bc4c0c05b95568f984180a04dd7f022888b
-Author: sbehera <sbehera>
-Date:   Fri Sep 15 09:58:09 2006 +0000
-
-    Updated Oriya Translation
-
-commit efecebe75fbcd3d0f11510863a7eac21169cc95e
-Author: sbehera <sbehera>
-Date:   Fri Sep 15 07:42:54 2006 +0000
-
-    Updated Oriya Translation
-
-commit 565363daa142dd5faea24ea5bcab626ed89f1d09
-Author: rranjan <rranjan>
-Date:   Wed Sep 13 09:36:54 2006 +0000
-
-    hindi updated
-
-commit a452ac897c92b13578015a00ba845c41e82b969b
-Author: ankitp <ankitp>
-Date:   Wed Sep 13 06:50:50 2006 +0000
-
-    Merging for Marathi is done now
-
-commit 2f89fec10b417cf9255b31fb3065636a692e0d5c
-Author: ankitp <ankitp>
-Date:   Wed Sep 13 06:44:32 2006 +0000
-
-    Merging for Malayalam is done now
-
-commit e14d8f87a5eaeb0357d0503bc2742c1006784fea
-Author: rranjan <rranjan>
-Date:   Wed Sep 13 06:27:12 2006 +0000
-
-    Did automerge
-
-commit f24906c54fe59c71bc8332344ec591886552c3d3
-Author: ankitp <ankitp>
-Date:   Wed Sep 13 05:13:48 2006 +0000
-
-    Merging for Tamil is done now
-
-commit c3750f7a1f8f132512dc10ee7181bca5f41d9194
-Author: vferreir <vferreir>
-Date:   Tue Sep 12 06:49:59 2006 +0000
-
-    final
-
-commit b4c0348dff5d52e66cdce944ff61e87d6b2e32b9
-Author: fdecroux <fdecroux>
-Date:   Tue Sep 12 05:45:08 2006 +0000
-
-    Updated
-
-commit a2790a07d1c20bfa794ae656e5da6015bdd7f817
-Author: noriko <noriko>
-Date:   Mon Sep 11 03:18:11 2006 +0000
-
-    modification made from proofreading
-
-commit ac15dd3b6a925310ffce287bf3829f46a9ba257f
-Author: arclynx <arclynx>
-Date:   Sat Sep 9 04:01:21 2006 +0000
-
-    Updated Malay translation
-
-commit 8cfa2e0a18aa3fbc3f9618889694ccf8c57a33b9
-Author: noriko <noriko>
-Date:   Wed Sep 6 04:52:55 2006 +0000
-
-    updates translated
-
-commit 03206cd9671f61e67eda966153b49df9a2c458a4
-Author: mospina <mospina>
-Date:   Mon Sep 4 23:54:31 2006 +0000
-
-    small corrections
-
-commit 4696f47ad0cd1e5c8b0fbd1e173c111262a34abc
-Author: arclynx <arclynx>
-Date:   Mon Sep 4 16:18:52 2006 +0000
-
-    Updated Malay translation
-
-commit 6aceab57c3c8b498858a3f8eadfec69110e50834
-Author: noriko <noriko>
-Date:   Sun Sep 3 23:21:05 2006 +0000
-
-    modification made from review
-
-commit 87b10cb3cd9068f29c072bdba03608e5dff439a4
-Author: glezos <glezos>
-Date:   Sun Sep 3 20:36:55 2006 +0000
-
-    Quality assurance:
-    - Replaced most of "programma" with more proper word: "efarmogi"
-    - Removal of ano teleia (¬∑) accidentally placed instead of space characters
-
-commit f0f41b2d27ae6b21542c0ec242ea462d58368547
-Author: glezos <glezos>
-Date:   Sun Sep 3 10:08:59 2006 +0000
-
-    Quality assurance:
-     1. Made sure all occurences of "default" are translated as "proepilogi"
-
-commit 6d069dabe7c89fc6a41a2853e4df4bd36435156b
-Author: glezos <glezos>
-Date:   Sat Sep 2 02:00:01 2006 +0000
-
-    Quality assurance:
-     1. First round in substituting root, diaxeiristis as "yperxristis"
-     2. Remove final "n" when not needed: to gero, ti giagia, sti fylaki
-        but not from "Na sas ton emfanisw?".
-
-commit e42a5dda95229ba99d33b7eb43d529ab5b1287be
-Author: glezos <glezos>
-Date:   Sat Sep 2 01:31:57 2006 +0000
-
-    Quality assurance by mass editing:
-     1. sthN omada, afthN th gnwmh, auton to gero
-     2. Diorthwsi dialitikwn pou akolouthoun tonoumeno fwnien
-     3. Correction of english letters accidentally put inside greek words
-     4. wordsWith a capital letter inside probably mean a forgotten space
-     5. After a full stop a space is needed
-
-commit a172dfcec8882f7740372fb2ea60102db1888dcd
-Author: glezos <glezos>
-Date:   Sat Sep 2 00:18:35 2006 +0000
-
-    Quality Assurance: Changed the way Capitalized Words appear inside
-    sentences. Basically, removed any continuous capitalized words. Mass-commit,
-    I hope I didn't screw up anything. ;)
-
-commit 3ffd2c705c6126b80154cfc0a317829b8de89404
-Author: arclynx <arclynx>
-Date:   Tue Aug 29 23:51:52 2006 +0000
-
-    Updated Malay translation
-
-commit 8de90bfb2004cf9e287f8b846132e4f91db60e34
-Author: ccheng <ccheng>
-Date:   Tue Aug 29 15:16:04 2006 +0000
-
-    routinely merge
-
-commit 7a0c7299c0154207355161d52c3c154fbcbabf98
-Author: ccheng <ccheng>
-Date:   Tue Aug 29 14:45:52 2006 +0000
-
-    *** empty log message ***
-
-commit 2454dda14a296f8bb94edf7c289deb6f18422b9a
-Author: raada <raada>
-Date:   Mon Aug 28 05:22:45 2006 +0000
-
-    *** empty log message ***
-
-commit 3072074b478fcb4ac7aff6b254beaec5911ed649
-Author: sehh <sehh>
-Date:   Mon Aug 28 00:51:44 2006 +0000
-
-    few minor translations
-
-commit 761696e6c71214fac7b739a427ccf8f4536b257b
-Author: wwycheuk <wwycheuk>
-Date:   Sun Aug 27 16:28:53 2006 +0000
-
-    update
-
-commit 0ac5eb8de170c60f442efadf852fda9d81c0399e
-Author: wwycheuk <wwycheuk>
-Date:   Sun Aug 27 01:26:05 2006 +0000
-
-    update
-
-commit 923cbebd2cfe99af188383cc662fa14738ea90c8
-Author: rranjan <rranjan>
-Date:   Wed Aug 23 13:03:51 2006 +0000
-
-    hindi proofreading
-
-commit d1e20fded3da9f8c0e3be88c159b1a0403e06588
-Author: ccheng <ccheng>
-Date:   Sat Aug 19 14:57:44 2006 +0000
-
-    Routine merge
-
-commit 42579bb0a93c8b22c7c68fbaf31c2e179cd23123
-Author: alan <alan>
-Date:   Mon Aug 14 17:02:04 2006 +0000
-
-    Add "real English". Really some of these are bugs in the original text that
-    should be fixed there
-
-commit aad26e8afea642a02e3652cc92815a3ffa948905
-Author: eukim <eukim>
-Date:   Mon Aug 14 07:46:59 2006 +0000
-
-    Updated translation
-
-commit 5e5f0f7977d7bebf4c0fb1caa0013ece7dd928b5
-Author: kmilos <kmilos>
-Date:   Sun Aug 13 20:28:33 2006 +0000
-
-    *** empty log message ***
-
-commit 956270822495136250a6aa1a1be188385ec2a85b
-Author: tombo <tombo>
-Date:   Sun Aug 13 07:58:17 2006 +0000
-
-    updated
-
-commit 0b91c389c7dd1f66c7b17a749a61ddbeadcdadd3
-Author: renato <renato>
-Date:   Sun Aug 13 01:04:08 2006 +0000
-
-    *** empty log message ***
-
-commit a063b5da8136cedc4a12e938d3c2205b20f0ab42
-Author: khashida <khashida>
-Date:   Fri Aug 11 08:25:12 2006 +0000
-
-    All rechecked
-
-commit 06235fd4b6d942a5185d394e750095ee3557bc49
-Author: khashida <khashida>
-Date:   Fri Aug 11 02:13:25 2006 +0000
-
-    upto 510 done
-
-commit ff4d83ba745832c91c249c19cb7b5265ff6ea4b5
-Author: eukim <eukim>
-Date:   Fri Aug 11 01:27:57 2006 +0000
-
-    Updated translation
-
-commit f3a39bed5e2520171a4b71c0b4ffe562e1551ca1
-Author: pve-nl <pve-nl>
-Date:   Thu Aug 10 20:56:46 2006 +0000
-
-    Some fixes for system-config-network nl.po
-
-commit 3be1c2478aefef652673cd268f812ba76bfd230e
-Author: tombo <tombo>
-Date:   Thu Aug 10 20:44:20 2006 +0000
-
-    msgmerged
-
-commit 392ce76afa232d66acfff12307ad428e32c20a59
-Author: frolix68 <frolix68>
-Date:   Thu Aug 10 20:16:03 2006 +0000
-
-    Update to ./system-config-network/
-
-commit 4a062c2668150da2c05f6cd1e67cac250d2adc9e
-Author: eukim <eukim>
-Date:   Thu Aug 10 07:48:50 2006 +0000
-
-    updated translation
-
-commit 5ec86d44606a45c4b0d5ae9d5306740766bf3993
-Author: khashida <khashida>
-Date:   Thu Aug 10 04:47:00 2006 +0000
-
-    300 left
-
-commit 055aa9152aa24f12b9c770b49b3b72a96ae19ddf
-Author: eukim <eukim>
-Date:   Wed Aug 9 04:07:42 2006 +0000
-
-    Updated translation
-
-commit 2a7db58a2e7ca34648c7c3eabf5e7090fdfc6a04
-Author: khashida <khashida>
-Date:   Tue Aug 8 07:57:45 2006 +0000
-
-    upto 115
-
-commit 98658f0a81667c1bfde68c0dcaf17d1225cbdd55
-Author: mospina <mospina>
-Date:   Tue Aug 8 00:48:11 2006 +0000
-
-    merge and updated
-
-commit fa54101fce9f53c5a9b9f3a0a02403643204d0cd
-Author: yulia <yulia>
-Date:   Mon Aug 7 04:13:32 2006 +0000
-
-    translation of updated po
-
-commit 6055bfd3872faf17af47573b038494760f664a02
-Author: yulia <yulia>
-Date:   Mon Aug 7 03:43:37 2006 +0000
-
-    merged with updated po
-
-commit 379fd0a2319e2ab0bc4ad510e7f669c7ad037c8c
-Author: yulia <yulia>
-Date:   Mon Aug 7 03:03:29 2006 +0000
-
-    translated entries
-
-commit 15f7f02a967815d2676f5b06646b5135289b1fad
-Author: harald <harald>
-Date:   Thu Aug 3 12:42:49 2006 +0000
-
-    *** empty log message ***
-
-commit 00c635ce23393e7fcb11a7eaee6c7857dfef408d
-Author: harald <harald>
-Date:   Thu Aug 3 12:42:19 2006 +0000
-
-    added gui test suite
-
-commit 50c3d22ab8a260fbfda6172428a63980cbe61ef0
-Author: pve-nl <pve-nl>
-Date:   Thu Aug 3 08:36:54 2006 +0000
-
-    Merged nl.po with system-config-network.pot
-
-commit 9a30ede654731ca5e8acb4101e1cd3d109b97a01
-Author: harald <harald>
-Date:   Wed Aug 2 12:59:44 2006 +0000
-
-    renamed some files
-
-commit 0da3a8feeb62b77dc88783910fb26afa7b161018
-Author: khashida <khashida>
-Date:   Wed Aug 2 06:23:47 2006 +0000
-
-    checked to 100
-
-commit 548c95477c5a47f11f407600b1a6af62611e5981
-Author: tfu <tfu>
-Date:   Wed Aug 2 00:16:30 2006 +0000
-
-    some modification after proofreading
-
-commit a0300472a8d6b54935da340d79904c0b94dd88e1
-Author: yulia <yulia>
-Date:   Fri Jul 28 06:41:31 2006 +0000
-
-    typos fix up to 150
-
-commit 0ce04ee62e1038546b454e70d73e91d583acab7d
-Author: ankitp <ankitp>
-Date:   Fri Jul 28 05:16:41 2006 +0000
-
-    Updated Gujarati Translations
-
-commit bb847000e99bf945f6074645f3f7c7af5e532638
-Author: ankitp <ankitp>
-Date:   Fri Jul 28 04:32:43 2006 +0000
-
-    Merged gu.po files with .pot files
-
-commit 762d1d8033723471a8728a7dc4b3de15b7246bd9
-Author: harald <harald>
-Date:   Tue Jul 25 09:53:36 2006 +0000
-
-    *** empty log message ***
-
-commit b8510b214073d174bee585523eec2472ae8a2b98
-Author: diegobz <diegobz>
-Date:   Mon Jul 24 12:51:24 2006 +0000
-
-    update
-
-commit 2f2efbaab0bd5fda4684f0b61c2a01d14f766251
-Author: harald <harald>
-Date:   Mon Jul 24 11:44:05 2006 +0000
-
-    added <add device>
-
-commit 7c5a10d8c9c4fb123db90a6a20122f371ae1ad3e
-Author: igor <igor>
-Date:   Sun Jul 23 19:23:55 2006 +0000
-
-    *** empty log message ***
-
-commit 39c7de5b7d06617d03065870d58ec3fd3b7b5e3b
-Author: mrtom <mrtom>
-Date:   Sat Jul 22 17:10:16 2006 +0000
-
-    translation updated
-
-commit 448a13a73ace1cae6a331eb2ea816254712575d5
-Author: mrtom <mrtom>
-Date:   Sat Jul 22 15:50:47 2006 +0000
-
-    Update to ./system-config-network/
-
-commit 5bd3a48c9859f1303a9024c7fefb644e11710d05
-Author: niko <niko>
-Date:   Fri Jul 21 19:20:04 2006 +0000
-
-    Finished.
-
-commit a61b170d49fa037af2a1271de2db4ce9c66a8e30
-Author: niko <niko>
-Date:   Fri Jul 21 18:03:08 2006 +0000
-
-    Merged.
-
-commit 0fd95a1447e398221f95bd694b5164c63fd1cbcf
-Author: sbehera <sbehera>
-Date:   Thu Jul 20 04:13:46 2006 +0000
-
-    Merged Strings for Oriya Translation
-
-commit 087f8cfeb53de0456533a47d6e1888606b8963fc
-Author: kmilos <kmilos>
-Date:   Wed Jul 19 21:37:01 2006 +0000
-
-    *** empty log message ***
-
-commit cbd55b0a434b979c0e1b05dc2469b2160cc4526c
-Author: harald <harald>
-Date:   Wed Jul 19 15:37:24 2006 +0000
-
-    release 1.3.90-2 moved
-
-commit 19dd28f624150df80bfaec55be01bdba5fe8f2f8
-Author: harald <harald>
-Date:   Wed Jul 19 15:36:55 2006 +0000
-
-    *** empty log message ***
-
-commit dd54897fed249f17f3b7cc08cf2510c0a46e6c9d
-Author: harald <harald>
-Date:   Wed Jul 19 15:34:04 2006 +0000
-
-    release 1.3.90-2
-
-commit 9e5881dc0f4bdbfb79ee2c9217a8b30dafb98b5e
-Author: harald <harald>
-Date:   Wed Jul 19 15:32:27 2006 +0000
-
-    release 1.3.90-2
-
-commit 33a730612cec10ff5dcb2ab42de0411d2a90df43
-Author: harald <harald>
-Date:   Wed Jul 19 15:31:41 2006 +0000
-
-    *** empty log message ***
-
-commit 33c04c5eb9313c80c0fac971011074f696116839
-Author: harald <harald>
-Date:   Wed Jul 19 15:18:12 2006 +0000
-
-    *** empty log message ***
-
-commit 073c9d95f70a7e41afd774b91bb39aa0e7945e34
-Author: raven <raven>
-Date:   Wed Jul 19 13:50:41 2006 +0000
-
-    Updated Polish translation
-
-commit 1a1db490bd35de0ce6445635bef1176f091fa74f
-Author: harald <harald>
-Date:   Wed Jul 19 11:52:29 2006 +0000
-
-    *** empty log message ***
-
-commit d46926838bf717ad9f2d45400d450a86c06538a7
-Author: harald <harald>
-Date:   Wed Jul 19 11:36:24 2006 +0000
-
-    added NCException.py
-
-commit e5296ad6bd990cafea9d5112b66decd30d39d5a7
-Author: harald <harald>
-Date:   Wed Jul 19 11:34:32 2006 +0000
-
-    *** empty log message ***
-
-commit c131058a8fbb1802806dfc44b01f97f5aec91636
-Author: harald <harald>
-Date:   Wed Jul 19 11:32:44 2006 +0000
-
-    *** empty log message ***
-
-commit 3e93d2b6300388481f617363e3c952b36879cafc
-Author: harald <harald>
-Date:   Wed Jul 19 11:23:38 2006 +0000
-
-    *** empty log message ***
-
-commit e0e40ba461625b03c525e5ec37b410936dd63aa3
-Author: harald <harald>
-Date:   Wed Jul 19 11:15:46 2006 +0000
-
-    put back √∏ in Tronds name
-
-commit d74084c39f2734397666b6bc2b77579a069aeb6e
-Author: harald <harald>
-Date:   Wed Jul 19 11:07:41 2006 +0000
-
-    *** empty log message ***
-
-commit bec0199239c99fd027cd4c5cbdbedec1b9be1834
-Author: harald <harald>
-Date:   Wed Jul 19 11:05:37 2006 +0000
-
-    *** empty log message ***
-
-commit 5f0db86231ddbc20910cc7d7e43e1e02a0d33cdf
-Author: harald <harald>
-Date:   Wed Jul 19 10:58:35 2006 +0000
-
-    set charset
-
-commit 5184c1bed809c708d7ef65d601563225ba0bb218
-Author: harald <harald>
-Date:   Wed Jul 19 10:55:01 2006 +0000
-
-    remove .gladep on cleanup
-
-commit 908a963e0be4474dd03b1f8e273fa78f09eef690
-Author: harald <harald>
-Date:   Wed Jul 19 10:33:53 2006 +0000
-
-    use gtk.AboutDialog, if available
-
-commit bd0fa4c38a2625a933de28ecd31ffbdbaae41107
-Author: harald <harald>
-Date:   Wed Jul 19 09:57:18 2006 +0000
-
-    *** empty log message ***
-
-commit 49fc0c287f1659094acb22b48eee9fced7137d1a
-Author: harald <harald>
-Date:   Wed Jul 19 09:55:54 2006 +0000
-
-    strip whitespaces from host and domainnames
-
-commit 3c92f1f1d19f9539588b1df2a75218fe5771d02e
-Author: harald <harald>
-Date:   Wed Jul 19 09:55:54 2006 +0000
-
-    strip whitespaces from host and domainnames
-
-commit 6f95020c4a42ec4c157faedf910dfc4c7c562e38
-Author: harald <harald>
-Date:   Wed Jul 19 09:54:57 2006 +0000
-
-    fixed translation bugs with mode and rate
-
-commit 916e0a42b29549a2efe0249cd634ed176ea99a7e
-Author: harald <harald>
-Date:   Wed Jul 19 09:51:48 2006 +0000
-
-    translation update
-
-commit 6e0a4f9468a10353d6364b62ffe22eb25c9b7029
-Author: harald <harald>
-Date:   Wed Jul 19 09:48:33 2006 +0000
-
-    *** empty log message ***
-
-commit 368cebbc5df04510cfa6be2516c43b9a281f7635
-Author: harald <harald>
-Date:   Wed Jul 19 09:47:59 2006 +0000
-
-    fixed ChangeLog generation
-
-commit fabb853783df308a2b770ee3043e535927797bd1
-Author: harald <harald>
-Date:   Mon Jul 17 13:22:18 2006 +0000
-
-    deleted mtu
-
-commit af5f82f5dcfe919a85ea90fc300c80684f4420c2
-Author: harald <harald>
-Date:   Mon Jul 17 13:21:32 2006 +0000
-
-    added MTU
-
-commit bc10709c0b10e3147f672449821808e71f2cb1fd
-Author: harald <harald>
-Date:   Mon Jul 17 13:21:22 2006 +0000
-
-    translation bug
-
-commit 3f338320f04fd16bb6365660a2845a6d2c8a3260
-Author: harald <harald>
-Date:   Mon Jul 17 13:19:10 2006 +0000
-
-    added mtu
-
-commit 859170a3d42749c6b5bdb96e6c59dd8863577e74
-Author: harald <harald>
-Date:   Mon Jul 17 13:18:49 2006 +0000
-
-    cleanup
-
-commit 52e44dbf224fab836cc3c5637a108550b0cecfe3
-Author: harald <harald>
-Date:   Mon Jul 17 13:18:25 2006 +0000
-
-    NCException handling
-
-commit 60c4e1dff84641fbf179e1872fa4677e18ce29cd
-Author: harald <harald>
-Date:   Mon Jul 17 13:17:36 2006 +0000
-
-    - do not set a gateway for DHCP
-    - set MTU, if specified
-
-commit 6ab5b00cac45b9ea1d087cfa6f1385bdd4d43f6f
-Author: harald <harald>
-Date:   Mon Jul 17 13:16:12 2006 +0000
-
-    added NCException
-
-commit bf2c4ee9f496d360e5267578063acee00ee5a995
-Author: harald <harald>
-Date:   Mon Jul 17 13:14:21 2006 +0000
-
-    fixed translation bug #187563, where wireless config parameters got translated in the ifcfg-file
-
-commit 8bd77de508456aeb9bf77fd0f8dae4143685ca91
-Author: asimons <asimons>
-Date:   Mon Jul 17 02:52:27 2006 +0000
-
-    changed shortcut
-
-commit a0e1a3eb2596e16da24d685cc2330af13010b4bc
-Author: arclynx <arclynx>
-Date:   Sat Jul 15 01:01:37 2006 +0000
-
-    Updated Malay translation
-
-commit 021b0d1ce8e60f86f32e6f289f6c11a31f3ff972
-Author: harald <harald>
-Date:   Fri Jul 14 14:14:50 2006 +0000
-
-    fix Changelog email addresses...
-
-commit ca4afe75d25709b9a7ae2214d1206904f5d3e93e
-Author: harald <harald>
-Date:   Fri Jul 14 14:13:12 2006 +0000
-
-    handle NCExceptions
-
-commit fdfd6e2094c8b3cbeef3d2e58ed3ac22e24112e2
-Author: harald <harald>
-Date:   Fri Jul 14 14:12:04 2006 +0000
-
-    Alias interfaces should not have a HWADDR (bug #188321, #197401)
-
-commit 1a93d9c1d4a04e37628b7b31216a1015dfa54420
-Author: harald <harald>
-Date:   Fri Jul 14 14:05:36 2006 +0000
-
-    throw NCException instead of displaying the error_dialog directly
-
-commit 4891e8d5710ae492f0a9827960f07057a141105e
-Author: harald <harald>
-Date:   Fri Jul 14 13:57:29 2006 +0000
-
-    added NCException for handled Exceptions
-
-commit fbaf7dff01109990afe89992026addd0839579ab
-Author: nphilipp <nphilipp>
-Date:   Fri Jul 14 13:52:25 2006 +0000
-
-    enable ml, or, sr, sr@Latn translations
-
-commit 8401e391beef976b3310e2f1ad860f264def12b9
-Author: harald <harald>
-Date:   Fri Jul 14 12:59:38 2006 +0000
-
-    - added error dialog, if pixmap cannot be found
-    - reformatted code
-
-commit 8b7c4d9806636be0b30ebaf76a261e60737350f4
-Author: harald <harald>
-Date:   Fri Jul 14 12:06:33 2006 +0000
-
-    fixed getDialog() method
-
-commit d079b8bc059ad81af3338e3aa654ad6f31a8d6d0
-Author: elf <elf>
-Date:   Thu Jul 13 04:17:23 2006 +0000
-
-    * replace "yu-za" to "u-za-", "purinta" to "purinta-", "sa-ba" to "sa-ba-".
-
-commit f1b222353e12beb07ff2945c588eace82fdce83d
-Author: harald <harald>
-Date:   Thu Jul 6 14:20:19 2006 +0000
-
-    removed rhpl.log
-
-commit b363d801bdd02c02b086f6480030ae65ea6244e2
-Author: harald <harald>
-Date:   Thu Jul 6 14:15:06 2006 +0000
-
-    text interface changes
-
-commit 43fa49e0d9026ba102c9d236789b7abec6d43e2f
-Author: renato <renato>
-Date:   Fri Jun 30 20:06:03 2006 +0000
-
-    *** empty log message ***
-
-commit 94cd3fb2175fa828ecbd14506e29010f2059962e
-Author: diegobz <diegobz>
-Date:   Fri Jun 30 02:23:32 2006 +0000
-
-     new system-config-network review
-
-commit 5e2d605da54f4dd92e2eaf4b8b705173836f1ca7
-Author: diegobz <diegobz>
-Date:   Fri Jun 30 02:19:28 2006 +0000
-
-    system-config-network review
-
-commit f378cd839b81c872c0123227f811e2a9aa98db5c
-Author: mrtom <mrtom>
-Date:   Wed Jun 28 22:29:29 2006 +0000
-
-    translation complete
-
-commit 1124f24bf4fb608afde714b750e0869a8a1f6638
-Author: diegobz <diegobz>
-Date:   Wed Jun 28 20:17:37 2006 +0000
-
-    Review for system-config-network
-
-commit e3201436a00f78d99bed57f51f3fb75097df5e42
-Author: diegobz <diegobz>
-Date:   Tue Jun 27 20:28:03 2006 +0000
-
-    Update for system-config-network
-
-commit abbbbb4b20d623ca6effd04a2fb7ae82146befb4
-Author: glezos <glezos>
-Date:   Sun Jun 25 13:12:31 2006 +0000
-
-    changed some keyboard shortcuts
-
-commit c3f62a5bfcd93d6c446f6267bb2269ca5a0345e1
-Author: runab <runab>
-Date:   Sat Jun 24 12:11:53 2006 +0000
-
-    Updated Bengali India Translation
-
-commit a9a1ff968e8738c6d1f492e68cd6c47cfa9d421e
-Author: mrtom <mrtom>
-Date:   Sat Jun 24 10:01:42 2006 +0000
-
-    adding myself to the translator list
-
-commit a8836feb11e0c63ac69a18506d9eca39f2bea2c7
-Author: arclynx <arclynx>
-Date:   Wed Jun 21 13:14:11 2006 +0000
-
-    Updated Malay translation
-
-commit 8cf7ffc0785732cbac6d72b72171d5af5937676f
-Author: yulia <yulia>
-Date:   Wed Jun 21 04:55:28 2006 +0000
-
-    shortcut added for hosts
-
-commit 1ec9f34e5de9c6b3b3d039c610cc7b3bd376414c
-Author: splinux <splinux>
-Date:   Mon Jun 19 18:34:53 2006 +0000
-
-    French translation
-
-commit 9795491e5b3414b971e7136b47e98963be3f6862
-Author: rbhalera <rbhalera>
-Date:   Tue Jun 13 10:16:34 2006 +0000
-
-    done rough translations for mr_IN
-
-commit 979911ec9f5ee9c17fd9f72808e2c898e65ecf7a
-Author: glezos <glezos>
-Date:   Tue Jun 13 02:04:05 2006 +0000
-
-    proofread
-
-commit b6cd478edb3f1ab1313e9558929359419e10cd7d
-Author: glezos <glezos>
-Date:   Mon Jun 12 09:31:10 2006 +0000
-
-    Needs proofreading.
-
-commit f53916510e20150fe60ad00376fac7ca988b22d6
-Author: diegobz <diegobz>
-Date:   Sat Jun 10 21:39:14 2006 +0000
-
-    Fixed some wrong translations
-
-commit 2d8a666bdae9df4e22a303c38c5b41dec33faf33
-Author: diegobz <diegobz>
-Date:   Sat Jun 10 21:13:32 2006 +0000
-
-    system-config-network: UTF-8 fixed
-
-commit 61d69d29b64679902c2b88e5c4dfb6cdc99025a1
-Author: diegobz <diegobz>
-Date:   Sat Jun 10 18:34:50 2006 +0000
-
-    system-config-network
-
-commit 75c4ab351b07bd8552f686edaf8bac8b3810600e
-Author: diegobz <diegobz>
-Date:   Sat Jun 10 18:12:45 2006 +0000
-
-    system-config-network
-
-commit 6f50f3d82e785a0bcb8c72f2898b9d84572dd840
-Author: diegobz <diegobz>
-Date:   Sat Jun 10 17:54:43 2006 +0000
-
-    system-config-network
-
-commit 804c5c3bf24a9acacd5c65d843336b90ce1b7a81
-Author: diegobz <diegobz>
-Date:   Fri Jun 9 17:18:21 2006 +0000
-
-    system-config-network
-
-commit 280c37885630e753587bd65b0b2fe2c22cff0d08
-Author: igor <igor>
-Date:   Thu Jun 8 19:17:12 2006 +0000
-
-    *** empty log message ***
-
-commit dcd0b487f2eab4d87ba28496640e724f51c76105
-Author: skippyd <skippyd>
-Date:   Mon Jun 5 15:04:44 2006 +0000
-
-    *** empty log message ***
-
-commit 708aa12901a23c9c5703af24b22583b8477fbbfe
-Author: renato <renato>
-Date:   Mon Jun 5 08:50:12 2006 +0000
-
-    *** empty log message ***
-
-commit e3b8374dda30b3b9a424ba67187bfc2ba91954ed
-Author: mrtom <mrtom>
-Date:   Sun Jun 4 10:22:02 2006 +0000
-
-    updating template
-
-commit 7e51eaa3406f99cfe8679beed603eb5390fc4277
-Author: raven <raven>
-Date:   Sat Jun 3 09:55:35 2006 +0000
-
-    Updated and improved Polish translation
-
-commit deb8c6d654b72701e2b9f547b1c92e185b7f208b
-Author: sbehera <sbehera>
-Date:   Wed May 31 09:58:25 2006 +0000
-
-    Updated Oriya translation
-
-commit 55642053be0b80ad72ff67be609753146e37cf39
-Author: sbehera <sbehera>
-Date:   Tue May 30 13:03:18 2006 +0000
-
-    Updated Oriya translation
-
-commit 68272271c03c6fe47ea9d732d41725ca31a4b1ab
-Author: sbehera <sbehera>
-Date:   Tue May 30 10:15:45 2006 +0000
-
-    Updated Oriya translation
-
-commit c4462bbbac291204324e74a6da0569caa272f48e
-Author: sbehera <sbehera>
-Date:   Tue May 30 07:55:40 2006 +0000
-
-    Updated Oriya translation
-
-commit 83d53f2c6428b9c9b1e8b8108ddf4d109785a695
-Author: sbehera <sbehera>
-Date:   Mon May 29 13:28:20 2006 +0000
-
-    Updated Oriya translation
-
-commit 173f6c587d417c40c995f2081e419095f4ed348e
-Author: apeter <apeter>
-Date:   Mon May 29 13:14:18 2006 +0000
-
-    Updated malayalam ml.po
-
-commit cda66a44ba0dd89abe44594d1204aab6b70a4ea3
-Author: sbehera <sbehera>
-Date:   Mon May 29 12:05:08 2006 +0000
-
-    Updated Oriya translation
-
-commit 161d96af8463002c6dc6892cbb7c0e6a31634ec8
-Author: sbehera <sbehera>
-Date:   Mon May 29 10:35:34 2006 +0000
-
-    Updated Oriya translation
-
-commit 5a584e7f85c7a53b0babbfa9b5d552bc6260ea85
-Author: sbehera <sbehera>
-Date:   Fri May 26 14:19:06 2006 +0000
-
-    Merged Oriya translation with .pot file
-
-commit 520ebcc8cc070b3664fba93f0d3457e80308882a
-Author: aalam <aalam>
-Date:   Mon May 22 07:13:56 2006 +0000
-
-    adding new files for language Telugu/Kannada
-
-commit b98867ee586991ad4a8baaaf41fdd216b76af132
-Author: roozbeh <roozbeh>
-Date:   Fri May 19 17:17:51 2006 +0000
-
-    Update from Sharif Linux translation
-
-commit d3819478c0903bc0cbf007321a651381e3113a68
-Author: sbehera <sbehera>
-Date:   Thu May 18 12:20:59 2006 +0000
-
-    Updated Oriya translation
-
-commit c31d701a2858c8e737648f2ec1d18bf366914304
-Author: sbehera <sbehera>
-Date:   Thu May 18 11:08:20 2006 +0000
-
-    Updated Oriya translation
-
-commit ebb5c9c81aa5849de0c5fa910aa7f5b59c1219d0
-Author: sbehera <sbehera>
-Date:   Thu May 18 09:23:51 2006 +0000
-
-    Updated Oriya translation
-
-commit 51cd7f2a355b509bb8ad6f6e97b373a06269aa68
-Author: sbehera <sbehera>
-Date:   Wed May 17 14:40:52 2006 +0000
-
-    Updated Oriya translation
-
-commit ac1a649c2723f52ae9d330a249ddcabf4060e63f
-Author: sbehera <sbehera>
-Date:   Wed May 17 12:51:44 2006 +0000
-
-    Updated Oriya translation
-
-commit c3d39072b2afc6b933713efd3535e0d6f0bd00f5
-Author: pve-nl <pve-nl>
-Date:   Tue May 16 20:10:18 2006 +0000
-
-    Some fixes for system-config-network nl.po
-
-commit 959aecdc949d47a91e8175d671c799bf8e736074
-Author: runab <runab>
-Date:   Tue Apr 25 11:00:59 2006 +0000
-
-    Updated Bengali India Translation
-
-commit 332233d9939642319a311777bce2b37299d9f0ea
-Author: runab <runab>
-Date:   Mon Apr 24 14:37:47 2006 +0000
-
-    Updated Bengali India (bn_IN) Translation
-
-commit 1d62bd52e3f5be9956f7102a4b2e44c9c38d27d4
-Author: ifelix <ifelix>
-Date:   Mon Apr 24 14:36:25 2006 +0000
-
-    Tamil Translation of Fedora updated
-
-commit dc81480d5fbfaa0111516ff33fa0064e20e4dab3
-Author: mospina <mospina>
-Date:   Mon Apr 24 03:24:15 2006 +0000
-
-    some updates
-
-commit 43c35126ecffadbc55620beb3a674167537aea08
-Author: mospina <mospina>
-Date:   Mon Apr 24 00:08:30 2006 +0000
-
-    automerge done
-
-commit 14cf2e3fd4b3418c2a28956191c2133c0950a289
-Author: rbhalera <rbhalera>
-Date:   Wed Apr 19 14:46:19 2006 +0000
-
-    translating the package anaconda and updating the po files for mr_IN
-
-commit aa89e332d07d7aca673f44a5d3c6fd7d5fa63bb6
-Author: runab <runab>
-Date:   Wed Apr 19 12:03:38 2006 +0000
-
-    Updated Bengali INDIA (bn_IN) Translation
-
-commit d76eb01628827f8d016b6c702fd12f0fb7ea8514
-Author: runab <runab>
-Date:   Wed Apr 19 10:00:06 2006 +0000
-
-    Updated Bengali India Translation
-
-commit 89154e14217d2bbd0f3473b243dc9029179b8c94
-Author: ifelix <ifelix>
-Date:   Wed Apr 19 06:54:03 2006 +0000
-
-    updated tamil translation files
-
-commit a3dbe1630c08a63ce2da30cd9e58317ba87a2c18
-Author: pve-nl <pve-nl>
-Date:   Sat Apr 15 20:14:21 2006 +0000
-
-    Some fixes for system-config-network
-
-commit e996593deb9187003eed53ccff3f02e527dd1b9c
-Author: pve-nl <pve-nl>
-Date:   Fri Apr 14 19:26:15 2006 +0000
-
-    Merged nl.po with system-config-network.pot
-
-commit 0f66d42ceb764cbfc945c6aa52cd792396b796fa
-Author: apeter <apeter>
-Date:   Wed Mar 29 06:40:10 2006 +0000
-
-    Added malayalam file ml.po
-
-commit bf923e1bee71e16eed639714dd85d07b411d4d04
-Author: nreissle <nreissle>
-Date:   Mon Mar 20 07:01:53 2006 +0000
-
-    Update
-
-commit bd594045fba404f47610e4a6cc23ce4f5ef86e09
-Author: boincer <boincer>
-Date:   Sat Mar 18 17:50:46 2006 +0000
-
-    de.po merged with pot file
-
-commit c7ab812b46ffea6400c82411c0a03021b8a4d8db
-Author: csgift <csgift>
-Date:   Fri Mar 17 14:37:14 2006 +0000
-
-    *** empty log message ***
-
-commit 9468a5e7f50316512339c4c806fb6d39e3fc4e8d
-Author: sbehera <sbehera>
-Date:   Tue Mar 7 08:54:43 2006 +0000
-
-    Added Oriya File
-
-commit 12bd6f4de1860f2d41fed77090af517409ecf93a
-Author: tombo <tombo>
-Date:   Thu Feb 23 21:20:16 2006 +0000
-
-    corrected typo
-
-commit be899443e1822ccffd863c2eb851b0577a2c2869
-Author: tombo <tombo>
-Date:   Thu Feb 23 20:42:19 2006 +0000
-
-    Corrected some translation bugs
-
-commit 809a11f1dcae3367a0ec7c46c6a59855c6a18d6f
-Author: arclynx <arclynx>
-Date:   Fri Feb 17 15:56:49 2006 +0000
-
-    Updated Malay translation
-
-commit c238d2a696df778252c3c357d69b35c6a433816f
-Author: raven <raven>
-Date:   Wed Feb 8 11:07:04 2006 +0000
-
-    Update
-
-commit b135964eaaba0da4ee4860f8171f8ebca7b67c67
-Author: serhat <serhat>
-Date:   Sun Feb 5 20:32:57 2006 +0000
-
-    Done
-
-commit fa7bd7e9fc39d6cd65163aef67d8961ce9169356
-Author: ankitp <ankitp>
-Date:   Sat Feb 4 05:53:02 2006 +0000
-
-    Updated Gujarati Translations
-
-commit 2de0d8c011a75291780f7019012626bbd513f5c5
-Author: rranjan <rranjan>
-Date:   Fri Feb 3 13:05:52 2006 +0000
-
-    update hi
-
-commit 12cc2ff289beb60016b1ffb32f65e2732be801c2
-Author: rranjan <rranjan>
-Date:   Fri Feb 3 12:58:51 2006 +0000
-
-    updtaed hi
-
-commit 2ee49986120d2485de1b5dd8a055e1e8ac346fe7
-Author: ankitp <ankitp>
-Date:   Fri Feb 3 10:29:55 2006 +0000
-
-    Updated Gujarati Translations
-
-commit 6a99ea1ff89781a2b20031922f5001788e402055
-Author: kmilos <kmilos>
-Date:   Sun Jan 29 23:47:24 2006 +0000
-
-    *** empty log message ***
-
-commit 7d0d4159b6d6fcebb4ca43c74f1da97dea9b985a
-Author: aalam <aalam>
-Date:   Tue Jan 24 10:46:31 2006 +0000
-
-    update for Punjabi
-
-commit 45837d9229bca2fae9e3fa6b36d286241994566a
-Author: ccheng <ccheng>
-Date:   Tue Jan 17 01:09:31 2006 +0000
-
-    Routine merge
-
-commit 6c68e99952ee493339afb9f9a9259c4a2e210a59
-Author: giomac <giomac>
-Date:   Thu Jan 12 20:50:46 2006 +0000
-
-    Updated georgian translation for s-c-network
-
-commit f0316f3883fea4f5066bf0dad3ff45b7669ef92e
-Author: giomac <giomac>
-Date:   Thu Jan 12 13:45:14 2006 +0000
-
-    Updated georgian translation for s-c-network
-
-commit 7cb1835d9a2e1bc7e4fa73f68299d6fd8eeca44a
-Author: giomac <giomac>
-Date:   Thu Jan 12 13:10:16 2006 +0000
-
-    Updated georgian translation for s-c-network
-
-commit 96eb30ff7ad3f4d5313fc6284c2b7e8657a331e8
-Author: giomac <giomac>
-Date:   Thu Jan 12 12:13:47 2006 +0000
-
-    Updated georgian translation for s-c-network
-
-commit 3485cc7ecfa51fc7a81e7dd07c5b26a4a54f1df8
-Author: kmilos <kmilos>
-Date:   Wed Jan 11 02:17:29 2006 +0000
-
-    *** empty log message ***
-
-commit a8e12d63d8be60f6a956aed3b54356fd4f1f79fb
-Author: sarahs <sarahs>
-Date:   Mon Jan 9 23:57:35 2006 +0000
-
-    correct locale added
-
-commit faa987f5002661ff6a8bb893fef6c93ca0fdc4d0
-Author: sarahs <sarahs>
-Date:   Mon Jan 9 23:42:04 2006 +0000
-
-    wrong locale added, removing it
-
-commit 526247832b9af3417ea70b4d1ddbc41c5fd62465
-Author: sarahs <sarahs>
-Date:   Mon Jan 9 06:25:18 2006 +0000
-
-    new locale for Serbian Latin
-
-commit 13e6920061c786fb16fe804dd45f3674dbbe772f
-Author: aalam <aalam>
-Date:   Mon Jan 9 06:16:04 2006 +0000
-
-    update network for Punjabi
-
-commit a4c9568f6307bf1a65cc33c59a02767aabd2ba8b
-Author: aalam <aalam>
-Date:   Mon Jan 9 04:53:39 2006 +0000
-
-    merge with lastest POT files for Punjabi
-
-commit 8b04998c466a5e4d394ba9f21934214d56f6f29a
-Author: raven <raven>
-Date:   Sat Dec 31 12:03:35 2005 +0000
-
-    Fix .desktop translation
-
-commit 87b02482d55a6f8d6673f0f9abdc09a1fcc0332f
-Author: wwycheuk <wwycheuk>
-Date:   Sun Dec 25 07:31:29 2005 +0000
-
-    update
-
-commit 2ad3e4e3f81aa13b7c2e03d05643d7de42db03f0
-Author: sarahs <sarahs>
-Date:   Fri Dec 23 07:38:54 2005 +0000
-
-    add new locale
-
-commit 88350b717a170c64dd3392f6be77d7b7ae887f6d
-Author: zepires <zepires>
-Date:   Thu Dec 22 15:01:59 2005 +0000
-
-    Completed hwbrowser and remove spelling errors (in fact, were copied messages from msgid)
-
-commit 6353095a348637cf5904dde7f9d5e5481cbc6360
-Author: ccheng <ccheng>
-Date:   Wed Dec 21 03:41:07 2005 +0000
-
-    *** empty log message ***
-
-commit cbd29d72e4157086012164b666a20ccb06f216d4
-Author: wwycheuk <wwycheuk>
-Date:   Sun Dec 18 06:15:28 2005 +0000
-
-    update
-
-commit ff0d991eaf41703064b23fd69fe436625ca0517e
-Author: raven <raven>
-Date:   Thu Dec 15 13:58:50 2005 +0000
-
-    Improvements and updates
-
-commit 6a84b2050e83921b63881c0b422c882a192ee836
-Author: wwycheuk <wwycheuk>
-Date:   Fri Dec 9 16:42:09 2005 +0000
-
-    update
-
-commit feb4487e57a287f2156e4ede336c5c4b2b94cae6
-Author: wwycheuk <wwycheuk>
-Date:   Fri Dec 9 06:55:35 2005 +0000
-
-    update
-
-commit f6767ddd24df11eb864d70d2e5d081c233e8a56c
-Author: wwycheuk <wwycheuk>
-Date:   Fri Dec 9 04:45:23 2005 +0000
-
-    Further fix.
-
-commit 63839688ee21a1f14b352400c35d99779b2355cc
-Author: wwycheuk <wwycheuk>
-Date:   Thu Dec 8 23:29:05 2005 +0000
-
-    Content fix only, no unneccesary format change. 'ÂåøÂêç' means anonymous and 'Nickname' is Êö±Á®±. The ok refers to the status of the device.
-
-commit ff34b2384f5a63c3bcc7f309452b33d8bae307c6
-Author: zepires <zepires>
-Date:   Mon Dec 5 10:19:31 2005 +0000
-
-    Removed all spelling errors and inconsistencies. Only checks are missing
-
-commit 811c61271933fa1498b374ab01930e615cb819f9
-Author: zepires <zepires>
-Date:   Fri Dec 2 10:25:45 2005 +0000
-
-    Removed all inconsistencies
-
-commit dcdad2a95f2a97a84b577d3517c4e2071d4522df
-Author: zepires <zepires>
-Date:   Fri Dec 2 10:14:09 2005 +0000
-
-    Removed most of the 'not-real' spelling errors
-
-commit 5105dd0517b24a49afda527157098e0cb4078975
-Author: arclynx <arclynx>
-Date:   Sat Nov 26 05:32:47 2005 +0000
-
-    Updated Malay translation
-
-commit 73816993e7cddd10d3cdf391fe67f6b663aa824e
-Author: kmilos <kmilos>
-Date:   Mon Nov 21 10:46:57 2005 +0000
-
-    *** empty log message ***
-
-commit 99cedbb3b43d5333f34409819c1a6cce63498a6b
-Author: arclynx <arclynx>
-Date:   Sun Nov 13 11:00:45 2005 +0000
-
-    Updated Malay translation
-
-commit c3f6184d74c0004ec2d639fdf66a3bf05bf739f9
-Author: kmilos <kmilos>
-Date:   Mon Nov 7 18:21:24 2005 +0000
-
-    *** empty log message ***
-
-commit be752dcbec1a4672100b39806bdcfd0d19b16642
-Author: ccheng <ccheng>
-Date:   Fri Nov 4 00:21:54 2005 +0000
-
-    Routine automerge by snowlet
-
-commit 2ec03a17da03a864c0e0e59459ab07454b0ce0fa
-Author: harald <harald>
-Date:   Wed Nov 2 12:14:40 2005 +0000
-
-    release 1.3.30-2
-
-commit c06d10ecac337cca092535946ba78cb73d73c9e6
-Author: harald <harald>
-Date:   Wed Nov 2 12:08:27 2005 +0000
-
-    release 1.3.30-1 moved
-
-commit a4d7612bd094684201adfdea1853a3142915c4b6
-Author: harald <harald>
-Date:   Wed Nov 2 12:08:16 2005 +0000
-
-    *** empty log message ***
-
-commit 966f2c0aa912eebce8dfc45598681b80ed69892a
-Author: harald <harald>
-Date:   Wed Nov 2 11:46:51 2005 +0000
-
-    release 1.3.30-1 moved
-
-commit 89a0329929b09f6648fa6e78c273c722b11a76c4
-Author: harald <harald>
-Date:   Wed Nov 2 11:30:12 2005 +0000
-
-    release 1.3.30-1
-
-commit abb02a326728d9d0cea500dc5fd9a409da4d6ab5
-Author: harald <harald>
-Date:   Wed Nov 2 11:27:08 2005 +0000
-
-    release 1.3.30-1
-
-commit 79bae4badc05d31273167def9e4f9ab9baad8f2b
-Author: harald <harald>
-Date:   Wed Nov 2 11:13:56 2005 +0000
-
-    - removed interdruid
-    - reversed Cancel/Ok button ordering
-
-commit 60b49df07689e1e6541cc81cf4793f8bce5cc846
-Author: harald <harald>
-Date:   Wed Nov 2 11:09:45 2005 +0000
-
-    reversed Cancel/OK ordering
-
-commit 0e974a56241c6aac73be92d0195b0b92d7826829
-Author: kmilos <kmilos>
-Date:   Mon Oct 31 01:03:44 2005 +0000
-
-    *** empty log message ***
-
-commit 4c7de3f56187f82888c7432b1a4c3df7db468994
-Author: dheche <dheche>
-Date:   Fri Oct 28 17:37:14 2005 +0000
-
-    *** empty log message ***
-
-commit 64e6fd193bd2fef0c47322d33435d879b9d79cff
-Author: arclynx <arclynx>
-Date:   Fri Oct 28 16:02:32 2005 +0000
-
-    Updated Malay translation
-
-commit 4f0f132d3718b74a1d1ae1f5d4d46245bf7a5148
-Author: harald <harald>
-Date:   Tue Oct 25 10:54:32 2005 +0000
-
-    release 1.3.29-1
-
-commit 38c7aaad0501c191be8465f1e0d179257b47ab26
-Author: harald <harald>
-Date:   Tue Oct 25 10:52:47 2005 +0000
-
-    fixed profileFrame labeling
-
-commit dd1c35ad02f15cc089c9ecf1bd7af12e5cc99071
-Author: arclynx <arclynx>
-Date:   Sun Oct 23 13:53:30 2005 +0000
-
-    Updated Malay translation
-
-commit 909cb52cfdf9590a4ee52ee67ef600fcd602b52b
-Author: raven <raven>
-Date:   Fri Oct 21 16:11:58 2005 +0000
-
-    Update and another improvements
-
-commit 4ef20ed7a25af7af0ebe2f9fa95cb90b9437a7e3
-Author: harald <harald>
-Date:   Wed Oct 19 14:08:53 2005 +0000
-
-    release 1.3.28-1 moved
-
-commit 73edc4e49d73860b2768e3f8df5f8578b38d4fcd
-Author: harald <harald>
-Date:   Wed Oct 19 14:04:37 2005 +0000
-
-    handle cancel case of passphrase dialog
-
-commit 8d29027ae0c494cf83f8b8d6cb75b27ad49033c2
-Author: harald <harald>
-Date:   Wed Oct 19 13:42:58 2005 +0000
-
-    - fixed picture paths in glade files
-
-commit 2cc791804cbdfc6a95a98ce97786c3c4f74b8afe
-Author: harald <harald>
-Date:   Wed Oct 19 12:39:34 2005 +0000
-
-    release 1.3.28-1
-
-commit c98112bf9f782cf0595cb8e5491a0bb676288d67
-Author: harald <harald>
-Date:   Wed Oct 19 12:35:59 2005 +0000
-
-    fixed path
-
-commit 7e7fb981458b393fe2a4b250181de92f28c8cddb
-Author: harald <harald>
-Date:   Wed Oct 19 10:46:32 2005 +0000
-
-    release 1.3.27-1
-
-commit 1eda336edd0fe52b645629bdbb2e834a7c1ed8e0
-Author: harald <harald>
-Date:   Wed Oct 19 10:44:49 2005 +0000
-
-    - added AVM Fritz!PCI v2.0 ISDN card to ISDN Hardwarelist (bug 134605)
-    - remove /etc/sysconfig/isdncard, if no ISDN is configured
-
-commit 8d91dae698fd87c8eece8a540db2e7d340fcc52f
-Author: harald <harald>
-Date:   Wed Oct 19 10:07:48 2005 +0000
-
-    use new pam stack replacement
-
-commit ae07c0aa22202a5f0ef55d18fc82d840c002b5b2
-Author: arclynx <arclynx>
-Date:   Tue Oct 18 16:52:15 2005 +0000
-
-    Updated Malay translation
-
-commit b00528d6dd1f23c8b7f253c07caab4130126f6aa
-Author: sarahs <sarahs>
-Date:   Mon Oct 10 05:20:41 2005 +0000
-
-    initial files
-
-commit 168b9ef2bceeac4c4d2c6f9763276f7fe1e731e6
-Author: arclynx <arclynx>
-Date:   Sun Oct 9 15:02:58 2005 +0000
-
-    Updated Malay translation
-
-commit 2eba7825b30319845db5de627a16c1aa54028059
-Author: raven <raven>
-Date:   Thu Sep 29 21:41:56 2005 +0000
-
-    Improvments and updates
-
-commit b9b3db45e743e28b6d5dc30c7cff8f2dda59f2c3
-Author: arclynx <arclynx>
-Date:   Thu Sep 29 16:27:42 2005 +0000
-
-    Updated Malay translation
-
-commit 6fb36f60dc4947b595150b04f98b4d657fc0b8a6
-Author: arclynx <arclynx>
-Date:   Sun Sep 18 15:30:12 2005 +0000
-
-    Updated Malay translation
-
-commit d04b11b41aa05d53e721eaf131b5779e3e2ee0f0
-Author: arclynx <arclynx>
-Date:   Sun Sep 11 13:54:16 2005 +0000
-
-    Updated Malay translation
-
-commit f86634ab9980ca921a10fa9256718b1b44a96311
-Author: raven <raven>
-Date:   Sun Sep 11 13:26:29 2005 +0000
-
-    Many improvements and updates
-
-commit 3af4c8d0d16c53b8f33dc2667f9f2646d0bf5c16
-Author: ankitp <ankitp>
-Date:   Mon Sep 5 04:52:07 2005 +0000
-
-    Updated Gujarati Translations
-
-commit ec045a1d7205e63d9f005ecec75923ddcf7728a7
-Author: arclynx <arclynx>
-Date:   Sat Sep 3 10:06:51 2005 +0000
-
-    Updated Malay translation
-
-commit 7f428c04a23b2fcfa026a2f1b5c1b1c6fd980ed2
-Author: arclynx <arclynx>
-Date:   Sun Aug 21 16:17:23 2005 +0000
-
-    Updated Malay translation
-
-commit 63668f82ff1f78b07126d6e5c705624c0880eabd
-Author: aalam <aalam>
-Date:   Thu Aug 18 17:32:38 2005 +0000
-
-    update
-
-commit d9575117b182d3e620ebf849e3d0be7684e52ea2
-Author: arclynx <arclynx>
-Date:   Sun Aug 14 15:02:13 2005 +0000
-
-    Updated Malay translation
-
-commit 8fcda14b62744f7026e4572f8157a5e9e524f05b
-Author: kmilos <kmilos>
-Date:   Thu Aug 11 17:19:33 2005 +0000
-
-    *** empty log message ***
-
-commit 032bc34ceafa1f6349d6468ccc59fa184bf86e78
-Author: arclynx <arclynx>
-Date:   Sat Aug 6 18:02:36 2005 +0000
-
-    Updated Malay translation
-
-commit 2c3028dad27ba51d1a64cb3af304b9ce5e9cdce7
-Author: arclynx <arclynx>
-Date:   Sat Jul 30 11:33:45 2005 +0000
-
-    Updated Malay translation
-
-commit 953b088bb61aebff7d2d0f427c908570e827c626
-Author: arclynx <arclynx>
-Date:   Fri Jul 22 18:05:30 2005 +0000
-
-    Updated Malay translation
-
-commit d010a36a908d5b5c9da0daff0d1b0e213c7d752b
-Author: arclynx <arclynx>
-Date:   Tue Jul 12 17:47:32 2005 +0000
-
-    Updated Malay translation
-
-commit 8f22d6d4c99cab76a4decd0e1050c44ec33764d1
-Author: arclynx <arclynx>
-Date:   Thu Jun 30 17:41:03 2005 +0000
-
-    Updated Malay translation
-
-commit 121d9b23cfe52ea597f2436f61fbda4c91a0aa50
-Author: aalam <aalam>
-Date:   Sat Jun 25 06:42:32 2005 +0000
-
-    automerge for pa with POTs
-
-commit b5b649156d70b0e208fa70ca72feff093b776115
-Author: arclynx <arclynx>
-Date:   Fri Jun 10 14:11:43 2005 +0000
-
-    Updated Malay translation
-
-commit daccae356d3ce3ed73cbf86fbc9e73d17253ddac
-Author: arclynx <arclynx>
-Date:   Wed May 25 12:49:05 2005 +0000
-
-    Updated Malay translation
-
-commit 837b19bb9382988a2ba541cd286cb465f4152a70
-Author: raven <raven>
-Date:   Tue May 17 14:26:55 2005 +0000
-
-    Small fix
-
-commit cf64b22b20f243a470fe81030076a72b6c25f642
-Author: harald <harald>
-Date:   Wed May 11 16:58:28 2005 +0000
-
-    cosmetic changes
-
-commit 4945fd1b6e84b82570b10dfac94e707ed2f9ed3d
-Author: harald <harald>
-Date:   Wed May 11 16:56:30 2005 +0000
-
-    added OnParent for Alias Devices
-
-commit c4acd26d2a1bfbff893da05778e79ed893f93c2f
-Author: harald <harald>
-Date:   Wed May 11 16:54:09 2005 +0000
-
-    added SPI and better key generation
-
-commit 7b27bbcc028b3f823c162f9f4e6cc95e25a86dfc
-Author: harald <harald>
-Date:   Wed May 11 16:51:36 2005 +0000
-
-    gtk changes
-
-commit 0ffdaf212160520b8c778c5358ad2d48ff10d3b7
-Author: harald <harald>
-Date:   Wed May 11 16:50:13 2005 +0000
-
-    GUI liftup
-
-commit 63b5eb9ad0731ea80131ea0f562cac1d3607ca07
-Author: harald <harald>
-Date:   Wed May 11 15:53:35 2005 +0000
-
-    corrected double ()
-
-commit 74f76756e28846919df71e4b54e1e674a7893f0f
-Author: harald <harald>
-Date:   Wed May 11 15:52:01 2005 +0000
-
-    removed unused comments
-
-commit 17a431cd367f8b417e0f7fe386fa715ef87c4da1
-Author: harald <harald>
-Date:   Wed May 11 15:50:34 2005 +0000
-
-    corrected column handling in main window
-
-commit 6f85579287d4c572ccb6bf10fcbac658939a87fc
-Author: harald <harald>
-Date:   Wed May 11 15:49:53 2005 +0000
-
-    added OnParent for Alias Devices
-
-commit 77a51a063a3a810836ac151c4f872a3d1cb7b2e9
-Author: frolix68 <frolix68>
-Date:   Sun May 8 14:39:45 2005 +0000
-
-    Updated Greek translation
-
-commit 316d7dd19b8cd5719ffe372dcb79fddcb8623ca4
-Author: raven <raven>
-Date:   Thu May 5 18:22:32 2005 +0000
-
-    Small fixes
-
-commit 5228c6a038f1bed3b66e0704adfaefda017eb51e
-Author: ufo <ufo>
-Date:   Wed May 4 19:00:04 2005 +0000
-
-    fix
-
-commit 133ac638baa62f244c3255c24a91f951ca044698
-Author: jassy <jassy>
-Date:   Wed May 4 06:39:57 2005 +0000
-
-    update by jaswinderphulewala@yahoo.com
-
-commit 52f43c18a7e384fab7e31d650564374508372d4a
-Author: raven <raven>
-Date:   Sat Apr 30 07:42:52 2005 +0000
-
-    Small fixes
-
-commit b3b5346e363b78dcca68cf7250e8159b5a914b41
-Author: runab <runab>
-Date:   Wed Apr 27 17:03:56 2005 +0000
-
-    Updated Bengali INDIA (bn_IN) translation:27/04
-
-commit 345a0e48daed3e784b1d05dbfcc5e465eb923667
-Author: aalam <aalam>
-Date:   Mon Apr 25 04:26:45 2005 +0000
-
-    update by amanpreetalam@yahoo.com
-
-commit c99a52cbf04344aaede192835bb17ebc6e3ef342
-Author: arclynx <arclynx>
-Date:   Sun Apr 24 16:25:29 2005 +0000
-
-    Updated Malay translation
-
-commit 2a2d962633fd5d421591364b5f5b19fd340925bd
-Author: raven <raven>
-Date:   Thu Apr 21 19:35:15 2005 +0000
-
-    Small fixes
-
-commit 838e559a538b252dc87c209f393a749c2b9d8dc7
-Author: harald <harald>
-Date:   Wed Apr 20 13:14:59 2005 +0000
-
-    release 1.3.26-1
-
-commit 231510e1f64d0c14735212b53db247b4e01b97e7
-Author: harald <harald>
-Date:   Wed Apr 20 13:14:20 2005 +0000
-
-    CBCP_MSN added (bug #125710)
-
-commit 90f3629701c168bb2e79423cfbaea34a3f64f192
-Author: arclynx <arclynx>
-Date:   Sun Apr 17 15:02:27 2005 +0000
-
-    Updated Malay translation
-
-commit 7b2974ec95a78a4245121435f39fedd25e0a7c7d
-Author: raven <raven>
-Date:   Thu Apr 14 16:45:15 2005 +0000
-
-    Small .desktop fixes
-
-commit 14948e1be8205afbd5a4b501f84c6d6f5ed69f26
-Author: raven <raven>
-Date:   Wed Apr 13 16:23:15 2005 +0000
-
-    Small _ and .desktop fixes
-
-commit fa4ea2cc886ce621928cad45067ec8de16152950
-Author: runab <runab>
-Date:   Mon Apr 11 14:02:35 2005 +0000
-
-    Updated Bengali (INDIA) (bn_IN) translation:11/04
-
-commit e68cbc24ee4565edf6fcb757b6a1b6ecb25d0a0e
-Author: runab <runab>
-Date:   Sat Apr 9 09:41:15 2005 +0000
-
-    Updated Bengali (INDIA) (bn_IN) translation:09/05
-
-commit b2d38dbc45a62fc6761b1462c8e284ecf18fb107
-Author: arclynx <arclynx>
-Date:   Thu Mar 31 15:07:16 2005 +0000
-
-    Updated Malay translation
-
-commit 69615925b0da4e524a37207c0e10028e6a61c914
-Author: harald <harald>
-Date:   Thu Mar 31 14:12:33 2005 +0000
-
-    release 1.3.25-1
-
-commit 3e4298e97f5e2bc171dfca1263058ef53e0883f1
-Author: harald <harald>
-Date:   Thu Mar 31 14:11:34 2005 +0000
-
-    - more i18n languages
-
-commit 84c226303f8a923f89db3405d7fc9cdef7efb9e8
-Author: arclynx <arclynx>
-Date:   Wed Mar 30 16:16:32 2005 +0000
-
-    Updated Malay translation
-
-commit 4f77237a210415dee9fb8555a3a9b57aa9061d8c
-Author: harald <harald>
-Date:   Wed Mar 30 14:15:06 2005 +0000
-
-    release 1.3.24-1
-
-commit 8f9614158e30bca3eb841470dbdcdec3badfc6cb
-Author: harald <harald>
-Date:   Wed Mar 30 13:59:00 2005 +0000
-
-    gtk.FALSE -> False, gtk.TRUE -> True
-
-commit 2031645623085ec44e1e3fbb019bb7220181bc84
-Author: rranjan <rranjan>
-Date:   Mon Mar 28 13:55:21 2005 +0000
-
-    miscellaneous
-
-commit a2ed46db4b730f34227864fe6506b175c7964f8d
-Author: raven <raven>
-Date:   Mon Mar 28 12:31:22 2005 +0000
-
-    Small fixes
-
-commit 5a338185b6182cb2bbd42f6bfcc27affaf0b018d
-Author: runab <runab>
-Date:   Mon Mar 21 04:57:03 2005 +0000
-
-    Added file for locale Bengali (IN):21/03
-
-commit 68493c9e3539d68295ed8876de48940ce3b928e6
-Author: raven <raven>
-Date:   Sat Mar 19 15:22:04 2005 +0000
-
-    Small fixes
-
-commit 8c1bb2213250532f06ef3b2c4c6494b3e68049bd
-Author: raven <raven>
-Date:   Thu Mar 10 16:17:28 2005 +0000
-
-    Small fixes
-
-commit a65b7a186006dcd0b02b2c1641b7b6048ad09eda
-Author: raven <raven>
-Date:   Sat Mar 5 16:11:24 2005 +0000
-
-    Poprawione literowki
-
-commit e50af1f33e03287fcb0a409cb274826c766df615
-Author: harald <harald>
-Date:   Fri Mar 4 13:24:34 2005 +0000
-
-    *** empty log message ***
-
-commit 508e538e95b95ce6a8eb1b267095c45c2ca62fae
-Author: harald <harald>
-Date:   Thu Mar 3 17:27:36 2005 +0000
-
-    release 1.3.23-1
-
-commit f201fee317067ac10133af8c33887af325a72aca
-Author: harald <harald>
-Date:   Thu Mar 3 17:25:25 2005 +0000
-
-    updated copyright year
-
-commit 7088fb42ece1143753d0041780577b55c4931f14
-Author: harald <harald>
-Date:   Thu Mar 3 16:43:28 2005 +0000
-
-    merged in changes from FC3
-
-commit b056bd2b3f114769cfcc5fc865bafa2b0c257bfb
-Author: harald <harald>
-Date:   Thu Mar 3 15:54:04 2005 +0000
-
-    changed gtk/gnome function names, to not display the deprecation warnings
-
-commit 3fad1010709cdcefa78db20525f91d6b97bd7835
-Author: harald <harald>
-Date:   Thu Mar 3 15:52:15 2005 +0000
-
-    new glade-2 style xml
-
-commit 067e9e13309d43dce77b3277200b5e5455570266
-Author: harald <harald>
-Date:   Thu Mar 3 15:50:31 2005 +0000
-
-    search for kernel modules with *.ko instead of *.o
-
-commit c0a257105229dc1e500f1f3f1c47fb0a308d3cb7
-Author: harald <harald>
-Date:   Thu Mar 3 15:49:15 2005 +0000
-
-    better handling of localhost
-
-commit 3f1cfdc28aa782509c1b2c507d3d843ca83ff87f
-Author: ccheng <ccheng>
-Date:   Mon Feb 21 07:25:26 2005 +0000
-
-    *** empty log message ***
-
-commit 0f5b321266c4896eb35fcba0c8598f84f254080d
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 03:44:21 2005 +0000
-
-    merged with pot file
-
-commit 44b553c1a8079829cf91e770c2202896a2ffe6fe
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 03:12:52 2005 +0000
-
-    merged with pot file
-
-commit 0ca8de65a274e5aff2d27f21fe6a3aa6a1e1e42d
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 03:07:43 2005 +0000
-
-    merged with pot file
-
-commit 5d56482299b191348cc96dc9f9b9b7900f0d8270
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 02:59:56 2005 +0000
-
-    merged with pot file
-
-commit fcd8ca97a6fa578f8992e68c359a3a8ae140442e
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 02:22:12 2005 +0000
-
-    merged with pot file
-
-commit ae1134bda5c0348aad3d4a68aff7201e182990ba
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 02:11:26 2005 +0000
-
-    merged with pot file
-
-commit bd78117b8ae87009e630c29e5c1521d6dbb1cf2f
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 01:49:10 2005 +0000
-
-    merged with pot file
-
-commit c56885681f4eb21046a8b172b5756c4dbedec961
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 01:35:59 2005 +0000
-
-    merged with pot file
-
-commit 79bd1559c3dfb664ce939ff9bfdd01a02b6c6017
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 01:24:45 2005 +0000
-
-    merged with pot file
-
-commit 139b1c834767abd6eec3e1d8eb375468b4dd99a5
-Author: sarahs <sarahs>
-Date:   Thu Feb 17 01:22:24 2005 +0000
-
-    merged with pot file
-
-commit 47babd86e502d8a351ce08bf92b77b9ace73fb74
-Author: sarahs <sarahs>
-Date:   Wed Feb 16 23:15:49 2005 +0000
-
-    merged with pot file
-
-commit 07fa4bb6cd31681c00550e1371b99a8e10fe48bb
-Author: sarahs <sarahs>
-Date:   Wed Feb 16 02:41:48 2005 +0000
-
-    merged with pot file
-
-commit a9f5cc9b1a9142971d5287029aa2684f91dab285
-Author: arclynx <arclynx>
-Date:   Mon Feb 7 12:27:05 2005 +0000
-
-    Updated Malay translation
-
-commit 243bc1f6f47ce8e04b64676321c5663b4a698c94
-Author: arclynx <arclynx>
-Date:   Sat Feb 5 15:28:06 2005 +0000
-
-    Updated Malay translation
-
-commit 43f0490cef4021824c42c4183103452c28dc3d17
-Author: xyzallan <xyzallan>
-Date:   Fri Feb 4 21:36:38 2005 +0000
-
-    Improved language
-
-commit c0d8eae23300568b0491c5154f5d0765e6a034a4
-Author: xyzallan <xyzallan>
-Date:   Fri Feb 4 21:20:28 2005 +0000
-
-    Improved language
-
-commit 43c5d30b5a2c6354bd7431872ec46885171a92c6
-Author: aalam <aalam>
-Date:   Fri Jan 14 13:28:00 2005 +0000
-
-    update amanpreetalam@yahoo.com
-
-commit 57b03c4ce93aa37830e3c7c7cf934842381746ad
-Author: erwien <erwien>
-Date:   Tue Jan 11 04:09:05 2005 +0000
-
-    *** empty log message ***
-
-commit 0bb218f14e31b317ac1416675098130dcd9aee34
-Author: erwien <erwien>
-Date:   Tue Dec 14 10:57:40 2004 +0000
-
-    *** empty log message ***
-
-commit 7454aa5ac9151d9fd20a6f07c6a8faa52a9ca628
-Author: erwien <erwien>
-Date:   Tue Dec 14 08:52:40 2004 +0000
-
-    *** empty log message ***
-
-commit 9e9eca1868649e10b453d686a25390489f296ccd
-Author: sarahs <sarahs>
-Date:   Tue Dec 7 11:46:47 2004 +0000
-
-    merged with pot file
-
-commit 7aa93f925e433b6e9a13ed15d04a632d34a79a94
-Author: sarahs <sarahs>
-Date:   Tue Dec 7 06:00:53 2004 +0000
-
-    merged with pot file
-
-commit 6e335e89fe5ac2e9e779065d42dd96727b75359f
-Author: runab <runab>
-Date:   Fri Nov 5 14:02:12 2004 +0000
-
-    Updated Bengali (bn) Translation:5/11
-
-commit 9af0ec7f4d84e530060ad166d33840832fcefe97
-Author: ankitp <ankitp>
-Date:   Thu Nov 4 09:17:53 2004 +0000
-
-    ankit@redhat.com * Modifications
-
-commit 3fc672ea14118815a359dfbd883e3430cfc687fa
-Author: njaya <njaya>
-Date:   Thu Oct 28 12:11:29 2004 +0000
-
-    review-1
-
-commit d311197069657b523faed36c5e54963baa5e7900
-Author: aalam <aalam>
-Date:   Wed Oct 27 12:40:43 2004 +0000
-
-    FPR
-
-commit d9f776569b7cc3de3d0c102e76cf86156e1b1651
-Author: ankitp <ankitp>
-Date:   Mon Oct 25 12:12:15 2004 +0000
-
-    ankit@redhat.com * Changed word aa
-
-commit 1f0ae753b48db52e8d187662fe4eb4ada2e5a5f3
-Author: sarahs <sarahs>
-Date:   Mon Oct 25 02:02:29 2004 +0000
-
-    added new locale as requested
-
-commit 0affe2ff4ba55d45acba044390e9b807ae154b8e
-Author: aalam <aalam>
-Date:   Wed Sep 29 11:42:23 2004 +0000
-
-    check
-
-commit 2720f2ea93ab0dcb2d086e5675dcf93eced906c5
-Author: runab <runab>
-Date:   Wed Sep 22 12:46:31 2004 +0000
-
-    Updated Bengali(bn) Translation
-
-commit 1a235927e42dfc5a7e1053656ea60e5725df922e
-Author: aalam <aalam>
-Date:   Tue Sep 21 10:31:08 2004 +0000
-
-    pa.po
-
-commit e498c18e45249f3c40e564d5c9441469c8490584
-Author: tomislav <tomislav>
-Date:   Fri Sep 17 19:43:30 2004 +0000
-
-    *** empty log message ***
-
-commit 9aaed66fcce0e6fe90477f9df3d0fcd60d37eb34
-Author: amaoui <amaoui>
-Date:   Wed Sep 15 20:12:48 2004 +0000
-
-    - updated.
-
-commit 3d63e941348f4a982cd8cbd12ae432bc983666cf
-Author: sarahs <sarahs>
-Date:   Wed Sep 15 05:50:07 2004 +0000
-
-    initial file
-
-commit 4ce04f72c9167a10d62546425fea07bcace726c2
-Author: njaya <njaya>
-Date:   Wed Sep 15 05:38:52 2004 +0000
-
-    yet to review
-
-commit c67765f61327080b9464f9c6ae117c936ff6e4c0
-Author: sarahs <sarahs>
-Date:   Wed Sep 15 01:12:06 2004 +0000
-
-    merged with pot files
-
-commit 7eadab0b4ea13ca85034e104e841758c48f62f09
-Author: mitr <mitr>
-Date:   Sun Sep 5 12:36:17 2004 +0000
-
-    Minor fixes to Czech translation
-
-commit e6824630aa4750b17d68658d4d8cac712a0d15a9
-Author: nikolay <nikolay>
-Date:   Thu Sep 2 23:21:26 2004 +0000
-
-     	bg.po
-
-commit 392f025ac166ee7aabaa6c511c2462115003a641
-Author: rranjan <rranjan>
-Date:   Thu Sep 2 06:59:33 2004 +0000
-
-    proofread
-
-commit e9f22ebfa989e1bf8f9d2633f4c77a99e8b9a6a9
-Author: ankitp <ankitp>
-Date:   Wed Sep 1 09:28:32 2004 +0000
-
-    ankit@redhat.com 01/09/2004
-
-commit 1acf0058a38ddaab464e24dded95e9da41aab040
-Author: elf <elf>
-Date:   Wed Sep 1 06:57:16 2004 +0000
-
-    o brushup translation.
-
-commit 8d2356d3be25256928df81a95369f92b09253337
-Author: alan <alan>
-Date:   Mon Aug 30 15:10:30 2004 +0000
-
-    Fix up newer "deactivate" strings
-
-commit e2eafc43b9e78d4f8cae76c33e8b81b4d1b10b93
-Author: arclynx <arclynx>
-Date:   Mon Aug 30 01:44:49 2004 +0000
-
-    Updated Malay translation
-
-commit a26a8ec5c1132ad899934f413b112b29a3400bdb
-Author: ylouze <ylouze>
-Date:   Wed Aug 25 04:56:41 2004 +0000
-
-    Fixed some typos found during QA
-
-commit 17441519a2ff2713d86bfa1160ee7972ee029e32
-Author: kmaraas <kmaraas>
-Date:   Tue Aug 24 15:09:30 2004 +0000
-
-    Update
-
-commit b5f98e8e2617a31ba4703b0a21d148ffc5d547c8
-Author: ccheng <ccheng>
-Date:   Mon Aug 23 06:41:41 2004 +0000
-
-    *** empty log message ***
-
-commit 72a226cd48de75a927cf081a4379e652788bc40b
-Author: olszewsk <olszewsk>
-Date:   Fri Aug 20 12:16:25 2004 +0000
-
-    A.Olszewski. Removed/corrected fuzzys.
-
-commit 826d82dd8ab943e4449535d0d3420db151e168b7
-Author: ccheng <ccheng>
-Date:   Fri Aug 20 08:04:52 2004 +0000
-
-    *** empty log message ***
-
-commit 16359a22f8e4ddbdce7c319cea94ae8b05c4a5be
-Author: barzilay <barzilay>
-Date:   Wed Aug 18 06:24:34 2004 +0000
-
-    qa fixes
-
-commit 1c57ce9e7376b12b4da9aafb547c768cde0ab08c
-Author: menthos <menthos>
-Date:   Tue Aug 17 15:22:54 2004 +0000
-
-    2004-08-17  Christian Rose  <menthos@menthos.com>
-    
-    	* sv.po: Updated Swedish translation.
-
-commit 77c9d9adf2fd19752515ea045cf41651710845ae
-Author: arclynx <arclynx>
-Date:   Tue Aug 17 11:45:52 2004 +0000
-
-    Updated Malay translation
-
-commit 2d325d90850e2374c1f290ad96546738b227d03a
-Author: aalam <aalam>
-Date:   Sat Aug 14 13:41:13 2004 +0000
-
-    check1
-
-commit 1df90745f9b41be605fd95d600826253190f7e6a
-Author: frolix68 <frolix68>
-Date:   Fri Aug 13 23:25:31 2004 +0000
-
-    Updated Greek translation.
-
-commit 87c1234f23afbe931b3ffc67f7ba77a4085abeb3
-Author: ra <ra>
-Date:   Fri Aug 13 10:34:06 2004 +0000
-
-    *** empty log message ***
-
-commit 75d19f5c82dfbfe27ef292d5eb80c6530f367396
-Author: sarahs <sarahs>
-Date:   Thu Aug 12 10:14:31 2004 +0000
-
-    new locale translation file added
-
-commit 84dea8992568a2a845008eb9f95e486f0cc50538
-Author: pve-nl <pve-nl>
-Date:   Wed Aug 11 20:58:55 2004 +0000
-
-    some small fixes in redhat-config-network nl.po
-
-commit 571ee17880e36a54dc0527f486eafeb602dabc65
-Author: rodolfo <rodolfo>
-Date:   Mon Aug 9 02:04:46 2004 +0000
-
-    removed fuzzy mark
-
-commit bd55b0265f99d1d17ad7a7f254d5ca5a1d497a2c
-Author: rodolfo <rodolfo>
-Date:   Mon Aug 9 01:54:37 2004 +0000
-
-    Fixed fuzzy entries and performed basic review
-
-commit fef894fad2d88563a29ef0a9be5ef62ca77c2877
-Author: elf <elf>
-Date:   Tue Aug 3 21:35:16 2004 +0000
-
-    o Sync with en.
-
-commit 3a785e7a9a7e13c1e758b8a9702c32135ad8b26c
-Author: arclynx <arclynx>
-Date:   Thu Jul 29 11:33:44 2004 +0000
-
-    Updated Malay translation
-
-commit eabff30c38efe60eb1555407f3d3824866e6e8f4
-Author: tom <tom>
-Date:   Wed Jul 28 11:13:09 2004 +0000
-
-    CVS_SILENT
-
-commit c1108dbb6cf7fa0d174d5c3ce8dd84fca1e917ef
-Author: pve-nl <pve-nl>
-Date:   Tue Jul 27 20:32:25 2004 +0000
-
-    fixed some fuzzies in redhat-config-network nl.po
-
-commit ec53b8b60326985f816800fab2dc5771e321ec73
-Author: tom <tom>
-Date:   Tue Jul 27 13:38:26 2004 +0000
-
-    CVS_SILENT
-
-commit 0cc7635fb1da48d8ab47b56ee62f2ebbabe30611
-Author: mwh <mwh>
-Date:   Tue Jul 27 12:15:15 2004 +0000
-
-    da.po: reviewed and updated 3 fuzzy translations
-
-commit 27ae186984dd99920b7188840a68b513a8035788
-Author: fvalen <fvalen>
-Date:   Tue Jul 27 04:45:21 2004 +0000
-
-    Updated
-
-commit 214fdcddc3e2f7e1c31ea5724e61c9b1a1b05630
-Author: tom <tom>
-Date:   Mon Jul 26 23:23:25 2004 +0000
-
-    CVS_SILENT
-
-commit 39ceb88b30f171212288075d50b8a18d2cf88ed9
-Author: tom <tom>
-Date:   Mon Jul 26 21:22:18 2004 +0000
-
-    *** empty log message ***
-
-commit 9db22e6a4c2bcba0f6f17fcb9f3ac08d83eefd77
-Author: mitr <mitr>
-Date:   Sun Jul 25 15:41:16 2004 +0000
-
-    Minor fixes to Czech translation
-
-commit 75e003d71e50179ec6fb8b65329ea50ce7467134
-Author: tomislav <tomislav>
-Date:   Fri Jul 23 00:23:22 2004 +0000
-
-    bla
-
-commit dc3938a27bce2020f67646bda877369a53929f95
-Author: aalam <aalam>
-Date:   Thu Jul 22 11:20:11 2004 +0000
-
-    bug remove
-
-commit 4c4d07546e834a3fae7663fd87606055804494bb
-Author: nikolay <nikolay>
-Date:   Wed Jul 21 22:35:24 2004 +0000
-
-     ----------------------------------------------------------------------
-     Enter Log.  Lines beginning with `CVS:' are removed automatically
-    
-     Committing in .
-    
-     Modified Files:
-     	bg.po
-     ----------------------------------------------------------------------
-
-commit 37ba28b0ae58ed5ad2aab26c49d33ed1414b8e74
-Author: tomislav <tomislav>
-Date:   Sun Jul 18 19:58:04 2004 +0000
-
-    zavrsheno
-
-commit 39c4b8f5196778e9ab2d9b90e4f73bb25f197575
-Author: tomislav <tomislav>
-Date:   Sun Jul 18 18:16:12 2004 +0000
-
-    fnished by ufce
-
-commit 982d5da078ef10c70e9e14a087c0adb035f826f2
-Author: lanurmi <lanurmi>
-Date:   Sun Jul 18 07:55:11 2004 +0000
-
-    Finnish translation updated.
-
-commit c3d077760a815573ac0143966d61a7c15fbdd257
-Author: tomislav <tomislav>
-Date:   Sat Jul 17 17:56:56 2004 +0000
-
-    updated od ufo
-
-commit fcda690bbccbdc141876ebeeb511e3ec18697e2a
-Author: tszanto <tszanto>
-Date:   Sat Jul 17 14:29:03 2004 +0000
-
-    *** empty log message ***
-
-commit 77dffc76ceca7ad8a1360c857603ba9e2032dbbf
-Author: xyzallan <xyzallan>
-Date:   Wed Jul 14 21:47:26 2004 +0000
-
-    Some fuzzies fixed
-
-commit 519c05bdb19f32b04832c11d81f0ebfa0bdcdaca
-Author: sarahs <sarahs>
-Date:   Mon Jul 12 07:41:39 2004 +0000
-
-    initial file
-
-commit 9f91bafb7263960e56dfe281e536aa152f08512c
-Author: pmacedo <pmacedo>
-Date:   Wed Jul 7 04:09:52 2004 +0000
-
-    Corrected all fuzzy entries.
-
-commit 2512b376d07393c115bf119dddbaadea720c702c
-Author: andrmart <andrmart>
-Date:   Tue Jul 6 09:10:29 2004 +0000
-
-    Translations after FC2
-
-commit a8debbb855e085f73eb23178e740d57176679972
-Author: mkim <mkim>
-Date:   Tue Jul 6 05:24:35 2004 +0000
-
-    3 fuzzy updated
-
-commit 1df82de53fc50448fd536de66e70c63d48016681
-Author: asimons <asimons>
-Date:   Mon Jul 5 01:45:05 2004 +0000
-
-    3 fuzzies done
-
-commit 0dae2fe3127a6c672eb4fdd7591429c237e911f7
-Author: tszanto <tszanto>
-Date:   Sun Jul 4 17:56:44 2004 +0000
-
-    Tamas Szanto
-
-commit 4f71d546eeb89725dd1d0b3c44bf6a97ed08a1e5
-Author: joseppc <joseppc>
-Date:   Sun Jul 4 02:08:42 2004 +0000
-
-    Updated translation
-
-commit 66ddafcd0e6471787fe4940c97d834454f3ffccc
-Author: maxik <maxik>
-Date:   Fri Jul 2 11:16:14 2004 +0000
-
-    2004-07-02  Maxim Dziumanenko <mvd@mylinux.com.ua>
-    
-    	* Updated Ukrainian translation
-
-commit 5d67d35028144b388a57fcee51ea66d757713076
-Author: hutuworm <hutuworm>
-Date:   Thu Jul 1 09:26:01 2004 +0000
-
-     update by hutuworm @ 20040701
-
-commit dffe2043a64013c736375d2e422d5351058abc7d
-Author: kongret <kongret>
-Date:   Thu Jul 1 07:18:07 2004 +0000
-
-    *** empty log message ***
-
-commit f030db3329ac75f39c4a0c648c2f0aeb3f967bf5
-Author: harald <harald>
-Date:   Wed Jun 30 14:45:02 2004 +0000
-
-    release 1.3.17-2 moved
-
-commit f70bf2382f9187c22ce466b068a2e71285f06076
-Author: harald <harald>
-Date:   Wed Jun 30 14:40:40 2004 +0000
-
-    release 1.3.17-2 moved
-
-commit 3efa827bcd569e73ebc357f77a8b4f394efa99cc
-Author: harald <harald>
-Date:   Wed Jun 30 14:35:15 2004 +0000
-
-    release 1.3.17-2
-
-commit cac5d4bc54300bb2a287bc04b40861d7cec1add1
-Author: mitr <mitr>
-Date:   Wed Jun 30 11:24:26 2004 +0000
-
-    Update Czech translation
-
-commit be6bb9683b84d582388282998803f8e6f9124ecf
-Author: morais <morais>
-Date:   Wed Jun 30 09:28:29 2004 +0000
-
-    update
-
-commit 56d3ff41e5eea724411b08fa6bd4e2a4ded08a4e
-Author: jamil <jamil>
-Date:   Wed Jun 30 06:25:32 2004 +0000
-
-    Updated on June 30, 2004
-
-commit 3402b1fe921e2f21806421e6635861d3fc8a4487
-Author: sarahs <sarahs>
-Date:   Wed Jun 30 02:48:36 2004 +0000
-
-    initial file
-
-commit 71e2bc176e71d0ae197e670c2105c7f6a70cc3af
-Author: harald <harald>
-Date:   Tue Jun 29 14:37:32 2004 +0000
-
-    release 1.3.17-1 moved
-
-commit ff026a79f43100429ca5f9c22c800bb105a4e8bb
-Author: harald <harald>
-Date:   Tue Jun 29 14:37:14 2004 +0000
-
-    - better "make clean"
-    - removed references to Red Hat Linux
-    - added testsuite for data layer
-    - added some module-info entries
-    - added command line parsing to network-control
-    - added IPsec to network-cmd
-    - switched logging to syslog
-    - do not touch bonding slaves
-    - better alias handling
-    - better handling of chroot
-    - read *.ko modules also
-    - handle modules parameter without "="
-    - create correct SPI_ identifier for manual IPsec keying
-    - better hostname handling
-    - better profile handling
-    - fix kernel version parsing
-    - unknown-flag.xpm for unknown country flags
-    - fixed TokenRing glade file (bad hash at beginning of file)
-    - fix the length of IPSec shared keys
-    - prevent modified status after profile switching
-    - save dialog, for ipsec deactivation
-    - PEERDNS defaults to yes
-    - routing for wireless config dialog
-    - only display CIPE for kernel < 2.6
-
-commit a49179b89ffa9ef47575b7e0e63fb1c2ac536ede
-Author: harald <harald>
-Date:   Tue Jun 29 14:14:52 2004 +0000
-
-    release 1.3.17-1
-
-commit c8455ec2441068265a9d2d5620beb76c832a2b0e
-Author: harald <harald>
-Date:   Tue Jun 29 14:13:51 2004 +0000
-
-    added Slave flag
-
-commit 185dfd51b7f6bbd02697d2a268dff3e2b03e1693
-Author: harald <harald>
-Date:   Tue Jun 29 14:10:07 2004 +0000
-
-    log to syslog per default
-
-commit f3c89d26268fb26f850ffc88e6c24e6f50e7e674
-Author: harald <harald>
-Date:   Tue Jun 29 14:09:49 2004 +0000
-
-    added ipseclist
-
-commit 3c6225a6a608fa63e50994f233758d299c7a76fc
-Author: harald <harald>
-Date:   Tue Jun 29 14:09:13 2004 +0000
-
-    *** empty log message ***
-
-commit d3c151809820056e2745b3c1d685714e278cdc77
-Author: harald <harald>
-Date:   Tue Jun 29 14:08:50 2004 +0000
-
-    netconf_cmd symlink for testsuite, more cleanfiles
-
-commit 1034176e9fb7dc2d86d6e8738b089e1eb4da1c96
-Author: harald <harald>
-Date:   Tue Jun 29 11:03:21 2004 +0000
-
-    extended testsuite
-
-commit e42f7d5644e0b23b2adef0c4ee02a9d81cbbdc81
-Author: harald <harald>
-Date:   Fri Jun 25 11:20:19 2004 +0000
-
-    removed unused file
-
-commit baf76718fe3e6931e9e8b3725657ffb574df5a17
-Author: sarahs <sarahs>
-Date:   Fri Jun 25 00:08:44 2004 +0000
-
-    initial po files
-
-commit d92ea57a66777ecd86ff45dfef91c474208b617e
-Author: harald <harald>
-Date:   Tue Jun 15 14:07:25 2004 +0000
-
-    use UnitTest and coverage for the start of a testsuite
-
-commit fd214bb51d9c5ce5eecfe75021d40f7a4264f68b
-Author: harald <harald>
-Date:   Tue Jun 15 13:59:06 2004 +0000
-
-    use UnitTest and coverage for the start of a testsuite
-
-commit 935982017cb81281adcb4371d38fc7db83ea8cb1
-Author: harald <harald>
-Date:   Tue Jun 15 13:58:22 2004 +0000
-
-    do CIPE only for kernel < 2.5
-
-commit d1146dd3431014334701c210d07ad5b8bed5796d
-Author: harald <harald>
-Date:   Tue Jun 15 13:57:46 2004 +0000
-
-    - #122223 fixed parsing of kernel string
-    - do cipe only for kernel < 2.5
-    - fallback to type ethernet, if MAC address is found and type unknown
-    - log to syslog
-
-commit 287ec5ba6ecdf933ceec3addcb0f3df876722efb
-Author: harald <harald>
-Date:   Tue Jun 15 13:54:25 2004 +0000
-
-    fixed configure() for debug purposes
-
-commit f457ab137930755c913714de3d3a1f81803ea2ec
-Author: harald <harald>
-Date:   Tue Jun 15 13:53:44 2004 +0000
-
-    log to syslog
-
-commit 1bee9e481c41b2613518dacf293f9222e4a3e479
-Author: harald <harald>
-Date:   Tue Jun 15 13:52:42 2004 +0000
-
-    fixed bug #109603, where the control window was closed after the configure button was pressed. also added command line options
-
-commit 58076c4bc7dfce4fa10e9922ed9a30bf914f366c
-Author: harald <harald>
-Date:   Tue Jun 15 13:47:51 2004 +0000
-
-    changed CDCether -> usbnet #122167
-
-commit 326a34f17b4965638181632eaed3d3a522873a6c
-Author: harald <harald>
-Date:   Tue Jun 15 13:40:06 2004 +0000
-
-    removed reference to Red Hat Linux in description
-
-commit fe38bcf4f0e99035c559f5a5e4551e13ad7c211f
-Author: harald <harald>
-Date:   Tue Jun 15 13:39:16 2004 +0000
-
-    added sk and sq to ALL_LINGUAS
-
-commit 45c584d4d26f1e31109e09e5361d4ee7dab47ae8
-Author: harald <harald>
-Date:   Fri Jun 4 13:34:28 2004 +0000
-
-    created tracker bugs
-
-commit 1b8314af795236d471e618f2433e591d6e06c232
-Author: sarahs <sarahs>
-Date:   Wed Jun 2 10:28:18 2004 +0000
-
-    add new locales
-
-commit 636ff94d4c3ac3df14d3f36e128329de10675a3b
-Author: sarahs <sarahs>
-Date:   Wed Jun 2 10:22:48 2004 +0000
-
-    add new locales
-
-commit bb521a27c333c8e6d975f533300a0f279127da9a
-Author: sarahs <sarahs>
-Date:   Mon May 31 13:10:54 2004 +0000
-
-    adding new locale
-
-commit e087d770b5d323a44f2bf638c3300e217408ecc2
-Author: harald <harald>
-Date:   Thu May 6 13:06:14 2004 +0000
-
-    *** empty log message ***
-
-commit cd0e01924545411852ebd1cf7352f75f19113c70
-Author: harald <harald>
-Date:   Thu May 6 13:02:03 2004 +0000
-
-    *** empty log message ***
-
-commit c3b8d133c446115d12d3e407f764b5fc2d344c37
-Author: rahal <rahal>
-Date:   Sun May 2 10:31:27 2004 +0000
-
-    Arabeyes.org's Arabic translation of the past week
-    Adding new po files
-
-commit 92f9d12d290c01609e581a578f56d26a6100470b
-Author: byte <byte>
-Date:   Fri Apr 23 02:17:32 2004 +0000
-
-    s/Rad/Red and s/bebase/bebas - spelling corrections and a spacing
-
-commit 6e1fda5be7ab39b957f61b1425d2687e788b8e36
-Author: jamil <jamil>
-Date:   Thu Apr 22 07:10:39 2004 +0000
-
-    Updated on April 22, 2004
-
-commit fc038b297c511b3f08735a4bffe2f197543b7f05
-Author: harald <harald>
-Date:   Wed Apr 21 13:10:40 2004 +0000
-
-    - draw unknown-flag.xpm for countries where no flag exists (117834)
-
-commit 22081e69fc2fba7defb80b784da5907c85f4a43c
-Author: jamil <jamil>
-Date:   Mon Apr 19 04:47:18 2004 +0000
-
-    Updated on April 19, 2004
-
-commit 2e31b673e7a4c4a1a4e5ef38c2ab33a86a3686ce
-Author: harald <harald>
-Date:   Thu Apr 15 07:29:49 2004 +0000
-
-    updated module-info for Apple PowerPC
-
-commit 1b67816231d0e878018b8dd7659e490043847a91
-Author: andrmart <andrmart>
-Date:   Sun Apr 11 16:44:32 2004 +0000
-
-    Translations for FC2 done.
-
-commit a8ec96daa62875907023df3d55878a932464152c
-Author: bgroh <bgroh>
-Date:   Wed Apr 7 22:56:18 2004 +0000
-
-    all translations done
-
-commit bc497aa9021ed6979a9a082895578d631be762ef
-Author: alan <alan>
-Date:   Tue Apr 6 15:41:36 2004 +0000
-
-    Finish system-config-network, thanks to Bryn Salisbury
-
-commit 48eb2f95bb07fb534efcd1c70d4465fc73edf2ef
-Author: maxik <maxik>
-Date:   Tue Apr 6 12:30:15 2004 +0000
-
-    2004-04-06  Maxim Dziumanenko <mvd@mylinux.com.ua>
-    
-    	* Update Ukrainian translation
-
-commit d5bda95a23e167e80a62cada9cdbc668819f552e
-Author: aman <aman>
-Date:   Mon Apr 5 19:23:50 2004 +0000
-
-    pa.po translated 0504 amanlinux@netcape.net
-
-commit 0cf215c6a7eb5e0944396c7b0c4cae0d7f15d44c
-Author: alan <alan>
-Date:   Mon Apr 5 17:35:53 2004 +0000
-
-    One string left to fix up
-
-commit 4035ce87e137a09f3af4b8ad23443f03d13be060
-Author: stephane <stephane>
-Date:   Mon Apr 5 17:16:34 2004 +0000
-
-    - login name translation -> identifiant de connexion
-    - ISP -> FAI
-    - substantive in title
-    - space
-
-commit 09f19bdcb72abeee9db29c967669c332e2ff28aa
-Author: aman <aman>
-Date:   Sun Apr 4 17:49:50 2004 +0000
-
-    pa.po translated 0404 amanlinux@netcape.net
-
-commit 1013e5b71abef107a4e019d89be1a52060f75210
-Author: rokpapez <rokpapez>
-Date:   Sun Apr 4 13:20:40 2004 +0000
-
-    Slovenian translations
-
-commit 7308bf56896e4c442f158d4619e7d7404e20bca5
-Author: sarahs <sarahs>
-Date:   Thu Apr 1 03:39:34 2004 +0000
-
-    initial po file
-
-commit 356ed6fdd35d79c6c66fdcc40cf161fcfda7e15b
-Author: stephane <stephane>
-Date:   Wed Mar 31 17:42:29 2004 +0000
-
-    - Enter translation
-    - minors mistakes
-
-commit 61fbf261b394b34aa2a4c0f55b3789f5e4703276
-Author: joseppc <joseppc>
-Date:   Sun Mar 28 09:50:19 2004 +0000
-
-    Cleared fuzzy strings and reviewed.
-
-commit cf100b79ab0a055761054f2c284b9168e1d35b2f
-Author: marcel <marcel>
-Date:   Sun Mar 28 09:25:27 2004 +0000
-
-    Updated Slovak translation.
-
-commit c85b5cefa457fe0abebc62e1a2b5b64f36cb974b
-Author: marcel <marcel>
-Date:   Fri Mar 26 08:28:13 2004 +0000
-
-    Started Slovak translation.
-
-commit 254ea651b9bffc5a5008d81f82606cb4eaf3994a
-Author: rhkeld <rhkeld>
-Date:   Thu Mar 25 20:50:15 2004 +0000
-
-    Updates
-    anaconda/anaconda-po/da.po apacheconf/po/da.po
-    redhat-config-cluster/po/da.po redhat-config-network/po/da.po
-    redhat-config-samba/po/da.po redhat-config-services/po/da.po
-    specspo/dist/da.po system-logviewer/po/da.po
-    system-switch-mail/po/da.po
-
-commit 16d0a19ac8f0253c25d3c46f4e083c33b64b1499
-Author: tszanto <tszanto>
-Date:   Thu Mar 25 14:42:38 2004 +0000
-
-    Tamas Szanto
-
-commit d8c8fa064e3369d2d05cc5c5ef1270ddebe0c11b
-Author: tszanto <tszanto>
-Date:   Wed Mar 24 17:34:25 2004 +0000
-
-    Tamas Szanto
-
-commit 869e76c267addadd12cfa0bd56acee03bb5c1787
-Author: barzilay <barzilay>
-Date:   Tue Mar 23 07:26:44 2004 +0000
-
-    last updates
-
-commit 4721d9437db022d4f4e60868934f35b724c204cf
-Author: fvalen <fvalen>
-Date:   Mon Mar 22 02:23:50 2004 +0000
-
-    Updated
-
-commit 7d12a778d5953f499c556d08ae90e20ecd372a76
-Author: frolix68 <frolix68>
-Date:   Sat Mar 20 19:02:48 2004 +0000
-
-    Updated Greek translation
-
-commit 75fd07fdba650e244a7ced6c46a78fea74060ca0
-Author: andmuell <andmuell>
-Date:   Fri Mar 19 17:42:06 2004 +0000
-
-    Updated fuzzy entries.
-
-commit c800d145f50a6e3c0a6185443c1ced778018af4f
-Author: mkim <mkim>
-Date:   Fri Mar 19 04:25:57 2004 +0000
-
-    updated translation
-
-commit 1592a1eb77c181b8136c0b7bc3cbd3ade83c7a6b
-Author: uk <uk>
-Date:   Fri Mar 19 00:27:07 2004 +0000
-
-    Hernan Fernandez
-    18 de marzo 2004
-
-commit b66240be626a2afd03a74b3fed44f1d07e608482
-Author: elf <elf>
-Date:   Thu Mar 18 10:32:26 2004 +0000
-
-    o Sync with en.
-
-commit a262538de0fd22ed36cbc8b99af5da0836f78222
-Author: hpwu <hpwu>
-Date:   Thu Mar 18 03:05:34 2004 +0000
-
-    Updated translation
-
-commit 87d2888e6767818185773e595cad706f33a96a86
-Author: sarahs <sarahs>
-Date:   Thu Mar 18 00:36:09 2004 +0000
-
-    merged with pot file
-
-commit 3fce002acfcfb98f0c9d3ff1e5227afceb915f63
-Author: menthos <menthos>
-Date:   Wed Mar 17 17:31:29 2004 +0000
-
-    2004-03-17  Christian Rose  <menthos@menthos.com>
-    
-    	* sv.po: Updated Swedish translation.
-
-commit 9615e495989b688c89ed0daea1882ef65106b91e
-Author: arclynx <arclynx>
-Date:   Wed Mar 17 07:48:46 2004 +0000
-
-    Updated Malay translation
-
-commit edae601dacc9d35a51317984113bd7f93713a97c
-Author: ra <ra>
-Date:   Tue Mar 16 22:54:28 2004 +0000
-
-    *** empty log message ***
-
-commit 4e3b31d62851ff3d77e74295d88c415b24a8c315
-Author: pve-nl <pve-nl>
-Date:   Tue Mar 16 13:59:58 2004 +0000
-
-    minor fixes for redhat-config-network nl.po
-
-commit 7ae83f4c49e753a67c853966e9106ca92d0fb305
-Author: morais <morais>
-Date:   Tue Mar 16 10:42:29 2004 +0000
-
-    update
-
-commit d1302d4ed2aa874cf9f2c3d86d55025f5dde5e61
-Author: hutuworm <hutuworm>
-Date:   Tue Mar 16 10:38:04 2004 +0000
-
-    update by hutuworm @ 20040316
-
-commit 38c9bc3f6270887732f9522ef1a96af0699e8fc7
-Author: byagan <byagan>
-Date:   Mon Mar 15 22:43:24 2004 +0000
-
-    Ba˛l˝klar˝ d¸zenlendi.
-    Son dei˛iklikler Áevirildi.
-    «eviri kalite kontrol¸ yap˝lmad˝!
-
-commit b329bf12645111dba8459a863af2064e2d46b832
-Author: almacha <almacha>
-Date:   Mon Mar 15 18:30:14 2004 +0000
-
-    retranslated 8 fuzzy entries
-
-commit 2f83817b8e3b9422b9fc2b7fa32a38a96ac67fc5
-Author: lanurmi <lanurmi>
-Date:   Mon Mar 15 16:56:47 2004 +0000
-
-    Updated Finnish translation.
-
-commit 3b40779700bfc7c2c3d8f3b48562b3758261d63c
-Author: xyzallan <xyzallan>
-Date:   Mon Mar 15 16:29:50 2004 +0000
-
-    Estonian
-
-commit 89a88add780b29699158463cd2385637f397d408
-Author: harald <harald>
-Date:   Mon Mar 15 15:15:23 2004 +0000
-
-    release 1.3.16-1 moved
-
-commit 0db0aa5b4ae3e9d7bda99b5df42fe39c7107648f
-Author: harald <harald>
-Date:   Mon Mar 15 15:15:07 2004 +0000
-
-    fixed archive target
-
-commit f598a20d92d4637b3ab1e9b7c7cd643675befd59
-Author: mitr <mitr>
-Date:   Mon Mar 15 11:15:13 2004 +0000
-
-    Update Czech translation
-
-commit 4d65fbd4966b9b5bb9eaaebddfc4a8f2dcb59719
-Author: harald <harald>
-Date:   Mon Mar 15 11:05:59 2004 +0000
-
-    release 1.3.16-1
-
-commit b7aae763e0f1e0e5dfbf0b858176f80bc4c2df62
-Author: harald <harald>
-Date:   Mon Mar 15 10:52:07 2004 +0000
-
-    release 1.3.16-1
-
-commit 8c12ba4300c60a11e3e688389104dc6a0888a7f4
-Author: harald <harald>
-Date:   Mon Mar 15 10:51:29 2004 +0000
-
-    *** empty log message ***
-
-commit 52fe550c0826d8cfbe9d08a99771de77805c5e76
-Author: harald <harald>
-Date:   Mon Mar 15 10:38:46 2004 +0000
-
-    release 1.3.16-1
-
-commit 07f404bea819ea345a7f65d31b9b9ddb60b6c72b
-Author: harald <harald>
-Date:   Mon Mar 15 10:29:12 2004 +0000
-
-    translation update
-
-commit 023402077d423b6f9a509c12c41ae094fee681e5
-Author: rhkeld <rhkeld>
-Date:   Sat Mar 13 12:21:50 2004 +0000
-
-    updates
-    comps-po/da.po authconfig/po/da.po firstboot/po/da.po
-    redhat-config-netboot/po/da.po redhat-config-network/po/da.po
-    redhat-config-packages/po/da.po redhat-config-xfree/po/da.po
-    redhat-logviewer/po/da.po system-logviewer/po/da.po
-    system-switch-mail/po/da.po
-
-commit 8c38ac71930c229f6dd0fa68c27149b55360be7d
-Author: lanurmi <lanurmi>
-Date:   Fri Mar 12 00:17:55 2004 +0000
-
-    Updated Finnish translation.
-
-commit 872c60d3c47c9218de3c4425e3bebb69d1c2995b
-Author: harald <harald>
-Date:   Thu Mar 11 14:16:44 2004 +0000
-
-    PEERDNS is true, if not configured
-
-commit eb091af75a18977106c15b3fe0d6b9f17eb3d383
-Author: sarahs <sarahs>
-Date:   Thu Mar 11 06:45:59 2004 +0000
-
-    merged with pot file
-
-commit 156b8cdc4fdb4c0275bfdd70b956bf3b8dfb683f
-Author: sarahs <sarahs>
-Date:   Thu Mar 11 06:21:36 2004 +0000
-
-    initial po file
-
-commit 8391c18bc358ecd5c1eb3da563dbd7ab9c272565
-Author: sarahs <sarahs>
-Date:   Thu Mar 11 04:24:25 2004 +0000
-
-    manually merged with pot file
-
-commit 9cc03e3f8a9845de7b6a462f389b991f0668ec68
-Author: rhkeld <rhkeld>
-Date:   Wed Mar 10 15:16:00 2004 +0000
-
-    updates
-    up2date/da.po anaconda/anaconda-po/da.po
-    redhat-config-network/po/da.po
-    redhat-config-securitylevel/po/da.po system-logviewer/po/da.po
-    system-switch-mail/po/da.po
-
-commit a5a234d08e734e5925d61bf9a094cb3503b580e8
-Author: harald <harald>
-Date:   Wed Mar 10 14:45:14 2004 +0000
-
-    corrected userisdnctrl arguments
-
-commit e5566994872b9c53dd11f636444c3de16473886d
-Author: harald <harald>
-Date:   Wed Mar 10 14:39:38 2004 +0000
-
-    - check for profileMenu before remove
-
-commit 54c3925ea56e8d7d2d423eb39f998b73fd0e023a
-Author: harald <harald>
-Date:   Wed Mar 10 14:39:06 2004 +0000
-
-    - removed monitorButton
-
-commit d36c6511e223c964b6e6c5185bd145d2319af31a
-Author: harald <harald>
-Date:   Wed Mar 10 14:38:14 2004 +0000
-
-    - change hosts file on hostname change
-
-commit 2270d358894d73d688656cd0214dd516c21c2d8f
-Author: tszanto <tszanto>
-Date:   Tue Mar 9 20:16:30 2004 +0000
-
-    Tamas Szanto
-
-commit 032edb007667a99b4229d90645d5a603ab904c8c
-Author: fbbros <fbbros>
-Date:   Mon Mar 8 16:11:08 2004 +0000
-
-    it.po
-
-commit c425bc44361a30fd307fa0ab10f35ecaa03a2a0f
-Author: lanurmi <lanurmi>
-Date:   Mon Mar 8 15:00:39 2004 +0000
-
-    Updated Finnish translation.
-
-commit d526af117a32f4fb2e58a9c82cf3faf1ac3f179f
-Author: menthos <menthos>
-Date:   Mon Mar 8 13:09:29 2004 +0000
-
-    2004-03-08  Christian Rose  <menthos@menthos.com>
-    
-    	* sv.po: Updated Swedish translation.
-
-commit 02e55e508b7ddcecd254b8b749a9fd11e6b91a22
-Author: joseppc <joseppc>
-Date:   Mon Mar 8 11:17:04 2004 +0000
-
-    First version for the Catalan translation.
-
-commit 5031d30ef582967791d50ee76742d40328e44cad
-Author: fbbros <fbbros>
-Date:   Mon Mar 8 00:47:02 2004 +0000
-
-    it.po
-
-commit 6609a6360dac413ff46944d856e3ec08d477270c
-Author: fbbros <fbbros>
-Date:   Sun Mar 7 23:52:41 2004 +0000
-
-    it.po
-
-commit 8c6be5a5e91c9e5cca2c04c9fc47eaad93065055
-Author: sarahs <sarahs>
-Date:   Sun Mar 7 22:37:07 2004 +0000
-
-    initial community translation
-
-commit bb7d050a0e4e0caf1c4f79379aba295e73bf143c
-Author: fbbros <fbbros>
-Date:   Sun Mar 7 18:57:24 2004 +0000
-
-    it.po
-
-commit aeecde9dd78bebba8250fca2e9801d06613c91aa
-Author: lanurmi <lanurmi>
-Date:   Sun Mar 7 17:29:57 2004 +0000
-
-    Updated Finnish translation.
-
-commit 51a6255c543b112908becbaf549fe2b97b7a8e7f
-Author: fbbros <fbbros>
-Date:   Sun Mar 7 14:45:59 2004 +0000
-
-    it.po
-
-commit 1a6955666539d3a9b4a51b1263318915e46e088f
-Author: sebol <sebol>
-Date:   Sun Mar 7 14:26:39 2004 +0000
-
-    updated system-config-network
-
-commit 40e56c2e69d13441cb6329cb30172fd2e9e90fe2
-Author: kmaraas <kmaraas>
-Date:   Sun Mar 7 08:33:05 2004 +0000
-
-    Update
-
-commit 0a3572693146efbd36dec0871375b09166c7d992
-Author: xyzallan <xyzallan>
-Date:   Sat Mar 6 12:51:51 2004 +0000
-
-    Estonian
-
-commit 2715eb15dace551569542fb31dfa4ce0765386c9
-Author: harald <harald>
-Date:   Fri Mar 5 11:29:14 2004 +0000
-
-    change hosts file on hostname change
-
-commit 0693b97899ba524b3b714b2112064ec2aae7bf81
-Author: harald <harald>
-Date:   Fri Mar 5 11:28:23 2004 +0000
-
-    *** empty log message ***
-
-commit 2e8f58ea845a5cfff74acd6e7efebde57741355d
-Author: xyzallan <xyzallan>
-Date:   Thu Mar 4 16:47:21 2004 +0000
-
-    Estonian
-
-commit 73a8a1d7d90628184bb042e4f88bc18c3c462b8a
-Author: harald <harald>
-Date:   Thu Mar 4 14:32:59 2004 +0000
-
-    added generic Initstrings (115768)
-
-commit 1ee5fe282d595af71d55c7fb4af739e10d6501f7
-Author: harald <harald>
-Date:   Thu Mar 4 14:16:56 2004 +0000
-
-    - removed save dialog, when switching profiles (107399)
-
-commit b15d47171c99ff352d25c3bd993378e6c48c857d
-Author: harald <harald>
-Date:   Thu Mar 4 13:55:39 2004 +0000
-
-    - set DHCP Hostname every time
-
-commit ccf5f187912fbc8820954d9b85de66855d62f4f3
-Author: harald <harald>
-Date:   Thu Mar 4 13:40:34 2004 +0000
-
-    - added "-c" parameter for ifup
-
-commit 173a0b70ad8c51a28cf4fbb4635e4063b4580237
-Author: harald <harald>
-Date:   Thu Mar 4 13:40:03 2004 +0000
-
-    - changed Hotkeys to avoid double entries
-
-commit 0070b78493c9383599cade7e661e430b6bef085a
-Author: harald <harald>
-Date:   Thu Mar 4 13:39:21 2004 +0000
-
-    - added secure.png logo
-
-commit fb77eb7ab25a4d1dc4fc0844b1d1eea025fb7535
-Author: harald <harald>
-Date:   Thu Mar 4 13:39:01 2004 +0000
-
-    - use new pixmap loading code
-    - only take local paths, if debugging is active
-
-commit b891bbc60f9926db306ebcd4711103c9ed7c996c
-Author: harald <harald>
-Date:   Thu Mar 4 13:37:29 2004 +0000
-
-    - be more relaxed, when parsing the kernel version (115917)
-
-commit fc29ac77a049b25e39c6193b3de424adb918116c
-Author: harald <harald>
-Date:   Thu Mar 4 13:35:51 2004 +0000
-
-    - moved updateNetworkScripts() to NC_functions.py
-    - fallback on network-scripts
-
-commit ca1824de9af9797002527c530df151a9ceaa1322
-Author: harald <harald>
-Date:   Thu Mar 4 13:29:03 2004 +0000
-
-    - added directory parameter to ConfDevice
-
-commit 89f516314b68292a6b687ea5412459e36d4f71f6
-Author: harald <harald>
-Date:   Thu Mar 4 13:28:31 2004 +0000
-
-    - added IPv6Init
-
-commit 4ceec21ca24082bbab9779c724501c92935e7408
-Author: harald <harald>
-Date:   Thu Mar 4 13:28:11 2004 +0000
-
-    - better check for ppp devices
-
-commit 36e6203c1bd2c33829ea9e644b7fb5b923e0976b
-Author: harald <harald>
-Date:   Thu Mar 4 13:27:34 2004 +0000
-
-    - removed /usr/lib/rhs/python from sys.path
-    - added -? as a command line option
-    - corrected --root= option
-
-commit 1fc257d564c458b35968c94126634f51ec77742c
-Author: harald <harald>
-Date:   Thu Mar 4 13:26:25 2004 +0000
-
-    - use new pixmap loading code
-    - removed /usr/lib/rhs/python from sys.path
-    - activate/deactivate buttons always sensitive
-    - check for ipsec-tools and dynamically display ipsec tab
-
-commit 3079ba948e43873a6a5f12a9ecc7e1296cd89f72
-Author: harald <harald>
-Date:   Thu Mar 4 13:24:36 2004 +0000
-
-    - use new pixmap loading code
-    - removed /usr/lib/rhs/python from sys.path
-    - no second dialog while activating
-    - activate/deactivate buttons always sensitive
-
-commit 1500c5e89857b152a3172ec4fb8b8eb67e051c10
-Author: ra <ra>
-Date:   Wed Mar 3 18:12:30 2004 +0000
-
-    *** empty log message ***
-
-commit 84241c27717d0acb4b19cde7f4aa023f291c40f6
-Author: xyzallan <xyzallan>
-Date:   Wed Mar 3 16:10:06 2004 +0000
-
-    Estonian
-
-commit c88e9a3fd5aed7f92d60b41408e62d0bc2bb9edd
-Author: lanurmi <lanurmi>
-Date:   Mon Mar 1 21:56:19 2004 +0000
-
-    Updated Finnish translation.
-
-commit e2f1d6b4e1f7bc356d42a2e336b363adb3ac8e8e
-Author: owaing <owaing>
-Date:   Mon Mar 1 18:21:05 2004 +0000
-
-    Updated to match .pot
-
-commit 2d8cd30bc0cecb89851fa10971a968222197d719
-Author: lanurmi <lanurmi>
-Date:   Sun Feb 29 22:01:53 2004 +0000
-
-    Updated Finnish translation.
-
-commit a8b9b2eeac4273de5bfd5e3e5cfe8718c0dc6b65
-Author: xyzallan <xyzallan>
-Date:   Sat Feb 28 15:53:47 2004 +0000
-
-    Estonian
-
-commit 89045d7012c64563a6b02f809e30a64485502a3b
-Author: xyzallan <xyzallan>
-Date:   Sat Feb 28 14:24:48 2004 +0000
-
-    Estonian
-
-commit f51302341f8172590827d08881b6723b5f56dc6b
-Author: xyzallan <xyzallan>
-Date:   Sat Feb 28 13:47:33 2004 +0000
-
-    Estonian
-
-commit e4d88ac8df47095990da8aa24c66efa25f7f4045
-Author: xyzallan <xyzallan>
-Date:   Sat Feb 28 12:49:59 2004 +0000
-
-    Estonian
-
-commit 9136f8f43ae4768dee5110e114c741441975a000
-Author: xyzallan <xyzallan>
-Date:   Sat Feb 28 11:51:37 2004 +0000
-
-    Estonian
-
-commit ca6916c61e23ae7775f7368cd1bca8eac9527745
-Author: khashida <khashida>
-Date:   Fri Feb 27 05:38:59 2004 +0000
-
-    translation finished
-
-commit 1ed8b2d61454506c358ff9fcf803dcd2741351d6
-Author: xyzallan <xyzallan>
-Date:   Thu Feb 26 15:50:47 2004 +0000
-
-    Estonian
-
-commit 8aabe56f7c3297f11c2dcdbaf526396a84c2958e
-Author: lisivka <lisivka>
-Date:   Thu Feb 26 15:26:41 2004 +0000
-
-    "PO file header fuzzy" warning fixed
-
-commit 48a1472007388d1c046f6d239bbb3de9aeb8b1ba
-Author: bgroh <bgroh>
-Date:   Wed Feb 25 00:48:32 2004 +0000
-
-    translation done
-
-commit ceb38286cd87b59ceb8199536ddd748f4000fa11
-Author: alan <alan>
-Date:   Tue Feb 24 23:08:54 2004 +0000
-
-    Translations by Owain Green
-
-commit b152579c31b9910ab47c5077fd46c0c6f2b215f3
-Author: jpaubry <jpaubry>
-Date:   Fri Feb 20 05:29:27 2004 +0000
-
-    changed to UTF8
-
-commit 624b9a835e52a43d31b25f19bf707b9a8afbeb4a
-Author: lkanter <lkanter>
-Date:   Thu Feb 19 17:19:30 2004 +0000
-
-    modify
-
-commit 0e4a097f24eebbb34a0b74756a8fdc32f747a98f
-Author: uk <uk>
-Date:   Thu Feb 19 01:45:39 2004 +0000
-
-    Hern√°n Fern√°ndez 18 febrero 2004
-    uk@mitierra.cl
-
-commit 0af407a608253d796d39360c76a79c15d9b5d96f
-Author: lanurmi <lanurmi>
-Date:   Sun Feb 15 18:50:30 2004 +0000
-
-    Added Finnish translation. Borrowed from another distribution.
-
-commit 8d1f2cb50ca493c698fe744a7eadcdedca7a2ead
-Author: kmaraas <kmaraas>
-Date:   Sun Feb 15 15:46:40 2004 +0000
-
-    Update
-
-commit 0adf70dfaf6c48603027238e0d03c938260a3e16
-Author: hutuworm <hutuworm>
-Date:   Wed Feb 11 03:17:21 2004 +0000
-
-    updated by hutuworm @ 20040211
-
-commit 2ca3eb930a05285a04d1c70354e0b4e391e9f505
-Author: frolix68 <frolix68>
-Date:   Tue Feb 10 21:50:27 2004 +0000
-
-    Updated Greek translation
-
-commit 9326a1c9398bcf59a25134b44c5e75cfa293c088
-Author: bart <bart>
-Date:   Tue Feb 10 18:28:38 2004 +0000
-
-    added several missing translations
-
-commit abfa4eb522ce77abf56d393ce8d520af8a9d34f5
-Author: hpwu <hpwu>
-Date:   Tue Feb 10 03:19:47 2004 +0000
-
-    Updated translation
-
-commit 0c705289bd317cc9e1b932edbc538aca51b55f23
-Author: ra <ra>
-Date:   Mon Feb 9 04:54:52 2004 +0000
-
-    *** empty log message ***
-
-commit 8290b114c6af1277f371a4cb2675901d103332bb
-Author: morais <morais>
-Date:   Sat Feb 7 15:35:28 2004 +0000
-
-    consistency fixes
-
-commit 8a388bdddfaaf7558a3272f397c95f329ca5a7f2
-Author: jpaubry <jpaubry>
-Date:   Wed Feb 4 22:52:31 2004 +0000
-
-    updated
-
-commit 13bec75ce412451d63e24fc66a3a18c054ed6a2b
-Author: sarahs <sarahs>
-Date:   Tue Feb 3 00:41:41 2004 +0000
-
-    changed name in header
-
-commit 924443904804ae0e6d3650a5d200f565f269ffe5
-Author: frolix68 <frolix68>
-Date:   Mon Feb 2 22:20:17 2004 +0000
-
-    Consistency fixes
-
-commit 36255e381ac53bbf343e0fd629356cbcded9168a
-Author: ylouze <ylouze>
-Date:   Mon Feb 2 07:51:55 2004 +0000
-
-    Revising
-
-commit 020461e212ea414765a192c420f9c54c121b5770
-Author: uk <uk>
-Date:   Mon Feb 2 05:40:44 2004 +0000
-
-    *** empty log message ***
-
-commit 29758ff16ee6cc0bcd01b41a51ba4fb4ba4f7d9c
-Author: ggomes <ggomes>
-Date:   Sun Feb 1 01:18:05 2004 +0000
-
-    terminado
-
-commit 8ba1fdd89de65ef24bcf2ef71c2f95fddd8e4e65
-Author: jsseo <jsseo>
-Date:   Sat Jan 31 06:51:59 2004 +0000
-
-    translation updated
-
-commit 7f212e12b830f98fe80cc6641ffe53b8888863b8
-Author: jsseo <jsseo>
-Date:   Sat Jan 31 06:05:08 2004 +0000
-
-    translation updated
-
-commit 7b636dbd44c76c19fddd9c7fcd2d4ec3f39d90c6
-Author: pve-nl <pve-nl>
-Date:   Fri Jan 30 16:17:47 2004 +0000
-
-    fixed a fuzzy in redhat-config-network nl.po
-
-commit 5bebf0443092c916e87e8fa7090927a9e4625db5
-Author: morais <morais>
-Date:   Fri Jan 30 11:17:39 2004 +0000
-
-    update
-
-commit bc48eae536a71116bcf1934228f186f6b691fdcc
-Author: mitr <mitr>
-Date:   Fri Jan 30 10:31:37 2004 +0000
-
-    Update Czech translation
-
-commit 736fb0078d725d76d5fa1b2804522dc0845da1f4
-Author: harald <harald>
-Date:   Thu Jan 29 14:44:16 2004 +0000
-
-    release 1.3.15-1
-
-commit 4f45b64e6f1cad7d6b3c3abd0ee25c382b8b4cc2
-Author: harald <harald>
-Date:   Thu Jan 29 14:42:53 2004 +0000
-
-    added IPv6 support (111377)
-
-commit 5952b459d12040c37f018316784601f914ce04f6
-Author: harald <harald>
-Date:   Wed Jan 28 11:10:27 2004 +0000
-
-    release 1.3.14-1
-
-commit 8c2ad24bbc36154964ebefffc63785075b0274d3
-Author: harald <harald>
-Date:   Wed Jan 28 11:10:02 2004 +0000
-
-    use modprobe.conf for kernel 2.6
-
-commit 0e687e23c92cbb07ed5230ce9e0845cd8d3b5149
-Author: morais <morais>
-Date:   Tue Jan 27 23:06:54 2004 +0000
-
-    consistency fixes
-
-commit 629de5b04fd1061861da05c3b5fa2bcefaf5d0aa
-Author: danpeig <danpeig>
-Date:   Sat Jan 17 22:30:28 2004 +0000
-
-    Translation revised
-
-commit 0188e324e5695c67a9a1e59273364051228531c1
-Author: rhariram <rhariram>
-Date:   Sat Jan 17 11:55:24 2004 +0000
-
-    newly translated file
-
-commit 5db7e8f267c58cfd088170288fa56f42c7cb7254
-Author: aoriani <aoriani>
-Date:   Fri Jan 16 16:27:49 2004 +0000
-
-    Translation complete, some still fuzzy
-
-commit cc2ebd4156b693ad2d31ed74f5d20e16e1a5dd8a
-Author: ra <ra>
-Date:   Thu Jan 8 00:11:03 2004 +0000
-
-    *** empty log message ***
-
-commit 6f8e4a4e61818ab35c2621e059ff84bea2cef8c2
-Author: morais <morais>
-Date:   Mon Jan 5 10:23:33 2004 +0000
-
-    update
-
-commit 757d5528766737fe9ae8a887e2b8c5203f9df0f6
-Author: frolix68 <frolix68>
-Date:   Sun Dec 28 15:59:32 2003 +0000
-
-    Updated Greek translation.
-
-commit 24d8ce42bb5e8269167a20f06afa283ce85ee651
-Author: harald <harald>
-Date:   Thu Dec 18 15:13:27 2003 +0000
-
-    fixed archive creation
-
-commit b5f4b7a1ba91b345164fcefb7cab5cb62523510d
-Author: harald <harald>
-Date:   Thu Dec 18 15:08:16 2003 +0000
-
-    release 1.3.13-2 moved
-
-commit e3816fb5ebd7ba39b884007b0fc3e51c23b9ec5c
-Author: harald <harald>
-Date:   Thu Dec 18 15:05:47 2003 +0000
-
-    added mkinstalldirs, cause po/Makefile.in.in references it directly
-
-commit 1c87c751145d48b365f7ba98018a3857a02047f5
-Author: harald <harald>
-Date:   Thu Dec 18 14:35:29 2003 +0000
-
-    fixed archive creation
-
-commit 22a1fc58070497bbc3537e01a8e2c5df2769a16c
-Author: harald <harald>
-Date:   Thu Dec 18 14:18:51 2003 +0000
-
-    fixed automake by EXTRA_DIST mkinstalldirs, added changelog
-
-commit fd22993e6ff92ca8301ec50fa22e91db66167a50
-Author: harald <harald>
-Date:   Thu Dec 18 13:55:48 2003 +0000
-
-    release 1.3.13-2
-
-commit 117a261982f82a8ef6a777d15ffc72b70a55fdf7
-Author: kmaraas <kmaraas>
-Date:   Wed Dec 17 23:33:46 2003 +0000
-
-    Update

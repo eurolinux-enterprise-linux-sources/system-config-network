@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-config-network.pot VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
 "PO-Revision-Date: 2003-10-18 20:33+0700\n"
 "Last-Translator: pclouds <pclouds@gmx.net>\n"
 "Language-Team: GnomeVI <gnomevi-list@lists.sourceforge.net>\n"
@@ -156,7 +156,7 @@ msgid " (active)"
 msgstr " (hoạt động)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 #, fuzzy
 msgid ""
 "system-config-network - network configuration tool\n"
@@ -201,21 +201,21 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, fuzzy, python-format
 msgid "Failed to write to file %s."
 msgstr "Lỗi chuyển sang profile %s"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -632,7 +632,7 @@ msgstr "PPP đồng bộ"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -818,6 +818,7 @@ msgstr "_Nén"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "_Xóa"
 
@@ -1096,7 +1097,7 @@ msgstr ""
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr ""
 
-#: ../src/netconfpkg/gui/editipsec.py:217
+#: ../src/netconfpkg/gui/editipsec.py:216
 msgid ""
 "Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
@@ -1194,6 +1195,7 @@ msgid ""
 msgstr ""
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1203,6 +1205,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 #, fuzzy
 msgid "Succeeded. Please read the output."
 msgstr ""
@@ -1214,7 +1217,7 @@ msgid "Choose Hardware Type"
 msgstr "Chọn kiểu phần cứng"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -1223,12 +1226,12 @@ msgid "Hardware type:"
 msgstr "Kiểu Phần cứng:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "Modem"
 
@@ -1372,8 +1375,9 @@ msgid "Monitor the selected device."
 msgstr "Theo dõi thiết bị được chọn."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "Cấu hình Mạng"
@@ -1449,11 +1453,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "_Kích hoạt"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "_Ngừng kích hoạt"
 
@@ -1847,7 +1853,7 @@ msgstr "Cấu hình Quay số Modem"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "Không biết"
 
@@ -3300,23 +3306,23 @@ msgstr ""
 "%s:\n"
 "%s!"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 #, fuzzy
 msgid "<New Device>"
 msgstr "Thiết bị"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 #, fuzzy
 msgid "Which device type do you want to add?"
 msgstr "Không thể hiệu chỉnh cấu hình loại thiết bị %s!\n"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 #, fuzzy
 msgid "Add"
 msgstr "_Thêm..."
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3325,17 +3331,16 @@ msgstr "_Thêm..."
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr ""
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 #, fuzzy
 msgid "Select A Device"
 msgstr "Chọn Thiết bị"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr ""
 
@@ -3371,10 +3376,11 @@ msgstr "Đường dẫn tìm DNS:"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "Đồng ý"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 #, fuzzy
 msgid "DNS configuration"
 msgstr "Cấu hình ISDN"
@@ -3456,11 +3462,6 @@ msgstr "_Tùy chọn"
 msgid "MAC Address"
 msgstr "Địa chỉ:"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-#, fuzzy
-msgid "Devernet Configuration"
-msgstr "Cấu hình Ethernet"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 #, fuzzy
 msgid "Primary DNS Server"
@@ -3501,12 +3502,12 @@ msgstr ""
 "\n"
 "Cách dùng: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 #, fuzzy
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "Vui lòng chạy system-config-network bằng root!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3516,44 +3517,44 @@ msgstr ""
 "và báo chi tiết lỗi của system-config-network tại https://bugzilla.redhat."
 "com/bugzilla"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 #, fuzzy
 msgid "Loading configuration"
 msgstr "Đang nạp cấu hình..."
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 #, fuzzy
 msgid "Loading Device Configuration"
 msgstr "Đang nạp Cấu hình Thiết bị..."
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 #, fuzzy
 msgid "Loading Hardware Configuration"
 msgstr "Đang nạp Cấuh hình Phần cứng..."
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 #, fuzzy
 msgid "Loading Profile Configuration"
 msgstr "Đang nạp cấu hình Profile..."
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 #, fuzzy
 msgid "Device configuration"
 msgstr "Cấu hình ISDN"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 #, fuzzy
 msgid "Select Action"
 msgstr "Chọn Thiết bị"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr ""
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr ""
 
@@ -3568,6 +3569,10 @@ msgstr "Mạng"
 #: ../system-control-network.desktop.in.h:1
 msgid "Control and monitor network devices"
 msgstr "Điều khiển và theo dõi thiết bị mạng"
+
+#, fuzzy
+#~ msgid "Devernet Configuration"
+#~ msgstr "Cấu hình Ethernet"
 
 #~ msgid "ERROR: Unable to initialize graphical environment. "
 #~ msgstr "LỖI: Không thể khởi tạo môi trườnd đồ họa."

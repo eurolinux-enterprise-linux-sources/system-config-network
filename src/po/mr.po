@@ -13,10 +13,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2010-03-05 16:42+0530\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-07 20:32+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
-"Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
+"Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -167,7 +167,7 @@ msgid " (active)"
 msgstr " (कार्यान्वित)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -214,21 +214,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - अपवाद आढळले"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "डंप संचयीत करण्याकरीता फाइल निश्चित करा"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "%s फाइलवर लिहण्यास अपयशी."
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -284,7 +284,8 @@ msgstr "तुमच्या ISP ने दिलेले तुमचे ल�
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
-msgid "Enter the name of this configuration, usually just the name of your ISP."
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
 msgstr "या व्यूहरचनेचे नाव दाखल करा, जे सहसा तुमच्या ISP चे नाव असेल."
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
@@ -642,7 +643,7 @@ msgstr "सिंक PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -736,7 +737,8 @@ msgstr "VJ TCP/IP शिर्षक संकुचन कार्यान्
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:23
 msgid "Enter your local phone number. It's optional, if you use a modem."
-msgstr "तुमचा स्थानिक दूरध्वनी क्रमांक दाखल करा. जर तुम्ही मोडेम वापरत असाल, तर हे पर्यायी आहे."
+msgstr ""
+"तुमचा स्थानिक दूरध्वनी क्रमांक दाखल करा. जर तुम्ही मोडेम वापरत असाल, तर हे पर्यायी आहे."
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:24
 msgid "Han_gup timeout:"
@@ -825,6 +827,7 @@ msgstr "संकुचन(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "नष्ट करा(_D)"
 
@@ -1097,9 +1100,11 @@ msgstr "AH (256 - 4294967295) साठी अद्वितीय SPI, जस�
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "ESP (256 - 4294967295) साठी अद्वितीय SPI, जसे TCP/IP पोर्ट क्रमांक"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
-msgid "Please enter a unique security parameter index between 256 and 4294967295."
-msgstr "कृपया अद्वितीय असा 256 आणि 4294967295 दरम्यानचा सुरक्षा परिमाण अनुक्रम दाखल करा."
+#: ../src/netconfpkg/gui/editipsec.py:216
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
+msgstr ""
+"कृपया अद्वितीय असा 256 आणि 4294967295 दरम्यानचा सुरक्षा परिमाण अनुक्रम दाखल करा."
 
 #: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
 #: ../src/netconfpkg/gui/QethConfig.glade.h:3
@@ -1199,6 +1204,7 @@ msgstr ""
 "चालवा: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1208,6 +1214,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "यशस्वी. कृपया प्रदान वाचा."
 
@@ -1216,7 +1223,7 @@ msgid "Choose Hardware Type"
 msgstr "हार्डवेयर प्रकार निवडा"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "इथरनेट"
 
@@ -1225,12 +1232,12 @@ msgid "Hardware type:"
 msgstr "हार्डवेयर प्रकार:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "मोडेम"
 
@@ -1371,8 +1378,9 @@ msgid "Monitor the selected device."
 msgstr "निवडलेल्या यंत्राचे निरिक्षण करा."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "संजाळ संरचना"
@@ -1422,7 +1430,8 @@ msgstr ""
 "हार्डवेयरशी संबंधित असू शकतात."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:26
-msgid "You may configure network hardware physically attached to the computer here."
+msgid ""
+"You may configure network hardware physically attached to the computer here."
 msgstr "संगणकास भौतिकरित्या जुळलेले संजाळ हार्डवेयर तुम्ही येथे व्यूहरचित करू शकता."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:27
@@ -1444,11 +1453,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "कार्यान्वित करा(_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "अकार्यान्वित करा(_D)"
 
@@ -1674,7 +1685,8 @@ msgid "Do you really want to delete profile \"%s\"?"
 msgstr "तुम्ही खरच प्रोफाइल \"%s\" नष्ट करू इच्छिता?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1649
-msgid "Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
 msgstr "क्षमा असावी, संपादण्यासारखे काही नाही, किंवा हा प्रकार अजून संपादता येत नाही."
 
 #: ../src/netconfpkg/gui/maindialog.py:1667
@@ -1691,7 +1703,8 @@ msgstr "तुम्ही \"%s\" वापरलेली सर्व यं�
 msgid "translator_credits"
 msgstr ""
 "Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006; संदिप शेडमाके <sandeep."
-"shedmake@gmail.com>, 2008, 2009; संदिप शेडमाके <sshedmak@redhat.com>, 2009, 2010."
+"shedmake@gmail.com>, 2008, 2009; संदिप शेडमाके <sshedmak@redhat.com>, 2009, "
+"2010."
 
 #: ../src/netconfpkg/gui/maindialog.py:1807
 #, python-format
@@ -1834,7 +1847,7 @@ msgstr "मोडेम डायलअप संरचना"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "अपरिचित"
 
@@ -1941,8 +1954,8 @@ msgid ""
 "Do you want to deactive interface %s first?\n"
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
-"तुम्हाला संवाद %s पहिले निष्क्रीय कारयचे?\n"
-"नाहीतर बदल साठवल्यास अनावश्यक दूषपरिणाम आढळतील."
+"संवाद %s प्रथमवेळी तुम्हाला निष्क्रिय करायचे?\n"
+"नाहीतर बदल साठवल्यास अनावश्यक परिणाम आढळण्याची शक्यता आहे."
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2247,13 +2260,13 @@ msgstr "माहिती साधन बस ID (_a):"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
 msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
-msgstr "जेनेरीक पर्याय द्या (उ.दा. LAYER2=1 PORTNO=0)"
+msgstr "जेनेरीक पर्याय द्या (म्हणजेच LAYER2=1 PORTNO=0)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/QethHardware.glade.h:4
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
 msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
-msgstr "MAC पत्ता द्या (म्हणजे 00:13:A9:47:5A:B2)"
+msgstr "MAC पत्ता द्या (म्हणजेच 00:13:A9:47:5A:B2)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
 #: ../src/netconfpkg/gui/QethHardware.glade.h:5
@@ -3112,11 +3125,13 @@ msgid "Inactive"
 msgstr "निष्क्रीय"
 
 #: ../src/netconfpkg/NC_functions.py:228
-msgid "Shall the following packages, which are needed on your system, be installed?"
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
 msgstr "तुमच्या प्रणालीवर गरज असलेली खालील संकुले प्रतिष्ठापित करावित काय?"
 
 #: ../src/netconfpkg/NC_functions.py:240
-msgid "You have to install the following packages, which are needed on your system!"
+msgid ""
+"You have to install the following packages, which are needed on your system!"
 msgstr "तुमच्या प्रणालीवर गरज असलेली खालील संकुले तुम्हांस प्रतिष्ठापित करावी लागतील!"
 
 #: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
@@ -3264,20 +3279,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "फाइल %(file)s काढून टाकतेवेळी त्रुटी आढळली: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<नवीन साधन>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "तुम्हाला कोणते साधन प्रकार समावेष करायचे?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "समावेष करा"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3286,16 +3301,15 @@ msgstr "समावेष करा"
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "साधन निवडा"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "साठवा"
 
@@ -3326,10 +3340,11 @@ msgstr "DNS शोध मार्ग"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "ठीक"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS संयोजना"
 
@@ -3407,10 +3422,6 @@ msgstr "पर्याय"
 msgid "MAC Address"
 msgstr "MAC पत्ता"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Devernet संरचना"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
 msgstr "प्राथमिक DNS सर्वर"
@@ -3452,11 +3463,11 @@ msgstr ""
 "\n"
 "वापर: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "कृपया system-config-network रूट परवानग्यांसह सुरू करा!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3466,38 +3477,38 @@ msgstr ""
 "करा आणि system-config-network विरूद्ध तपशीलवार त्रुटी https://bugzilla.redhat."
 "com/bugzilla येथे दाखल करा"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "संरचना दाखल करीत आहे"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "यंत्र संरचना दाखल करीत आहे"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "हार्डवेयर संरचना दाखल करीत आहे"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "प्रोफाइल संरचना दाखल करीत आहे"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "साधण संरचना"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "कृती निवडा"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "साठवा व बाहेर पडा (&Q)"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "सोडून द्या"
 
@@ -3513,3 +3524,5 @@ msgstr "संजाळ"
 msgid "Control and monitor network devices"
 msgstr "संजाळ यंत्रांचे नियंत्रण आणि पर्यवेक्षण करा"
 
+#~ msgid "Devernet Configuration"
+#~ msgstr "Devernet संरचना"

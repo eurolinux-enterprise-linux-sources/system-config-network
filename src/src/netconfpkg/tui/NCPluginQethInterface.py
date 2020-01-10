@@ -102,9 +102,9 @@ class NCQethInterfaceTui:
         hw.Card.IoPort = self.ioport.value()
         hw.Card.IoPort1 = self.ioport1.value()
         hw.Card.IoPort2 = self.ioport2.value()
+        hw.Card.Options = self.options.value()
         ports = "%s,%s,%s" % (hw.Card.IoPort, hw.Card.IoPort1, hw.Card.IoPort2)
         hw.Description = "qeth %s" % ports
-        hw.Options = self.options.value()
         hw.MacAddress = self.macaddr.value()
 
         if self.dynip.value():
@@ -135,7 +135,7 @@ class NCQethInterfaceTui:
         g2.setField(snack.Label (_("Data Device Bus ID")), 0, 7, anchorLeft = 1)
         g2.setField(snack.Label (_("Write Device Bus ID")), 0, 8, 
                                    anchorLeft = 1)
-        g2.setField(snack.Label (_("Options")),0,9,anchorLeft=1)
+        g2.setField(snack.Label (_("Options").replace("_", "")),0,9,anchorLeft=1)
         g2.setField(snack.Label (_("MAC Address")),0,10,anchorLeft=1)
         g2.setField(self.name, 1, 0, (1, 0, 0, 0))
         g2.setField(self.hwdev, 1, 1, (1, 0, 0, 0))
@@ -153,7 +153,7 @@ class NCQethInterfaceTui:
         bb = snack.ButtonBar(self.screen, ((_("Ok"), "ok"),
                                            (_("Cancel"), "cancel")))
         self.setState(self.dev)
-        tl = snack.GridForm(screen, _("Devernet Configuration"), 1, 3)
+        tl = snack.GridForm(screen, _("Network Configuration"), 1, 3)
         tl.add(g1, 0, 0, (0, 0, 0, 1), anchorLeft=1)
         tl.add(g2, 0, 1, (0, 0, 0, 1))
         tl.add(bb, 0, 2, growx=1)

@@ -1,8 +1,8 @@
 # -*- RPM-SPEC -*-
 Summary: The GUI of the Network Adminstration Tool
 Name: system-config-network
-Version: 1.6.0.el6.2
-Release: 1%{?dist}
+Version: 1.6.0.el6.3
+Release: 4%{?dist}
 URL: http://fedoraproject.org/wiki/SystemConfig/network
 Source0: %{name}-%{version}.tar.bz2
 License: GPLv2+
@@ -16,6 +16,16 @@ Requires: %{name}-tui = %{version}-%{release}
 Requires: pygtk2-libglade, pygtk2, gnome-python2, gnome-python2-canvas
 Requires: usermode-gtk, /usr/bin/htmlview, gnome-python2-gnome, gnome-python2-bonobo
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+Patch01: 0001-replace-new-hostname-in-etc-hosts-1086282.patch
+Patch02: 0002-correctly-finish-the-screen-before-displaying-additi.patch
+Patch03: 0003-add-option-for-ONBOOT-yes-no-1202836.patch
+Patch04: 0004-add-option-for-PEERDNS-yes-no-1214729.patch
+Patch05: 0005-allow-suppressing-DNS-on-interfaces-1038430.patch
+Patch06: 0006-add-option-for-NM_CONTROLLED-yes-no-835479.patch
+Patch07: 0007-remove-confusing-error-message-847434.patch
+Patch08: 0008-allow-trailing-dot-in-hostnames-773099.patch
+Patch09: 0009-recognize-PREFIX-if-present-699954.patch
 
 %description
 This is the GUI of the network configuration tool,
@@ -35,6 +45,16 @@ supporting Ethernet, Wireless, TokenRing, ADSL, ISDN and PPP.
 
 %prep
 %setup -q
+
+%patch01 -p1
+%patch02 -p1
+%patch03 -p1
+%patch04 -p1
+%patch05 -p1
+%patch06 -p1
+%patch07 -p1
+%patch08 -p1
+%patch09 -p1
 
 %build
 %configure
@@ -99,6 +119,29 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/system-config-network-cmd
 
 %changelog
+* Thu Mar 31 2016 Jan Synáček <jsynacek@redhat.com> - 1.6.0.el6.3-4
+- refix: replace new hostname in /etc/hosts (#1086282)
+
+* Wed Mar 30 2016 Jan Synáček <jsynacek@redhat.com> - 1.6.0.el6.3-3
+- refix: replace new hostname in /etc/hosts (#1086282)
+
+* Mon Nov 30 2015 Jan Synáček <jsynacek@redhat.com> - 1.6.0.el6.3-2
+- replace new hostname in /etc/hosts (#1086282)
+- correctly finish the screen before displaying additional information (#1204064)
+- add option for ONBOOT=yes/no (#1202836)
+- add option for PEERDNS=yes/no (#1214729)
+- allow suppressing DNS on interfaces (#1038430)
+- add option for NM_CONTROLLED=yes/no (#835479)
+- remove confusing error message (#847434)
+- allow trailing dot in hostnames (#773099)
+- recognize PREFIX if present (#699954)
+
+* Fri Oct 12 2012 Harald Hoyer <harald@redhat.com> 1.6.0.el6.3-1
+- updated translations
+Resolves: rhbz#819812
+- added activate/deactivate buttons for interfaces
+Resolves: rhbz#626825
+
 * Tue Jun 22 2010 Harald Hoyer <harald@redhat.com> 1.6.0.el6.2-1
 - only build tui subpackage
 - fixed moduled.conf handling

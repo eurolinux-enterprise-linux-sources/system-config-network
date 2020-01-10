@@ -1,4 +1,4 @@
-# translation of system-config-network.Branch-RHEL6.po to
+# translation of de.po to
 # German translation of system-config-network.po
 # Copyright (C) 2002,2003, 2004, 2006, 2007, 2010 Free Software Foundation, Inc.
 #
@@ -8,6 +8,7 @@
 # Andreas Müller <redhat@andreas-mueller.com>, 2003, 2004.
 # Bernd Bartmann <Bernd.Bartmann@sohanet.de>, 2004.
 # Nadine Reissle <nreissle@redhat.com>, 2006.
+# Timo Trinks <ttrinks@redhat.com>, 2006, 2007.
 # Fabian Affolter <fab@fedoraproject.org>, 2007,2008.
 # Dominik Sandjaja <dominiksandjaja@fedoraproject.org>, 2008.
 # Marcus Nitzschke <kenda@fedoraproject.org>, 2009.
@@ -15,10 +16,10 @@
 # sknirT omiT <moc.tahder@sknirtt>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: system-config-network.Branch-RHEL6\n"
+"Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2010-03-16 11:46+1000\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-08 14:44+1000\n"
 "Last-Translator: sknirT omiT <moc.tahder@sknirtt>\n"
 "Language-Team:  <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +42,7 @@ msgstr ""
 "Sie einen detaillierten Fehlerbericht für die Komponente\n"
 "%s\n"
 "unter https://bugzilla.redhat.com/bugzilla\n"
-"und geben Sie nachfolgenden Fehlerauszug an.\n"
+"und geben Sie untenstehenden Fehlerauszug an.\n"
 
 #: ../src/netconf_cmd.py:108
 #, python-format
@@ -102,11 +103,11 @@ msgstr "Import-Liste"
 
 #: ../src/netconf_cmd.py:131
 msgid "clear existing list prior of importing"
-msgstr "Bestehende Liste vor dem Importieren löschen"
+msgstr "Lösche bestehende Liste vor dem Importieren"
 
 #: ../src/netconf_cmd.py:133
 msgid "import from file"
-msgstr "Aus Datei importieren"
+msgstr "Importiere aus Datei"
 
 #: ../src/netconf_cmd.py:275
 #, python-format
@@ -130,7 +131,7 @@ msgid ""
 "environment. Please either start your graphical user interface or set your\n"
 "DISPLAY variable.\n"
 msgstr ""
-"FEHLER: Initialisieren der grafischen Umgebung nicht möglich. \n"
+"Fehler: Initialisieren der grafischen Umgebung nicht möglich. \n"
 "Der häufigste Fehler ist, dass das Werkzeug nicht unter einer grafischen\n"
 "Umgebung gestartet wurde. Bitte starten Sie Ihre grafische "
 "Benutzerschnittstelle\n"
@@ -153,17 +154,17 @@ msgstr "Netzwerkgerät %s kann nicht konfiguriert werden"
 
 #: ../src/netconf_control.py:271
 msgid "Switching Profiles"
-msgstr "Profil wechseln"
+msgstr "Wechsle das Profil"
 
 #: ../src/netconf_control.py:272
 #, python-format
 msgid "Switching to profile %s"
-msgstr "Zu Profil %s wechseln"
+msgstr "Wechsle zu Profil %s."
 
 #: ../src/netconf_control.py:273
 #, python-format
 msgid "Failed to switch to profile %s"
-msgstr "Fehler beim Wechseln zu Profil %s."
+msgstr "Fehler beim Wechseln zum Profil %s."
 
 #. pylint: disable-msg=W0613
 #. TBD
@@ -176,7 +177,7 @@ msgid " (active)"
 msgstr " (aktiviert)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -201,7 +202,7 @@ msgid ""
 "save the crash dump and file a detailed bug report against %s at https://"
 "bugzilla.redhat.com/bugzilla"
 msgstr ""
-"Eine unerwarteter Ausnahmefehler trat auf. Es handelt sich wahrscheinlich "
+"Eine unerwarteter Ausnahmebedingung trat auf. Es handelt sich wahrscheinlich "
 "um einen Programmfehler. Sichern Sie den Fehlerauszug und reichen Sie einen "
 "detaillierten Fehlerbericht für die Komponente %s unter https://bugzilla."
 "redhat.com/bugzilla ein."
@@ -224,21 +225,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - Ausnahmefehler trat auf"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "Eine Datei angeben, in die der Dump gespeichert werden soll"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "Fehler beim Schreiben in die Datei %s."
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -253,7 +254,7 @@ msgstr "_Einwahl auf Anfrage erlauben"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:2
 msgid "Allow the link come up on demand."
-msgstr "Aufbau der Verbindung auf Anfrage erlauben."
+msgstr "Zulassen, dass die Verbindung auf Anfrage aufgebaut wird."
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:3
 msgid "Demand setting"
@@ -291,13 +292,14 @@ msgstr ""
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:10
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:19
 msgid "Enter the login name, that your ISP gave you here."
-msgstr "Geben Sie den Login-Namen ein, den Sie von Ihrem ISP erhalten haben."
+msgstr "Geben Sie den Anmeldenamen ein, den Sie von Ihrem ISP erhalten haben."
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:9
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
-msgid "Enter the name of this configuration, usually just the name of your ISP."
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
 msgstr ""
 "Geben Sie den Namen dieser Konfiguration ein. Gewöhnlich ist es der Name "
 "Ihres ISP."
@@ -498,7 +500,8 @@ msgstr "Internet-Provider"
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:1
 #: ../src/netconfpkg/gui/QethConfig.glade.h:1
 msgid "Allow all _users to enable and disable the device"
-msgstr "Zulassen, dass alle Ben_utzer das Gerät aktivieren und deaktivieren können"
+msgstr ""
+"Zulassen, dass alle Ben_utzer das Gerät aktivieren und deaktivieren können"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:2
 msgid "Controlled by _NetworkManager"
@@ -540,7 +543,8 @@ msgstr "Hardware-Geräte-Typ wählen"
 
 #: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:2
 msgid "Please select the type of hardware device to add:"
-msgstr "Bitte wählen Sie den Hardware-Gerät Typ aus, den Sie hinzufügen möchten:"
+msgstr ""
+"Bitte wählen Sie den Hardware-Gerät Typ aus, den Sie hinzufügen möchten:"
 
 #: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:3
 msgid "_Device type:"
@@ -596,7 +600,8 @@ msgstr ""
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:13
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:22
 msgid "Enter the phone number of your ISP (without prefix/area/country code)."
-msgstr "Geben Sie die Telefonnummer Ihres ISP (ohne Orts- und Landesvorwahl) ein."
+msgstr ""
+"Geben Sie die Telefonnummer Ihres ISP (ohne Orts- und Landesvorwahl) ein."
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:14
 msgid "IP Settings"
@@ -664,7 +669,7 @@ msgstr "Synchron-PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -851,6 +856,7 @@ msgstr "_Komprimierung"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "_Löschen"
 
@@ -940,11 +946,11 @@ msgstr "Domain-Name:"
 
 #: ../src/netconfpkg/gui/editdomain.glade.h:2
 msgid "Edit Domain Name"
-msgstr "Domain-Namen bearbeiten"
+msgstr "Domänenname bearbeiten"
 
 #: ../src/netconfpkg/gui/edithosts.glade.h:1
 msgid "Add / Edit Hosts entry"
-msgstr "Hinzufügen/Bearbeiten von Host-Einträgen"
+msgstr "Hinzufügen/Bearbeiten von Hosteinträgen"
 
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/edithosts.glade.h:2
@@ -1117,14 +1123,17 @@ msgstr "dialog1"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:40
 msgid "unique SPI for AH (256 - 4294967295), like a TCP/IP port number"
-msgstr "einzigartige SPI für AH (256 - 4294967295), wie z.B. eine TCP/IP-Port-Nummer"
+msgstr ""
+"einzigartige SPI für AH (256 - 4294967295), wie z.B. eine TCP/IP-Port-Nummer"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:41
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
-msgstr "einzigartige SPI für ESP (256 - 4294967295), wie z.B. eine TCP/IP-Port-Nummer"
+msgstr ""
+"einzigartige SPI für ESP (256 - 4294967295), wie z.B. eine TCP/IP-Port-Nummer"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
-msgid "Please enter a unique security parameter index between 256 and 4294967295."
+#: ../src/netconfpkg/gui/editipsec.py:216
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
 "Bitte geben Sie einen einzigartigen Sicherheitsparameterindex zwischen 256 "
 "und 4294967295 ein."
@@ -1214,7 +1223,7 @@ msgid ""
 msgstr ""
 "Konnte Datei »%s« nicht finden.\n"
 "Bitte überprüfen Sie Ihre Installation!\n"
-"Führen Sie 'rpm -V system-config-network' aus.\n"
+"Führen Sie »rpm -V system-config-network« aus.\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:108
 #, python-format
@@ -1225,9 +1234,10 @@ msgid ""
 msgstr ""
 "Konnte Datei »%s« nicht laden.\n"
 "Bitte überprüfen Sie Ihre Installation!\n"
-"Führen Sie 'rpm -V system-config-network' aus.\n"
+"Führen Sie »rpm -V system-config-network« aus.\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1237,6 +1247,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "Erfolg. Bitte lesen Sie die Ausgabe."
 
@@ -1245,7 +1256,7 @@ msgid "Choose Hardware Type"
 msgstr "Hardware-Typ wählen"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -1254,12 +1265,12 @@ msgid "Hardware type:"
 msgstr "Hardware-Typ:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "Modem"
 
@@ -1345,7 +1356,7 @@ msgstr "ISDN-Adapter-Konfiguration"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:1
 msgid "Activate the selected device, calling ifup <device>."
-msgstr "Aktiviere das ausgewählte Gerät, rufe ifup <device> auf."
+msgstr "Aktiviere das ausgewählte Gerät, rufe ifup <Gerät> auf."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:2
 msgid "Contents"
@@ -1361,7 +1372,7 @@ msgstr "D_NS"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:5
 msgid "Deactivate the selected device, calling ifdown <device>."
-msgstr "Deaktiviere das ausgewählte Gerät, rufe ifdown <device> auf."
+msgstr "Deaktiviere das ausgewählte Gerät, rufe ifdown <Gerät> auf."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:6
 msgid "Description"
@@ -1377,7 +1388,7 @@ msgstr "Ge_räte"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:10
 msgid "Do_main:"
-msgstr "Do_main:"
+msgstr "Do_mäne:"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:11
 msgid "H_osts"
@@ -1400,11 +1411,12 @@ msgid "Monitor the selected device."
 msgstr "Überwache das ausgewählte Gerät."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
-msgstr "Netzwerkkonfiguration"
+msgstr "Netzwerk-Konfiguration"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:17
 msgid "New Profile"
@@ -1454,7 +1466,8 @@ msgstr ""
 "logische Geräte zugeordnet sein."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:26
-msgid "You may configure network hardware physically attached to the computer here."
+msgid ""
+"You may configure network hardware physically attached to the computer here."
 msgstr ""
 "Sie können hier Netzwerk-Hardware konfigurieren, die physisch am Computer "
 "angeschlossen sind."
@@ -1480,11 +1493,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "_Aktivieren"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "_Deaktivieren"
 
@@ -1648,14 +1663,14 @@ msgstr "Das Loopback-Gerät kann nicht entfernt werden!"
 #: ../src/netconfpkg/gui/maindialog.py:996
 #, python-format
 msgid "Do you really want to delete device \"%s\"?"
-msgstr "Wollen Sie das Gerät \"%s\" wirklich entfernen?"
+msgstr "Wollen Sie wirklich das Gerät »%s« entfernen?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1029
 #: ../src/netconfpkg/gui/maindialog.py:1064
 #: ../src/netconfpkg/gui/maindialog.py:1806
 #: ../src/netconfpkg/gui/maindialog.py:1834
 msgid "You have made some changes in your configuration."
-msgstr "Sie haben Ihre Konfiguration geändert."
+msgstr "Die Konfiguration wurde geändert."
 
 #: ../src/netconfpkg/gui/maindialog.py:1030
 #, python-format
@@ -1691,7 +1706,7 @@ msgstr "Der Name darf nur Buchstaben und Zahlen enthalten!"
 #: ../src/netconfpkg/gui/maindialog.py:1547
 #, python-format
 msgid "The profile can't be named \"%s\"!"
-msgstr "Das Profil kann nicht mit \"%s\" bezeichnet werden!"
+msgstr "Das Profil kann nicht mit »%s« bezeichnet werden!"
 
 #: ../src/netconfpkg/gui/maindialog.py:1475
 #: ../src/netconfpkg/gui/maindialog.py:1553
@@ -1701,31 +1716,33 @@ msgstr "Der Profilname existiert bereits!"
 #: ../src/netconfpkg/gui/maindialog.py:1520
 #, python-format
 msgid "The \"%s\" profile can't be renamed!"
-msgstr "Das Profil \"%s\" kann nicht umbenannt werden!"
+msgstr "Das Profil »%s« kann nicht umbenannt werden!"
 
 #: ../src/netconfpkg/gui/maindialog.py:1568
 #, python-format
 msgid "The \"%s\" Profile can not be deleted!"
-msgstr "Das Profil \"%s\" kann nicht entfernt werden!"
+msgstr "Das Profil »%s« kann nicht entfernt werden!"
 
 #: ../src/netconfpkg/gui/maindialog.py:1574
 #, python-format
 msgid "Do you really want to delete profile \"%s\"?"
-msgstr "Wollen Sie das Profil \"%s\" wirklich entfernen?"
+msgstr "Wollen Sie das Profil »%s« wirklich entfernen?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1649
-msgid "Sorry, there is nothing to be edited, or this type cannot be edited yet."
-msgstr "Es gibt nichts zu bearbeiten oder dieser Typ kann nicht bearbeitet werden."
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgstr ""
+"Es gibt nichts zu bearbeiten oder dieser Typ kann nicht bearbeitet werden."
 
 #: ../src/netconfpkg/gui/maindialog.py:1667
 #, python-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr "Wollen Sie \"%s\" wirklich entfernen?"
+msgstr "Wollen Sie »%s« wirklich entfernen?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1680
 #, python-format
 msgid "Do you want to delete all devices that used \"%s\"?"
-msgstr "Wollen Sie wirklich alle Gerät entfernen, welche \"%s\" benutzt haben?"
+msgstr "Wollen Sie wirklich alle Gerät entfernen, welche »%s« benutzt haben?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1731
 msgid "translator_credits"
@@ -1735,6 +1752,7 @@ msgstr ""
 "Andreas Müller <redhat@andreas-mueller.com>, 2003, 2004.\n"
 "Bernd Bartmann <Bernd.Bartmann@sohanet.de>, 2004.\n"
 "Nadine Reissle <nreissle@redhat.com>, 2006.\n"
+"Timo Trinks <ttrinks@redhat.com>, 2006, 2007.\n"
 "Fabian Affolter <fab@fedoraproject.org>, 2007,2008.\n"
 "Dominik Sandjaja <dominiksandjaja@fedoraproject.org>, 2008,2009."
 
@@ -1887,7 +1905,7 @@ msgstr "Modem-Einwahl-Konfiguration"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -1998,8 +2016,9 @@ msgid ""
 "Do you want to deactive interface %s first?\n"
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
-"Möchten Sie die %s Schnittstelle zuerst deaktivieren?\n"
-"Ansonsten führt das Speichern der Änderungen ggf. zu unerwünschten Nebeneffekten."
+"Möchten Sie die Schnittstelle %s zuerst deaktivieren?\n"
+"Ansonsten führt das Speichern der Änderungen ggf. zu ungewollten "
+"Nebeneffekten."
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2144,7 +2163,8 @@ msgstr "Klicken Sie, um Informationen zu erhalten."
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:8
 msgid "Click to have the system automatically select and activate a profile"
-msgstr "Klicken Sie, damit das System ein Profil automatisch wählt und aktiviert"
+msgstr ""
+"Klicken Sie, damit das System ein Profil automatisch wählt und aktiviert"
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:9
 msgid "Click to monitor the interface"
@@ -2165,7 +2185,8 @@ msgstr "Eine Profil auswählen"
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:16
 msgid "The following network interfaces are configured in the active profile."
-msgstr "Die folgenden Netzwerkschnittstellen sind im aktiven Profil konfiguriert."
+msgstr ""
+"Die folgenden Netzwerkschnittstellen sind im aktiven Profil konfiguriert."
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:18
 #: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:3
@@ -2306,13 +2327,13 @@ msgstr "D_aten-Geräte-Bus-ID:"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
 msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
-msgstr "Geben Sie generische Optionen (d.h. LAYER2=1 PORTNO=0) ein"
+msgstr "Allgemeine Optionen eingeben (z.B. LAYER2=1 PORTNO=0)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/QethHardware.glade.h:4
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
 msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
-msgstr "Geben Sie die MAC-Adresse (d.h. 00:13:A9:47:5A:B2) ein"
+msgstr "MAC-Adresse eingeben (z.B. 00:13:A9:47:5A:B2)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
 #: ../src/netconfpkg/gui/QethHardware.glade.h:5
@@ -2470,7 +2491,7 @@ msgstr "S_tatische Einstellung der IP-Adressen:"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:34
 msgid "Tie to specific ethernet card"
-msgstr "Mit spezieller Ethernet-Karte verknüpfen"
+msgstr "Binde an bestimmte Ethernet-Karte (MAC)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:35
 msgid "Use ethernet device aliases"
@@ -2502,11 +2523,11 @@ msgstr "_Niedrige Sicherheit"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:44
 msgid "_Probe"
-msgstr "_Prüfen"
+msgstr "_Hole"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:45
 msgid "_Probe for Address..."
-msgstr "_Adresse abfragen …"
+msgstr "_Hole Adresse …"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:46
 msgid "_Secure Device (LAN)"
@@ -2576,7 +2597,7 @@ msgstr "_Hardware-Gerät:"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:10
 msgid "_Probe for Address"
-msgstr "_Adresse abfragen"
+msgstr "_Hole Adresse"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:12
 msgid "_Use Hardware Address"
@@ -2644,7 +2665,7 @@ msgstr "<b>T-Online Zugang</b>"
 # exakter Text des T-Online Dialogs
 #: ../src/netconfpkg/gui/tonline.glade.h:2
 msgid "Account Setup"
-msgstr "Kontoeinstellungen"
+msgstr "Abfrage der Zugangsdaten"
 
 # exakter Text des T-Online Dialogs
 #: ../src/netconfpkg/gui/tonline.glade.h:4
@@ -3179,12 +3200,16 @@ msgid "Inactive"
 msgstr "Deaktiviert"
 
 #: ../src/netconfpkg/NC_functions.py:228
-msgid "Shall the following packages, which are needed on your system, be installed?"
-msgstr "Sollen die folgenden, auf Ihrem System benötigten, Pakete installiert werden?"
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
+msgstr ""
+"Sollen die folgenden, auf Ihrem System benötigten, Pakete installiert werden?"
 
 #: ../src/netconfpkg/NC_functions.py:240
-msgid "You have to install the following packages, which are needed on your system!"
-msgstr "Sie müssen die folgenden auf Ihrem System benötigten Pakete installieren!"
+msgid ""
+"You have to install the following packages, which are needed on your system!"
+msgstr ""
+"Sie müssen die folgenden, auf Ihrem System benötigten, Pakete installieren!"
 
 #: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
 #, python-format
@@ -3248,7 +3273,7 @@ msgstr ""
 #: ../src/netconfpkg/NC_functions.py:987
 #, python-format
 msgid "Linking %s to devices and putting it in profile %s."
-msgstr "Verknüpfe %s mit Geräten und setze es ins Profil %s"
+msgstr "Verknüpfe %s zu Geräten und setze es ins Profil %s"
 
 #: ../src/netconfpkg/NCHardware.py:22
 msgid "inactive"
@@ -3300,7 +3325,7 @@ msgstr "IPsec-Verbindung %s kann nicht deaktiviert werden!\n"
 #: ../src/netconfpkg/NCProfileList.py:213
 #, python-format
 msgid "Device %s uses the same Hardware Device \"%s\" like %s!\n"
-msgstr "Gerät %s verwendet das gleiche Hardware-Gerät \"%s\" wie %s!\n"
+msgstr "Gerät %s verwendet das gleiche Hardware-Gerät »%s« wie %s!\n"
 
 #: ../src/netconfpkg/NCProfileList.py:215
 msgid ""
@@ -3332,20 +3357,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "Fehler beim Entfernen der Datei %(file)s: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<Neues Gerät>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "Welchen Gerätetyp möchten Sie hinzufügen?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3354,16 +3379,15 @@ msgstr "Hinzufügen"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "Ein Gerät wählen"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "Speichern"
 
@@ -3394,10 +3418,11 @@ msgstr "DNS-Suchpfad:"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "Ok"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS-Konfiguration"
 
@@ -3475,10 +3500,6 @@ msgstr "Optionen"
 msgid "MAC Address"
 msgstr "MAC-Adresse"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Devernet-Konfiguration"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
 msgstr "Erster DNS-Server"
@@ -3502,14 +3523,14 @@ msgid ""
 "failure is that the tool was not run using a graphical environment. Please "
 "either start your graphical user interface or set your DISPLAY variable."
 msgstr ""
-"FEHLER: Initialisieren der grafischen Umgebung nicht möglich. Der häufigste "
+"Fehler: Initialisieren der grafischen Umgebung nicht möglich. Der häufigste "
 "Fehler ist, dass das Werkzeug nicht unter einer grafischen Umgebung "
 "gestartet wurde. Bitte starten Sie Ihre grafische Benutzerschnittstelle oder "
 "setzen Sie Ihre DISPLAY-Variable."
 
 #: ../src/netconf.py:130
 msgid "Loading Network Configuration..."
-msgstr "Lade Netzwerkkonfiguration …"
+msgstr "Lade Netzwerk-Konfiguration …"
 
 #: ../src/netconf.py:143
 msgid ""
@@ -3521,11 +3542,11 @@ msgstr ""
 "\n"
 "Verwendung: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
-msgstr "Bitte starten Sie system-config-network mit Root-Berechtigung!\n"
+msgstr "Bitte starten Sie system-config-network mit root-Berechtigung!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3536,38 +3557,38 @@ msgstr ""
 "Sie einen detaillierten Fehlerbericht für die Komponente system-config-"
 "network auf https://bugzilla.redhat.com/bugzilla"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "Lade Konfiguration"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "Lade Geräte-Konfiguration"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "Lade Hardware-Konfiguration"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "Lade Profil-Konfiguration"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "Geräte-Konfiguration"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "Aktion auswählen"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "Speichern & Beenden"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "Beenden"
 
@@ -3583,3 +3604,5 @@ msgstr "Netzwerk"
 msgid "Control and monitor network devices"
 msgstr "Kontrolliere und überwache Netzwerkgeräte"
 
+#~ msgid "Devernet Configuration"
+#~ msgstr "Devernet-Konfiguration"

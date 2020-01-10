@@ -151,6 +151,7 @@ src/netconfpkg/tui/NCPluginModemInterface.py
 src/netconfpkg/tui/NCPluginQethInterface.py
 src/netconfpkg/tui/NCPluginTokenRingInterface.py
 src/netconfpkg/tui/NCTcpIp.py
+src/netconfpkg/tui/TUI_functions.py
 src/netconf.py
 src/netconf_tui.py
 src/version.py.in

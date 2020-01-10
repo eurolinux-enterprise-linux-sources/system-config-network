@@ -7,19 +7,19 @@
 # Jayaradha N <njaya@redhat.com>, 2004.
 # Felix <ifelix@redhat.com>, 2006.
 # I felix <ifelix@redhat.com>, 2007.
-# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# I. Felix <ifelix@redhat.com>, 2008, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: system-config-network.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2009-11-13 16:04+0530\n"
-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-07 05:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
 "\n"
 "\n"
@@ -180,7 +180,7 @@ msgid " (active)"
 msgstr "(செயலிலுள்ள)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -227,21 +227,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - விதிவிலக்கு ஏற்பட்டுள்ளது"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "dumpஐ சேமிக்க ஒரு கோப்பினை குறிப்பிடவும்"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "கோப்பு %sஇல் எழுத முடியவில்லை"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -656,7 +656,7 @@ msgstr "sync PPP "
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -839,6 +839,7 @@ msgstr "குறுக்குதல் (_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "அழிக்கவும் (_D)"
 
@@ -1111,7 +1112,7 @@ msgstr "AH (256 - 4294967295)க்கு தனித்தன்மை SPI, �
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "ESP (256 - 4294967295)க்கு தனித்தன்மை SPI, ஒரு TCP/IP துறை எண்ணைப் போல்"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
+#: ../src/netconfpkg/gui/editipsec.py:216
 msgid ""
 "Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
@@ -1216,6 +1217,7 @@ msgstr ""
 "இயக்கவும்: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1225,6 +1227,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "வெற்றி. வெளியீட்டை வாசிக்கவும்."
 
@@ -1233,7 +1236,7 @@ msgid "Choose Hardware Type"
 msgstr "வன்பொருள் வகையைத் தேர்வு செய்யவும்"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "ஈத்தர்நெட்"
 
@@ -1242,12 +1245,12 @@ msgid "Hardware type:"
 msgstr "வன்பொருள் வகை:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN "
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "மோடம்"
 
@@ -1388,8 +1391,9 @@ msgid "Monitor the selected device."
 msgstr "தேர்ந்தெடுக்கப்பட்ட சாதனத்தை கண்காணிக்கவும்."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "பிணைய கட்டமைப்பு"
@@ -1465,11 +1469,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "செயல்படுத்தவும் (_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "செயல் நீக்கவும் (_D)"
 
@@ -1854,7 +1860,7 @@ msgstr "மோடம் டயல் அப் கட்டமைப்பு"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "தெரியாதது"
 
@@ -1961,6 +1967,8 @@ msgid ""
 "Do you want to deactive interface %s first?\n"
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
+"முகப்பு %sஐ முதலில் செயல்நீக்க வேண்டுமா?\n"
+"அல்லது மாற்றங்கள் தேவையில்லாத பக்க விளைவுகளை கொடுக்கும்."
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2266,13 +2274,13 @@ msgstr "தரவு சாதன வட ID (_a):"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
 msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
-msgstr ""
+msgstr "வகை விருப்பங்களை உள்ளிடு (அதாவது LAYER2=1 PORTNO=0)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/QethHardware.glade.h:4
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
 msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
-msgstr ""
+msgstr "MAC முகவரியை உள்ளிடு (அதாவது 00:13:A9:47:5A:B2)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
 #: ../src/netconfpkg/gui/QethHardware.glade.h:5
@@ -2282,15 +2290,13 @@ msgstr "எடுத்துக்காட்டாக 0.0.0600"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:5
 #: ../src/netconfpkg/gui/QethHardware.glade.h:6
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:5
-#, fuzzy
 msgid "MAC Address:"
-msgstr "முகவரி:"
+msgstr "MAC முகவரி:"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:6
 #: ../src/netconfpkg/gui/QethHardware.glade.h:8
-#, fuzzy
 msgid "Options:"
-msgstr "விருப்பங்கள் (_O)"
+msgstr "விருப்பங்கள்:"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:7
 msgid "Resource"
@@ -3291,20 +3297,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "கோப்பு %(file)sஐ நீக்குவதில் பிழை: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<New Device>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "எந்த வகை சாதனத்தை சேர்க்க வேண்டும்?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "சேர்க்கவும்"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3313,16 +3319,15 @@ msgstr "சேர்க்கவும்"
 msgid "Cancel"
 msgstr "ரத்து"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "ஒரு சாதனத்தைத் தேர்ந்தெடுக்கவும்"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "சேமி"
 
@@ -3353,10 +3358,11 @@ msgstr "DNS தேடல் பாதை"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "சரி"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS கட்டமைப்பு"
 
@@ -3427,18 +3433,12 @@ msgid "Write Device Bus ID"
 msgstr "சாதன வட IDஐ எழுதுதல்"
 
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:138
-#, fuzzy
 msgid "Options"
-msgstr "விருப்பங்கள் (_O)"
+msgstr "விருப்பங்கள்"
 
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:139
-#, fuzzy
 msgid "MAC Address"
-msgstr "முகவரி:"
-
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Devernet கட்டமைப்பு"
+msgstr "MAC முகவரி"
 
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
@@ -3481,11 +3481,11 @@ msgstr ""
 "\n"
 "பயன்பாடு: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "system-config-network ஐ ரூட் உரிமையோடு துவக்கவும்!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3495,38 +3495,38 @@ msgstr ""
 "config-network பற்றிய crash dump கோப்புகளை சேமித்து https://bugzilla.redhat.com/"
 "bugzilla இல் பிழையை அறிக்கையிடவும்."
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "கட்டமைப்பை ஏற்றுகிறது..."
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "சாதன கட்டமைப்பை ஏற்றுகிறது"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "வன்பொருள் கட்டமைப்பை ஏற்றுகிறது"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "விவரக்குறிப்பு கட்டமைப்பை ஏற்றுகிறது"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "சாதன கட்டமைப்பு"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "செயலைத் தேர்ந்தெடுக்கவும்"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "சேமித்து&வெளியேறு"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "வெளியேறுதல்"
 
@@ -3541,3 +3541,6 @@ msgstr "பிணையம்"
 #: ../system-control-network.desktop.in.h:1
 msgid "Control and monitor network devices"
 msgstr "கட்டுப்பாடு மற்றும் திரையக பிணைய சாதனம்"
+
+#~ msgid "Devernet Configuration"
+#~ msgstr "Devernet கட்டமைப்பு"

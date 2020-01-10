@@ -1,0 +1,66 @@
+From b090fdc813375deffda1923c2af2510c08a96fdf Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Mon, 30 Nov 2015 11:17:00 +0100
+Subject: [PATCH 9/9] recognize PREFIX if present (#699954)
+
+If PREFIX or PREFIX0 is present in the configuration, update the netmask string
+in the TUI accordingly. If both PREFIX and NETMASK are present, the netmask
+string is always updated according to the PREFIX. On saving, only NETMASK
+is saved, any PREFIX or PREFIX0 is discarded.
+
+Resolves: #699954
+---
+ src/netconfpkg/NCDevice.py |   23 +++++++++++++++++++++++
+ 1 files changed, 23 insertions(+), 0 deletions(-)
+
+diff --git a/src/netconfpkg/NCDevice.py b/src/netconfpkg/NCDevice.py
+index 1edc4a2..0e15e49 100644
+--- a/src/netconfpkg/NCDevice.py
++++ b/src/netconfpkg/NCDevice.py
+@@ -77,6 +77,7 @@ class Device_base(Gdtstruct):
+         self.BootProto = None
+         self.IP = None
+         self.Netmask = None
++        self.Prefix = None
+         self.Gateway = None
+         self.IPv6Init = None
+         self.Hostname = None
+@@ -340,6 +341,22 @@ class Device(Device_base):
+             else:
+                 self.AutoDNS = False
+ 
++        if conf.has_key('PREFIX'):
++            self.Prefix = conf['PREFIX']
++        elif conf.has_key('PREFIX0'):
++            self.Prefix = conf['PREFIX0']
++        if self.Prefix:
++            prefix = int(self.Prefix)
++            maskbytes = []
++            for i in range(0, 4):
++                b = 0
++                shift = 8 if prefix > 8 else prefix
++                for i in range(0, shift):
++                    b = b + (1 << 7-i)
++                maskbytes.append(str(b))
++                prefix = max(0, prefix - 8)
++            self.Netmask = '.'.join(maskbytes)
++
+         # move old <id>.route files to route-<id>
+         mfile = str(getRoot() + SYSCONFDEVICEDIR +
+                                 self.DeviceId + '.route')
+@@ -439,6 +456,12 @@ class Device(Device_base):
+         else:
+             del conf['ONPARENT']
+ 
++        # Delete prefix, we want only netmask in the configuration.
++        if conf.has_key('PREFIX'):
++            del conf['PREFIX']
++        if conf.has_key('PREFIX0'):
++            del conf['PREFIX0']
++
+         # Recalculate BROADCAST and NETWORK values if IP and netmask are
+         # present (#51462)
+         # obsolete
+-- 
+1.7.1
+

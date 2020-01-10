@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
 "PO-Revision-Date: 2004-04-04 15:26+0200\n"
 "Last-Translator: Rok Papez <rok.papez@lugos.si>\n"
 "Language-Team: slovenščina <translation-team-sl@lists.sourceforge.net>\n"
@@ -162,7 +162,7 @@ msgid " (active)"
 msgstr " (dejavno)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 #, fuzzy
 msgid ""
 "system-config-network - network configuration tool\n"
@@ -207,21 +207,21 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr ""
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, fuzzy, python-format
 msgid "Failed to write to file %s."
 msgstr "Ni moč preklopiti v profil %s"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -641,7 +641,7 @@ msgstr "sinh. PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -826,6 +826,7 @@ msgstr "_Komprimiranje"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "_Pobriši"
 
@@ -1100,7 +1101,7 @@ msgstr ""
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr ""
 
-#: ../src/netconfpkg/gui/editipsec.py:217
+#: ../src/netconfpkg/gui/editipsec.py:216
 msgid ""
 "Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
@@ -1198,6 +1199,7 @@ msgid ""
 msgstr ""
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1207,6 +1209,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "Uspešno. Preverite izhodna sporočila."
 
@@ -1215,7 +1218,7 @@ msgid "Choose Hardware Type"
 msgstr "Izberite vrsto strojne opreme"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -1224,12 +1227,12 @@ msgid "Hardware type:"
 msgstr "Vrsta strojne opreme:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "Modem"
 
@@ -1373,8 +1376,9 @@ msgid "Monitor the selected device."
 msgstr "Spremljaj izbrano napravo."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "Mrežne nastavitve"
@@ -1451,11 +1455,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "_Aktiviraj"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "_Deaktiviraj"
 
@@ -1845,7 +1851,7 @@ msgstr "Nastavitev klicanja modema"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "Neznan gostitelj"
 
@@ -3291,23 +3297,23 @@ msgstr ""
 "%s:\n"
 "%s!"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 #, fuzzy
 msgid "<New Device>"
 msgstr "Naprava"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 #, fuzzy
 msgid "Which device type do you want to add?"
 msgstr "Naprav tipa %s ni moč urejat!"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 #, fuzzy
 msgid "Add"
 msgstr "Dodaj..."
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3316,17 +3322,16 @@ msgstr "Dodaj..."
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr ""
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 #, fuzzy
 msgid "Select A Device"
 msgstr "Izberite napravo"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr ""
 
@@ -3362,10 +3367,11 @@ msgstr "Iskalni nizi DNS:"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "V redu"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 #, fuzzy
 msgid "DNS configuration"
 msgstr "Nastavitev xDSL"
@@ -3447,11 +3453,6 @@ msgstr "_Izbire"
 msgid "MAC Address"
 msgstr "Naslov:"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-#, fuzzy
-msgid "Devernet Configuration"
-msgstr "Nastavitev etherneta"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 #, fuzzy
 msgid "Primary DNS Server"
@@ -3492,11 +3493,11 @@ msgstr ""
 "\n"
 "Raba: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "Poženite system-config-network s skrbniškimi dovoljenji!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3506,44 +3507,44 @@ msgstr ""
 "posmrtne ostanke procesa in izpolnite podrobno poročilo o hrošču v programu "
 "system-config-network na https://bugzilla.redhat.com/bugzilla/"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 #, fuzzy
 msgid "Loading configuration"
 msgstr "Nalagajo se nastavitve..."
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 #, fuzzy
 msgid "Loading Device Configuration"
 msgstr "Nalagajo se nastavitve naprave..."
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 #, fuzzy
 msgid "Loading Hardware Configuration"
 msgstr "Nalagajo se nastavitve strojne opreme..."
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 #, fuzzy
 msgid "Loading Profile Configuration"
 msgstr "Nalagajo se nastavitve profilov..."
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 #, fuzzy
 msgid "Device configuration"
 msgstr "Nastavitev xDSL"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 #, fuzzy
 msgid "Select Action"
 msgstr "Izberite napravo"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr ""
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr ""
 
@@ -3558,6 +3559,10 @@ msgstr "Omrežje"
 #: ../system-control-network.desktop.in.h:1
 msgid "Control and monitor network devices"
 msgstr "Nadzor mrežnih naprav"
+
+#, fuzzy
+#~ msgid "Devernet Configuration"
+#~ msgstr "Nastavitev etherneta"
 
 #~ msgid "ERROR: Unable to initialize graphical environment. "
 #~ msgstr "NAPAKA: Grafičnega okolja ni moč inicializirati."

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-config-network.master.bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
 "PO-Revision-Date: 2008-03-03 00:08+0600\n"
 "Last-Translator: Angel <angel@fedoraproject.org>\n"
 "Language-Team: Bengali <fedora-trans-bn@redhat.com>\n"
@@ -161,7 +161,7 @@ msgid " (active)"
 msgstr " (সক্রিয়)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -214,23 +214,23 @@ msgstr ""
 "%s"
 
 # odified by An
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, fuzzy, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "ব্যতিক্রম ঘটেছে"
 
 # odified by An
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "ডাম্প সংরক্ষণের জন্য একটি ফাইল চিহ্নিত করুন"
 
 # odified by An
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "%s ফাইলে লিখতে ব্যর্থ।"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -649,7 +649,7 @@ msgstr "sync PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -834,6 +834,7 @@ msgstr "কম্প্রেশন (_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "মুছে ফেলুন (_D)"
 
@@ -1114,7 +1115,7 @@ msgstr ""
 "ESP (256 - 4294967295)-র জন্য একটি স্বতন্ত্র SPI, যেমন একটি TCP/IP পোর্ট সংখ্যা"
 
 # odified by An
-#: ../src/netconfpkg/gui/editipsec.py:217
+#: ../src/netconfpkg/gui/editipsec.py:216
 msgid ""
 "Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
@@ -1219,6 +1220,7 @@ msgstr ""
 "ব্যবহার করুন: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1228,6 +1230,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "সফল হয়েছে। অনুগ্রহ করে আউটপূটটি পড়ুন।"
 
@@ -1236,7 +1239,7 @@ msgid "Choose Hardware Type"
 msgstr "হার্ডওয়েরের ধরন বাছাই করুন"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "ইথারনেট"
 
@@ -1245,12 +1248,12 @@ msgid "Hardware type:"
 msgstr "হার্ডওয়্যারের ধরন:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "আইএসডিএন"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "মোডেম"
 
@@ -1391,8 +1394,9 @@ msgid "Monitor the selected device."
 msgstr "বাছাই করা ডিভাইসটি পর্যবেক্ষণ করুন।"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "নেটওয়ার্ক কনফিগারেশন"
@@ -1467,11 +1471,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "স্বক্রিয় (_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "নিষ্ক্রিয় করো (_D)"
 
@@ -1861,7 +1867,7 @@ msgstr "মোডেম ডায়াল-আপ কনফিগারেশন"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "অজানা"
 
@@ -3323,20 +3329,20 @@ msgstr ""
 "সম্ভব হয় নি:\n"
 "%s!"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<নতুন ডিভাইস>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "কী ধরনের ডিভাইস আপনি যোগ করতে ইচ্ছুক?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "যোগ"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3345,18 +3351,17 @@ msgstr "যোগ"
 msgid "Cancel"
 msgstr "বাতিল"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr ""
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 #, fuzzy
 msgid "Select A Device"
 msgstr "ডিভাইস বাছাই করুন"
 
 # odified by An
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 #, fuzzy
 msgid "Save"
 msgstr "প্রস্থান"
@@ -3393,10 +3398,11 @@ msgstr "DNS -র অনুসন্ধানের পাথ:"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "ঠিক আছে"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 #, fuzzy
 msgid "DNS configuration"
 msgstr "xDSL কনফিগারেশন"
@@ -3478,10 +3484,6 @@ msgstr "অপশনসমূহ (_O)"
 msgid "MAC Address"
 msgstr "ঠিকানা:"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "ইথারনেট কনফিগারেশন"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 #, fuzzy
 msgid "Primary DNS Server"
@@ -3522,11 +3524,11 @@ msgstr ""
 "\n"
 "ব্যবহার পদ্ধতি: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "অনুগ্রহ করে root-এর অনুমতিসহ system-config-network আরম্ভ করুন!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3537,43 +3539,43 @@ msgstr ""
 "redhat.com/bugzilla-তে system-config-network এর পাশে একটি বিস্তারিত বাগ "
 "রিপোর্ট জমা দিন।"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "কনফিগারেশন লোড করা হচ্ছে"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "ডিভাইসের কনফিগারেশন লোড করা হচ্ছে"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "হার্ডওয়ের কনফিগারেশন লোড করা হচ্ছে"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "প্রোফাইল কনফিগারেশন লোড করা হচ্ছে"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 #, fuzzy
 msgid "Device configuration"
 msgstr "xDSL কনফিগারেশন"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 #, fuzzy
 msgid "Select Action"
 msgstr "ডিভাইস বাছাই করুন"
 
 # odified by An
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 #, fuzzy
 msgid "Save&Quit"
 msgstr "প্রস্থান"
 
 # odified by An
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "প্রস্থান"
 
@@ -3590,6 +3592,9 @@ msgstr "নেটওয়ার্ক"
 #: ../system-control-network.desktop.in.h:1
 msgid "Control and monitor network devices"
 msgstr "নেটওয়ার্ক ডিভাইস নিয়ন্ত্রন এবং পর্যবেক্ষণ"
+
+#~ msgid "Devernet Configuration"
+#~ msgstr "ইথারনেট কনফিগারেশন"
 
 #~ msgid "ERROR: Unable to initialize graphical environment. "
 #~ msgstr "সমস্যা: গ্রাফিক্যাল এনভাইরনমেন্ট আরম্ভ করা সম্ভব হয়নি।"

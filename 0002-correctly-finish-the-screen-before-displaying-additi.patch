@@ -1,0 +1,25 @@
+From a020c3306a6d5bfdc6460ae1bd0c52614e7b699e Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Mon, 23 Nov 2015 15:22:12 +0100
+Subject: [PATCH 2/9] correctly finish the screen before displaying additional information (#1204064)
+
+Resolves: #1204064
+---
+ src/netconf_tui.py |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/src/netconf_tui.py b/src/netconf_tui.py
+index 3b9d1c8..909bb8c 100644
+--- a/src/netconf_tui.py
++++ b/src/netconf_tui.py
+@@ -296,6 +296,7 @@ def main():
+             act = selectAction(screen)
+             if act:
+                 if act == -1:
++                    screen.finish()
+                     # save and exit
+                     devlist.save()
+                     plist.save()
+-- 
+1.7.1
+

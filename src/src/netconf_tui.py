@@ -16,8 +16,11 @@ import locale
 import gettext
 import signal
 
+sys.path.append(os.getcwd() + "/../../")
+
 from snack import SnackScreen
 import netconfpkg # pylint: disable-msg=W0611
+from netconfpkg.tui import TUI_functions
 from netconfpkg import NC_functions
 from netconfpkg.NC_functions import log, generic_error_dialog
 from netconfpkg.NCDeviceList import getDeviceList
@@ -36,11 +39,11 @@ _ = lambda x: gettext.lgettext(x)
 import __builtin__
 __builtin__.__dict__['_'] = _
 
-if not "/usr/share/system-config-network" in sys.path:
-    sys.path.append("/usr/share/system-config-network")
+# if not "/usr/share/system-config-network" in sys.path:
+#     sys.path.append("/usr/share/system-config-network")
 
-if not "/usr/share/system-config-network/netconfpkg/" in sys.path:
-    sys.path.append("/usr/share/system-config-network/netconfpkg")
+# if not "/usr/share/system-config-network/netconfpkg/" in sys.path:
+#     sys.path.append("/usr/share/system-config-network/netconfpkg")
 
 from version import PRG_VERSION
 from version import PRG_NAME
@@ -242,7 +245,7 @@ def parse_opts():
     if chroot:
         NC_functions.prepareRoot(chroot)
 
-def selectAction(mscreen, plist):
+def selectAction(mscreen):
     from netconfpkg.tui import NCPluginDNS
     from netconfpkg.tui import NCPluginDevices
     li = Listbox(5, returnExit=1)
@@ -252,8 +255,8 @@ def selectAction(mscreen, plist):
         le = 5
     # do this more inteligent - auto loading of new plugins??
     for act, act_id in { \
-        _("Device configuration") : NCPluginDevices.NCPluginDevicesTui(plist),
-        _("DNS configuration") : NCPluginDNS.NCPluginDNSTui(plist),
+        _("Device configuration") : NCPluginDevices.NCPluginDevicesTui(),
+        _("DNS configuration") : NCPluginDNS.NCPluginDNSTui(getProfileList()),
         }.items():
     
        li.append(act, act_id)
@@ -285,23 +288,31 @@ def main():
     screen = SnackScreen()
     plist = getProfileList()
     devlist = getDeviceList()
+    hwlist = getHardwareList()
     try:
         #mainScreen(screen)
         loadConfig(screen)
         while True:
-            act = selectAction(screen, plist)
+            act = selectAction(screen)
             if act:
                 if act == -1:
                     # save and exit
-                    if devlist.modified():
-                        devlist.save()
-                    if plist.modified():
-                        plist.save()
+                    devlist.save()
+                    plist.save()
+                    hwlist.save()
                     break
                 if hasattr(act, "runIt"):
                     if act.runIt(screen):
                         plist.commit()
+                        devlist.commit()
+                        hwlist.commit()
                     else:
+                        hwlist.rollback()
+                        hwlist.commit()
+                        devlist.rollback()
+                        devlist.commit()
+                        plist.rollback()
+                        plist.commit()
                         pass
                 else:
                     # we shouldn't get here

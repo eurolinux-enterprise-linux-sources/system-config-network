@@ -1,0 +1,89 @@
+From a4408a619fa3f047235d151598ec58e3723301f5 Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Fri, 27 Nov 2015 10:38:30 +0100
+Subject: [PATCH 6/9] add option for NM_CONTROLLED=yes/no (#835479)
+
+Resolves: #835479
+---
+ src/netconfpkg/NCDevice.py    |    7 +++----
+ src/netconfpkg/tui/NCTcpIp.py |    8 +++++++-
+ 2 files changed, 10 insertions(+), 5 deletions(-)
+
+diff --git a/src/netconfpkg/NCDevice.py b/src/netconfpkg/NCDevice.py
+index 83cd7d9..1edc4a2 100644
+--- a/src/netconfpkg/NCDevice.py
++++ b/src/netconfpkg/NCDevice.py
+@@ -260,13 +260,12 @@ class Device(Device_base):
+                     #setattr(self, selfkey, False)
+             # we need to deal with options which have default value 'yes' like NM_CONTROLLED
+             else:
+-                if confkey != "NM_CONTROLLED":
++                if confkey not in ["NM_CONTROLLED", "PEERDNS"]:
+                     setattr(self, selfkey, False)
++                else:
++                    setattr(self, selfkey, True)
+                 #setattr(self, selfkey, False)
+ 
+-        if not conf.has_key("PEERDNS"):
+-            del self.AutoDNS
+-
+         if not self.Slave:
+             del self.Slave
+ 
+diff --git a/src/netconfpkg/tui/NCTcpIp.py b/src/netconfpkg/tui/NCTcpIp.py
+index 658d138..0792dba 100644
+--- a/src/netconfpkg/tui/NCTcpIp.py
++++ b/src/netconfpkg/tui/NCTcpIp.py
+@@ -26,6 +26,7 @@ class NCTcpIpDialog:
+         self.gwy = snack.Entry(20, "")
+         self.peerdns = snack.Checkbox("")
+         self.onboot = snack.Checkbox("")
++        self.nmcontrolled = snack.Checkbox("")
+         self.screen = None
+ 
+     def setState(self, dev=None):
+@@ -60,6 +61,8 @@ class NCTcpIpDialog:
+                 self.peerdns.setValue("*")
+             if dev.OnBoot:
+                 self.onboot.setValue("*")
++            if dev.NMControlled:
++                self.nmcontrolled.setValue("*")
+ 
+     def useDynamicCheckBox(self):
+         """
+@@ -111,6 +114,7 @@ class NCTcpIpDialog:
+ 
+         self.dev.AutoDNS = self.peerdns.value()
+         self.dev.OnBoot = self.onboot.value()
++        self.dev.NMControlled = self.nmcontrolled.value()
+ 
+     def runIt(self, screen):
+         """
+@@ -118,7 +122,7 @@ class NCTcpIpDialog:
+         """
+         self.screen = screen
+         g1 = snack.Grid(1, 1)
+-        g2 = snack.Grid(2, 10)
++        g2 = snack.Grid(2, 11)
+         g2.setField(snack.Label (_("Name")), 0, 0, anchorLeft = 1)
+         g2.setField(snack.Label (_("Device")), 0, 1, anchorLeft = 1)
+         g2.setField(snack.Label (_("Use DHCP")), 0, 2, anchorLeft = 1)
+@@ -129,6 +133,7 @@ class NCTcpIpDialog:
+         g2.setField(snack.Label (_("Secondary DNS Server")), 0, 7, anchorLeft = 1)
+         g2.setField(snack.Label (_("Peer DNS")), 0, 8, anchorLeft = 1)
+         g2.setField(snack.Label (_("On boot")), 0, 9, anchorLeft = 1)
++        g2.setField(snack.Label (_("Controlled by NetworkManager")), 0, 10, anchorLeft = 1)
+         g2.setField(self.name, 1, 0, (1, 0, 0, 0))
+         g2.setField(self.hwdev, 1, 1, (1, 0, 0, 0))
+         g2.setField(self.dynip, 1, 2, (1, 0, 0, 0), anchorLeft = 1)
+@@ -139,6 +144,7 @@ class NCTcpIpDialog:
+         g2.setField(self.dnsserver2, 1, 7, (1, 0, 0, 0))
+         g2.setField(self.peerdns, 1, 8, (1, 0, 0, 0), anchorLeft = 1)
+         g2.setField(self.onboot, 1, 9, (1, 0, 0, 0), anchorLeft = 1)
++        g2.setField(self.nmcontrolled, 1, 10, (1, 0, 0, 0), anchorLeft = 1)
+         self.dynip.setCallback(self.useDynamicCheckBox)
+         bb = snack.ButtonBar(self.screen, ((_("Ok"), "ok"),
+                                            (_("Cancel"), "cancel")))
+-- 
+1.7.1
+

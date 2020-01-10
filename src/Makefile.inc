@@ -23,7 +23,7 @@ archive: tag
 	@rm -rf /tmp/${PACKAGE}-$(VERSION) /tmp/${PACKAGE}
 	@git clone $$orig . /tmp/${PACKAGE}-$(VERSION)
 	@cd /tmp/${PACKAGE}-$(VERSION);git checkout -b compile $(SCMTAG);./autogen.sh;make;make distcheck
-	@mv /tmp/${PACKAGE}-$(VERSION)/${PACKAGE}-$(VERSION).tar.gz  $(top_builddir)
+	@mv /tmp/${PACKAGE}-$(VERSION)/${PACKAGE}-$(VERSION).tar.bz2  $(top_builddir)
 	@rm -rf /tmp/${PACKAGE}-$(VERSION)
 	@echo "The archive is in ${PACKAGE}-$(VERSION).tar.bz2"
 

@@ -62,10 +62,14 @@ class DevQeth(DevEthernet):
             hw.Card = Card()
             hw.Card.ModuleName = "qeth"
             try:
-                ports = conf["SUBCHANNELS"].split(", ")
+                ports = conf["SUBCHANNELS"].split(",")
                 hw.Card.IoPort = ports[0]
                 hw.Card.IoPort1 = ports[1]
                 hw.Card.IoPort2 = ports[2]
+            except:  # pylint: disable-msg=W0704
+                pass # pylint: disable-msg=W0702
+
+            try:
                 hw.Card.Options = conf["OPTIONS"]
             except:  # pylint: disable-msg=W0704
                 pass # pylint: disable-msg=W0702

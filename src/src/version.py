@@ -21,7 +21,7 @@
 # dirty hack but does the job(tm). It basically finds all .py files in the
 # package directory and imports from all found files (except __init__.py that
 # is) ;). Nice for plugin mechanism.
-PRG_VERSION = "1.6.0.el6.2"
+PRG_VERSION = "1.6.0.el6.3"
 PRG_NAME = "system-config-network"
 PRG_AUTHORS = ["Harald Hoyer <harald@redhat.com>",
                "Than Ngo <than@redhat.com>",

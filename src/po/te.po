@@ -1,15 +1,15 @@
-# translation of system-config-network.master.te.po to Telugu
+# translation of te.po to Telugu
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
 # Sree Ganesh <sthottem@redhat.com>, 2006.
-# Krishna Babu K <kkrothap@redhat.com>, 2007, 2008, 2009.
+# Krishna Babu K <kkrothap@redhat.com>, 2007, 2008, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: system-config-network.master.te\n"
+"Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2009-11-12 16:58+0530\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-09 16:51+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -169,7 +170,7 @@ msgid " (active)"
 msgstr " (క్రియాశీలం)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -216,21 +217,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - ఆక్షేపణ యెదురైంది"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "డంప్ ను భద్రపరచటానికి దస్త్రంను తెలపండి"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "%s దస్త్రంలో వ్రాయుటకు విఫలమైంది."
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -642,7 +643,7 @@ msgstr "sync PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -825,6 +826,7 @@ msgstr "కంప్రెషన్(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "తొలగించు(_D)"
 
@@ -1097,7 +1099,7 @@ msgstr "AH కోసం సమిష్ఠి SPI (256 - 4294967295), TCP/IP ప
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "ESP కోసం సమిష్ఠి SPI (256 - 4294967295), TCP/IP పోర్టు సంఖ్య లాంటిది"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
+#: ../src/netconfpkg/gui/editipsec.py:216
 msgid ""
 "Please enter a unique security parameter index between 256 and 4294967295."
 msgstr "దయచేసి 256 మరియూ 4294967295ల మధ్య ఉన్న ఒక రక్షణ పారామితి సూచికను ఇవ్వండి."
@@ -1200,6 +1202,7 @@ msgstr ""
 "ఉపయోగించు: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1209,6 +1212,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "విజయవంతమైంది. ఉద్గాతాన్ని దయచేసి చదవండి."
 
@@ -1217,7 +1221,7 @@ msgid "Choose Hardware Type"
 msgstr "హార్డువేరు రకాన్ని ఎన్నుకో"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -1226,12 +1230,12 @@ msgid "Hardware type:"
 msgstr "హార్డువేరు రకం:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "మోడెం"
 
@@ -1372,8 +1376,9 @@ msgid "Monitor the selected device."
 msgstr "ఎన్నికచేయబడ్డ సాధనం కోసం మోనిటర్."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "నెట్వర్కు ఆకృతీకరణ"
@@ -1446,11 +1451,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "క్రియాశీలం(_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "క్రియారహితం(_D)"
 
@@ -1835,7 +1842,7 @@ msgstr "Modem Dialup ఆకృతీకరణ"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -1941,6 +1948,8 @@ msgid ""
 "Do you want to deactive interface %s first?\n"
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
+"మీరు యింటర్ఫేస్ %sను ముందుగా క్రియాహీనము చేద్దామని అనుకొనుచున్నారా?\n"
+"లేకపోతే మార్పులను దాయుటవలన అనుకోని యిబ్బందులు కలుగవచ్చు."
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2246,13 +2255,13 @@ msgstr "డాటా పరికరము బస్ ID(a):"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
 msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
-msgstr ""
+msgstr "సాధారణ ఐచ్చికాలను ప్రవేశపెట్టుము (i.e. LAYER2=1 PORTNO=0)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/QethHardware.glade.h:4
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
 msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
-msgstr ""
+msgstr "MAC చిరునామాను ప్రవేశపెట్టుము (i.e. 00:13:A9:47:5A:B2)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
 #: ../src/netconfpkg/gui/QethHardware.glade.h:5
@@ -2262,15 +2271,13 @@ msgstr "ఉదాహరణకు 0.0.0600"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:5
 #: ../src/netconfpkg/gui/QethHardware.glade.h:6
 #: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:5
-#, fuzzy
 msgid "MAC Address:"
-msgstr "చిరునామా:"
+msgstr "MAC చిరునామా:"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:6
 #: ../src/netconfpkg/gui/QethHardware.glade.h:8
-#, fuzzy
 msgid "Options:"
-msgstr "ఇచ్ఛాపూర్వకాలు(_O)"
+msgstr "ఐచ్చికములు:"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:7
 msgid "Resource"
@@ -3265,20 +3272,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "దస్త్రము %(file)s తొలగించుటలో దోషము: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<New Device>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "ఏ విధమైన సాధనాన్ని రకం కలపాలని అనుకుంటున్నారు?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "కలుపు"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3287,16 +3294,15 @@ msgstr "కలుపు"
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "ఒక పరికరాన్ని యెంపికచేయుము"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "దాయి"
 
@@ -3327,10 +3333,11 @@ msgstr "DNS శోధన మార్గం"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "సరే"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS ఆకృతీకరణ"
 
@@ -3401,18 +3408,12 @@ msgid "Write Device Bus ID"
 msgstr "వ్రాయు పరికరము బస్ ID"
 
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:138
-#, fuzzy
 msgid "Options"
-msgstr "ఇచ్ఛాపూర్వకాలు(_O)"
+msgstr "ఐచ్చికములు"
 
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:139
-#, fuzzy
 msgid "MAC Address"
-msgstr "చిరునామా:"
-
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "డెవర్నెట్ ఆకృతీకరణ"
+msgstr "MAC చిరునామా"
 
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
@@ -3455,11 +3456,11 @@ msgstr ""
 "\n"
 "వాడుక: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "రూట్ అనుమతులతో దయచేసి system-config-networkను ప్రారంభించండి!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3469,38 +3470,38 @@ msgstr ""
 "భద్రపరవండి మరియూ system-config-networkకి వ్యతిరేకంగా https://bugzilla.redhat.com/"
 "bugzilla యందు వివరణాత్మక బగ్ ఫిర్యాదును నమోదు చేయండి"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "ఆకృతీకరణను లోడుచేస్తోంది"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "సాధన ఆకృతీకరణను లోడుచేస్తోంది"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "హార్డువేరు ఆకృతీకరణను లోడు చేస్తోంది"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "ప్రొఫైలు ఆకృతీకరణను లోడుచేస్తోంది"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "పరికరము ఆకృతీకరణ"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "చర్యను యెంపికచేయుము"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "దాయుము&నిష్క్రమించుము"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "నిష్క్రమించు"
 
@@ -3515,3 +3516,6 @@ msgstr "నెట్వర్కు"
 #: ../system-control-network.desktop.in.h:1
 msgid "Control and monitor network devices"
 msgstr "నియంత్రణ మరియూ మోనిటర్ నెట్వర్కు సాధనాలు"
+
+#~ msgid "Devernet Configuration"
+#~ msgstr "డెవర్నెట్ ఆకృతీకరణ"

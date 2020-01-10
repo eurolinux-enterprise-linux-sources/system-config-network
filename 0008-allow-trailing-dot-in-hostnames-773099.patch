@@ -1,0 +1,26 @@
+From 708ef0a3a48e36f57cce7b4fa38f2eb47a5ed3a8 Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Fri, 27 Nov 2015 14:17:51 +0100
+Subject: [PATCH 8/9] allow trailing dot in hostnames (#773099)
+
+Resolves: #773099
+---
+ src/netconfpkg/NC_functions.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/src/netconfpkg/NC_functions.py b/src/netconfpkg/NC_functions.py
+index 6e57501..2d25a70 100644
+--- a/src/netconfpkg/NC_functions.py
++++ b/src/netconfpkg/NC_functions.py
+@@ -246,7 +246,7 @@ def request_rpms(pkgs = None):
+ # we want to compile the regexp just once (not as fast as I expect)
+ ip_pattern = re.compile('^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$')
+ hostname_pattern = re.compile('^([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]|_))?(\.([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]))?)*\.?$')
+-length_pattern = re.compile('^[a-zA-Z0-9-_]{1,64}(\.([a-zA-Z0-9-_]{1,64}))*$')
++length_pattern = re.compile('^[a-zA-Z0-9-_]{1,64}(\.([a-zA-Z0-9-_]{1,64}))*\.?$')
+ def testHostname(hostname):
+     # hostname: names separated by '.' every name must be max 63 
+     # chars in length and the hostname max length is 255 chars
+-- 
+1.7.1
+

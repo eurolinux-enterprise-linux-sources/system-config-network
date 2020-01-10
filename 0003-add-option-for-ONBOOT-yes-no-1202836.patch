@@ -1,0 +1,68 @@
+From 134019537401ef4122c912cc158cc4564481d77b Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Wed, 25 Nov 2015 10:13:11 +0100
+Subject: [PATCH 3/9] add option for ONBOOT=yes/no (#1202836)
+
+Resolves: #1202836
+---
+ src/netconfpkg/tui/NCTcpIp.py |    9 ++++++++-
+ 1 files changed, 8 insertions(+), 1 deletions(-)
+
+diff --git a/src/netconfpkg/tui/NCTcpIp.py b/src/netconfpkg/tui/NCTcpIp.py
+index 2a254e0..858e793 100644
+--- a/src/netconfpkg/tui/NCTcpIp.py
++++ b/src/netconfpkg/tui/NCTcpIp.py
+@@ -24,6 +24,7 @@ class NCTcpIpDialog:
+         self.dnsserver1 = snack.Entry(20, "")
+         self.dnsserver2 = snack.Entry(20, "")
+         self.gwy = snack.Entry(20, "")
++        self.onboot = snack.Checkbox("")
+         self.screen = None
+ 
+     def setState(self, dev=None):
+@@ -54,6 +55,8 @@ class NCTcpIpDialog:
+                 self.dnsserver1.set(dev.PrimaryDNS)
+             if dev.SecondaryDNS:
+                 self.dnsserver2.set(dev.SecondaryDNS)
++            if dev.OnBoot:
++                self.onboot.setValue("*")
+ 
+     def useDynamicCheckBox(self):
+         """
+@@ -100,6 +103,8 @@ class NCTcpIpDialog:
+         if dnsstr:
+             self.dev.SecondaryDNS = dnsstr
+ 
++        self.dev.OnBoot = self.onboot.value()
++
+         if self.dev.BootProto == None:
+             self.dev.AutoDNS = None
+ 
+@@ -109,7 +114,7 @@ class NCTcpIpDialog:
+         """
+         self.screen = screen
+         g1 = snack.Grid(1, 1)
+-        g2 = snack.Grid(2, 8)
++        g2 = snack.Grid(2, 9)
+         g2.setField(snack.Label (_("Name")), 0, 0, anchorLeft = 1)
+         g2.setField(snack.Label (_("Device")), 0, 1, anchorLeft = 1)
+         g2.setField(snack.Label (_("Use DHCP")), 0, 2, anchorLeft = 1)
+@@ -118,6 +123,7 @@ class NCTcpIpDialog:
+         g2.setField(snack.Label (_("Default gateway IP")), 0, 5, anchorLeft = 1)
+         g2.setField(snack.Label (_("Primary DNS Server")), 0, 6, anchorLeft = 1)
+         g2.setField(snack.Label (_("Secondary DNS Server")), 0, 7, anchorLeft = 1)
++        g2.setField(snack.Label (_("On boot")), 0, 8, anchorLeft = 1)
+         g2.setField(self.name, 1, 0, (1, 0, 0, 0))
+         g2.setField(self.hwdev, 1, 1, (1, 0, 0, 0))
+         g2.setField(self.dynip, 1, 2, (1, 0, 0, 0), anchorLeft = 1)
+@@ -126,6 +132,7 @@ class NCTcpIpDialog:
+         g2.setField(self.gwy, 1, 5, (1, 0, 0, 0))
+         g2.setField(self.dnsserver1, 1, 6, (1, 0, 0, 0))
+         g2.setField(self.dnsserver2, 1, 7, (1, 0, 0, 0))
++        g2.setField(self.onboot, 1, 8, (1, 0, 0, 0), anchorLeft = 1)
+         self.dynip.setCallback(self.useDynamicCheckBox)
+         bb = snack.ButtonBar(self.screen, ((_("Ok"), "ok"),
+                                            (_("Cancel"), "cancel")))
+-- 
+1.7.1
+

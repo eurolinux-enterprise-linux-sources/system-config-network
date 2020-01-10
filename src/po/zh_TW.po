@@ -1,4 +1,4 @@
-# translation of system-config-network.Branch-RHEL6.po to Traditional Chinese
+# translation of zh_TW.po to Traditional Chinese
 # translation of system-config-network.master.po to
 # Translation of system-config-network to Traditional Chinese
 # Copyright (C) 2002, Red Hat Inc.
@@ -11,10 +11,10 @@
 # Terry Chuang <tchuang at redhat>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: system-config-network.Branch-RHEL6\n"
+"Project-Id-Version: zh_TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2010-03-15 13:54+1000\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-12 10:51+1000\n"
 "Last-Translator: Terry Chuang <tchuang at redhat>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgid " (active)"
 msgstr "（運作中）"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -180,11 +180,11 @@ msgstr ""
 
 #: ../src/netconfpkg/exception.py:134
 msgid "_Debug"
-msgstr "除錯模式（_D）"
+msgstr "除錯模式(_D)"
 
 #: ../src/netconfpkg/exception.py:135
 msgid "_Save to file"
-msgstr "儲存至檔案（_S）"
+msgstr "儲存至檔案(_S)"
 
 #: ../src/netconfpkg/exception.py:150
 #, python-format
@@ -214,21 +214,21 @@ msgstr ""
 "%s：\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - 例外狀況發生"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "指定一個檔案來儲存傾印"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "寫至 %s 檔案失敗。"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:1
 msgid "Allow dial on _demand"
-msgstr "被要求時允許撥號（_d）"
+msgstr "被要求時允許撥號(_d)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:2
 msgid "Allow the link come up on demand."
@@ -284,7 +284,8 @@ msgstr "在此輸入 ISP 給您的登入名稱。"
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
-msgid "Enter the name of this configuration, usually just the name of your ISP."
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
 msgstr "輸入這個設定的名稱，通常就是您的 ISP 名稱。"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
@@ -299,19 +300,19 @@ msgstr "輸入這個帳號的密碼。假如您不清楚，請聯絡您的 ISP�
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:27
 msgid "Make this connection the default _route"
-msgstr "使這個連線為預設路由（_r）"
+msgstr "使這個連線為預設路由(_r)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:12
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:13
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:19
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:35
 msgid "Pass_word:"
-msgstr "密碼（_w）："
+msgstr "密碼：(_w)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:13
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:39
 msgid "Restart if _connection dies"
-msgstr "當連線中斷時重新連線（_c）"
+msgstr "當連線中斷時重新連線(_c)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:14
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:24
@@ -321,12 +322,12 @@ msgstr "請使用這個表格來輸入您的 T-Online 帳號資料。"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:15
 msgid "_AC-name:"
-msgstr "_AC-名稱（_A）："
+msgstr "AC-名稱：(_A)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:16
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:46
 msgid "_Advanced"
-msgstr "進階（_A）"
+msgstr "進階(_A)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:17
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:54
@@ -335,39 +336,39 @@ msgstr "進階（_A）"
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:7
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:26
 msgid "_General"
-msgstr "一般（_G）"
+msgstr "一般(_G)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:18
 #: ../src/netconfpkg/gui/ethernetconfig.glade.h:3
 #: ../src/netconfpkg/gui/QethConfig.glade.h:7
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:8
 msgid "_Hardware Device"
-msgstr "硬體裝置（_H）"
+msgstr "硬體裝置(_H)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:19
 msgid "_IPsec"
-msgstr "_IPsec（_I）"
+msgstr "IPsec(_I)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:20
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:20
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:26
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:56
 msgid "_Login name:"
-msgstr "登入名稱（_L）："
+msgstr "登錄名稱：(_L)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:21
 msgid "_Maximum idle time:"
-msgstr "閒置時間的最大值（_M）："
+msgstr "閒置時間的最大值：(_M)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:22
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:60
 msgid "_Provider"
-msgstr "提供者（_P）"
+msgstr "提供者(_P)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:23
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:22
 msgid "_Provider name:"
-msgstr "提供者名稱（_P）："
+msgstr "提供者名稱：(_P)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:24
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:61
@@ -376,21 +377,21 @@ msgstr "提供者名稱（_P）："
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:11
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:30
 msgid "_Route"
-msgstr "路由（_R）"
+msgstr "路由(_R)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:25
 msgid "_Service-name:"
-msgstr "服務名稱（_S）："
+msgstr "服務名稱：(_S)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:26
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:29
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:62
 msgid "_T-Online Account Setup"
-msgstr "_T-Online 帳號設定（_T）"
+msgstr "T-Online 帳號設定(_T)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:27
 msgid "_Use synchronous PPP"
-msgstr "使用同步 PPP（_U）"
+msgstr "使用同步 PPP(_U)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:28
 msgid "xDSL Configuration"
@@ -403,7 +404,7 @@ msgstr "<b>帳號類型：</b>"
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:2
 #: ../src/netconfpkg/gui/tonline.glade.h:3
 msgid "Associated T-Online _number:"
-msgstr "相關的 T-Online 號碼（_n）："
+msgstr "相關的 T-Online 號碼：(_n)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:3
 msgid "Configure DSL connection"
@@ -419,7 +420,7 @@ msgstr "輸入這個帳號的提供者名稱。"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:9
 msgid "Ethernet _device:"
-msgstr "乙太網路裝置（_d）："
+msgstr "乙太網路裝置：(_d)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:10
 msgid "Normal"
@@ -435,7 +436,7 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:14
 msgid "Password (_again):"
-msgstr "密碼確認（_a）："
+msgstr "密碼確認：(_a)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:15
 msgid "Select the ethernet device connected to the DSL modem."
@@ -452,17 +453,17 @@ msgstr "T-Online"
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:18
 #: ../src/netconfpkg/gui/tonline.glade.h:5
 msgid "_Adapter identifier:"
-msgstr "介面卡識別符（_A）："
+msgstr "介面卡識別符號：(_A)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:19
 #: ../src/netconfpkg/gui/tonline.glade.h:6
 msgid "_Concurrent user number/suffix:"
-msgstr "並行使用者號碼/字尾（_C）："
+msgstr "並行使用者號碼/字尾：(_C)"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:21
 #: ../src/netconfpkg/gui/tonline.glade.h:7
 msgid "_Personal password:"
-msgstr "個人密碼（_P）："
+msgstr "個人密碼：(_P)"
 
 #: ../src/netconfpkg/gui/ChooseProvider.glade.h:1
 msgid "Choose a Provider"
@@ -476,32 +477,32 @@ msgstr "網路提供者"
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:1
 #: ../src/netconfpkg/gui/QethConfig.glade.h:1
 msgid "Allow all _users to enable and disable the device"
-msgstr "允許所有的使用者啟用與停用這個裝置（_u）"
+msgstr "允許所有的使用者啟用與停用這個裝置(_u)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:2
 msgid "Controlled by _NetworkManager"
-msgstr "由 NetworkManager（_N）網路管理程式所控制"
+msgstr "由 NetworkManager 網路管理程式所控制(_N)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:3
 #: ../src/netconfpkg/gui/QethConfig.glade.h:2
 msgid "Enable IPv_6 configuration for this interface"
-msgstr "為這個介面裝置啟用 IPv_6 組態設定"
+msgstr "為此介面裝置啟用 IPv6 組態設定(_6)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:4
 #: ../src/netconfpkg/gui/QethConfig.glade.h:4
 msgid "_Activate device when computer starts"
-msgstr "電腦啟動時啟用裝置（_A）"
+msgstr "電腦啟動時啟用裝置(_A)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:5
 #: ../src/netconfpkg/gui/QethConfig.glade.h:5
 msgid "_Activate device when parent device starts"
-msgstr "父裝置啟動時啟用裝置（_A）"
+msgstr "父裝置啟動時啟用裝置(_A)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:6
 #: ../src/netconfpkg/gui/editipsec.glade.h:38
 #: ../src/netconfpkg/gui/QethConfig.glade.h:8
 msgid "_Nickname:"
-msgstr "暱稱（_N）："
+msgstr "暱稱：(_N)"
 
 #: ../src/netconfpkg/gui/DeviceConfigDialog.py:154
 #, python-format
@@ -522,7 +523,7 @@ msgstr "請選取要加入的硬體裝置類型："
 
 #: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:3
 msgid "_Device type:"
-msgstr "裝置類型（_D）："
+msgstr "裝置類型：(_D)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:1
 msgid "<b>Phone number</b>"
@@ -530,16 +531,16 @@ msgstr "<b>電話號碼</b>"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:2
 msgid "A_rea code:"
-msgstr "區域號碼（_r）："
+msgstr "區域號碼：(_r)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:3
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:2
 msgid "Automatically obtain _DNS information from provider"
-msgstr "從提供者自動取得 _DNS 資訊（_D）"
+msgstr "從提供者自動取得 DNS 資訊(_D)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:4
 msgid "Automatically obtain _IP address settings"
-msgstr "自動取得 _IP 位址設定（_I）"
+msgstr "自動取得 IP 位址設定(_I)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:5
 msgid "Create Dialup Connection"
@@ -547,7 +548,7 @@ msgstr "建立撥接連線"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:6
 msgid "Default _gateway address:"
-msgstr "預設閘道器位址（_g）："
+msgstr "預設閘道器位址：(_g)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:7
 msgid "Encapsulation mode:"
@@ -593,12 +594,12 @@ msgstr "PPP 設定"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:20
 msgid "Prefi_x:"
-msgstr "前置字元（_x）："
+msgstr "前置字元：(_x)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:21
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:38
 msgid "Provider _name:"
-msgstr "提供者名稱（_n）："
+msgstr "提供者名稱：(_n)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:22
 msgid "Select Provider"
@@ -611,17 +612,17 @@ msgstr "靜態設定 IP 位址："
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:25
 #: ../src/netconfpkg/gui/editadress.glade.h:2
 msgid "_Address:"
-msgstr "位址（_A）："
+msgstr "位址：(_A)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:27
 msgid "_Phone number:"
-msgstr "電話號碼（_P）："
+msgstr "電話號碼：(_P)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:28
 #: ../src/netconfpkg/gui/editadress.glade.h:4
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:47
 msgid "_Subnet mask:"
-msgstr "子網路遮罩（_S）："
+msgstr "子網路遮罩：(_S)"
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:30
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:72
@@ -639,7 +640,7 @@ msgstr "同步處理 PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -668,23 +669,23 @@ msgstr "電話號碼："
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:1
 msgid "A_rea Code"
-msgstr "區域號碼（_r）"
+msgstr "區域號碼(_r)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:2
 msgid "Ca_llback"
-msgstr "回撥（_l）"
+msgstr "回撥(_l)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:3
 msgid "Callback MS_N:"
-msgstr "回撥模式 MSN（_N）："
+msgstr "回撥模式 MSN：(_N)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:4
 msgid "Callback _delay:"
-msgstr "回撥延遲（_d）："
+msgstr "回撥延遲：(_d)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:5
 msgid "Callback _mode:"
-msgstr "回撥模式（_m）："
+msgstr "回撥模式：(_m)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:6
 msgid "Callback setting"
@@ -696,11 +697,11 @@ msgstr "假如您要從 ISP 資料庫選擇新的提供者，請點選這裡。"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:8
 msgid "Dial _mode:"
-msgstr "撥號模式（_m）："
+msgstr "撥號模式：(_m)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:9
 msgid "Dial-in _number:"
-msgstr "撥接號碼（_n）："
+msgstr "撥接號碼：(_n)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:10
 #: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:242
@@ -709,27 +710,27 @@ msgstr "撥號網路設定"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:11
 msgid "Enable VJ Connection-_ID Compression"
-msgstr "啟用 VJ 連線 _ID 壓縮（_I）"
+msgstr "啟用 VJ 連線 ID 壓縮(_I)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:12
 msgid "Enable _Address/Control Compression"
-msgstr "啟用 位址/控制 壓縮（_A）"
+msgstr "啟用 位址/控制 壓縮(_A)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:13
 msgid "Enable _BSD Compression"
-msgstr "啟用 _BSD 壓縮（_B）"
+msgstr "啟用 BSD 壓縮(_B)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:14
 msgid "Enable _CCP Compression Control Protocol"
-msgstr "啟用 _CCP 壓縮控制通訊協定（_C）"
+msgstr "啟用 CCP 壓縮控制通訊協定(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:15
 msgid "Enable _Protocol Field Compression"
-msgstr "啟用通訊協定領域的壓縮（_P）"
+msgstr "啟用通訊協定領域的壓縮(_P)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:16
 msgid "Enable _VJ TCP/IP Header Compression"
-msgstr "啟用 _VJ TCP/IP 表頭壓縮（_V）"
+msgstr "啟用 VJ TCP/IP 表頭壓縮(_V)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:23
 msgid "Enter your local phone number. It's optional, if you use a modem."
@@ -737,23 +738,23 @@ msgstr "輸入您的市內電話號碼。如果您使用數據機，這是可不
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:24
 msgid "Han_gup timeout:"
-msgstr "掛斷逾時（_g）："
+msgstr "掛斷逾時：(_g)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:25
 msgid "Let _PPP do all authentication"
-msgstr "使用 _PPP 做所有的認證（_P）"
+msgstr "使用 PPP 做所有的認證(_P)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:26
 msgid "MSN/EA_Z:"
-msgstr "MSN/EA_Z："
+msgstr "MSN/EAZ：(_Z)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:28
 msgid "Modem _initialization string:"
-msgstr "數據機初始化字串（_i）："
+msgstr "數據機初始化字串：(_i)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:29
 msgid "Modem p_ort:"
-msgstr "數據機連接埠（_o）："
+msgstr "數據機連接埠：(_o)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:30
 msgid "Modem0"
@@ -781,7 +782,7 @@ msgstr "電話號碼"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:37
 msgid "Prefi_x"
-msgstr "前置字元（_x）"
+msgstr "前置字元(_x)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:40
 msgid "Select the authentication protocol used by your ISP."
@@ -793,65 +794,66 @@ msgstr "顯示密碼"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:42
 msgid "Use _Callback Control Protocol (CBCP)"
-msgstr "使用回撥控制通訊協定（CBCP）（_C）"
+msgstr "使用回撥控制通訊協定（CBCP）(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:43
 msgid "Use _Channel Bundling"
-msgstr "使用頻道綁套（Channel Bundling）（_C）"
+msgstr "使用頻道綁套（Channel Bundling）(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:45
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:36
 msgid "_Add..."
-msgstr "加入（_A）..."
+msgstr "新增(_A)..."
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:47
 msgid "_Allow only above Dial-In Number"
-msgstr "只允許以上的撥接號碼（_A）"
+msgstr "只允許以上的撥接號碼(_A)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:48
 msgid "_Authentication:"
-msgstr "認證（_A）："
+msgstr "驗證：(_A)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:49
 msgid "_Choose Provider..."
-msgstr "選擇提供者（_C）..."
+msgstr "選擇提供者(_C)..."
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:50
 msgid "_Compression"
-msgstr "壓縮（_C）"
+msgstr "壓縮(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
-msgstr "刪除（_D）"
+msgstr "刪除(_D)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:52
 msgid "_Dial mode:"
-msgstr "撥接模式（_D）："
+msgstr "撥接模式：(_D)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:53
 msgid "_Encapsulation mode:"
-msgstr "封裝模式（_E）："
+msgstr "封裝模式：(_E)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:55
 msgid "_Hangup timeout:"
-msgstr "掛斷逾時（_H）："
+msgstr "掛斷逾時：(_H)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:57
 msgid "_Options"
-msgstr "選項（_O）"
+msgstr "選項(_O)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:58
 msgid "_PPP option:"
-msgstr "_PPP 選項（_P）："
+msgstr "PPP 選項：(_P)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:59
 msgid "_Phone Number"
-msgstr "電話號碼（_P）："
+msgstr "電話號碼：(_P)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:63
 msgid "_Use Callback"
-msgstr "使用回撥（_U）"
+msgstr "使用回撥(_U)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:64
 #: ../src/netconfpkg/NCDialup.py:147
@@ -903,7 +905,7 @@ msgstr "加入／編輯 IP 位址"
 
 #: ../src/netconfpkg/gui/editadress.glade.h:3
 msgid "_Gateway:"
-msgstr "閘道器（_G）："
+msgstr "閘道器：(_G)"
 
 #: ../src/netconfpkg/gui/editdomain.glade.h:1
 msgid "Domain name:"
@@ -940,7 +942,7 @@ msgstr "*"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:2
 msgid "A_uthentication key:"
-msgstr "認證金鑰（_u）："
+msgstr "認證金鑰：(_u)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:3
 msgid "Automatic encryption mode selection via IKA (racoon)"
@@ -948,7 +950,7 @@ msgstr "透過 IKA 的自動加密模式選取（racoon）"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:4
 msgid "Ge_nerate"
-msgstr "產生（_n）"
+msgstr "產生(_n)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:5
 msgid "Host to Host encryption"
@@ -992,15 +994,15 @@ msgstr "IPsec 設定"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:15
 msgid "Local network _address:"
-msgstr "本地端網路位址（_a）："
+msgstr "本地端網路位址：(_a)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:16
 msgid "Local network _gateway:"
-msgstr "本地端網路閘道器（_g）："
+msgstr "本地端網路閘道器：(_g)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:17
 msgid "Local subnet _mask:"
-msgstr "本地端子網路遮罩（_m）："
+msgstr "本地端子網路遮罩：(_m)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:18
 msgid "Manual encryption with a fixed key"
@@ -1044,19 +1046,19 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:28
 msgid "Remote _IP address:"
-msgstr "遠端 _IP 位址（_I）："
+msgstr "遠端 IP 位址：(_I)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:29
 msgid "Remote network _address:"
-msgstr "遠端網路位址（_a）："
+msgstr "遠端網路位址：(_a)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:30
 msgid "Remote network _gateway:"
-msgstr "遠端網路閘道器（_g）："
+msgstr "遠端網路閘道器：(_g)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:31
 msgid "Remote subnet _mask:"
-msgstr "遠端子網路遮罩（_m）："
+msgstr "遠端子網路遮罩：(_m)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:32
 msgid "Security parameter index for authentication:"
@@ -1072,15 +1074,15 @@ msgstr "現在您即將被引導進入 IPsec 連線的設定。"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:35
 msgid "_Activate connection when computer starts"
-msgstr "電腦啟動時啟用連線（_A）"
+msgstr "電腦啟動時啟用連線(_A)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:36
 msgid "_Encryption key:"
-msgstr "加密金鑰（_E）："
+msgstr "加密金鑰：(_E)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:37
 msgid "_Generate"
-msgstr "產生（_G）"
+msgstr "產生(_G)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:39
 msgid "dialog1"
@@ -1094,8 +1096,9 @@ msgstr "AH 用的獨一無二 SPI（256 - 4294967295），例如 TCP/IP 連接�
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "ESP 用的獨一無二 SPI（256 - 4294967295），例如 TCP/IP 連接埠號"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
-msgid "Please enter a unique security parameter index between 256 and 4294967295."
+#: ../src/netconfpkg/gui/editipsec.py:216
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
 msgstr "請輸入獨一無二的安全參數指標，界於 256 與 4294967295 之間。"
 
 #: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
@@ -1113,7 +1116,7 @@ msgstr "選取乙太網路介面卡"
 #: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/tokenringhardware.glade.h:2
 msgid "_Adapter:"
-msgstr "介面卡（_A）："
+msgstr "介面卡：(_A)"
 
 #: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/ethernethardware.glade.h:3
@@ -1122,7 +1125,7 @@ msgstr "介面卡（_A）："
 #: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:3
 #: ../src/netconfpkg/gui/tokenringhardware.glade.h:3
 msgid "_Device:"
-msgstr "裝置（_D）："
+msgstr "裝置：(_D)"
 
 #: ../src/netconfpkg/gui/ethernethardware.glade.h:1
 #: ../src/netconfpkg/gui/QethHardware.glade.h:7
@@ -1196,6 +1199,7 @@ msgstr ""
 "執行：「rpm -V system-config-network」\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1205,6 +1209,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "執行成功，請讀取輸出。"
 
@@ -1213,7 +1218,7 @@ msgid "Choose Hardware Type"
 msgstr "選取硬體類型"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "乙太網路"
 
@@ -1222,12 +1227,12 @@ msgid "Hardware type:"
 msgstr "硬體類型："
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "數據機"
 
@@ -1252,7 +1257,7 @@ msgstr "裝置"
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:1
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:1
 msgid "1_TR6"
-msgstr "1_TR6"
+msgstr "1TR6(_T)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:2
 msgid "<b>D-channel protocol</b>"
@@ -1267,27 +1272,27 @@ msgstr "<b>資源</b>"
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:4
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:4
 msgid "Eu_ro ISDN (EDSS1)"
-msgstr "Eu_ro ISDN（EDSS1）（_r）"
+msgstr "Euro ISDN（EDSS1）(_r)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:5
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:5
 msgid "IO_1:"
-msgstr "IO_1（_1）："
+msgstr "IO1：(_1)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:6
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:6
 msgid "IO_2:"
-msgstr "IO_2（2）："
+msgstr "IO2：(2)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:7
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:7
 msgid "IR_Q:"
-msgstr "IR_Q（_Q）："
+msgstr "IRQ：(_Q)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:8
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:9
 msgid "ISDN _adapters:"
-msgstr "ISDN 介面卡（_a）："
+msgstr "ISDN 介面卡：(_a)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:10
 msgid "Select ISDN Adapter"
@@ -1296,12 +1301,12 @@ msgstr "選取 ISDN 介面卡"
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:11
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:10
 msgid "_IO:"
-msgstr "_IO（_I）："
+msgstr "IO：(_I)"
 
 #: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:12
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:11
 msgid "_MEM:"
-msgstr "_MEM（_M）："
+msgstr "MEM：(_M)"
 
 #: ../src/netconfpkg/gui/isdnhardware.glade.h:2
 msgid "<b>D channel protocol</b>"
@@ -1325,7 +1330,7 @@ msgstr "DNS 搜尋路徑："
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:4
 msgid "D_NS"
-msgstr "D_NS（_N）"
+msgstr "DNS(_N)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:5
 msgid "Deactivate the selected device, calling ifdown <device>."
@@ -1341,23 +1346,23 @@ msgstr "目標網路"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:8
 msgid "Dev_ices"
-msgstr "裝置（_i）"
+msgstr "裝置(_i)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:10
 msgid "Do_main:"
-msgstr "網域（_m）："
+msgstr "網域：(_m)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:11
 msgid "H_osts"
-msgstr "主機（_o）"
+msgstr "主機(_o)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:12
 msgid "Hard_ware"
-msgstr "硬體（_w）"
+msgstr "硬體(_w)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:13
 msgid "IP_sec"
-msgstr "IP_sec（_s）"
+msgstr "IPsec(_s)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:14
 msgid "List of devices which are currently configurable on your system."
@@ -1368,8 +1373,9 @@ msgid "Monitor the selected device."
 msgstr "監視選取的裝置。"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "網路設定"
@@ -1419,7 +1425,8 @@ msgstr ""
 "聯。"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:26
-msgid "You may configure network hardware physically attached to the computer here."
+msgid ""
+"You may configure network hardware physically attached to the computer here."
 msgstr "在此您可以設定實體連接至電腦的網路硬體。"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:27
@@ -1441,47 +1448,49 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
-msgstr "啟用（_A）"
+msgstr "啟用(_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
-msgstr "停用（_D）"
+msgstr "停用(_D)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:32
 msgid "_Edit"
-msgstr "編輯（_E）"
+msgstr "編輯(_E)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:33
 msgid "_Hostname:"
-msgstr "主機名稱（_H）："
+msgstr "主機名稱：(_H)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:34
 #: ../src/netconfpkg/gui/neat-control.glade.h:21
 msgid "_Monitor"
-msgstr "網路監視（_M）"
+msgstr "網路監視(_M)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:35
 msgid "_New..."
-msgstr "新增（_N）..."
+msgstr "新增(_N)..."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:36
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:43
 msgid "_Primary DNS:"
-msgstr "主 DNS（_P）："
+msgstr "主 DNS：(_P)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:37
 msgid "_Profile"
-msgstr "設定檔（_P）"
+msgstr "設定檔(_P)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:38
 msgid "_Secondary DNS:"
-msgstr "次 DNS（_S）："
+msgstr "次 DNS：(_S)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:39
 msgid "_Tertiary DNS:"
-msgstr "第三 DNS（_T）："
+msgstr "第三 DNS：(_T)"
 
 #: ../src/netconfpkg/gui/maindialog.py:327
 msgid "Loading configuration..."
@@ -1669,7 +1678,8 @@ msgid "Do you really want to delete profile \"%s\"?"
 msgstr "您真的想要刪除「%s」設定檔嗎？"
 
 #: ../src/netconfpkg/gui/maindialog.py:1649
-msgid "Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
 msgstr "很抱歉，沒有可以編輯的資料，或這個類型還不能被編輯。"
 
 #: ../src/netconfpkg/gui/maindialog.py:1667
@@ -1737,7 +1747,7 @@ msgstr "數據機設定"
 #: ../src/netconfpkg/gui/modemconfig.glade.h:7
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:6
 msgid "Modem _volume:"
-msgstr "數據機的聲音（_v）："
+msgstr "數據機音量：(_v)"
 
 #: ../src/netconfpkg/gui/modemconfig.glade.h:8
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:7
@@ -1768,22 +1778,22 @@ msgstr "很高"
 #: ../src/netconfpkg/gui/modemconfig.glade.h:12
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:12
 msgid "_Baud rate:"
-msgstr "鮑率（_B）："
+msgstr "鮑率：(_B)"
 
 #: ../src/netconfpkg/gui/modemconfig.glade.h:13
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:13
 msgid "_Flow control:"
-msgstr "流量控制（_F）："
+msgstr "流量控制：(_F)"
 
 #: ../src/netconfpkg/gui/modemconfig.glade.h:14
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:14
 msgid "_Modem device:"
-msgstr "數據機裝置（_M）："
+msgstr "數據機裝置：(_M)"
 
 #: ../src/netconfpkg/gui/modemconfig.glade.h:15
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:15
 msgid "_Use touch tone dialing"
-msgstr "使用按鍵式電話撥號（_U）"
+msgstr "使用按鍵式電話撥號(_U)"
 
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:9
 msgid "Select Modem"
@@ -1826,7 +1836,7 @@ msgstr "數據機撥號設定"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "不明"
 
@@ -1930,8 +1940,8 @@ msgid ""
 "Do you want to deactive interface %s first?\n"
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
-"您是否希望先將介面卡 %s 停用？\n"
-"否則儲存變更時可能會產生一些副作用。"
+"您是否希望先停用介面卡 %s？\n"
+"否則儲存變更後可能會造成非預期的負面影響。"
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2050,11 +2060,11 @@ msgstr "<b>現行的設定檔</b>"
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:2
 msgid "Ac_tivate"
-msgstr "啟用（_t）"
+msgstr "啟用(_t)"
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:3
 msgid "Auto _Select"
-msgstr "自動選擇（_S）"
+msgstr "自動選擇(_S)"
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:4
 msgid "Click to activate the selected profile"
@@ -2100,11 +2110,11 @@ msgstr "下列的網路介面已經在現行的設定檔中設定好了。"
 #: ../src/netconfpkg/gui/neat-control.glade.h:18
 #: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:3
 msgid "_Configure..."
-msgstr "設定（_C）..."
+msgstr "設定(_C)..."
 
 #: ../src/netconfpkg/gui/neat-control.glade.h:20
 msgid "_Info"
-msgstr "資訊（_I）"
+msgstr "資訊(_I)"
 
 #: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:1
 msgid "00:00:00"
@@ -2146,15 +2156,15 @@ msgstr "1.00"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:5
 msgid "Confirm _starting connection"
-msgstr "確認開始連線（_S）"
+msgstr "確認開始連線(_s)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:6
 msgid "Confirm stopping _connection"
-msgstr "確認停止連線（_c）"
+msgstr "確認停止連線(_c)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:7
 msgid "Cos_t accumulated from the past connection:"
-msgstr "從以往的連線累積的費用（_t）："
+msgstr "從以往的連線累積的費用：(_t)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:8
 msgid "Cost per:"
@@ -2166,51 +2176,51 @@ msgstr "計數："
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:10
 msgid "M_inimum number of seconds charged:"
-msgstr "收費標準的最少秒數（_i）："
+msgstr "收費標準的最少秒數：(_i)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:11
 msgid "_Accumulate cost over multiple connections"
-msgstr "含蓋多重連線所累積的支出（_A）"
+msgstr "含蓋多重連線所累積的支出(_A)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:12
 msgid "_Basic"
-msgstr "基本（_B）"
+msgstr "基本(_B)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:13
 msgid "_Cost"
-msgstr "費用（_C）"
+msgstr "費用(_C)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:14
 msgid "_Debug mode"
-msgstr "除錯模式（_D）"
+msgstr "除錯模式(_D)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:15
 msgid "_Extra cost to start a connection:"
-msgstr "開始連線的額外支出（_E）："
+msgstr "開始連線的額外支出：(_E)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:16
 msgid "_Hour"
-msgstr "時（_H）"
+msgstr "時(_H)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:17
 msgid "_Minute"
-msgstr "分（_M）"
+msgstr "分(_M)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:18
 msgid "_Number of seconds in basic accounting unit:"
-msgstr "基本審計單位的秒數（_N）："
+msgstr "基本審計單位的秒數：(_N)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:19
 msgid "_Second"
-msgstr "秒（_S）"
+msgstr "秒(_S)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:20
 msgid "_Terminate connection when session closes"
-msgstr "工作階段關閉時終止連線（_T）"
+msgstr "工作階段關閉時終止連線(_T)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:21
 msgid "_Time"
-msgstr "時間（_T）"
+msgstr "時間(_T)"
 
 #: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:22
 msgid "redhat network control - Properties"
@@ -2231,7 +2241,7 @@ msgstr "選取裝置類型"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:1
 #: ../src/netconfpkg/gui/QethHardware.glade.h:2
 msgid "D_ata Device Bus ID:"
-msgstr "資料裝置（_a）Bus ID："
+msgstr "資料裝置 Bus ID：(_a)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
@@ -2267,24 +2277,24 @@ msgstr "資源"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:10
 #: ../src/netconfpkg/gui/QethHardware.glade.h:10
 msgid "_Read Device Bus ID:"
-msgstr "讀取裝置（_R）Bus ID："
+msgstr "讀取裝置 Bus ID：(_R)"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:11
 #: ../src/netconfpkg/gui/QethHardware.glade.h:11
 msgid "_Write Device Bus ID:"
-msgstr "編寫裝置（_W）Bus ID："
+msgstr "編寫裝置 Bus ID：(_W)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:1
 msgid "A_ddress:"
-msgstr "位址（_d）："
+msgstr "位址：(_d)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:3
 msgid "Automatically obtain _IP address settings with:"
-msgstr "在此自動取得 _IP 位址設定（_I）："
+msgstr "在此自動取得 IP 位址設定：(_I)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:4
 msgid "Bind to _MAC address:"
-msgstr "繫結至 _MAC 位址（_M）："
+msgstr "繫結至 MAC 位址：(_M)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:5
 msgid "DHCP Settings"
@@ -2292,7 +2302,7 @@ msgstr "DHCP 設定"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:6
 msgid "Default ga_teway address:"
-msgstr "預設閘道器位址（_t）："
+msgstr "預設閘道器位址：(_t)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:7
 msgid "Destination Network"
@@ -2300,7 +2310,7 @@ msgstr "目標網路"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:8
 msgid "Device _alias number:"
-msgstr "裝置別名號碼（_a）："
+msgstr "裝置別名號碼：(_a)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:9
 msgid "Difficulty level:"
@@ -2322,7 +2332,7 @@ msgstr "閘道器"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:13
 msgid "H_ostname (optional):"
-msgstr "主機名稱（可選的）（_o）："
+msgstr "主機名稱（非必要）：(_o)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:14
 msgid "Hardware device:"
@@ -2358,7 +2368,7 @@ msgstr "遠端網路"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:24
 msgid "S_econdary DNS:"
-msgstr "次要 DNS（_e）："
+msgstr "次要 DNS：(_e)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:25
 msgid "Security Level"
@@ -2382,11 +2392,11 @@ msgstr "服務"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:30
 msgid "Set M_RU to:"
-msgstr "將 MRU 設定為（_R）："
+msgstr "將 MRU 設定為：(_R)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:31
 msgid "Set M_TU to:"
-msgstr "將 MTU 設定為（_T）："
+msgstr "將 MTU 設定為：(_T)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:32
 msgid "Static Network Routes"
@@ -2394,7 +2404,7 @@ msgstr "靜態網路路由"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:33
 msgid "Staticall_y set IP addresses:"
-msgstr "靜態設定 IP 位址（_y）："
+msgstr "靜態設定 IP 位址：(_y)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:34
 msgid "Tie to specific ethernet card"
@@ -2406,39 +2416,39 @@ msgstr "使用乙太網路裝置別名"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:37
 msgid "_Delete..."
-msgstr "刪除（_D）..."
+msgstr "刪除(_D)..."
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:38
 msgid "_Edit..."
-msgstr "編輯（_E）..."
+msgstr "編輯(_E)..."
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:39
 msgid "_Hardware Address"
-msgstr "硬體位址（_H）"
+msgstr "硬體位址(_H)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:40
 msgid "_Hardware:"
-msgstr "硬體（_H）："
+msgstr "硬體：(_H)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:41
 msgid "_High Security (Internet)"
-msgstr "高安全性（網際網路）（_H）"
+msgstr "高安全性（網際網路）(_H)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:42
 msgid "_Low Security"
-msgstr "低安全性（_L）"
+msgstr "低安全性(_L)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:44
 msgid "_Probe"
-msgstr "偵測（_P）"
+msgstr "偵測(_P)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:45
 msgid "_Probe for Address..."
-msgstr "偵測位址（_P）..."
+msgstr "偵測位址(_P)..."
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:46
 msgid "_Secure Device (LAN)"
-msgstr "安全裝置（LAN）（_S）"
+msgstr "安全裝置（LAN）(_S)"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:48
 msgid "bootp"
@@ -2483,11 +2493,11 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:3
 msgid "Enable _Device Alias support"
-msgstr "啟用裝置別名支援（_D）"
+msgstr "啟用裝置別名支援(_D)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:4
 msgid "Ha_rdware address:"
-msgstr "硬體位址（_r）："
+msgstr "硬體位址：(_r)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:5
 msgid "Token Ring Device"
@@ -2495,19 +2505,19 @@ msgstr "記號環網路裝置"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:6
 msgid "_Alias:"
-msgstr "別名（_A）："
+msgstr "別名：(_A)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:9
 msgid "_Hardware device:"
-msgstr "硬體裝置（_H）："
+msgstr "硬體裝置：(_H)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:10
 msgid "_Probe for Address"
-msgstr "偵測位址（_P）"
+msgstr "偵測位址(_P)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:12
 msgid "_Use Hardware Address"
-msgstr "使用硬體位址（_U）"
+msgstr "使用硬體位址(_U)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:13
 msgid "tr0"
@@ -2691,40 +2701,40 @@ msgstr "無線網路裝置設定"
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:24
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:25
 msgid "_Auto"
-msgstr "自動（_A）"
+msgstr "自動(_A)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:25
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:26
 msgid "_Channel:"
-msgstr "頻道（_C）："
+msgstr "頻道：(_C)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:27
 msgid "_Hardware device"
-msgstr "硬體裝置（_H）"
+msgstr "硬體裝置(_H)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:28
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:27
 msgid "_Key (use 0x for hex):"
-msgstr "金鑰（_K）（使用 0x 代表 hex）："
+msgstr "金鑰（使用 0x 代表 hex）：(_K)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:29
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:28
 msgid "_Mode:"
-msgstr "模式（_M）："
+msgstr "模式：(_M)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:31
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:29
 msgid "_Specified:"
-msgstr "指定（_S）："
+msgstr "指定：(_S)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:32
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:30
 msgid "_Transmit rate:"
-msgstr "傳輸速率（_T）："
+msgstr "傳輸速率：(_T)"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:33
 msgid "_Wireless Settings"
-msgstr "無線網路設定（_W）"
+msgstr "無線網路設定(_W)"
 
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:17
 msgid "Configure Wireless Connection"
@@ -3097,11 +3107,13 @@ msgid "Inactive"
 msgstr "非運作中"
 
 #: ../src/netconfpkg/NC_functions.py:228
-msgid "Shall the following packages, which are needed on your system, be installed?"
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
 msgstr "想要安裝您系統所需的下列套件嗎？"
 
 #: ../src/netconfpkg/NC_functions.py:240
-msgid "You have to install the following packages, which are needed on your system!"
+msgid ""
+"You have to install the following packages, which are needed on your system!"
 msgstr "您必須安裝系統所需的下列套件！"
 
 #: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
@@ -3249,20 +3261,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "移除檔案 %(file)s 時發生錯誤：%(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<New Device>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "您希望新增哪種裝置類型？"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "新增"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3271,16 +3283,15 @@ msgstr "新增"
 msgid "Cancel"
 msgstr "取消"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "選擇裝置"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "儲存"
 
@@ -3311,10 +3322,11 @@ msgstr "DNS 搜尋路徑"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "確定"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS 組態設定"
 
@@ -3392,10 +3404,6 @@ msgstr "選項"
 msgid "MAC Address"
 msgstr "MAC 位址"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Devernet 組態設定"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
 msgstr "主要 DNS 伺服器"
@@ -3436,11 +3444,11 @@ msgstr ""
 "\n"
 "用法：system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "請以 root 的權限啟動 system-config-network！\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3450,38 +3458,38 @@ msgstr ""
 "然後針對 system-config-network 套件建立一個詳細的程式錯誤報告，並回報給 "
 "https://bugzilla.redhat.com/bugzilla/"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "正在載入設定"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "正在載入裝置設定"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "正在載入硬體設定"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "正在載入設定檔設定"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "裝置組態設定"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "選擇動作"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "儲存並離開"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "離開"
 
@@ -3497,3 +3505,5 @@ msgstr "網路"
 msgid "Control and monitor network devices"
 msgstr "控制與監視網路裝置的狀態"
 
+#~ msgid "Devernet Configuration"
+#~ msgstr "Devernet 組態設定"

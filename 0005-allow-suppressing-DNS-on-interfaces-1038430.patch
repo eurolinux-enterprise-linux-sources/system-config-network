@@ -1,0 +1,34 @@
+From e9b0eed15e51a9f63290052198ae534afc3f6f0a Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Fri, 27 Nov 2015 09:30:28 +0100
+Subject: [PATCH 5/9] allow suppressing DNS on interfaces (#1038430)
+
+Resolves: #1038430
+---
+ src/netconfpkg/tui/NCTcpIp.py |    8 ++++++--
+ 1 files changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/netconfpkg/tui/NCTcpIp.py b/src/netconfpkg/tui/NCTcpIp.py
+index 897797f..658d138 100644
+--- a/src/netconfpkg/tui/NCTcpIp.py
++++ b/src/netconfpkg/tui/NCTcpIp.py
+@@ -99,10 +99,14 @@ class NCTcpIpDialog:
+             self.dev.HardwareAddress = hwaddr
+ 
+         dnsstr = self.dnsserver1.value()
+-        if dnsstr:
++        if dnsstr == '':
++            self.dev.PrimaryDNS = None
++        elif dnsstr:
+             self.dev.PrimaryDNS = dnsstr
+         dnsstr = self.dnsserver2.value()
+-        if dnsstr:
++        if dnsstr == '':
++            self.dev.SecondaryDNS = None
++        elif dnsstr: 
+             self.dev.SecondaryDNS = dnsstr
+ 
+         self.dev.AutoDNS = self.peerdns.value()
+-- 
+1.7.1
+

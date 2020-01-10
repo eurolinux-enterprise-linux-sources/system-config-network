@@ -245,7 +245,7 @@ def request_rpms(pkgs = None):
 
 # we want to compile the regexp just once (not as fast as I expect)
 ip_pattern = re.compile('^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$')
-hostname_pattern = re.compile('^([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]|_))?(\.([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]))?)*$')
+hostname_pattern = re.compile('^([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]|_))?(\.([a-zA-Z]|[0-9]|_)(([a-zA-Z]|[0-9]|-|_)*([a-zA-Z]|[0-9]))?)*\.?$')
 length_pattern = re.compile('^[a-zA-Z0-9-_]{1,64}(\.([a-zA-Z0-9-_]{1,64}))*$')
 def testHostname(hostname):
     # hostname: names separated by '.' every name must be max 63 

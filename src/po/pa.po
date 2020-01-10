@@ -14,14 +14,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-config-network.master.pa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2010-04-06 12:00+0530\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-10-15 11:53+0530\n"
 "Last-Translator: Jaswinder Singh <jsingh@redhat.com>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/netconf_cmd.py:73
@@ -35,7 +35,7 @@ msgstr ""
 "ਇੱਕ ਅਪਵਾਦ ਆਇਆ ਹੈ। ਇਹ ਸੰਭਵ ਹੈ ਕਿ ਇਹ ਬੱਗ ਹੋਵੇ\n"
 "ਕਰੈਸ਼ ਡੰਪ ਨੂੰ ਸੰਭਾਲੋ ਅਤੇ ਵੇਰਵੇ ਸਾਹਿਤ ਹਿੱਸੇ %s ਦੀ \n"
 "ਜਾਣਕਾਰੀ ਦਿਓ://bugzilla.redhat.com/bugzilla\n"
-"ਹੇਠ ਲਿਖਿਆ ਪਾਠ ਵਰਤੋਂ\n"
+"ਹੇਠ ਲਿਖਿਆ ਪਾਠ ਵਰਤੋਂ।\n"
 
 #: ../src/netconf_cmd.py:108
 #, python-format
@@ -169,7 +169,7 @@ msgid " (active)"
 msgstr " (ਸਰਗਰਮ)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -215,21 +215,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - ਅੱਪਵਾਦ ਆਇਆ ਹੈ"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "ਡੰਪ ਸੰਭਾਲਣ ਲਈ ਇੱਕ ਫਾਇਲ ਚੁਣੋ"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "ਫਾਇਲ %s ਵਿੱਚ ਲਿਖਣ ਲਈ ਅਸਫਲ"
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -285,7 +285,8 @@ msgstr "ਲਾਗਇਨ ਨਾਂ, ਜੋ ਕਿ ਤੁਹਾਡੇ ISP ਨੇ �
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
-msgid "Enter the name of this configuration, usually just the name of your ISP."
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
 msgstr "ਇਸ ਸੰਰਚਨਾ ਦਾ ਨਾਂ ਭਰੋ, ਆਮ ਤੌਰ ਤੇ ਜੋ ਤੁਹਾਡੇ ISP ਨੇ ਦਿੱਤਾ ਹੈ।"
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
@@ -640,7 +641,7 @@ msgstr "ਸਮਕਾਲੀ PPP"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -823,6 +824,7 @@ msgstr "ਸੰਕੁਚਿਤ(_C)"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "ਹਟਾਓ(_D)"
 
@@ -1095,8 +1097,9 @@ msgstr "AH (256 - 4294967295) ਲਈ ਵਿਲੱਖਣ SPI, ਜਿਵੇਂ ਕ
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "ESP (256 - 4294967295) ਲਈ ਵਿਲੱਖਣ SPI, ਜਿਵੇਂ ਕਿ TCP/IP ਪੋਰਟ ਨੰਬਰ"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
-msgid "Please enter a unique security parameter index between 256 and 4294967295."
+#: ../src/netconfpkg/gui/editipsec.py:216
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
 msgstr "ਇੱਕ ਵਿਲੱਖਣ ਸੁਰੱਖਿਆ ਮੁੱਲ ਤਤਕਰਾ 256 ਅਤੇ 4294967295 ਦੇ ਵਿੱਚ ਦਿਓ।"
 
 #: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
@@ -1197,6 +1200,7 @@ msgstr ""
 "ਚਲਾਓ: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1206,6 +1210,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "ਸਫਲ। ਆਉਟਪੁੱਟ ਪਡ਼੍ਹੋ ਜੀ।"
 
@@ -1214,7 +1219,7 @@ msgid "Choose Hardware Type"
 msgstr "ਹਾਰਡਵੇਅਰ ਕਿਸਮ ਚੁਣੋ"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "ਈਥਰਨੈੱਟ"
 
@@ -1223,12 +1228,12 @@ msgid "Hardware type:"
 msgstr "ਹਾਰਡਵੇਅਰ ਕਿਸਮ:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "ਮਾਡਮ"
 
@@ -1369,8 +1374,9 @@ msgid "Monitor the selected device."
 msgstr "ਚੁਣੇ ਜੰਤਰਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ"
@@ -1420,7 +1426,8 @@ msgstr ""
 "ਹਾਰਡਵੇਅਰ ਦੇ ਰੂਪ ਵਿੱਚ ਸੰਗਠਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:26
-msgid "You may configure network hardware physically attached to the computer here."
+msgid ""
+"You may configure network hardware physically attached to the computer here."
 msgstr "ਤੁਸੀਂ ਆਪਣੇ ਕੰਪਿਊਟਰ ਨਾਲ ਜੁਡ਼ੇ ਨੈੱਟਵਰਕ ਹਾਰਡਵੇਅਰ ਦੀ ਸੰਰਚਨਾ ਇੱਥੇ ਕਰ ਸਕਦੇ ਹੋ।"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:27
@@ -1442,11 +1449,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "ਸਰਗਰਮ(_A)"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "ਬੇਅਸਰ(_D)"
 
@@ -1672,7 +1681,8 @@ msgid "Do you really want to delete profile \"%s\"?"
 msgstr "ਕੀ ਤੁਸੀਂ ਪਰੋਫਾਇਲ \"%s\" ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1649
-msgid "Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
 msgstr "ਮੁਆਫੀ, ਪਰ ਇੱਥੇ ਸੋਧ ਕਰਨ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਹੈ ਜਾਂ ਇਸ ਕਿਸਮ ਹੁਣ ਤੱਕ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: ../src/netconfpkg/gui/maindialog.py:1667
@@ -1830,7 +1840,7 @@ msgstr "ਮਾਡਮ ਡਾਇਲਅੱਪ ਸੰਰਚਨਾ"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "ਅਣਜਾਣ"
 
@@ -2317,7 +2327,8 @@ msgstr "ਮੁਸ਼ਕਿਲ ਪੱਧਰ:"
 msgid ""
 "Each connection needs to be associated with a physical device which can be "
 "selected below."
-msgstr "ਹਰੇਕ ਕੁਨੈਕਸ਼ਨ ਨੂੰ ਭੌਤਿਕ ਜੰਤਰ ਨਾਲ ਸੰਬੰਧਿਤ ਕਰਨ ਦੀ ਲੋਡ਼ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਇੱਥੋਂ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+msgstr ""
+"ਹਰੇਕ ਕੁਨੈਕਸ਼ਨ ਨੂੰ ਭੌਤਿਕ ਜੰਤਰ ਨਾਲ ਸੰਬੰਧਿਤ ਕਰਨ ਦੀ ਲੋਡ਼ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਇੱਥੋਂ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: ../src/netconfpkg/gui/sharedtcpip.glade.h:11
 msgid "Easy"
@@ -2490,7 +2501,7 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:3
 msgid "Enable _Device Alias support"
-msgstr "ਜੰਤਰ ਉਪ-ਨਾਂ ਸਹਾਇਤਾ ਯੋਗ ਕਰੋ(_D)"
+msgstr "ਜੰਤਰ ਉਪ-ਨਾਂ ਸਹਿਯੋਗ ਯੋਗ ਕਰੋ(_D)"
 
 #: ../src/netconfpkg/gui/tokenringconfig.glade.h:4
 msgid "Ha_rdware address:"
@@ -2581,7 +2592,8 @@ msgstr "ਖਾਤਾ ਸੈਟਅੱਪ"
 msgid ""
 "Please enter here your personal account data. Without this data, access to T-"
 "Online is unfortunately not possible."
-msgstr "ਆਪਣੀ ਨਿੱਜੀ ਖਾਤਾ ਜਾਣਕਾਰੀ ਇੱਥੇ ਭਰੋ ਇਸ ਜਾਣਕਾਰੀ ਤੋਂ ਬਿਨਾਂ, T-Online ਉਪਲੱਬਧ ਨਹੀਂ ਹੋ ਸਕੇਗਾ।"
+msgstr ""
+"ਆਪਣੀ ਨਿੱਜੀ ਖਾਤਾ ਜਾਣਕਾਰੀ ਇੱਥੇ ਭਰੋ ਇਸ ਜਾਣਕਾਰੀ ਤੋਂ ਬਿਨਾਂ, T-Online ਉਪਲੱਬਧ ਨਹੀਂ ਹੋ ਸਕੇਗਾ।"
 
 #: ../src/netconfpkg/gui/wirelessconfig.glade.h:2
 #: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:2
@@ -3105,11 +3117,13 @@ msgid "Inactive"
 msgstr "ਨਾ-ਸਰਗਰਮ"
 
 #: ../src/netconfpkg/NC_functions.py:228
-msgid "Shall the following packages, which are needed on your system, be installed?"
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
 msgstr "ਕੀ ਹੇਠਲੇ ਪੈਕੇਜ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਲੋਡ਼ੀਂਦੇ ਹਨ, ਨੂੰ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾਵੇ?"
 
 #: ../src/netconfpkg/NC_functions.py:240
-msgid "You have to install the following packages, which are needed on your system!"
+msgid ""
+"You have to install the following packages, which are needed on your system!"
 msgstr "ਤੁਹਾਨੂੰ ਹੇਠ ਲਿਖੇ ਪੈਕੇਜ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਲੋਡ਼ੀਂਦੇ ਹਨ, ਨੂੰ ਇੰਸਟਾਲ ਕਰਨਾ ਪਵੇਗਾ!"
 
 #: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
@@ -3257,20 +3271,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "%(file)s ਹਟਾਉਣ ਸਮੇਂ ਗਲਤੀ: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<ਨਵਾਂ ਜੰਤਰ>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "ਤੁਸੀਂ ਕਿਹੜੀ ਜੰਤਰ ਕਿਸਮ ਸ਼ਾਮਿਲ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "ਸ਼ਾਮਿਲ"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3279,16 +3293,15 @@ msgstr "ਸ਼ਾਮਿਲ"
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "ਇੱਕ ਜੰਤਰ ਚੁਣੋ"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "ਸੰਭਾਲੋ"
 
@@ -3319,10 +3332,11 @@ msgstr "DNS ਖੋਜ ਮਾਰਗ"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "ਠੀਕ ਹੈ"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "DNS ਸੰਰਚਨਾ"
 
@@ -3400,10 +3414,6 @@ msgstr "ਚੋਣਾਂ"
 msgid "MAC Address"
 msgstr "MAC ਐਡਰੈੱਸ"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Devernet ਸੰਰਚਨਾ"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
 msgstr "ਪ੍ਰਾਇਮਰੀ DNS ਸਰਵਰ"
@@ -3445,11 +3455,11 @@ msgstr ""
 "\n"
 "ਵਰਤੋਂ: system-config-network -v --ਵਰਬੋਸ"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "system-config-network ਨੂੰ ਰੂਟ (root) ਦੇ ਅਧਿਕਾਰਾਂ ਨਾਲ ਚਲਾਓ!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3458,38 +3468,38 @@ msgstr ""
 "ਇੱਕ ਅਪਵਾਦ ਆਇਆ ਹੈ। ਇਹ ਸੰਭਵ ਹੈ ਕਿ ਇਹ ਬੱਗ ਹੋਵੇ, ਕਰੈਸ਼ ਡੰਪ ਨੂੰ ਸੰਭਾਲੋ ਅਤੇ ਵੇਰਵੇ ਸਾਹਿਤ system-"
 "config-network ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ: https://bugzilla.redhat.com/bugzilla"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "ਸੰਰਚਨਾ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "ਜੰਤਰ ਸੰਰਚਨਾ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "ਹਾਰਡਵੇਅਰ ਜਾਣਕਾਰੀ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "ਪਰੋਫਾਇਲ ਸੰਰਚਨਾ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "ਜੰਤਰ ਸੰਰਚਨਾ"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "ਚੁਣ ਕਾਰਵਾਈ"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "ਸੰਭਾਲੋ ਤੇ ਬਾਹਰ"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "ਬਾਹਰ"
 
@@ -3505,3 +3515,5 @@ msgstr "ਨੈੱਟਵਰਕ"
 msgid "Control and monitor network devices"
 msgstr "ਨੈੱਟਵਰਕ ਜੰਤਰਾਂ ਦਾ ਕੰਟਰੋਲ ਅਤੇ ਜਾਂਚ"
 
+#~ msgid "Devernet Configuration"
+#~ msgstr "Devernet ਸੰਰਚਨਾ"

@@ -7,7 +7,8 @@ PYTHON_FILES = \
 	NCPluginModemInterface.py \
 	NCPluginDevices.py \
 	NCPluginDNS.py \
-	NCTcpIp.py
+	NCTcpIp.py \
+	TUI_functions.py
 
 EXTRA_DIST = $(PYTHON_FILES)
 

@@ -1,0 +1,83 @@
+From 571d8531d8ee4640a25d8ca50eaeb8d709bad211 Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Wed, 25 Nov 2015 10:42:17 +0100
+Subject: [PATCH 4/9] add option for PEERDNS=yes/no (#1214729)
+
+Resolves: #1214729
+---
+ src/netconfpkg/tui/NCTcpIp.py |   16 +++++++++-------
+ 1 files changed, 9 insertions(+), 7 deletions(-)
+
+diff --git a/src/netconfpkg/tui/NCTcpIp.py b/src/netconfpkg/tui/NCTcpIp.py
+index 858e793..897797f 100644
+--- a/src/netconfpkg/tui/NCTcpIp.py
++++ b/src/netconfpkg/tui/NCTcpIp.py
+@@ -24,6 +24,7 @@ class NCTcpIpDialog:
+         self.dnsserver1 = snack.Entry(20, "")
+         self.dnsserver2 = snack.Entry(20, "")
+         self.gwy = snack.Entry(20, "")
++        self.peerdns = snack.Checkbox("")
+         self.onboot = snack.Checkbox("")
+         self.screen = None
+ 
+@@ -55,6 +56,8 @@ class NCTcpIpDialog:
+                 self.dnsserver1.set(dev.PrimaryDNS)
+             if dev.SecondaryDNS:
+                 self.dnsserver2.set(dev.SecondaryDNS)
++            if dev.AutoDNS:
++                self.peerdns.setValue("*")
+             if dev.OnBoot:
+                 self.onboot.setValue("*")
+ 
+@@ -80,7 +83,6 @@ class NCTcpIpDialog:
+         self.dev.Device = self.hwdev.value()
+         if self.dynip.value():
+             self.dev.BootProto = "dhcp"
+-            self.dev.AutoDNS = True
+             self.dev.IP = None
+             self.dev.Netmask = None
+             self.dev.Gateway = None
+@@ -103,18 +105,16 @@ class NCTcpIpDialog:
+         if dnsstr:
+             self.dev.SecondaryDNS = dnsstr
+ 
++        self.dev.AutoDNS = self.peerdns.value()
+         self.dev.OnBoot = self.onboot.value()
+ 
+-        if self.dev.BootProto == None:
+-            self.dev.AutoDNS = None
+-
+     def runIt(self, screen):
+         """
+         Show and run the screen, save files if necesarry
+         """
+         self.screen = screen
+         g1 = snack.Grid(1, 1)
+-        g2 = snack.Grid(2, 9)
++        g2 = snack.Grid(2, 10)
+         g2.setField(snack.Label (_("Name")), 0, 0, anchorLeft = 1)
+         g2.setField(snack.Label (_("Device")), 0, 1, anchorLeft = 1)
+         g2.setField(snack.Label (_("Use DHCP")), 0, 2, anchorLeft = 1)
+@@ -123,7 +123,8 @@ class NCTcpIpDialog:
+         g2.setField(snack.Label (_("Default gateway IP")), 0, 5, anchorLeft = 1)
+         g2.setField(snack.Label (_("Primary DNS Server")), 0, 6, anchorLeft = 1)
+         g2.setField(snack.Label (_("Secondary DNS Server")), 0, 7, anchorLeft = 1)
+-        g2.setField(snack.Label (_("On boot")), 0, 8, anchorLeft = 1)
++        g2.setField(snack.Label (_("Peer DNS")), 0, 8, anchorLeft = 1)
++        g2.setField(snack.Label (_("On boot")), 0, 9, anchorLeft = 1)
+         g2.setField(self.name, 1, 0, (1, 0, 0, 0))
+         g2.setField(self.hwdev, 1, 1, (1, 0, 0, 0))
+         g2.setField(self.dynip, 1, 2, (1, 0, 0, 0), anchorLeft = 1)
+@@ -132,7 +133,8 @@ class NCTcpIpDialog:
+         g2.setField(self.gwy, 1, 5, (1, 0, 0, 0))
+         g2.setField(self.dnsserver1, 1, 6, (1, 0, 0, 0))
+         g2.setField(self.dnsserver2, 1, 7, (1, 0, 0, 0))
+-        g2.setField(self.onboot, 1, 8, (1, 0, 0, 0), anchorLeft = 1)
++        g2.setField(self.peerdns, 1, 8, (1, 0, 0, 0), anchorLeft = 1)
++        g2.setField(self.onboot, 1, 9, (1, 0, 0, 0), anchorLeft = 1)
+         self.dynip.setCallback(self.useDynamicCheckBox)
+         bb = snack.ButtonBar(self.screen, ((_("Ok"), "ok"),
+                                            (_("Cancel"), "cancel")))
+-- 
+1.7.1
+

@@ -1,0 +1,49 @@
+From 9e4b1e59a0e5649d37930bcbad7cb081bf53839d Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Mon, 23 Nov 2015 15:16:21 +0100
+Subject: [PATCH 1/9] replace new hostname in /etc/hosts (#1086282)
+
+Don't unconditionally append it. If it's already there, just replace it.
+
+Resolves: #1086282
+---
+ src/netconfpkg/NCProfileList.py |   14 ++++++++++----
+ 1 files changed, 10 insertions(+), 4 deletions(-)
+
+diff --git a/src/netconfpkg/NCProfileList.py b/src/netconfpkg/NCProfileList.py
+index 94189bb..ee9698a 100644
+--- a/src/netconfpkg/NCProfileList.py
++++ b/src/netconfpkg/NCProfileList.py
+@@ -303,6 +305,8 @@ You may have to relogin."""))
+             try:
+                 newip = socket.gethostbyname(act_prof.DNS.Hostname)
+             except socket.error:
++                if self.use_hostname.find(".") != -1:
++                    self.use_hostname = self.use_hostname.split(".")[0]
+                 for host in act_prof.HostsList:
+                     if host.IP == '127.0.0.1' or host.IP == "::1":
+                         host.Hostname = 'localhost.localdomain'
+@@ -311,10 +315,17 @@ You may have to relogin."""))
+                         # append the hostname to 127.0.0.1,
+                         # if it does not contain a domain
+                         if act_prof.DNS.Hostname.find(".") != -1:
+-                            host.AliasList.append(
+-                                    act_prof.DNS.Hostname.split(".")[0])
++                            newhostname = act_prof.DNS.Hostname.split(".")[0]
++                        else:
++                            newhostname = act_prof.DNS.Hostname
++                        # Replace the old hostname with the new one if it's already in the alias list.
++                        if newhostname in host.AliasList:
++                            pass
++                        elif self.use_hostname in host.AliasList:
++                            idx = host.AliasList.index(self.use_hostname)
++                            host.AliasList[idx] = newhostname
+                         else:
+-                            host.AliasList.append(act_prof.DNS.Hostname)
++                            host.AliasList.append(newhostname)
+             else:
+                 if newip != "127.0.0.1" and newip != "::1":
+                     # We found an IP for the hostname
+-- 
+1.7.1
+

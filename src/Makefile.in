@@ -38,8 +38,8 @@ POST_UNINSTALL = :
 DIST_COMMON = $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(srcdir)/Makefile.inc \
 	$(srcdir)/system-config-network.spec.in \
-	$(top_srcdir)/configure COPYING ChangeLog INSTALL TODO \
-	install-sh missing mkinstalldirs py-compile
+	$(top_srcdir)/configure COPYING INSTALL TODO install-sh \
+	missing py-compile
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/nls.m4 $(top_srcdir)/m4/po.m4 \
@@ -48,7 +48,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
-mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+mkinstalldirs = $(install_sh) -d
 CONFIG_CLEAN_FILES = system-config-network.spec
 CONFIG_CLEAN_VPATH_FILES =
 SOURCES =
@@ -175,7 +175,6 @@ PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@
 PACKAGE_NAME = @PACKAGE_NAME@
 PACKAGE_STRING = @PACKAGE_STRING@
 PACKAGE_TARNAME = @PACKAGE_TARNAME@
-PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
 PYTHON = @PYTHON@
@@ -818,7 +817,7 @@ archive: tag
 	@rm -rf /tmp/${PACKAGE}-$(VERSION) /tmp/${PACKAGE}
 	@git clone $$orig . /tmp/${PACKAGE}-$(VERSION)
 	@cd /tmp/${PACKAGE}-$(VERSION);git checkout -b compile $(SCMTAG);./autogen.sh;make;make distcheck
-	@mv /tmp/${PACKAGE}-$(VERSION)/${PACKAGE}-$(VERSION).tar.gz  $(top_builddir)
+	@mv /tmp/${PACKAGE}-$(VERSION)/${PACKAGE}-$(VERSION).tar.bz2  $(top_builddir)
 	@rm -rf /tmp/${PACKAGE}-$(VERSION)
 	@echo "The archive is in ${PACKAGE}-$(VERSION).tar.bz2"
 

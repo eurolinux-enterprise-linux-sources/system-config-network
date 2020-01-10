@@ -1,0 +1,25 @@
+From 12ab22096e3a0f3167c576cac21e7e931673af86 Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Fri, 27 Nov 2015 11:10:12 +0100
+Subject: [PATCH 7/9] remove confusing error message (#847434)
+
+Resolves: #847434
+---
+ src/netconfpkg/NCDeviceFactory.py |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+diff --git a/src/netconfpkg/NCDeviceFactory.py b/src/netconfpkg/NCDeviceFactory.py
+index 7eca7aa..977b8bd 100644
+--- a/src/netconfpkg/NCDeviceFactory.py
++++ b/src/netconfpkg/NCDeviceFactory.py
+@@ -52,7 +52,6 @@ class DeviceFactory(dict):
+ 
+     def getDeviceClass(self, devtype, subtype = None):
+         if not self.has_key(devtype):
+-            log.log(1, "Error: %s not in DeviceFactory!" % devtype)
+             return Device
+ 
+         if subtype and self[devtype].has_key(subtype):
+-- 
+1.7.1
+

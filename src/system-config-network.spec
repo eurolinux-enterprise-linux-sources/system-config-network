@@ -1,7 +1,7 @@
 # -*- RPM-SPEC -*-
 Summary: The GUI of the Network Adminstration Tool
 Name: system-config-network
-Version: 1.6.0.el6.2
+Version: 1.6.0.el6.3
 Release: 1%{?dist}
 URL: http://fedoraproject.org/wiki/SystemConfig/network
 Source0: %{name}-%{version}.tar.bz2

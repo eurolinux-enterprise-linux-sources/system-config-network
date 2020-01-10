@@ -1,4 +1,4 @@
-# translation of system-config-network.Branch-RHEL6.po to
+# translation of it.po to
 # translation of system-config-network.master.po to
 # Copyright (C) 2001, 2008, 2009, 2010 Free Software Foundation, Inc.
 # Bettina De Monti <bdemonti@redhat.it>, 2001.
@@ -11,10 +11,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: system-config-network.Branch-RHEL6\n"
+"Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-15 15:04+0100\n"
-"PO-Revision-Date: 2010-03-23 11:20+1000\n"
+"POT-Creation-Date: 2012-10-12 14:41+0200\n"
+"PO-Revision-Date: 2010-04-13 13:34+1000\n"
 "Last-Translator: \n"
 "Language-Team:  <it@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgid " (active)"
 msgstr " (attivo)"
 
 #. FIXME: change string
-#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:186
 msgid ""
 "system-config-network - network configuration tool\n"
 "\n"
@@ -220,21 +220,21 @@ msgstr ""
 "%s:\n"
 "%s"
 
-#: ../src/netconfpkg/exception.py:312
+#: ../src/netconfpkg/exception.py:322
 #, python-format
 msgid "%(progname)s - Exception Occurred"
 msgstr "%(progname)s - Si è verificata un eccezione"
 
-#: ../src/netconfpkg/exception.py:325
+#: ../src/netconfpkg/exception.py:335
 msgid "Specify a file to save the dump"
 msgstr "Specificare un file su cui salvare il dump"
 
-#: ../src/netconfpkg/exception.py:345
+#: ../src/netconfpkg/exception.py:355
 #, python-format
 msgid "Failed to write to file %s."
 msgstr "Impossibile scrivere sul file %s."
 
-#: ../src/netconfpkg/exception.py:349
+#: ../src/netconfpkg/exception.py:359
 #, python-format
 msgid ""
 "The application's state has been successfully\n"
@@ -293,8 +293,10 @@ msgstr "Inserire il nome di login fornito dall'ISP."
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:11
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
-msgid "Enter the name of this configuration, usually just the name of your ISP."
-msgstr "Inserire il nome di questa configurazione, generalmente il nome dell'ISP."
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
+msgstr ""
+"Inserire il nome di questa configurazione, generalmente il nome dell'ISP."
 
 #: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
 #: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:7
@@ -585,7 +587,8 @@ msgstr ""
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:13
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:22
 msgid "Enter the phone number of your ISP (without prefix/area/country code)."
-msgstr "Inserire il numero di telefono dell'ISP (senza prefisso/codice del paese)."
+msgstr ""
+"Inserire il numero di telefono dell'ISP (senza prefisso/codice del paese)."
 
 #: ../src/netconfpkg/gui/DialupDruid.glade.h:14
 msgid "IP Settings"
@@ -653,7 +656,7 @@ msgstr "PPP sin"
 #. FIXME: Bad style for translation..
 #. FIXME: Bad style for translation
 #: ../src/netconfpkg/gui/DialupDruid.py:240
-#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/editipsec.py:285
 #: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
 #: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
@@ -838,6 +841,7 @@ msgstr "_Compressione"
 
 #: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
 #: ../src/netconfpkg/gui/maindialog.glade.h:31
+#: ../src/netconfpkg/tui/NCPluginDevices.py:114
 msgid "_Delete"
 msgstr "_Cancella"
 
@@ -960,7 +964,8 @@ msgstr "Chiave di a_utenticazione:"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:3
 msgid "Automatic encryption mode selection via IKA (racoon)"
-msgstr "Selezione automatica della modalità di crittografia tramite IKA (racoon)"
+msgstr ""
+"Selezione automatica della modalità di crittografia tramite IKA (racoon)"
 
 #: ../src/netconfpkg/gui/editipsec.glade.h:4
 msgid "Ge_nerate"
@@ -1110,8 +1115,9 @@ msgstr "unico SPI per AH (256 - 4294967295), come un numero di porta TCP/IP"
 msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
 msgstr "unico SPI per ESP (256 - 4294967295), come un numero di porta TCP/IP"
 
-#: ../src/netconfpkg/gui/editipsec.py:217
-msgid "Please enter a unique security parameter index between 256 and 4294967295."
+#: ../src/netconfpkg/gui/editipsec.py:216
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
 msgstr ""
 "Si prega di inserire un indice di parametro di sicurezza unico tra 256 e "
 "4294967295."
@@ -1214,6 +1220,7 @@ msgstr ""
 "Eseguite: 'rpm -V system-config-network'\n"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:617
+#: ../src/netconfpkg/tui/TUI_functions.py:134
 #, python-format
 msgid ""
 "Failed to run:\n"
@@ -1223,6 +1230,7 @@ msgstr ""
 "%s"
 
 #: ../src/netconfpkg/gui/GUI_functions.py:620
+#: ../src/netconfpkg/tui/TUI_functions.py:137
 msgid "Succeeded. Please read the output."
 msgstr "Riuscito. Si prega di leggere l'output."
 
@@ -1231,7 +1239,7 @@ msgid "Choose Hardware Type"
 msgstr "Scegliere l'hardware"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:2
-#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+#: ../src/netconfpkg/tui/NCPluginDevices.py:73
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -1240,12 +1248,12 @@ msgid "Hardware type:"
 msgstr "Tipo di hardware:"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:4
-#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+#: ../src/netconfpkg/tui/NCPluginDevices.py:80
 msgid "ISDN"
 msgstr "ISDN"
 
 #: ../src/netconfpkg/gui/hardwaretype.glade.h:5
-#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+#: ../src/netconfpkg/tui/NCPluginDevices.py:79
 msgid "Modem"
 msgstr "Modem"
 
@@ -1386,8 +1394,9 @@ msgid "Monitor the selected device."
 msgstr "Controlli il dispositivo selezionato."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:16
-#: ../src/netconfpkg/tui/NCPluginDevices.py:77
-#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../src/netconfpkg/tui/NCPluginDevices.py:82
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:167
 #: ../system-config-network.desktop.in.h:3
 msgid "Network Configuration"
 msgstr "Configurazione di rete"
@@ -1405,7 +1414,8 @@ msgstr "Nomignolo"
 msgid ""
 "Please enter the name for the profile. The name may only contain letters and "
 "digits."
-msgstr "Inserire il nome del profilo. Il nome può contenere solo lettere e cifre."
+msgstr ""
+"Inserire il nome del profilo. Il nome può contenere solo lettere e cifre."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:20
 msgid "Profile"
@@ -1426,7 +1436,8 @@ msgstr "Tipo"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:24
 msgid "You may configure IPsec tunnels and host to host connections here."
-msgstr "Qui è possibile configurare i tunnel IPsec e le connessioni da host a host."
+msgstr ""
+"Qui è possibile configurare i tunnel IPsec e le connessioni da host a host."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:25
 msgid ""
@@ -1438,7 +1449,8 @@ msgstr ""
 "hardware."
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:26
-msgid "You may configure network hardware physically attached to the computer here."
+msgid ""
+"You may configure network hardware physically attached to the computer here."
 msgstr ""
 "Qui è possibile configurare l'hardware di rete fisicamente collegato al "
 "computer."
@@ -1464,11 +1476,13 @@ msgstr ""
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:29
 #: ../src/netconfpkg/gui/neat-control.glade.h:17
+#: ../src/netconfpkg/tui/NCPluginDevices.py:112
 msgid "_Activate"
 msgstr "_Attiva"
 
 #: ../src/netconfpkg/gui/maindialog.glade.h:30
 #: ../src/netconfpkg/gui/neat-control.glade.h:19
+#: ../src/netconfpkg/tui/NCPluginDevices.py:113
 msgid "_Deactivate"
 msgstr "_Disattiva"
 
@@ -1644,7 +1658,8 @@ msgstr "Sono state apportate alcune modifiche alla configurazione."
 #: ../src/netconfpkg/gui/maindialog.py:1030
 #, python-format
 msgid "To activate the network device %s, the changes have to be saved."
-msgstr "Per attivare il dispositivo di rete %s, le modifiche devono essere salvate."
+msgstr ""
+"Per attivare il dispositivo di rete %s, le modifiche devono essere salvate."
 
 #: ../src/netconfpkg/gui/maindialog.py:1032
 #: ../src/netconfpkg/gui/maindialog.py:1067
@@ -1696,8 +1711,10 @@ msgid "Do you really want to delete profile \"%s\"?"
 msgstr "Volete veramente cancellare il profilo \"%s\"?"
 
 #: ../src/netconfpkg/gui/maindialog.py:1649
-msgid "Sorry, there is nothing to be edited, or this type cannot be edited yet."
-msgstr "Non c'è nulla da modificare, oppure questo tipo non può essere modificato."
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgstr ""
+"Non c'è nulla da modificare, oppure questo tipo non può essere modificato."
 
 #: ../src/netconfpkg/gui/maindialog.py:1667
 #, python-format
@@ -1721,12 +1738,14 @@ msgstr ""
 #: ../src/netconfpkg/gui/maindialog.py:1807
 #, python-format
 msgid "To activate the IPsec connection %s, the changes have to be saved."
-msgstr "Per attivare la connessione IPsec %s, le modifiche devono essere salvate."
+msgstr ""
+"Per attivare la connessione IPsec %s, le modifiche devono essere salvate."
 
 #: ../src/netconfpkg/gui/maindialog.py:1835
 #, python-format
 msgid "To deactivate the IPsec connection %s, the changes have to be saved."
-msgstr "Per disattivare la connessione IPsec %s, le modifiche devono essere salvate."
+msgstr ""
+"Per disattivare la connessione IPsec %s, le modifiche devono essere salvate."
 
 #: ../src/netconfpkg/gui/modemconfig.glade.h:1
 #: ../src/netconfpkg/gui/ModemDruid.glade.h:1
@@ -1861,7 +1880,7 @@ msgstr "Configurazione dialup del modem"
 #: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
 #: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
 #: ../src/netconfpkg/NC_functions.py:414
-#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:132
 msgid "Unknown"
 msgstr "Sconosciuto"
 
@@ -1973,7 +1992,8 @@ msgid ""
 "Otherwise saving changes may have unwanted side effects."
 msgstr ""
 "Disattivare prima l'interfaccia %s?\n"
-"In caso contrario il salvataggio delle modifiche potrebbe avere effetti collaterali non desiderati."
+"In caso contrario il salvataggio delle modifiche potrebbe avere effetti "
+"collaterali non desiderati."
 
 #: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
 msgid "Qeth connection"
@@ -2277,7 +2297,7 @@ msgstr "Seleziona tipo di dispositivo"
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:1
 #: ../src/netconfpkg/gui/QethHardware.glade.h:2
 msgid "D_ata Device Bus ID:"
-msgstr "ID bus d_ati dispositivo:"
+msgstr "ID bus del dispositivo d_ati:"
 
 #: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
 #: ../src/netconfpkg/gui/QethHardware.glade.h:3
@@ -3152,11 +3172,14 @@ msgid "Inactive"
 msgstr "Disattivato"
 
 #: ../src/netconfpkg/NC_functions.py:228
-msgid "Shall the following packages, which are needed on your system, be installed?"
-msgstr "Devono essere installati i seguenti pacchetti necessari per il tuo sistema?"
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
+msgstr ""
+"Devono essere installati i seguenti pacchetti necessari per il tuo sistema?"
 
 #: ../src/netconfpkg/NC_functions.py:240
-msgid "You have to install the following packages, which are needed on your system!"
+msgid ""
+"You have to install the following packages, which are needed on your system!"
 msgstr "Si dovranno installare i seguenti pacchetti, che occorrono al sistema!"
 
 #: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
@@ -3221,7 +3244,8 @@ msgstr ""
 #: ../src/netconfpkg/NC_functions.py:987
 #, python-format
 msgid "Linking %s to devices and putting it in profile %s."
-msgstr "Collegamento di %s ai dispositivi e inserimento dello stesso nel profilo %s."
+msgstr ""
+"Collegamento di %s ai dispositivi e inserimento dello stesso nel profilo %s."
 
 #: ../src/netconfpkg/NCHardware.py:22
 msgid "inactive"
@@ -3305,20 +3329,20 @@ msgstr ""
 msgid "Error removing file %(file)s: %(errormsg)"
 msgstr "Errore nella rimozione del file %(file)s: %(errormsg)"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#: ../src/netconfpkg/tui/NCPluginDevices.py:63
 msgid "<New Device>"
 msgstr "<Nuovo dispositivo>"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#: ../src/netconfpkg/tui/NCPluginDevices.py:70
 msgid "Which device type do you want to add?"
 msgstr "Che tipo di dispositivo si desidera aggiungere?"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
 msgid "Add"
 msgstr "Aggiungi"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:66
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:71
+#: ../src/netconfpkg/tui/NCPluginDevices.py:117
 #: ../src/netconfpkg/tui/NCPluginDNS.py:69
 #: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
@@ -3327,16 +3351,15 @@ msgstr "Aggiungi"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
 msgid "QETH"
 msgstr "QETH"
 
-#. li = self.Listbox(5, returnExit=1)
-#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#: ../src/netconfpkg/tui/NCPluginDevices.py:110
 msgid "Select A Device"
 msgstr "Selezionare un dispositivo"
 
-#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDevices.py:116
 msgid "Save"
 msgstr "Salva"
 
@@ -3367,10 +3390,11 @@ msgstr "Percorso di ricerca DNS"
 #: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
 #: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
 #: ../src/netconfpkg/tui/NCTcpIp.py:130
+#: ../src/netconfpkg/tui/TUI_functions.py:140
 msgid "Ok"
 msgstr "Ok"
 
-#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:259
 msgid "DNS configuration"
 msgstr "Configurazione DNS"
 
@@ -3448,10 +3472,6 @@ msgstr "Opzioni"
 msgid "MAC Address"
 msgstr "Indirizzo MAC"
 
-#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
-msgid "Devernet Configuration"
-msgstr "Configurazione devernet"
-
 #: ../src/netconfpkg/tui/NCTcpIp.py:119
 msgid "Primary DNS Server"
 msgstr "Server DNS primario"
@@ -3494,11 +3514,11 @@ msgstr ""
 "\n"
 "Uso: system-config-network -v --verbose"
 
-#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#: ../src/netconf.py:259 ../src/netconf_tui.py:241
 msgid "Please start system-config-network with root permissions!\n"
 msgstr "Si prega di avviare system-config-network con i permessi di root!\n"
 
-#: ../src/netconf_tui.py:127
+#: ../src/netconf_tui.py:130
 msgid ""
 "An unhandled exception has occured.  This is most likely a bug.  Please save "
 "the crash dump and file a detailed bug report against system-config-network "
@@ -3508,38 +3528,38 @@ msgstr ""
 "Salvare il crash dump, e completare un report dettagliato del bug sul sito "
 "http://bugzilla.redhat.com/bugzilla/"
 
-#: ../src/netconf_tui.py:162
+#: ../src/netconf_tui.py:165
 msgid "Loading configuration"
 msgstr "Caricamento configurazione"
 
-#: ../src/netconf_tui.py:163
+#: ../src/netconf_tui.py:166
 msgid "Loading Device Configuration"
 msgstr "Caricamento configurazione dispositivo"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:169
+#: ../src/netconf_tui.py:172
 msgid "Loading Hardware Configuration"
 msgstr "Caricamento configurazione hardware"
 
 #. pylint: disable-msg=W0612
-#: ../src/netconf_tui.py:173
+#: ../src/netconf_tui.py:176
 msgid "Loading Profile Configuration"
 msgstr "Caricamento configurazione profilo"
 
 #. do this more inteligent - auto loading of new plugins??
-#: ../src/netconf_tui.py:255
+#: ../src/netconf_tui.py:258
 msgid "Device configuration"
 msgstr "Configurazione Dispositivo"
 
-#: ../src/netconf_tui.py:264
+#: ../src/netconf_tui.py:267
 msgid "Select Action"
 msgstr "Selezionare una azione"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Save&Quit"
 msgstr "Salva&Esci"
 
-#: ../src/netconf_tui.py:265
+#: ../src/netconf_tui.py:268
 msgid "Quit"
 msgstr "Esci"
 
@@ -3555,3 +3575,5 @@ msgstr "Rete"
 msgid "Control and monitor network devices"
 msgstr "Controllo e monitoraggio dei dispositivi di rete"
 
+#~ msgid "Devernet Configuration"
+#~ msgstr "Configurazione devernet"
