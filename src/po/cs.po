@@ -1,0 +1,3793 @@
+# Czech translation for system-config-network
+# Copyright (C) Free Software Foundation, Inc.
+#
+# Miloslav Trmač <mitr@volny.cz>, 2004, 2008.
+# Milan Kerslager <kerslage@linux.cz>, 2001, 2003, 2009, 2010.
+# Miloslav Trmač <mitr@volny.cz>, 2002, 2003, 2004, 2008.
+# Nikola Štohanzl <niko@srnet.cz>, 2006.
+# Adam Pribyl <pribyl@lowlevel.cz>, 2007, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"PO-Revision-Date: 2010-02-22 09:02+0100\n"
+"Last-Translator: Milan Kerslager <milan@kerslager.cz>\n"
+"Language-Team: Czech <fedora-cs-list@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.1\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../src/netconf_cmd.py:73
+#, python-format
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.\n"
+"Please file a detailed bug report against the component %s at \n"
+"https://bugzilla.redhat.com/bugzilla\n"
+"using the text below.\n"
+msgstr ""
+"Byla zachycena neošetřená výjimka, což je obvykle chyba v programu.\n"
+"Vyplňte prosím podrobné hlášení o chybě komponenty %s na\n"
+"http://bugzilla.redhat.com/bugzilla\n"
+"včetně textu zobrazeného níže.\n"
+
+#: ../src/netconf_cmd.py:108
+#, python-format
+msgid "%s - network configuration commandline tool"
+msgstr "%s - nastavení sítě z příkazového řádku"
+
+#: ../src/netconf_cmd.py:110 ../src/netconf_control.py:167
+#: ../src/netconf_control.py:184 ../src/netconfpkg/gui/maindialog.py:1712
+#: ../src/netconfpkg/gui/maindialog.py:1728
+msgid "Copyright (c) 2001-2005 Red Hat, Inc."
+msgstr "Copyright (c) 2001-2005 Red Hat, Inc."
+
+#: ../src/netconf_cmd.py:111 ../src/netconf_control.py:168
+#: ../src/netconfpkg/gui/maindialog.py:1713
+msgid ""
+"This software is distributed under the GPL. Please Report bugs to Red Hat's "
+"Bug Tracking System: http://bugzilla.redhat.com/"
+msgstr ""
+"Tento program je distribuován za podmínek GPL. Chyby oznamujte do systému "
+"společnosti Red Hat pro sledování chyb: http://bugzilla.redhat.com/"
+
+#: ../src/netconf_cmd.py:114
+#, python-format
+msgid "Usage: %s"
+msgstr "Použití: %s"
+
+#: ../src/netconf_cmd.py:116
+msgid "switch / activate profile"
+msgstr "přepnout/aktivovat profil"
+
+#: ../src/netconf_cmd.py:118
+msgid "export / import hardware list"
+msgstr "exportovat/importovat seznam hardware"
+
+#: ../src/netconf_cmd.py:120
+msgid "export / import IPsec list"
+msgstr "exportovat/importovat seznam IPsec"
+
+#: ../src/netconf_cmd.py:122
+msgid "export / import device list (default)"
+msgstr "exportovat/importovat seznam zařízení (implicitně)"
+
+#: ../src/netconf_cmd.py:124
+msgid "export / import profile list"
+msgstr "exportovat/importovat seznam profilů"
+
+#: ../src/netconf_cmd.py:126
+msgid "set the root directory"
+msgstr "nastavit kořenový adresář"
+
+#: ../src/netconf_cmd.py:128
+msgid "export list (default)"
+msgstr "exportovat seznam (implicitně)"
+
+#: ../src/netconf_cmd.py:129
+msgid "import list"
+msgstr "importovat seznam"
+
+#: ../src/netconf_cmd.py:131
+msgid "clear existing list prior of importing"
+msgstr "před importem vymazat existující seznam"
+
+#: ../src/netconf_cmd.py:133
+msgid "import from file"
+msgstr "importovat ze souboru"
+
+#: ../src/netconf_cmd.py:275
+#, python-format
+msgid "Unknown option %s\n"
+msgstr "Neznámá volba %s\n"
+
+#: ../src/netconf_cmd.py:337
+#, python-format
+msgid "Unknown List %s\n"
+msgstr "Neznámý seznam %s\n"
+
+#: ../src/netconf_cmd.py:341
+#, python-format
+msgid "Error parsing line: %s"
+msgstr "Chyba při zpracovávání řádku: %s"
+
+#: ../src/netconf_control.py:57
+msgid ""
+"ERROR: Unable to initialize graphical environment. \n"
+"Most likely cause of failure is that the tool was not run using a graphical\n"
+"environment. Please either start your graphical user interface or set your\n"
+"DISPLAY variable.\n"
+msgstr ""
+"CHYBA: Nemohu inicializovat grafické prostředí.\n"
+"Nejpravděpodobnější příčinou je, že nástroj nebyl spuštěn z grafického \n"
+"prostředí. Spusťte nástroj z grafického prostředí nebo nastavte \n"
+"proměnnou prostředí DISPLAY.\n"
+
+#: ../src/netconf_control.py:192 ../src/netconfpkg/gui/maindialog.py:1732
+msgid ""
+"This software is distributed under the GPL. \n"
+"Please Report bugs to Red Hat's Bug Tracking \n"
+"System: http://bugzilla.redhat.com/"
+msgstr ""
+"Tento program je distribuován za podmínek GPL.\n"
+"Chyby oznamujte Red Hatu do systému pro sledování\n"
+"chyb: http://bugzilla.redhat.com/"
+
+#: ../src/netconf_control.py:250
+#, python-format
+msgid "Cannot configure network device %s"
+msgstr "Nemohu nastavit síťové zařízení %s"
+
+#: ../src/netconf_control.py:271
+msgid "Switching Profiles"
+msgstr "Přepínání profilů"
+
+#: ../src/netconf_control.py:272
+#, python-format
+msgid "Switching to profile %s"
+msgstr "Přepínání do profilu %s"
+
+#: ../src/netconf_control.py:273
+#, python-format
+msgid "Failed to switch to profile %s"
+msgstr "Selhalo přepnutí do profilu %s"
+
+#. pylint: disable-msg=W0613
+#. TBD
+#: ../src/netconf_control.py:288
+msgid "To be rewritten!"
+msgstr "Bude přepsáno!"
+
+#: ../src/netconf_control.py:422
+msgid " (active)"
+msgstr " (aktivní)"
+
+#. FIXME: change string
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose -d --debug"
+msgstr ""
+"system-config-network - nástroj pro konfiguraci sítě\n"
+"\n"
+"Použití: system-config-network -v --verbose -d --debug"
+
+#: ../src/netconfpkg/exception.py:134
+msgid "_Debug"
+msgstr "_Ladit"
+
+#: ../src/netconfpkg/exception.py:135
+msgid "_Save to file"
+msgstr "_Uložit do souboru"
+
+#: ../src/netconfpkg/exception.py:150
+#, python-format
+msgid ""
+"An unhandled exception has occurred.  This is most likely a bug.  Please "
+"save the crash dump and file a detailed bug report against %s at https://"
+"bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Zachycena neošetřená výjimka, což je pravděpodobně chyba. Uložte prosím "
+"záznam pádu a vyplňte podrobné hlášení o chybě komponenty %s na adrese "
+"https://bugzilla.redhat.com/bugzilla"
+
+#: ../src/netconfpkg/exception.py:247
+#, python-format
+msgid "Error: %s: %s"
+msgstr "Chyba: %s: %s"
+
+#: ../src/netconfpkg/exception.py:250
+#, python-format
+msgid ""
+"%s\n"
+"\n"
+"%s:\n"
+"%s"
+msgstr ""
+"%s\n"
+"\n"
+"%s:\n"
+"%s"
+
+#: ../src/netconfpkg/exception.py:312
+#, python-format
+msgid "%(progname)s - Exception Occurred"
+msgstr "%(progname)s - zachycena výjimka"
+
+#: ../src/netconfpkg/exception.py:325
+msgid "Specify a file to save the dump"
+msgstr "Vložte název souboru pro uložení záznamu o pádu"
+
+#: ../src/netconfpkg/exception.py:345
+#, python-format
+msgid "Failed to write to file %s."
+msgstr "Selhal zápis do souboru %s"
+
+#: ../src/netconfpkg/exception.py:349
+#, python-format
+msgid ""
+"The application's state has been successfully\n"
+"written to the file '%s'."
+msgstr ""
+"Stav aplikace byl úspěšně zapsán\n"
+"do souboru '%s' ."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:1
+msgid "Allow dial on _demand"
+msgstr "Povolit vytáčení dle potřeby"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:2
+msgid "Allow the link come up on demand."
+msgstr "Povolit vytočení linky, když to bude potřeba."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:3
+msgid "Demand setting"
+msgstr "Nastavení aut. vytáčení"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:4
+msgid "Enable synchronous PPP for the connection"
+msgstr "Povolit pro spojení synchronní PPP"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:5
+msgid ""
+"Enter the Access Concentrator name, if you have been given one by your ISP. "
+"In most cases you can leave this blank."
+msgstr ""
+"Vložte jméno přístupového koncentrátoru (AC - Access Concentrator), pokud "
+"vám ho poskytovatel připojení sdělil. Ve většině případů lze ponechat "
+"políčko prázdné."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:6
+msgid ""
+"Enter the Service Name, if your ISP requires it. If you don't know it, "
+"please contact your ISP. In most cases you can leave this blank."
+msgstr ""
+"Vložte jméno služby (SN - Service Name), pokud to poskytovatel připojení "
+"vyžaduje. Pokud ho nevíte, zjistěte ho u ISP. Ve většině případů lze "
+"ponechat políčko prázdné."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:7
+msgid "Enter the idle time in seconds after which the link should be dropped."
+msgstr "Vložte počet vteřin nečinnosti, po kterých bude linka zavěšena."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:8
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:10
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:19
+msgid "Enter the login name, that your ISP gave you here."
+msgstr "Vložte přihlašovací jméno, které vám přidělil poskytovatel připojení."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:9
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
+msgstr ""
+"Vložte jméno tohoto nastavení, obvykle se používá jméno vašeho providera."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:12
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:21
+msgid ""
+"Enter the password for your account. If you do not know it, please contact "
+"your ISP."
+msgstr ""
+"Vložte heslo pro váš účet. Pokud ho neznáte, kontaktujte vašeho providera."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:27
+msgid "Make this connection the default _route"
+msgstr "Nastavit toto spojení jako _implicitní bránu"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:12
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:19
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:35
+msgid "Pass_word:"
+msgstr "_Heslo:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:39
+msgid "Restart if _connection dies"
+msgstr "Automatické _obnovení přerušeného spojení"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:14
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:44
+msgid "Use this form to enter your T-Online account data."
+msgstr "Ve formuláři zadejte údaje svého T-Online účtu."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:15
+msgid "_AC-name:"
+msgstr "Jméno _AC:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:16
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:46
+msgid "_Advanced"
+msgstr "_Pokročilé"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:17
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:54
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:2
+#: ../src/netconfpkg/gui/QethConfig.glade.h:6
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:7
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:26
+msgid "_General"
+msgstr "_Obecné"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:18
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:7
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:8
+msgid "_Hardware Device"
+msgstr "_Hardwarové zařízení"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:19
+msgid "_IPsec"
+msgstr "_IPsec"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:20
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:20
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:26
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:56
+msgid "_Login name:"
+msgstr "_Jméno uživatele:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:21
+msgid "_Maximum idle time:"
+msgstr "_Maximální doba nečinnosti:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:22
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:60
+msgid "_Provider"
+msgstr "_Provider"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:23
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:22
+msgid "_Provider name:"
+msgstr "_Jméno poskytovatele:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:61
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:9
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:11
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:30
+msgid "_Route"
+msgstr "_Směrování"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:25
+msgid "_Service-name:"
+msgstr "Jméno _služby"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:26
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:29
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:62
+msgid "_T-Online Account Setup"
+msgstr "Nastavení účtu _T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:27
+msgid "_Use synchronous PPP"
+msgstr "Použít s_ynchronní PPP"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:28
+msgid "xDSL Configuration"
+msgstr "Nastavení xDSL"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:1
+msgid "<b>Account Type:</b>"
+msgstr "<b>Typ účtu:</b> "
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/tonline.glade.h:3
+msgid "Associated T-Online _number:"
+msgstr "_Asociované číslo T-Online:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:3
+msgid "Configure DSL connection"
+msgstr "Nastavení DSL připojení"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:4
+msgid "Create DSL connection"
+msgstr "Vytvořit DSL připojení"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:8
+msgid "Enter the provider name for this account."
+msgstr "Vložte jméno poskytovatele tohoto účtu."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:9
+msgid "Ethernet _device:"
+msgstr "Ethernetové _zařízení:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:10
+msgid "Normal"
+msgstr "Normální"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:11
+msgid ""
+"Normal\n"
+"T-Online"
+msgstr ""
+"Normální\n"
+"T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:14
+msgid "Password (_again):"
+msgstr "Heslo (_znovu):"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:15
+msgid "Select the ethernet device connected to the DSL modem."
+msgstr "Vyberte ethernetové zařízení, které je připojené k DSL modemu."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:16
+msgid "Select the ethernet device for this account."
+msgstr "Vyberte ethernetové zařízení tohoto účtu."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:17
+msgid "T-Online"
+msgstr "T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:18
+#: ../src/netconfpkg/gui/tonline.glade.h:5
+msgid "_Adapter identifier:"
+msgstr "_Identifikátor adaptéru:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:19
+#: ../src/netconfpkg/gui/tonline.glade.h:6
+msgid "_Concurrent user number/suffix:"
+msgstr "_Souběžné uživatelské číslo/přípona:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:21
+#: ../src/netconfpkg/gui/tonline.glade.h:7
+msgid "_Personal password:"
+msgstr "_Osobní heslo:"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:1
+msgid "Choose a Provider"
+msgstr "Zvolte poskytovatele"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:2
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:15
+msgid "Internet Provider"
+msgstr "Poskytovatel Internetu"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:1
+msgid "Allow all _users to enable and disable the device"
+msgstr "_Povolit uživatelům aktivaci a deaktivaci rozhraní"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:2
+msgid "Controlled by _NetworkManager"
+msgstr "Ovládáno _NetworkManagerem"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:2
+msgid "Enable IPv_6 configuration for this interface"
+msgstr "Povolit nastavení IPv_6 pro toto rozhraní"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:4
+msgid "_Activate device when computer starts"
+msgstr "_Aktivovat zařízení při startu počítače"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:5
+#: ../src/netconfpkg/gui/QethConfig.glade.h:5
+msgid "_Activate device when parent device starts"
+msgstr "_Aktivovat zařízení při startu rodičovského zařízení"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:6
+#: ../src/netconfpkg/gui/editipsec.glade.h:38
+#: ../src/netconfpkg/gui/QethConfig.glade.h:8
+msgid "_Nickname:"
+msgstr "_Přezdívka:"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.py:154
+#, python-format
+msgid ""
+"Nickname %s is already in use!\n"
+"Please choose another one.\n"
+msgstr ""
+"Přezdívka %s se již používá!\n"
+"Zvolte prosím jinou.\n"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:1
+msgid "Choose Hardware Device Type"
+msgstr "Zvolte typ hardwarového zařízení"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:2
+msgid "Please select the type of hardware device to add:"
+msgstr "Zvolte typ zařízení, které má být přidáno:"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:3
+msgid "_Device type:"
+msgstr "_Typ zařízení:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:1
+msgid "<b>Phone number</b>"
+msgstr "<b>Telefonní číslo:</b>"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:2
+msgid "A_rea code:"
+msgstr "Kód _oblasti:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:3
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:2
+msgid "Automatically obtain _DNS information from provider"
+msgstr "Automaticky získat nastavení _DNS od providera"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:4
+msgid "Automatically obtain _IP address settings"
+msgstr "Automaticky získat nastavení _IP adresy"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:5
+msgid "Create Dialup Connection"
+msgstr "Vytvořit vytáčené připojení"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:6
+msgid "Default _gateway address:"
+msgstr "Adresa implicitní brány:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:7
+msgid "Encapsulation mode:"
+msgstr "Režim zapouzdření:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:8
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:17
+msgid ""
+"Enter any numbers you need to dial before the normal phone number. For "
+"example, if you need to reach an outside line, or disable call waiting, put "
+"the necessary numbers here."
+msgstr ""
+"Vložte čísla, která je potřeba vytočit před normálním telefonním číslem. "
+"Patří sem číslo pro aktivací venkovní linky, zakázání funkce 'Call Waiting' "
+"a podobně."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:9
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:18
+msgid "Enter the area code needed to reach your internet provider."
+msgstr "Vložte předčíslí poskytovatele připojení."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:22
+msgid "Enter the phone number of your ISP (without prefix/area/country code)."
+msgstr "Vložte telefonní číslo poskytovatele připojení (bez předčíslí)."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:14
+msgid "IP Settings"
+msgstr "Nastavení IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:16
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:17
+msgid "Manual IP Address Settings"
+msgstr "Manuální nastavení IP adresy"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:17
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:9
+msgid "New Interface"
+msgstr "Nové rozhraní"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:18
+msgid "PPP Settings"
+msgstr "Nastavení PPP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:20
+msgid "Prefi_x:"
+msgstr "_Prefix:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:21
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:38
+msgid "Provider _name:"
+msgstr "_Jméno providera"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:22
+msgid "Select Provider"
+msgstr "_Zvolte providera"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:23
+msgid "Statically set IP addresses:"
+msgstr "Nastavení statické IP adresy:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:25
+#: ../src/netconfpkg/gui/editadress.glade.h:2
+msgid "_Address:"
+msgstr "_Adresa:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:27
+msgid "_Phone number:"
+msgstr "_Telefonní číslo:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:28
+#: ../src/netconfpkg/gui/editadress.glade.h:4
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:47
+msgid "_Subnet mask:"
+msgstr "_Maska sítě:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:30
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:72
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:344
+msgid "raw IP"
+msgstr "raw IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:31
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:73
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:346
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:375
+msgid "sync PPP"
+msgstr "synch PPP"
+
+#. FIXME: Bad style for translation..
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/DialupDruid.py:240
+#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:203
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:331
+msgid "You have selected the following information:"
+msgstr "Byly zadány následující informace:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:242
+msgid "Hardware:"
+msgstr "Hardware:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:243
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:149
+msgid "Provider name:"
+msgstr "Jméno poskytovatele:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:245
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:151
+msgid "Login name:"
+msgstr "Jméno uživatele:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:246
+msgid "Phone number:"
+msgstr "Telefonní číslo:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:1
+msgid "A_rea Code"
+msgstr "Kód _oblasti:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:2
+msgid "Ca_llback"
+msgstr "Zpětné _volání"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:3
+msgid "Callback MS_N:"
+msgstr "Zpětné volání MS_N:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:4
+msgid "Callback _delay:"
+msgstr "Pro_dleva zpětného volání"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:5
+msgid "Callback _mode:"
+msgstr "Režim zpětného _volání:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:6
+msgid "Callback setting"
+msgstr "Nastavení zpětného volání"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:7
+msgid "Click here, if you want to choose a new provider from the ISP database."
+msgstr "Klikněte, pokud chcete zvolit nového providera z databáze."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:8
+msgid "Dial _mode:"
+msgstr "Režim _vytáčení:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:9
+msgid "Dial-in _number:"
+msgstr "Volané čí_slo"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:242
+msgid "Dialup Configuration"
+msgstr "Nastavení vytáčeného připojení"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:11
+msgid "Enable VJ Connection-_ID Compression"
+msgstr "Povolit VJ připojení-_ID kompresi"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:12
+msgid "Enable _Address/Control Compression"
+msgstr "Povolit kompresi _adres/řízení"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:13
+msgid "Enable _BSD Compression"
+msgstr "Povolit _BSD kompresi"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:14
+msgid "Enable _CCP Compression Control Protocol"
+msgstr "Povolit řízení komprese _CCP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:15
+msgid "Enable _Protocol Field Compression"
+msgstr "Povolit kompresi položek _protokolu"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:16
+msgid "Enable _VJ TCP/IP Header Compression"
+msgstr "Povolit _VJ kompresi hlaviček TCP/IP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:23
+msgid "Enter your local phone number. It's optional, if you use a modem."
+msgstr ""
+"Vložte své telefonní číslo. Položka je volitelná, pokud používáte modem."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:24
+msgid "Han_gup timeout:"
+msgstr "Zavěsit po _neaktivitě:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:25
+msgid "Let _PPP do all authentication"
+msgstr "Autentizace v rámci _PPP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:26
+msgid "MSN/EA_Z:"
+msgstr "_MSN/EAZ:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:28
+msgid "Modem _initialization string:"
+msgstr "_Inicializační řetězec modemu:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:29
+msgid "Modem p_ort:"
+msgstr "P_ort modemu:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:30
+msgid "Modem0"
+msgstr "Modem0"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:31
+msgid "Modem1"
+msgstr "Modem1"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:32
+msgid "Modem2"
+msgstr "Modem2"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:33
+msgid "Modem3"
+msgstr "Modem3"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:34
+msgid "PPP Option List"
+msgstr "Seznam PPP voleb"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:36
+msgid "Phone Number"
+msgstr "Telefonní číslo"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:37
+msgid "Prefi_x"
+msgstr "Prefi_x"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:40
+msgid "Select the authentication protocol used by your ISP."
+msgstr "Vyberte autentizační protokol, který ISP používá."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:41
+msgid "Show password"
+msgstr "Zobrazit heslo"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:42
+msgid "Use _Callback Control Protocol (CBCP)"
+msgstr "Použít protokol zpětného volání (_CBCP)"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:43
+msgid "Use _Channel Bundling"
+msgstr "Použít _Channel Bundling"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:45
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:36
+msgid "_Add..."
+msgstr "_Přidat..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:47
+msgid "_Allow only above Dial-In Number"
+msgstr "Povolit _jen výše zmíněné číslo"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:48
+msgid "_Authentication:"
+msgstr "_Autentizace:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:49
+msgid "_Choose Provider..."
+msgstr "_Zvolit providera..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:50
+msgid "_Compression"
+msgstr "_Komprese"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
+#: ../src/netconfpkg/gui/maindialog.glade.h:31
+msgid "_Delete"
+msgstr "_Odstranit"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:52
+msgid "_Dial mode:"
+msgstr "Režim _vytáčení:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:53
+msgid "_Encapsulation mode:"
+msgstr "Režim _zapouzdření:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:55
+msgid "_Hangup timeout:"
+msgstr "_Zavěsit po:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:57
+msgid "_Options"
+msgstr "_Volby"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:58
+msgid "_PPP option:"
+msgstr "Volby _PPP:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:59
+msgid "_Phone Number"
+msgstr "_Telefonní číslo"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:63
+msgid "_Use Callback"
+msgstr "Použít zpětné _volání"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:64
+#: ../src/netconfpkg/NCDialup.py:147
+msgid "auto"
+msgstr "auto"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:65
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:361
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:437
+msgid "chap"
+msgstr "CHAP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:66
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:364
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:439
+msgid "chap+pap"
+msgstr "CHAP+PAP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:67
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:394
+msgid "in"
+msgstr "dovnitř"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:68
+#: ../src/netconfpkg/NCDialup.py:148
+msgid "manual"
+msgstr "ručně"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:69
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:366
+msgid "none"
+msgstr "žádný"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:70
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+msgid "out"
+msgstr "ven"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:71
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:359
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:435
+msgid "pap"
+msgstr "PAP"
+
+#: ../src/netconfpkg/gui/editadress.glade.h:1
+msgid "Add / Edit IP Address"
+msgstr "Přidat/změnit IP adresu"
+
+#: ../src/netconfpkg/gui/editadress.glade.h:3
+msgid "_Gateway:"
+msgstr "_Brána:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:1
+msgid "Domain name:"
+msgstr "Jméno domény:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:2
+msgid "Edit Domain Name"
+msgstr "Změnit jméno domény"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:1
+msgid "Add / Edit Hosts entry"
+msgstr "Přidat/změnit jméno počítače"
+
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/edithosts.glade.h:2
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:235
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:232
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:215
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:344
+msgid "Address:"
+msgstr "Adresa:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:3
+msgid "Aliases:"
+msgstr "Aliasy:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:4
+msgid "Hostname:"
+msgstr "Jméno počítače:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:2
+msgid "A_uthentication key:"
+msgstr "Autentizační _klíč:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:3
+msgid "Automatic encryption mode selection via IKA (racoon)"
+msgstr "Automatický výběr režimu šifrování pomocí IKA (racoon)"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:4
+msgid "Ge_nerate"
+msgstr "_Generovat"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:5
+msgid "Host to Host encryption"
+msgstr "Šifrování mezi počítači"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:6
+msgid "IPsec"
+msgstr "IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:7
+msgid "IPsec - Connection Type"
+msgstr "IPsec - typ připojení"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:8
+msgid "IPsec - Encryption Mode"
+msgstr "IPsec - režim šifrování"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:9
+msgid "IPsec - Keys"
+msgstr "IPsec - klíče"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:10
+msgid "IPsec - Local Network"
+msgstr "IPsec - místní síť"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:11
+msgid "IPsec - Nickname"
+msgstr "IPsec - přezdívka"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:12
+msgid "IPsec - Remote Network"
+msgstr "IPsec - vzdálená síť"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:13
+msgid "IPsec - Summary"
+msgstr "IPsec - souhrn"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:14
+msgid "IPsec Settings"
+msgstr "Nastavení IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:15
+msgid "Local network _address:"
+msgstr "_Adresa místní sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:16
+msgid "Local network _gateway:"
+msgstr "_Brána místní sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:17
+msgid "Local subnet _mask:"
+msgstr "_Maska místní podsítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:18
+msgid "Manual encryption with a fixed key"
+msgstr "Ruční šifrování s pevným klíčem"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:19
+msgid "Network to Network encryption (VPN)"
+msgstr "Šifrování mezi sítěmi (VPN)"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:20
+msgid "Please enter a nickname for the connection:"
+msgstr "Zadejte název připojení:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:21
+msgid "Please enter a passphrase to generate the key."
+msgstr "Zadejte heslo pro vygenerování klíče."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:22
+msgid "Please enter your local network settings:"
+msgstr "Zadejte nastavení místní sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:23
+msgid "Please enter your remote network settings:"
+msgstr "Zadejte nastavení vzdálené sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:24
+msgid "Please select the type of connection:"
+msgstr "Zvolte typ připojení:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:25
+msgid "Please select the type of encryption:"
+msgstr "Zvolte typ šifrování:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:26
+msgid ""
+"Please specify your keys or generate them. \n"
+"The keys are symmetric, so your remote partner needs to have the same."
+msgstr ""
+"Zadejte prosím své klíče nebo je vygenerujte. \n"
+"Klíče jsou symetrické, takže váš vzdálený partner potřebuje stejný klíč. "
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:28
+msgid "Remote _IP address:"
+msgstr "Vzdálená _IP adresa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:29
+msgid "Remote network _address:"
+msgstr "_Adresa vzdálené sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:30
+msgid "Remote network _gateway:"
+msgstr "_Brána vzdálené sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:31
+msgid "Remote subnet _mask:"
+msgstr "_Maska vzdálené sítě:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:32
+msgid "Security parameter index for authentication:"
+msgstr "Seznam bezpečnostních parametrů pro autentizaci:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:33
+msgid "Security parameter index for encryption:"
+msgstr "Seznam bezpečnostních parametrů pro šifrování:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:34
+msgid "You will now be guided through the setup of the IPsec connection."
+msgstr "Nyní budete provedeni nastavením připojení IPsec."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:35
+msgid "_Activate connection when computer starts"
+msgstr "_Aktivovat spojení při startu počítače"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:36
+msgid "_Encryption key:"
+msgstr "_Šifrovací klíč:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:37
+msgid "_Generate"
+msgstr "_Generovat"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:39
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:40
+msgid "unique SPI for AH (256 - 4294967295), like a TCP/IP port number"
+msgstr "jedinečné SPI pro AH (256 - 4294967295), jako číslo portu TCP/IP"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:41
+msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
+msgstr "jedinečné SPI pro ESP (256 - 4294967295), jako číslo portu TCP/IP"
+
+#: ../src/netconfpkg/gui/editipsec.py:217
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
+msgstr "Zadejte jedinečný bezpečností parametr v rozmezí 256 a 4294967295."
+
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:3
+msgid "Ethernet Device"
+msgstr "Ethernetové zařízení"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:8
+msgid "Select Ethernet Adapter"
+msgstr "Vyberte ethernetový adaptér"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:2
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:2
+msgid "_Adapter:"
+msgstr "_Adaptér:"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:9
+#: ../src/netconfpkg/gui/QethHardware.glade.h:9
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:3
+msgid "_Device:"
+msgstr "_Zařízení:"
+
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:7
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:1
+msgid "Network Adapters Configuration"
+msgstr "Nastavení síťového adaptéru"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:16
+msgid "Configure Network Settings"
+msgstr "Nastavení sítě"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:2
+msgid "Create Ethernet Device"
+msgstr "Vytvořit ethernetové zařízení"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:4
+msgid "Ethernet card"
+msgstr "Ethernetová karta"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:19
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:7
+msgid ""
+"Please enter the MTU parameter to set the maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Vložte velikost MTU (Maximum Transfer Unit) pro toto zařízení. Pro s390/"
+"s390x je MTU implicitně 1492."
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:8
+msgid "Select Ethernet Device"
+msgstr "Zvolte ethernetové zařízení"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:9
+msgid "Select the ethernet card you want to configure:"
+msgstr "Vyberte ethernetovou kartu, kterou chcete nastavit:"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:99
+#, python-format
+msgid ""
+"Could not find file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+"Nepodařilo se najít soubor '%s'.\n"
+"Zkontroluje prosím vaši instalaci!\n"
+"Spusťte: 'rpm -V system-config-network'\n"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:108
+#, python-format
+msgid ""
+"Could not load the file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+"Nepodařilo se načíst soubor '%s'.\n"
+"Zkontroluje prosím vaši instalaci!\n"
+"Spusťte: 'rpm -V system-config-network'\n"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:617
+#, python-format
+msgid ""
+"Failed to run:\n"
+"%s"
+msgstr ""
+"Selhalo spuštění:\n"
+"%s"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:620
+msgid "Succeeded. Please read the output."
+msgstr "Úspěšně dokončeno. Přečtěte si prosím výstup."
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:1
+msgid "Choose Hardware Type"
+msgstr "Zvolte typ hardware"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:2
+#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:3
+msgid "Hardware type:"
+msgstr "Typ hardware:"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:4
+#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:5
+#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+msgid "Modem"
+msgstr "Modem"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:6
+msgid "Please select the hardware device type you want to create"
+msgstr "Zvolte prosím typ hardwarového zařízení, které chcete vytvořit"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:7
+msgid "Token Ring"
+msgstr "Token Ring"
+
+#: ../src/netconfpkg/gui/infodialog.glade.h:1
+#: ../src/netconfpkg/gui/maindialog.glade.h:9
+#: ../src/netconfpkg/gui/neat-control.glade.h:11
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:129
+#: ../src/netconfpkg/tui/NCTcpIp.py:114
+msgid "Device"
+msgstr "Zařízení"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:1
+msgid "1_TR6"
+msgstr "1_TR6"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:2
+msgid "<b>D-channel protocol</b>"
+msgstr "<b>Protokol kanálu D</b>"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:1
+msgid "<b>Resources</b>"
+msgstr "<b>Prostředky</b>"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:4
+msgid "Eu_ro ISDN (EDSS1)"
+msgstr "_Euro ISDN (EDSS1)"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:5
+msgid "IO_1:"
+msgstr "IO_1:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:6
+msgid "IO_2:"
+msgstr "IO_2:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:7
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:7
+msgid "IR_Q:"
+msgstr "IR_Q:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:8
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:9
+msgid "ISDN _adapters:"
+msgstr "ISDN _adaptéry:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:10
+msgid "Select ISDN Adapter"
+msgstr "Vyberte ISDN adaptér"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:10
+msgid "_IO:"
+msgstr "_IO:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:12
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:11
+msgid "_MEM:"
+msgstr "_PAMĚŤ:"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:2
+msgid "<b>D channel protocol</b>"
+msgstr "<b>Protokol kanálu D</b>"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:8
+msgid "ISDN Adapters Configuration"
+msgstr "Konfigurace ISDN adaptéru"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:1
+msgid "Activate the selected device, calling ifup <device>."
+msgstr "Aktivovat vybrané zařízení, spustit ifup <zařízení>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:2
+msgid "Contents"
+msgstr "Obsah"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:3
+msgid "DNS search path:"
+msgstr "Prohledávané domény:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:4
+msgid "D_NS"
+msgstr "D_NS"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:5
+msgid "Deactivate the selected device, calling ifdown <device>."
+msgstr "Deaktivovat vybrané zařízení, spustit ifdown <zařízení>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:6
+msgid "Description"
+msgstr "Popis"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:7
+msgid "Destination"
+msgstr "Cíl"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:8
+msgid "Dev_ices"
+msgstr "_Zařízení"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:10
+msgid "Do_main:"
+msgstr "_Doména:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:11
+msgid "H_osts"
+msgstr "_Počítače"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:12
+msgid "Hard_ware"
+msgstr "_Hardware"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:13
+msgid "IP_sec"
+msgstr "IP_sec"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:14
+msgid "List of devices which are currently configurable on your system."
+msgstr "Seznam zařízení, které lze v tuto chvíli nastavit."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:15
+msgid "Monitor the selected device."
+msgstr "Sledovat vybraná zařízení."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:16
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../system-config-network.desktop.in.h:3
+msgid "Network Configuration"
+msgstr "Nastavení sítě"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:17
+msgid "New Profile"
+msgstr "Nový profil"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:18
+#: ../src/netconfpkg/gui/neat-control.glade.h:13
+msgid "Nickname"
+msgstr "Přezdívka"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:19
+msgid ""
+"Please enter the name for the profile. The name may only contain letters and "
+"digits."
+msgstr "Vložte název profilu. Název může obsahovat pouze písmena a číslice."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:20
+msgid "Profile"
+msgstr "Profil"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:21
+msgid "Show loopback"
+msgstr "Zobrazit loopback"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:22
+#: ../src/netconfpkg/gui/neat-control.glade.h:15
+msgid "Status"
+msgstr "Stav"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:23
+msgid "Type"
+msgstr "Typ"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:24
+msgid "You may configure IPsec tunnels and host to host connections here."
+msgstr "Zde lze nastavit IPsec tunely a spojení mezi počítači."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:25
+msgid ""
+"You may configure network devices associated with physical hardware here.  "
+"Multiple logical devices can be associated with a single piece of hardware."
+msgstr ""
+"Zde lze nastavit zařízení asociované s vaším hardware. Více logických "
+"zařízení může být asociováno s jedním fyzickým hardware."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:26
+msgid ""
+"You may configure network hardware physically attached to the computer here."
+msgstr ""
+"Zde lze konfigurovat síťová zařízení, která jsou fyzicky připojená k "
+"počítači."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:27
+msgid ""
+"You may configure the system's hostname, domain, name servers, and search "
+"domain. Name servers are used to look up other hosts on the network."
+msgstr ""
+"Zde lze nastavit jméno počítače, doménu, doménové servery a prohledávané "
+"domény. Doménové servery se používají pro překlad doménových jmen na IP "
+"adresy a zpět."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:28
+msgid ""
+"You may specify static computer hostname to IP address mappings here.  If "
+"DNS is in use, these settings will take precedence over any information it "
+"may provide."
+msgstr ""
+"Zde lze nastavit statický překlad doménových jmen na IP adresy. Pokud "
+"používáte DNS, budou mít tato nastavení před záznamy v DNS přednost."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:29
+#: ../src/netconfpkg/gui/neat-control.glade.h:17
+msgid "_Activate"
+msgstr "_Aktivovat"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:30
+#: ../src/netconfpkg/gui/neat-control.glade.h:19
+msgid "_Deactivate"
+msgstr "_Deaktivovat"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:32
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:33
+msgid "_Hostname:"
+msgstr "_Jméno počítače:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:34
+#: ../src/netconfpkg/gui/neat-control.glade.h:21
+msgid "_Monitor"
+msgstr "_Sledovat"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:35
+msgid "_New..."
+msgstr "_Nový..."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:36
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:43
+msgid "_Primary DNS:"
+msgstr "_Primární DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:37
+msgid "_Profile"
+msgstr "Pro_fil"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:38
+msgid "_Secondary DNS:"
+msgstr "S_ekundární DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:39
+msgid "_Tertiary DNS:"
+msgstr "Te_rciální DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.py:327
+msgid "Loading configuration..."
+msgstr "Načítání konfigurace..."
+
+#: ../src/netconfpkg/gui/maindialog.py:335
+msgid "Loading device configuration..."
+msgstr "Načítání konfigurace zařízení..."
+
+#: ../src/netconfpkg/gui/maindialog.py:340
+msgid "Loading hardware configuration..."
+msgstr "Načítání konfigurace hardware..."
+
+#: ../src/netconfpkg/gui/maindialog.py:345
+msgid "Loading profile configuration..."
+msgstr "Načítání konfigurace profilů..."
+
+#: ../src/netconfpkg/gui/maindialog.py:352
+msgid "Loading IPsec configuration..."
+msgstr "Načítání konfigurace IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:357
+msgid "Testing configuration set..."
+msgstr "Testování konfigurace..."
+
+#: ../src/netconfpkg/gui/maindialog.py:388
+#, python-format
+msgid "Active profile: %s (modified)"
+msgstr "Aktivní profil: %s (změněný)"
+
+#: ../src/netconfpkg/gui/maindialog.py:392
+#, python-format
+msgid "Active profile: %s"
+msgstr "Aktivní profil: %s"
+
+#: ../src/netconfpkg/gui/maindialog.py:406
+msgid "Saving configuration..."
+msgstr "Ukládání konfigurace..."
+
+#: ../src/netconfpkg/gui/maindialog.py:418
+#, python-format
+msgid ""
+"Error saving configuration!\n"
+"%s"
+msgstr ""
+"Chyba při ukládání konfigurace!\n"
+"%s"
+
+#: ../src/netconfpkg/gui/maindialog.py:421
+msgid ""
+"Changes are saved. You may want to restart the network and network services "
+"or restart the computer."
+msgstr ""
+"Změny byly uloženy. Možná budete chtít restartovat síť a síťové služby nebo "
+"restartovat počítač."
+
+#: ../src/netconfpkg/gui/maindialog.py:430
+msgid "Saving device configuration..."
+msgstr "Ukládání konfigurace zařízení..."
+
+#: ../src/netconfpkg/gui/maindialog.py:437
+msgid "Saving hardware configuration..."
+msgstr "Ukládání konfigurace hardware..."
+
+#: ../src/netconfpkg/gui/maindialog.py:444
+msgid "Saving profile configuration..."
+msgstr "Ukládání konfigurace profilů..."
+
+#: ../src/netconfpkg/gui/maindialog.py:450
+#: ../src/netconfpkg/gui/sharedtcpip.py:164
+msgid "Primary DNS is not in the correct format"
+msgstr "Primární DNS není ve správném formátu"
+
+#: ../src/netconfpkg/gui/maindialog.py:454
+#: ../src/netconfpkg/gui/sharedtcpip.py:166
+msgid "Secondary DNS is not in the correct format"
+msgstr "Sekundární DNS není ve správném formátu"
+
+#: ../src/netconfpkg/gui/maindialog.py:458
+msgid "Tertiary DNS is not in the correct format"
+msgstr "Terciální DNS není ve správném formátu"
+
+#: ../src/netconfpkg/gui/maindialog.py:465
+msgid "Saving IPsec configuration..."
+msgstr "Ukládání konfigurace IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:484
+msgid "Updating devices..."
+msgstr "Aktualizace zařízení..."
+
+#: ../src/netconfpkg/gui/maindialog.py:548
+msgid "Updating hardware..."
+msgstr "Aktualizace hardware..."
+
+#: ../src/netconfpkg/gui/maindialog.py:624
+msgid "Updating profiles..."
+msgstr "Aktualizace profilů..."
+
+#: ../src/netconfpkg/gui/maindialog.py:721
+msgid "Errors detected, do you really want to quit?"
+msgstr "Detekovány chyby, opravdu chcete skončit?"
+
+#: ../src/netconfpkg/gui/maindialog.py:729
+#: ../src/netconfpkg/gui/maindialog.py:748
+msgid "Do you want to save your changes?"
+msgstr "Chcete uložit provedené změny?"
+
+#: ../src/netconfpkg/gui/maindialog.py:931
+msgid "The Loopback device can not be edited!"
+msgstr "Zařízení loopback nemůže být upravováno!"
+
+#: ../src/netconfpkg/gui/maindialog.py:935
+msgid "Edit device..."
+msgstr "Upravit zařízení..."
+
+#: ../src/netconfpkg/gui/maindialog.py:972
+#, python-format
+msgid "The device type %s cannot be edited!"
+msgstr "Zařízení typu %s nemůže být upravováno!"
+
+#: ../src/netconfpkg/gui/maindialog.py:992
+msgid "The Loopback device can not be removed!"
+msgstr "Zařízení loopback nemůže být odebráno!"
+
+#: ../src/netconfpkg/gui/maindialog.py:996
+#, python-format
+msgid "Do you really want to delete device \"%s\"?"
+msgstr "Chcete skutečně odstranit zařízení '%s'?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1029
+#: ../src/netconfpkg/gui/maindialog.py:1064
+#: ../src/netconfpkg/gui/maindialog.py:1806
+#: ../src/netconfpkg/gui/maindialog.py:1834
+msgid "You have made some changes in your configuration."
+msgstr "Provedli jste změny v konfiguraci."
+
+#: ../src/netconfpkg/gui/maindialog.py:1030
+#, python-format
+msgid "To activate the network device %s, the changes have to be saved."
+msgstr "Pro aktivaci síťového zařízení %s musí být provedené změny uloženy."
+
+#: ../src/netconfpkg/gui/maindialog.py:1032
+#: ../src/netconfpkg/gui/maindialog.py:1067
+#: ../src/netconfpkg/gui/maindialog.py:1809
+#: ../src/netconfpkg/gui/maindialog.py:1837
+msgid "Do you want to continue?"
+msgstr "Chcete pokračovat?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1065
+#, python-format
+msgid "To deactivate the network device %s, the changes have to be saved."
+msgstr "Pro deaktivaci síťového zařízení %s musí být provedené změny uloženy."
+
+#: ../src/netconfpkg/gui/maindialog.py:1196
+msgid "The Loopback device can not be disabled!"
+msgstr "Zařízení loopback nemůže být deaktivováno!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1464
+#: ../src/netconfpkg/gui/maindialog.py:1542
+msgid "The name may only contain letters and digits!"
+msgstr "Jméno může obsahovat pouze písmena a číslice!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1469
+#: ../src/netconfpkg/gui/maindialog.py:1547
+#, python-format
+msgid "The profile can't be named \"%s\"!"
+msgstr "Profil se nemůže jmenovat \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1475
+#: ../src/netconfpkg/gui/maindialog.py:1553
+msgid "The profile name already exists!"
+msgstr "Stejné jméno profilu již existuje!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1520
+#, python-format
+msgid "The \"%s\" profile can't be renamed!"
+msgstr "Profil \"%s\" nelze přejmenovat!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1568
+#, python-format
+msgid "The \"%s\" Profile can not be deleted!"
+msgstr "Profil \"%s\" nelze odstranit!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1574
+#, python-format
+msgid "Do you really want to delete profile \"%s\"?"
+msgstr "Chcete skutečně odstranit profil \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1649
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgstr "Je mi líto, není co editovat nebo tento typ ještě nelze editovat."
+
+#: ../src/netconfpkg/gui/maindialog.py:1667
+#, python-format
+msgid "Do you really want to delete \"%s\"?"
+msgstr "Chcete skutečně odstranit \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1680
+#, python-format
+msgid "Do you want to delete all devices that used \"%s\"?"
+msgstr "Chcete odstranit všechna zařízení, která používala \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1731
+msgid "translator_credits"
+msgstr ""
+"Milan Keršláger <kerslage@linux.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Nikola Štohanzl <niko@srnet.cz>\n"
+"Adam Přibyl <pribyl@lowlevel.cz>"
+
+#: ../src/netconfpkg/gui/maindialog.py:1807
+#, python-format
+msgid "To activate the IPsec connection %s, the changes have to be saved."
+msgstr "Před aktivaci IPsec připojení %s musí být provedené změny uloženy."
+
+#: ../src/netconfpkg/gui/maindialog.py:1835
+#, python-format
+msgid "To deactivate the IPsec connection %s, the changes have to be saved."
+msgstr "Před deaktivaci IPsec připojení %s musí být provedené změny uloženy."
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:1
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:1
+msgid "<b>Modem properties</b>"
+msgstr "<b>Vlastnosti modemu</b>"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:2
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:2
+#: ../src/netconfpkg/NC_functions.py:141
+msgid "Hardware (CRTSCTS)"
+msgstr "Hardwarové řízení (CRTSCTS)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:3
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:3
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:132
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:190
+msgid "High"
+msgstr "Silný"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:4
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:4
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:128
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:186
+msgid "Low"
+msgstr "Slabý"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:5
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:5
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:130
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:188
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:18
+msgid "Medium"
+msgstr "Střední"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:6
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:81
+msgid "Modem Configuration"
+msgstr "Nastavení modemu"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:7
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:6
+msgid "Modem _volume:"
+msgstr "_Hlasitost modemu:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:8
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:7
+#: ../src/netconfpkg/NCDialup.py:151 ../src/netconfpkg/NC_functions.py:143
+msgid "None"
+msgstr "Žádný"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:9
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:8
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:126
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:184
+msgid "Off"
+msgstr "Vypnuto"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:10
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:10
+#: ../src/netconfpkg/NC_functions.py:142
+msgid "Software (XON/XOFF)"
+msgstr "Softwarové řízení (XON/XOFF)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:11
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:11
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:134
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:192
+msgid "Very High"
+msgstr "Velmi silný"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:12
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:12
+msgid "_Baud rate:"
+msgstr "_Rychlost:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:13
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:13
+msgid "_Flow control:"
+msgstr "_Řízení přenosu:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:14
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:14
+msgid "_Modem device:"
+msgstr "Zařízení _modemu:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:15
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:15
+msgid "_Use touch tone dialing"
+msgstr "Použít _tónovou volbu"
+
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:9
+msgid "Select Modem"
+msgstr "Vybrat modem"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:95
+msgid "xDSL connection"
+msgstr "xDSL připojení"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:102
+msgid ""
+"Create an xDSL connection.  This is a connection that uses one of several "
+"types of broadband connections collective known as Digital Subscriber "
+"Lines.  This list includes ADSL (Asymmetric, faster downloads than uploads), "
+"IDSL (over an ISDN line for distance), SDSL (Symmetric, downloads and "
+"uploads at the same speed), and several others.  These types of connections "
+"are common in the United States, and are gaining acceptance elsewhere.  "
+"Speeds vary according to the technology used, but generally range from "
+"144kbps to 1.0Mbps."
+msgstr ""
+"Vytvoření xDSL připojení. Připojení používá jeden z mnoha typů "
+"širokopásmových spojení známých pod souhrnným označením DSL (Digital "
+"Subscriber Lines). Patří mezi ně ADSL (asymetrické, tj. směrem z Internetu "
+"je spojení rychlejší než směrem do Internetu), SDSL (symetrické, tj. obě "
+"rychlosti jsou stejné) a několik dalších. Tento způsob připojení je obvyklý "
+"v USA a postupně je zaváděn i v ostatních zemích. Rychlost je závislá na "
+"použité technologii a pohybuje se zhruba od 144 kb/s do 1 Mb/s."
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:148
+msgid "Ethernet device:"
+msgstr "Ethernetové zařízení:"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:278
+msgid "ISDN Dialup Configuration"
+msgstr "Nastavení ISDN připojení"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:449
+msgid "Modem Dialup Configuration"
+msgstr "Nastavení vytáčeného připojení"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetHardware.py:128
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
+#: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
+#: ../src/netconfpkg/NC_functions.py:414
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:129
+msgid "Ethernet connection"
+msgstr "Ethernetové připojení"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:135
+msgid "Create a new ethernet connection."
+msgstr "Vytvořit nové ethernetového připojení."
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:202
+msgid "Other Ethernet Card"
+msgstr "Další ethernetové karty"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:222
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:219
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:204
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:332
+msgid "Device:"
+msgstr "Zařízení:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:236
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:233
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:216
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:345
+msgid "Subnet mask:"
+msgstr "Maska sítě:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:238
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:235
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:218
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:346
+msgid "Default gateway address:"
+msgstr "Adresa implicitní brány:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:241
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:238
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:349
+msgid "Automatically obtain IP address settings with:"
+msgstr "Získat nastavení IP adresy automaticky pomocí:"
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:86
+msgid "ISDN connection"
+msgstr "ISDN připojení"
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:92
+msgid ""
+"Create a new ISDN connection. This is a connection that uses an Integrated "
+"Services Digital Network line to dial into to your Internet Service "
+"Provider. This type of technology requires a special phone line to be "
+"installed by your telephone company. It also requires a device known as a "
+"Terminal Adapter(TA) to terminate the ISDN connection from your ISP. This "
+"type of connection is popular in Europe and several other technologically "
+"advanced regions.  It is available but uncommon in the USA.  Speeds range "
+"from 64kbps to 128kbps."
+msgstr ""
+"Vytvoření nového ISDN připojení. Toto je spojení, které používá linku "
+"Integrated Services Digital Network pro telefonní spojení s vaším "
+"poskytovatelem připojení k Internetu. Tato technologie vyžaduje speciální "
+"telefonní linku nainstalovanou vaší telefonní společnosti. Vyžaduje také "
+"zařízení známé jako Terminal Adapter (TA) pro ukončení spojení ISDN od "
+"vašeho poskytovatele připojení k Internetu. Tento typ spojen je populární v "
+"Evropě a v několika dalších technologicky pokročilých regionech. V USA je "
+"dostupné, ale obvykle se nepoužívá. Dosahuje rychlostí 64 až 128 kb/s."
+
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:99
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:168
+msgid "Generic Modem"
+msgstr "Obecný modem"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:80
+msgid "Modem connection"
+msgstr "Modemové připojení"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:87
+msgid ""
+"Create a new Modem connection.  This is a connection that uses a serial "
+"analog modem to dial into to your Internet Service Provider. These modems "
+"use sound over a normal copper telephone line to transmit data. These types "
+"of connections are available just about anywhere in the world where there is "
+"a phone system."
+msgstr ""
+"Vytvoření nového modemového připojení. Používá analogový modem připojený na "
+"sériový port a vytváří spojení s poskytovatelem připojení k Internetu pomocí "
+"telefonní linky. Modemy používají pro přenos dat slyšitelné zvuky, a tento "
+"typ připojení lze proto použít kdekoliv na světě, kde je k dispozici "
+"telefonní linka. "
+
+#. FIXME: [165331] Can't detect external modem on /dev/ttyS0
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:120
+msgid "Modem probing..."
+msgstr "Detekce modemu..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:125
+msgid "Probing for Modems, please wait..."
+msgstr "Hledám modemy, čekejte prosím..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:140
+msgid "No modem was found on your system."
+msgstr "V systému nebyl nalezen žádný modem."
+
+#: ../src/netconfpkg/gui/NCPluginQethHardware.py:87
+#, python-format
+msgid ""
+"Do you want to deactive interface %s first?\n"
+"Otherwise saving changes may have unwanted side effects."
+msgstr ""
+"Nechcete nejprve deaktivovat rozhraní %s?\n"
+"Pokud ne, může mít uložení změn nechtěné vedlejší efekty."
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
+msgid "Qeth connection"
+msgstr "Připojení qeth"
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:125
+msgid "Create a new qeth connection."
+msgstr "Vytvořit nového připojení qeth."
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:197
+msgid "Other QETH Device"
+msgstr "Jine zařízení QETH"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:60
+msgid ""
+"The Token Ring card could not be initialized. Please verify your settings "
+"and try again."
+msgstr ""
+"Nemohu inicializovat kartu Token Ring. Zkontrolujte prosím nastavení a "
+"zkuste to znovu."
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:110
+msgid "Token Ring connection"
+msgstr "Token Ring připojení"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:116
+msgid "Create a new Token Ring connection."
+msgstr "Vytvoření nového Token Ring připojení."
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:182
+msgid "Other Tokenring Card"
+msgstr "Další Token Ring karty"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:29
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:88
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:166
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:34
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:143
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:206
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:19
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:15
+msgid "Auto"
+msgstr "Auto"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:30
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:35
+msgid "Ad-Hoc"
+msgstr "Ad-Hoc"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:31
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:36
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:194
+msgid "Managed"
+msgstr "Managed"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:32
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:37
+msgid "Master"
+msgstr "Master"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:152
+msgid "Wireless connection"
+msgstr "Bezdrátové připojení"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:158
+msgid "Create a new wireless connection."
+msgstr "Vytvoření nového bezdrátového připojení."
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:245
+msgid "BitRate"
+msgstr "BitRate"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:309
+msgid "Other Wireless Card"
+msgstr "Další bezdrátové karty"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:352
+msgid "Mode:"
+msgstr "Režim:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:353
+msgid "ESSID (network ID):"
+msgstr "ESSID (identifikace sítě):"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:355
+msgid "Automatic"
+msgstr "Automatický"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:359
+msgid "Channel:"
+msgstr "Kanál:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:360
+msgid "Transmit rate:"
+msgstr "Přenosová rychlost:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:361
+msgid "Key: "
+msgstr "Klíč: "
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:367
+msgid "encryption disabled"
+msgstr "šifrování zakázáno"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:1
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:1
+msgid "Waiting to connect to"
+msgstr "Čekám na připojení k"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:2
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:2
+msgid "Waiting..."
+msgstr "Čekám..."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:1
+msgid "<b>Active profile</b>"
+msgstr "<b>Aktivní profil</b>"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:2
+msgid "Ac_tivate"
+msgstr "_Aktivovat"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:3
+msgid "Auto _Select"
+msgstr "_Vybrat automaticky"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:4
+msgid "Click to activate the selected profile"
+msgstr "Kliknutím aktivujete vybraný profil"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:5
+msgid "Click to bring up the interface"
+msgstr "Kliknutím aktivujete rozhraní"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:6
+msgid "Click to configure the interface"
+msgstr "Kliknutím nastavíte rozhraní"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:7
+msgid "Click to get infos"
+msgstr "Kliknutím získáte informace"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:8
+msgid "Click to have the system automatically select and activate a profile"
+msgstr "Kliknutím necháte systém automaticky vybrat a aktivovat profil"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:9
+msgid "Click to monitor the interface"
+msgstr "Po kliknutí můžete sledovat rozhraní"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:10
+msgid "Click to shutdown the interface"
+msgstr "Kliknutím deaktivujete rozhraní"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:12
+#: ../system-control-network.desktop.in.h:2
+msgid "Network Device Control"
+msgstr "Ovládání síťových zařízení"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:14
+msgid "Select a profile"
+msgstr "Vyberte profil:"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:16
+msgid "The following network interfaces are configured in the active profile."
+msgstr "V aktivním profilu jsou nakonfigurována následující síťová rozhraní."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:18
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:3
+msgid "_Configure..."
+msgstr "_Konfigurovat..."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:20
+msgid "_Info"
+msgstr "_Info"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:1
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:2
+msgid "Online time:"
+msgstr "Doba připojení:"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:3
+msgid "click the right mouse button for properties"
+msgstr "klikněte pravým tlačítkem myši pro vlastnosti"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:1
+msgid "Connect to"
+msgstr "Připojit k"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:2
+msgid "Disconnect from"
+msgstr "Odpojit od"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:1
+msgid "$"
+msgstr "Kč"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:2
+msgid "0.00"
+msgstr "0.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:3
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:1
+msgid "1"
+msgstr "1"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:4
+msgid "1.00"
+msgstr "1.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:5
+msgid "Confirm _starting connection"
+msgstr "Potvrdit _začátek spojení"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:6
+msgid "Confirm stopping _connection"
+msgstr "Potvrdit _konec spojení"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:7
+msgid "Cos_t accumulated from the past connection:"
+msgstr "Cena za minulé připojení:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:8
+msgid "Cost per:"
+msgstr "Cena za:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:9
+msgid "Count:"
+msgstr "Počet:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:10
+msgid "M_inimum number of seconds charged:"
+msgstr "Minimální počet zpoplatněných vteřin:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:11
+msgid "_Accumulate cost over multiple connections"
+msgstr "_Sčítat cenu za všechna připojení"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:12
+msgid "_Basic"
+msgstr "_Základní"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:13
+msgid "_Cost"
+msgstr "_Cena"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:14
+msgid "_Debug mode"
+msgstr "_Ladící režim"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:15
+msgid "_Extra cost to start a connection:"
+msgstr "Poplatek za _navázání spojení:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:16
+msgid "_Hour"
+msgstr "_Hodin"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:17
+msgid "_Minute"
+msgstr "_Minut"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:18
+msgid "_Number of seconds in basic accounting unit:"
+msgstr "Počet _vteřin v základní účtovací jednotce:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:19
+msgid "_Second"
+msgstr "_Vteřin"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:20
+msgid "_Terminate connection when session closes"
+msgstr "_Ukončit spojení, když je sezení ukončeno"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:21
+msgid "_Time"
+msgstr "Č_as"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:22
+msgid "redhat network control - Properties"
+msgstr "Redhat network control - Vlastnosti"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:1
+msgid "Add new Device Type"
+msgstr "Přidat nový typ zařízení"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:2
+msgid "Device Type"
+msgstr "Typ zařízení"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:3
+msgid "Select Device Type"
+msgstr "Zvolte typ zařízení"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:2
+msgid "D_ata Device Bus ID:"
+msgstr "ID sběrnice zařízení d_at"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethHardware.glade.h:3
+msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
+msgstr "Vložte obecné volby (např. LAYER2=1 PORTNO=0)"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
+msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
+msgstr "Vložte MAC adresu (např. 00:13:A9:47:5A:B2)"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethHardware.glade.h:5
+msgid "For Example 0.0.0600"
+msgstr "Například 0.0.0600"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethHardware.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:5
+msgid "MAC Address:"
+msgstr "MAC adresa:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethHardware.glade.h:8
+msgid "Options:"
+msgstr "Volby:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:7
+msgid "Resource"
+msgstr "Prostředky"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:10
+#: ../src/netconfpkg/gui/QethHardware.glade.h:10
+msgid "_Read Device Bus ID:"
+msgstr "ID sběrnice zařízení _čtení"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/QethHardware.glade.h:11
+msgid "_Write Device Bus ID:"
+msgstr "ID sběrnice zařízení zá_pisu"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:1
+msgid "A_ddress:"
+msgstr "_Adresa:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:3
+msgid "Automatically obtain _IP address settings with:"
+msgstr "_IP adresu získat automaticky podle:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:4
+msgid "Bind to _MAC address:"
+msgstr "Připojit na _MAC adresu:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:5
+msgid "DHCP Settings"
+msgstr "Nastavení DHCP"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:6
+msgid "Default ga_teway address:"
+msgstr "Adresa implicitní b_rány:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:7
+msgid "Destination Network"
+msgstr "Cílová síť"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:8
+msgid "Device _alias number:"
+msgstr "Číslo _aliasu zařízení:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:9
+msgid "Difficulty level:"
+msgstr "Stupeň obtížnosti:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:10
+msgid ""
+"Each connection needs to be associated with a physical device which can be "
+"selected below."
+msgstr ""
+"Každé spojení musí být asociováno s nějakým fyzickým zařízením z níže "
+"uvedeného seznamu."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:11
+msgid "Easy"
+msgstr "Jednoduchý"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:12
+msgid "Gateway"
+msgstr "Brána"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:13
+msgid "H_ostname (optional):"
+msgstr "_Jméno počítače (volitelně):"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:14
+msgid "Hardware device:"
+msgstr "Hardwarové zařízení:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:15
+msgid "IPsec Tunnel Settings"
+msgstr "Nastavení tunelu IPsec"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:16
+msgid "Local Network"
+msgstr "Místní síť"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:19
+msgid "Please select the level of security for this device."
+msgstr "Zvolte stupeň zabezpečení pro toto zařízení."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:20
+msgid "Prefix (Netmask)"
+msgstr "Prefix (síť. maska):"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:21
+msgid "Professional"
+msgstr "Profesionál"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:22
+msgid "Remote Host / GW"
+msgstr "Vzdálený počítač / brána"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:23
+msgid "Remote Network"
+msgstr "Vzdálená síť"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:24
+msgid "S_econdary DNS:"
+msgstr "S_ekundární DNS:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:25
+msgid "Security Level"
+msgstr "Úroveň zabezpečení"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:26
+msgid "Select the services you want to provide through this device"
+msgstr "Zvolte služby poskytované tímto zařízením"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:27
+msgid "Service"
+msgstr "Služba"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:28
+msgid "Service Description"
+msgstr "Popis služby"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:29
+msgid "Services"
+msgstr "Služby"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:30
+msgid "Set M_RU to:"
+msgstr "Nastavit M_RU na:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:31
+msgid "Set M_TU to:"
+msgstr "Nastavit M_TU na:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:32
+msgid "Static Network Routes"
+msgstr "Statické směrování"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:33
+msgid "Staticall_y set IP addresses:"
+msgstr "IP adresu nastavit statick_y"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:34
+msgid "Tie to specific ethernet card"
+msgstr "Připojit ke specifické kartě"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:35
+msgid "Use ethernet device aliases"
+msgstr "Použít aliasy ethernetových zařízení"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:37
+msgid "_Delete..."
+msgstr "_Odstranit..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:38
+msgid "_Edit..."
+msgstr "_Upravit..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:39
+msgid "_Hardware Address"
+msgstr "_Hardwarová adresa"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:40
+msgid "_Hardware:"
+msgstr "_Hardware:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:41
+msgid "_High Security (Internet)"
+msgstr "_Vysoké zabezpečení (Internet)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:42
+msgid "_Low Security"
+msgstr "_Nízké zabezpečení"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:44
+msgid "_Probe"
+msgstr "_Detekovat"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:45
+msgid "_Probe for Address..."
+msgstr "_Detekovat adresy..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:46
+msgid "_Secure Device (LAN)"
+msgstr "_Bezpečné rozhraní (LAN)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:48
+msgid "bootp"
+msgstr "BOOTP"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:49
+msgid "dhcp"
+msgstr "DHCP"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:50
+msgid "dialup"
+msgstr "vytáčené připojení"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:158
+msgid "IP address is not in the correct format"
+msgstr "IP adresa není ve správném formátu"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:160
+msgid "Network mask is not in the correct format"
+msgstr "Síťová maska není ve správném formátu"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:162
+msgid "Gateway is not in the correct format"
+msgstr "Brána není ve správném formátu"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:446
+msgid "MAC address is not in the correct format"
+msgstr "MAC adresa není ve správném formátu"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:1
+msgid "00:00:00:00:00:00"
+msgstr "00:00:00:00:00:00"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:2
+msgid ""
+"Each device needs to be attached to a physical device which can be selected "
+"below. Device Alias support allows you to use multiple virtual devices for "
+"one physical device."
+msgstr ""
+"Každé síťové zařízení musí být spojeno s fyzickým zařízením ze seznamu "
+"uvedeného níže. Aliasy (přezdívky) umožňují požít více virtuálních zařízení "
+"pro jedno fyzické."
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:3
+msgid "Enable _Device Alias support"
+msgstr "Povolit podporu _aliasů zařízení"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:4
+msgid "Ha_rdware address:"
+msgstr "Hardwarová adresa:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:5
+msgid "Token Ring Device"
+msgstr "Token Ring zařízení"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:6
+msgid "_Alias:"
+msgstr "_Alias:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:9
+msgid "_Hardware device:"
+msgstr "_Hardwarové zařízení:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:10
+msgid "_Probe for Address"
+msgstr "_Detekovat adresu"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:12
+msgid "_Use Hardware Address"
+msgstr "_Použít hardwarovou adresu"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:13
+msgid "tr0"
+msgstr "tr0"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:14
+msgid "tr1"
+msgstr "tr1"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:15
+msgid "tr2"
+msgstr "tr2"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:16
+msgid "tr3"
+msgstr "tr3"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:17
+msgid "tr4"
+msgstr "tr4"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:18
+msgid "tr5"
+msgstr "tr5"
+
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:1
+msgid "Select Token Ring Adapter"
+msgstr "Zvolte Token Ring adaptér"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:2
+msgid "Create Token Ring Device"
+msgstr "Vytvořit zařízení Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:21
+msgid ""
+"Please enter the MTU parameter to set the Maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Zadejte prosím velikost MTU (Maximum Transfer Unit) tohoto rozhraní. Pro "
+"s390/s390x je MTU implicitně 1492"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:5
+msgid "Select Token Ring Device"
+msgstr "Zvolte zařízení Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:6
+msgid "Select the token ring card you want to configure:"
+msgstr "Zvolte kartu token ring, kterou chcete nastavit:"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:7
+msgid "Token ring card"
+msgstr "Karta token ring"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:1
+msgid "<b>T-Online account</b>"
+msgstr "<b>Účet _T-Online</b>"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:2
+msgid "Account Setup"
+msgstr "Nastavení účtu"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:4
+msgid ""
+"Please enter here your personal account data. Without this data, access to T-"
+"Online is unfortunately not possible."
+msgstr ""
+"Zde prosím zadejte data svého osobního účtu. Bez těchto dat bohužel přístup "
+"k T-Online není možný. "
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:2
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:2
+msgid "10"
+msgstr "10"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:3
+msgid "11"
+msgstr "11"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:4
+msgid "11M"
+msgstr "11M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:5
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:4
+msgid "12"
+msgstr "12"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:6
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:5
+msgid "13"
+msgstr "13"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:7
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:6
+msgid "14"
+msgstr "14"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:8
+msgid "1M"
+msgstr "1M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:9
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:7
+msgid "2"
+msgstr "2"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:10
+msgid "2M"
+msgstr "2M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:11
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:8
+msgid "3"
+msgstr "3"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:12
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:9
+msgid "4"
+msgstr "4"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:13
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:10
+msgid "5"
+msgstr "5"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:14
+msgid "5.5M"
+msgstr "5.5M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:15
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:11
+msgid "6"
+msgstr "6"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:16
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:12
+msgid "7"
+msgstr "7"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:17
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:13
+msgid "8"
+msgstr "8"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:18
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:14
+msgid "9"
+msgstr "9"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:20
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:20
+msgid "Network name (SSID):"
+msgstr "Jméno sítě (SSID):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:21
+msgid ""
+"Set the operating mode of the device, which depends on the network topology. "
+"The mode can be Ad-Hoc (network composed of only one cell and without Access "
+"Point), Managed (node connects to a network composed of many Access Points, "
+"with roaming), Master (the node is the synchronization master or acts as an "
+"Access Point) or Auto."
+msgstr ""
+"Nastavte režim zařízení, který závisí na topologii sítě. Režim může být Ad-"
+"Hoc (síť tvořená jedinou buňkou bez přístupového bodu), Managed (uzel se "
+"připojuje do sítě tvořené více vstupními body s roamingem), Master (uzel je "
+"řídící z hlediska synchronizace nebo slouží jako vstupní bod) nebo Auto. "
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:22
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:24
+msgid ""
+"Used to manipulate encryption or scrambling keys and encryption mode. To set "
+"the current encryption key in hex digits enter the key with 0x prepended as "
+"0xXXXXXXXX."
+msgstr ""
+"Používá se pro změnu šifrovacích klíčů a režimu šifrování. Aktuální "
+"šifrovací klíč v šestnáctkové soustavě nastavíte zadáním klíče s předřazeným "
+"0x, tedy jako 0xXXXXXXXX."
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:23
+msgid "Wireless Device Configuration"
+msgstr "Nastavení bezdrátového zařízení"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:24
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:25
+msgid "_Auto"
+msgstr "_Auto"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:25
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:26
+msgid "_Channel:"
+msgstr "K_anál:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:27
+msgid "_Hardware device"
+msgstr "_Hardwarové zařízení"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:28
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:27
+msgid "_Key (use 0x for hex):"
+msgstr "_Klíč (použijte 0x pro hexa):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:29
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:28
+msgid "_Mode:"
+msgstr "_Režim:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:31
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:29
+msgid "_Specified:"
+msgstr "_Specifikováno:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:32
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:30
+msgid "_Transmit rate:"
+msgstr "_Přenosová rychlost:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:33
+msgid "_Wireless Settings"
+msgstr "Nastavení _bezdrátové sítě"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:17
+msgid "Configure Wireless Connection"
+msgstr "Nastavit bezdrátové připojení"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:18
+msgid "Create Wireless Device"
+msgstr "Vytvořit bezdrátové zařízení"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:22
+msgid "Select Wireless Device"
+msgstr "Vyberte bezdrátové zařízení"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:23
+msgid "Select the wireless card you want to configure:"
+msgstr "Vyberte bezdrátovou kartu, kterou chcete nastavit:"
+
+#: ../src/netconfpkg/NCDeviceList.py:137
+msgid "Changed the following Nicknames due to the initscripts:\n"
+msgstr "Změněny následující přezdívky kvůli initscripts:\n"
+
+#: ../src/netconfpkg/NCDeviceList.py:140
+msgid "Nicknames changed"
+msgstr "Přezdívky změněny"
+
+#: ../src/netconfpkg/NCDevice.py:308 ../src/netconfpkg/NCDevice.py:314
+#, python-format
+msgid "%s, Device not specified or alias not a number!"
+msgstr "%s, zařízení nebylo určeno nebo alias není číslo!"
+
+#: ../src/netconfpkg/NCDevice.py:518
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:88
+msgid "Network device activating..."
+msgstr "Aktivace síťového zařízení..."
+
+#: ../src/netconfpkg/NCDevice.py:519
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:89
+#, python-format
+msgid "Activating network device %s, please wait..."
+msgstr "Aktivuji síťové zařízení %s, čekejte prosím..."
+
+#: ../src/netconfpkg/NCDevice.py:521
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:91
+#, python-format
+msgid "Cannot activate network device %s!\n"
+msgstr "Nemohu aktivovat síťové zařízení %s!\n"
+
+#: ../src/netconfpkg/NCDevice.py:538
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:112
+msgid "Network device deactivating..."
+msgstr "Deaktivace síťového zařízení..."
+
+#: ../src/netconfpkg/NCDevice.py:539
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:113
+#, python-format
+msgid "Deactivating network device %s, please wait..."
+msgstr "Deaktivují síťové zařízení %s, čekejte prosím..."
+
+#: ../src/netconfpkg/NCDevice.py:541
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:115
+#, python-format
+msgid "Cannot deactivate network device %s!\n"
+msgstr "Nemohu deaktivovat síťové zařízení %s!\n"
+
+#: ../src/netconfpkg/NCDialup.py:152
+msgid "Afghanistan"
+msgstr "Afghánistán"
+
+#: ../src/netconfpkg/NCDialup.py:153
+msgid "Albania"
+msgstr "Albánie"
+
+#: ../src/netconfpkg/NCDialup.py:154
+msgid "Algeria"
+msgstr "Alžírsko"
+
+#: ../src/netconfpkg/NCDialup.py:155
+msgid "American Samoa"
+msgstr "Americká Samoa"
+
+#: ../src/netconfpkg/NCDialup.py:156
+msgid "Andorra"
+msgstr "Andorra"
+
+#: ../src/netconfpkg/NCDialup.py:157
+msgid "Argentina"
+msgstr "Argentina"
+
+#: ../src/netconfpkg/NCDialup.py:158
+msgid "Australia"
+msgstr "Austrálie"
+
+#: ../src/netconfpkg/NCDialup.py:159
+msgid "Austria"
+msgstr "Rakousko"
+
+#: ../src/netconfpkg/NCDialup.py:160
+msgid "Belarus"
+msgstr "Bělorusko"
+
+#: ../src/netconfpkg/NCDialup.py:161
+msgid "Belgium"
+msgstr "Belgie"
+
+#: ../src/netconfpkg/NCDialup.py:162
+msgid "Bosnia and Hercegovina"
+msgstr "Bosna a Hercegovina"
+
+#: ../src/netconfpkg/NCDialup.py:163
+msgid "Brazil"
+msgstr "Brazílie"
+
+#: ../src/netconfpkg/NCDialup.py:164
+msgid "British Virgin Islands"
+msgstr "Britské Panenské Ostrovy"
+
+#: ../src/netconfpkg/NCDialup.py:165
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+#: ../src/netconfpkg/NCDialup.py:166
+msgid "Canada"
+msgstr "Kanada"
+
+#: ../src/netconfpkg/NCDialup.py:167
+msgid "Central African Republic"
+msgstr "Středoafrická republika"
+
+#: ../src/netconfpkg/NCDialup.py:168
+msgid "Chile"
+msgstr "Chile"
+
+#: ../src/netconfpkg/NCDialup.py:169
+msgid "China"
+msgstr "Čína"
+
+#: ../src/netconfpkg/NCDialup.py:170
+msgid "Colombia"
+msgstr "Kolumbie"
+
+#: ../src/netconfpkg/NCDialup.py:171
+msgid "Croatia"
+msgstr "Chorvatsko"
+
+#: ../src/netconfpkg/NCDialup.py:172
+msgid "Cuba"
+msgstr "Kuba"
+
+#: ../src/netconfpkg/NCDialup.py:173
+msgid "Cyprus"
+msgstr "Kypr"
+
+#: ../src/netconfpkg/NCDialup.py:174
+msgid "Czech Republic"
+msgstr "Česká Republika"
+
+#: ../src/netconfpkg/NCDialup.py:175
+msgid "Denmark"
+msgstr "Dánsko"
+
+#: ../src/netconfpkg/NCDialup.py:176
+msgid "Finland"
+msgstr "Finsko"
+
+#: ../src/netconfpkg/NCDialup.py:177
+msgid "France"
+msgstr "Francie"
+
+#: ../src/netconfpkg/NCDialup.py:178
+msgid "Germany"
+msgstr "Německo"
+
+#: ../src/netconfpkg/NCDialup.py:179
+msgid "Greece"
+msgstr "Řecko"
+
+#: ../src/netconfpkg/NCDialup.py:180
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: ../src/netconfpkg/NCDialup.py:181
+msgid "Hungary"
+msgstr "Maďarsko"
+
+#: ../src/netconfpkg/NCDialup.py:182
+msgid "Iceland"
+msgstr "Island"
+
+#: ../src/netconfpkg/NCDialup.py:183
+msgid "India"
+msgstr "Indie"
+
+#: ../src/netconfpkg/NCDialup.py:184
+msgid "Indonesia"
+msgstr "Indonésie"
+
+#: ../src/netconfpkg/NCDialup.py:185
+msgid "Ireland"
+msgstr "Irsko"
+
+#: ../src/netconfpkg/NCDialup.py:186
+msgid "Israel"
+msgstr "Izrael"
+
+#: ../src/netconfpkg/NCDialup.py:187
+msgid "Italy"
+msgstr "Itálie"
+
+#: ../src/netconfpkg/NCDialup.py:188
+msgid "Japan"
+msgstr "Japonsko"
+
+#: ../src/netconfpkg/NCDialup.py:189
+msgid "Kazakhstan"
+msgstr "Kazachstán"
+
+#: ../src/netconfpkg/NCDialup.py:190
+msgid "Korea North"
+msgstr "Severní Korea"
+
+#: ../src/netconfpkg/NCDialup.py:191
+msgid "Korea Republic"
+msgstr "Korejská Republika"
+
+#: ../src/netconfpkg/NCDialup.py:192
+msgid "Liechtenstein"
+msgstr "Lichtenštejnsko"
+
+#: ../src/netconfpkg/NCDialup.py:193
+msgid "Lithuania"
+msgstr "Litva"
+
+#: ../src/netconfpkg/NCDialup.py:194
+msgid "Luxembourg"
+msgstr "Lucembursko"
+
+#: ../src/netconfpkg/NCDialup.py:195
+msgid "Macedonia"
+msgstr "Makedonie"
+
+#: ../src/netconfpkg/NCDialup.py:196
+msgid "Malaysia"
+msgstr "Malajsie"
+
+#: ../src/netconfpkg/NCDialup.py:197
+msgid "Malta"
+msgstr "Malta"
+
+#: ../src/netconfpkg/NCDialup.py:198
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: ../src/netconfpkg/NCDialup.py:199
+msgid "Moldova"
+msgstr "Moldavsko"
+
+#: ../src/netconfpkg/NCDialup.py:200
+msgid "Monaco"
+msgstr "Monako"
+
+#: ../src/netconfpkg/NCDialup.py:201
+msgid "Netherlands"
+msgstr "Nizozemí"
+
+#: ../src/netconfpkg/NCDialup.py:202
+msgid "New Zealand"
+msgstr "Nový Zéland"
+
+#: ../src/netconfpkg/NCDialup.py:203
+msgid "Norway"
+msgstr "Norsko"
+
+#: ../src/netconfpkg/NCDialup.py:204
+msgid "Palestine"
+msgstr "Palestina"
+
+#: ../src/netconfpkg/NCDialup.py:205
+msgid "Philippines"
+msgstr "Filipíny"
+
+#: ../src/netconfpkg/NCDialup.py:206
+msgid "Poland"
+msgstr "Polsko"
+
+#: ../src/netconfpkg/NCDialup.py:207
+msgid "Portugal"
+msgstr "Portugalsko"
+
+#: ../src/netconfpkg/NCDialup.py:208
+msgid "Romania"
+msgstr "Rumunsko"
+
+#: ../src/netconfpkg/NCDialup.py:209
+msgid "Russia"
+msgstr "Rusko"
+
+#: ../src/netconfpkg/NCDialup.py:210
+msgid "Singapore"
+msgstr "Singapur"
+
+#: ../src/netconfpkg/NCDialup.py:211
+msgid "Slovakia"
+msgstr "Slovensko"
+
+#: ../src/netconfpkg/NCDialup.py:212
+msgid "Slovenia"
+msgstr "Slovinsko"
+
+#: ../src/netconfpkg/NCDialup.py:213
+msgid "Spain"
+msgstr "Španělsko"
+
+#: ../src/netconfpkg/NCDialup.py:214
+msgid "Sweden"
+msgstr "Švédsko"
+
+#: ../src/netconfpkg/NCDialup.py:215
+msgid "Switzerland"
+msgstr "Švýcarsko"
+
+#: ../src/netconfpkg/NCDialup.py:216
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: ../src/netconfpkg/NCDialup.py:217
+msgid "Thailand"
+msgstr "Thajsko"
+
+#: ../src/netconfpkg/NCDialup.py:218
+msgid "Turkey"
+msgstr "Turecko"
+
+#: ../src/netconfpkg/NCDialup.py:219
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+#: ../src/netconfpkg/NCDialup.py:220
+msgid "United Kingdom"
+msgstr "Velká Británie"
+
+#: ../src/netconfpkg/NCDialup.py:221
+msgid "United States of America"
+msgstr "Spojené státy Americké"
+
+#: ../src/netconfpkg/NCDialup.py:222
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: ../src/netconfpkg/NCDialup.py:223
+msgid "Serbia"
+msgstr "Srbsko"
+
+#. FIXED: [175078] String (country name) change request
+#: ../src/netconfpkg/NCDialup.py:224
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: ../src/netconfpkg/NC_functions.py:97
+msgid "Common"
+msgstr "Společné"
+
+#. Removed for now, until we have a config dialog for infrared
+#. '^irlan[0-9]+(:[0-9]+)?$' : WIRELESS
+#: ../src/netconfpkg/NC_functions.py:133
+msgid "Active"
+msgstr "Aktivní"
+
+#: ../src/netconfpkg/NC_functions.py:134
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#: ../src/netconfpkg/NC_functions.py:228
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
+msgstr ""
+"Mají být nainstalovány následující balíčky, které jsou v systému potřeba?"
+
+#: ../src/netconfpkg/NC_functions.py:240
+msgid ""
+"You have to install the following packages, which are needed on your system!"
+msgstr "Musíte nainstalovat následující balíčky, které jsou v systému potřeba!"
+
+#: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
+#, python-format
+msgid ""
+"Error removing\n"
+"%s:\n"
+"%s!"
+msgstr ""
+"Chyba při odstraňování\n"
+"%s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:814
+#, python-format
+msgid ""
+"Error copying \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Chyba při kopírování\n"
+"%s\n"
+"do %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:824
+#, python-format
+msgid ""
+"Error linking \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Chyba při linkování \n"
+"%s\n"
+"na %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:834
+#, python-format
+msgid ""
+"Error renaming \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Chyba při přejmenovávání\n"
+"%s\n"
+"na %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:842
+#, python-format
+msgid ""
+"Error creating directory!\n"
+"%s"
+msgstr ""
+"Chyba při vytváření adresáře!\n"
+"%s"
+
+#: ../src/netconfpkg/NC_functions.py:987
+#, python-format
+msgid "Linking %s to devices and putting it in profile %s."
+msgstr "Vytvářím odkaz na %s v devices a ukládám jej do profilu %s."
+
+#: ../src/netconfpkg/NCHardware.py:22
+msgid "inactive"
+msgstr "neaktivní"
+
+#. not found in last config and not in actual system
+#: ../src/netconfpkg/NCHardware.py:23
+msgid "system"
+msgstr "systém"
+
+#. found in system
+#: ../src/netconfpkg/NCHardware.py:24
+msgid "configured"
+msgstr "nastaveno"
+
+#. found in config but not in system
+#: ../src/netconfpkg/NCHardware.py:25
+msgid "ok"
+msgstr "ok"
+
+#: ../src/netconfpkg/NCIPsec.py:240
+msgid "IPsec activating..."
+msgstr "Aktivuji IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:241
+#, python-format
+msgid "Activating IPsec connection %s, please wait..."
+msgstr "Aktivuji IPsec připojení %s, čekejte prosím..."
+
+#: ../src/netconfpkg/NCIPsec.py:243
+#, python-format
+msgid "Cannot activate IPsec connection %s!\n"
+msgstr "Nemohu aktivovat IPsec připojení %s!\n"
+
+#: ../src/netconfpkg/NCIPsec.py:260
+msgid "IPsec deactivating..."
+msgstr "Deaktivuji IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:261
+#, python-format
+msgid "Deactivating IPsec connection %s, please wait..."
+msgstr "Deaktivuji IPsec připojení %s, čekejte prosím..."
+
+#: ../src/netconfpkg/NCIPsec.py:263
+#, python-format
+msgid "Cannot deactivate IPsec connection %s!\n"
+msgstr "Nemohu deaktivovat IPsec připojení %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:213
+#, python-format
+msgid "Device %s uses the same Hardware Device \"%s\" like %s!\n"
+msgstr "Zařízení %s používá stejný hardware \"%s\" jako %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:215
+msgid ""
+"Please select another Hardware Device or \n"
+"activate only one of them."
+msgstr ""
+"Zvolte prosím jiné hardwarové zařízení nebo \n"
+"aktivujte jenom jedno z nich."
+
+#: ../src/netconfpkg/NCProfileList.py:292
+msgid ""
+"You changed the hostname.\n"
+"\n"
+"Should the hostname be set to the system now?\n"
+"This may have the effect, that some X applications do not function "
+"properly.\n"
+"\n"
+"You may have to relogin."
+msgstr ""
+"Změnili jste jméno počítače. \n"
+"\n"
+"Má být toto jméno použito již nyní?\n"
+"Tato změna může způsobit, že některé aplikace nebudou správně fungovat. \n"
+"\n"
+"Bude potřeba se odhlásit a znovu příhlásit."
+
+#: ../src/netconfpkg/NCProfileList.py:538
+msgid "Error removing file %(file)s: %(errormsg)"
+msgstr "Chyba při odstraňování %(file)s: %(errormsg)"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+msgid "<New Device>"
+msgstr "<Nové zařízení>"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+msgid "Which device type do you want to add?"
+msgstr "Jaký typ zařízení chcete přidat?"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+msgid "Add"
+msgstr "Přidat"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDNS.py:69
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:154
+#: ../src/netconfpkg/tui/NCTcpIp.py:131
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+msgid "QETH"
+msgstr "QETH"
+
+#. li = self.Listbox(5, returnExit=1)
+#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+msgid "Select A Device"
+msgstr "Zvolte zařízení"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+msgid "Save"
+msgstr "Uložit"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:55
+msgid "Hostname"
+msgstr "Jméno počítače"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:56
+msgid "Primary DNS"
+msgstr "Primární DNS"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:57
+msgid "Secondary DNS"
+msgstr "Sekundární DNS"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:58
+msgid "Tertiary DNS"
+msgstr "Terciální DNS"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:59
+msgid "DNS search path"
+msgstr "Cesta hledání DNS"
+
+#. g2.setField(gwy, 1, 5, (1, 0, 0, 0))
+#. dynip.setCallback(useDynamicCheckBox)
+#: ../src/netconfpkg/tui/NCPluginDNS.py:68
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
+#: ../src/netconfpkg/tui/NCTcpIp.py:130
+msgid "Ok"
+msgstr "Ok"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+msgid "DNS configuration"
+msgstr "Nastavení DNS"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:128
+#: ../src/netconfpkg/tui/NCTcpIp.py:113
+msgid "Name"
+msgstr "Jméno"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:69
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:69
+msgid "ISP Phonenumber"
+msgstr "Telefonní číslo poskytovatele"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:70
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:70
+msgid "ISP Login"
+msgstr "Přihlašovací jméno poskytovatele"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:71
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:71
+msgid "ISP Password"
+msgstr "Heslo poskytovatele"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:72
+msgid "MSN"
+msgstr "MSN"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:81
+msgid "ISDN Configuration"
+msgstr "Nastavení ISDN"
+
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:72
+msgid "Modem Initstring"
+msgstr "Inicializační řetězec modemu"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:130
+#: ../src/netconfpkg/tui/NCTcpIp.py:115
+msgid "Use DHCP"
+msgstr "Používat DHCP"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:131
+#: ../src/netconfpkg/tui/NCTcpIp.py:116
+msgid "Static IP"
+msgstr "Statická IP"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:132
+#: ../src/netconfpkg/tui/NCTcpIp.py:117
+msgid "Netmask"
+msgstr "Maska sítě"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:133
+#: ../src/netconfpkg/tui/NCTcpIp.py:118
+msgid "Default gateway IP"
+msgstr "IP adresa výchozí brány"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:134
+msgid "Read Device Bus ID"
+msgstr "ID sběrnice zařízení čtení"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:135
+msgid "Data Device Bus ID"
+msgstr "ID sběrnice zařízení dat"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:136
+msgid "Write Device Bus ID"
+msgstr "ID sběrnice zařízení zápisu"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:138
+msgid "Options"
+msgstr "Volby"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:139
+msgid "MAC Address"
+msgstr "MAC adresa"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+msgid "Devernet Configuration"
+msgstr "Nastavení devernetu"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:119
+msgid "Primary DNS Server"
+msgstr "Primární DNS server"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:120
+msgid "Secondary DNS Server"
+msgstr "Sekundární DNS server"
+
+#: ../src/netconf.py:63
+#, python-format
+msgid "Error: %s, %s!"
+msgstr "Chyba: %s, %s!"
+
+#: ../src/netconf.py:65
+msgid "Starting text version"
+msgstr "Spouštím textovou verzi"
+
+#: ../src/netconf.py:84
+msgid ""
+"ERROR: Unable to initialize graphical environment.Most likely cause of "
+"failure is that the tool was not run using a graphical environment. Please "
+"either start your graphical user interface or set your DISPLAY variable."
+msgstr ""
+"CHYBA: Nemohu nastavit grafické prostředí. Nejpravděpodobnější příčina je, "
+"že nástroj nebyl spuštěn z grafického prostředí.  Prosím spouštějte jej buď "
+"z grafického prostředí nebo nastavte proměnnou DISPLAY. "
+
+#: ../src/netconf.py:130
+msgid "Loading Network Configuration..."
+msgstr "Načítám konfiguraci sítě..."
+
+#: ../src/netconf.py:143
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose"
+msgstr ""
+"system-config-network - nástroj pro konfiguraci sítě\n"
+"\n"
+"Použití: system-config-network -v --verbose"
+
+#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+msgid "Please start system-config-network with root permissions!\n"
+msgstr "Spusťte prosím system-config-network s oprávněními uživatele root!\n"
+
+#: ../src/netconf_tui.py:127
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.  Please save "
+"the crash dump and file a detailed bug report against system-config-network "
+"at https://bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Nastala neošetřená výjimka. To je pravděpodobně chyba v programu. Uložte "
+"prosím stav programu a vyplňte podrobné hlášení o chybě komponenty redhat-"
+"config-network na http://bugzilla.redhat.com/bugzilla"
+
+#: ../src/netconf_tui.py:162
+msgid "Loading configuration"
+msgstr "Načítám konfiguraci"
+
+#: ../src/netconf_tui.py:163
+msgid "Loading Device Configuration"
+msgstr "Načítám konfiguraci zařízení"
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:169
+msgid "Loading Hardware Configuration"
+msgstr "Načítám konfiguraci hardware"
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:173
+msgid "Loading Profile Configuration"
+msgstr "Načítám konfiguraci profilů"
+
+#. do this more inteligent - auto loading of new plugins??
+#: ../src/netconf_tui.py:255
+msgid "Device configuration"
+msgstr "Konfigurace zařízení"
+
+#: ../src/netconf_tui.py:264
+msgid "Select Action"
+msgstr "Zvolte činnost"
+
+#: ../src/netconf_tui.py:265
+msgid "Save&Quit"
+msgstr "Uložit&Ukončit"
+
+#: ../src/netconf_tui.py:265
+msgid "Quit"
+msgstr "Ukončit"
+
+#: ../system-config-network.desktop.in.h:1
+msgid "Configure network devices and connections"
+msgstr "Konfigurovat síťová zařízení a připojení"
+
+#: ../system-config-network.desktop.in.h:2
+msgid "Network"
+msgstr "Síť"
+
+#: ../system-control-network.desktop.in.h:1
+msgid "Control and monitor network devices"
+msgstr "Ovládat a sledovat síťová zařízení"
+
+#~ msgid "ERROR: Unable to initialize graphical environment. "
+#~ msgstr "CHYBA: Nemohu inicializovat grafické prostředí."
+
+#~ msgid ""
+#~ "Most likely cause of failure is that the tool was not run using a "
+#~ "graphical environment. "
+#~ msgstr ""
+#~ "Pravděpodobný důvod selhání je, že nástroj nebyl spuštěn pomocí "
+#~ "grafického prostředí."
+
+#~ msgid ""
+#~ "Please either start your graphical user interface or set your DISPLAY "
+#~ "variable.\n"
+#~ msgstr ""
+#~ "Buď spusťte grafické uživatelské rozhraní, nebo nastavte proměnnou "
+#~ "DISPLAY.\n"
+
+#~ msgid "Qeth Device"
+#~ msgstr "Zařízení qeth"
+
+#~ msgid "Card"
+#~ msgstr "Karta"
+
+#~ msgid "Create Device"
+#~ msgstr "Vytvořit zařízení"
+
+#~ msgid "MT_U:"
+#~ msgstr "MT_U:"
+
+#~ msgid "Select the card you want to configure:"
+#~ msgstr "Zvolte kartu, kterou chcete nastavit:"
+
+#~ msgid "_Point to Point (IP):"
+#~ msgstr "_Point to Point (IP):"
+
+#~ msgid "Point to Point (IP):"
+#~ msgstr "Point to Point (IP):"
+
+#~ msgid ""
+#~ "Command failed: %s\n"
+#~ "\n"
+#~ "Output:\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Příkaz selhal: %s\n"
+#~ "\n"
+#~ "Výstup:\n"
+#~ "%s\n"
+
+#~ msgid "Wireless card"
+#~ msgstr "Bezdrátová karta"
+
+#~ msgid "Error loading file %s"
+#~ msgstr "Chyba při načítání souboru %s"
+
+#~ msgid "Command failed: "
+#~ msgstr "Příkaz selhal: "
+
+#~ msgid "Output:\n"
+#~ msgstr "Výstup:\n"
+
+#~ msgid ""
+#~ "The Ethernet card could not be initialized. Please verify your settings "
+#~ "and try again."
+#~ msgstr ""
+#~ "Nemohu inicializovat Ethernetovou kartu. Zkontrolujte prosím nastavení a "
+#~ "zkuste to znovu."
+
+#~ msgid "%s connection"
+#~ msgstr "připojení %s"
+
+#~ msgid "Create a new %s connection."
+#~ msgstr "Vytvořit nové %s připojení."
+
+#~ msgid "This wizard still has to be written."
+#~ msgstr "Tento průvodce musí být teprve napsán."
+
+#~ msgid "Press Finish to get the standard configuration dialog."
+#~ msgstr "Stiskněte 'Dokončit' pro standardní konfigurační dialog."
+
+#~ msgid "Then, at first, enter the nickname for the device."
+#~ msgstr "Pak nejprve zadejte přezdívku pro zařízení."
+
+#~ msgid "This device can not be edited with this tool!"
+#~ msgstr "Toto zařízení nemůže být tímto nástrojem editováno!"
+
+#~ msgid "CIPE Configuration"
+#~ msgstr "Nastavení CIPE"
+
+#~ msgid "Configuration for your remote partner"
+#~ msgstr "Konfigurace pro vzdáleného partnera"
+
+#~ msgid "Lo_cal virtual address:"
+#~ msgstr "_Lokální virtuální adresa:"
+
+#~ msgid "Remote _virtual address:"
+#~ msgstr "Vzdálená _virtuální adresa:"
+
+#~ msgid "Remote peer p_ort:"
+#~ msgstr "Vzdálený _port:"
+
+#~ msgid "_Local port:"
+#~ msgstr "_Místní port:"
+
+#~ msgid "_Remote peer address:"
+#~ msgstr "_Vzdálená adresa:"
+
+#~ msgid "_Secret key:"
+#~ msgstr "_Tajný klíč:"
+
+#~ msgid "_Tunnel Settings"
+#~ msgstr "Nastavení _tunelování"
+
+#~ msgid "_Tunnel through device:"
+#~ msgstr "Tunel _skrz zařízení:"
+
+#~ msgid "None - Server Mode"
+#~ msgstr "Žádný - serverový režim"
+
+#~ msgid " (dynamic)"
+#~ msgstr " (dynamická)"
+
+#~ msgid "Server Mode"
+#~ msgstr "Serverový režim"
+
+#~ msgid "(own choice)"
+#~ msgstr "(vlastní volba)"
+
+#~ msgid "IP address of tunnel device: "
+#~ msgstr "IP adresa tunelujícího zařízení: "
+
+#~ msgid "Local port: "
+#~ msgstr "Místní port: "
+
+#~ msgid "Remote peer address: "
+#~ msgstr "Adresa vzdáleného počítače: "
+
+#~ msgid "Remote virtual address: "
+#~ msgstr "Vzdálená virtuální adresa: "
+
+#~ msgid "Local virtual address: "
+#~ msgstr "Místní virtuální adresa: "
+
+#~ msgid "Secret key: "
+#~ msgstr "Tajný klíč: "
+
+#~ msgid "<b>Configuration for your remote partner</b>"
+#~ msgstr "<b>Konfigurace pro vzdáleného partnera</b>"
+
+#~ msgid "Configure Tunnel"
+#~ msgstr "Nastavení tunelu"
+
+#~ msgid "Create Cipe Connection"
+#~ msgstr "Vytvoření CIPE připojení"
+
+#~ msgid "CIPE (VPN) connection"
+#~ msgstr "CIPE (VPN) připojení"
+
+#~ msgid "Create a new virtual private network connection with CIPE."
+#~ msgstr "Vytvoření nového připojení virtuální soukromou sítí s CIPE."
+
+#~ msgid "Tunnel through device:"
+#~ msgstr "Tunel skrz zařízení:"
+
+#~ msgid "Local port:"
+#~ msgstr "Místní port:"
+
+#~ msgid "Remote peer address:"
+#~ msgstr "Adresa vzdáleného počítače:"
+
+#~ msgid "Remote peer port:"
+#~ msgstr "Port vzdáleného počítače:"
+
+#~ msgid "Remote virtual address:"
+#~ msgstr "Vzdálená virtuální adresa:"
+
+#~ msgid "Local virtual address:"
+#~ msgstr "Místní virtuální adresa:"
+
+#~ msgid "IP address of tunnel device:"
+#~ msgstr "IP adresa tunelujícího zařízení:"
+
+#~ msgid "Secret key:"
+#~ msgstr "Tajný klíč:"
+
+#~ msgid "You must enter a secret key or generate one"
+#~ msgstr "Musíte vložit tajný klíč nebo ho vygenerovat"
+
+#~ msgid ""
+#~ "Directory %s is missing!\n"
+#~ "Will create it for you!\n"
+#~ "You should install the cipe rpm package!\n"
+#~ msgstr ""
+#~ "Adresář %s chybí!\n"
+#~ "Vytvořím ho pro vás!\n"
+#~ "Měli byste nainstalovat rpm balíček cipe!\n"
+
+#~ msgid ""
+#~ "Could not create\n"
+#~ "directory %s!"
+#~ msgstr ""
+#~ "Nemohu vytvořit\n"
+#~ "adresář %s!"
+
+#~ msgid "IUCV connection"
+#~ msgstr "Připojení IUCV"
+
+#~ msgid "Create a new IUCV connection."
+#~ msgstr "Vytvořit nové připojení IUCV."
+
+#~ msgid "IUCV Device"
+#~ msgstr "IUCV zařízení"
+
+#~ msgid "CTC Device"
+#~ msgstr "CTC zařízení"
+
+#~ msgid "CTC connection"
+#~ msgstr "Připojení CTC"
+
+#~ msgid "Create a new CTC connection."
+#~ msgstr "Vytvořit nové připojení CTC."
+
+#~ msgid "Aliases"
+#~ msgstr "Aliasy"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Static routes file %s is invalid"
+#~ msgstr "Soubor %s se statickým směrováním je chybný"
+
+#~ msgid "Displaying main screen"
+#~ msgstr "Zobrazuji hlavní obrazovku"
+
+#~ msgid "What do you want to configure?"
+#~ msgstr "Co chcete konfigurovat?"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurovat"
+
+#~ msgid "Exit"
+#~ msgstr "Konec"
+
+#~ msgid ""
+#~ "This software is distributed under the GPL. Please report bugs to Red "
+#~ "Hat's bug tracking system: http://bugzilla.redhat.com/"
+#~ msgstr ""
+#~ "Tento software je distribuován pod podmínkami GPL. Chyby prosím oznamujte "
+#~ "do systému společnosti Red Hat pro sledování chyb: http://bugzilla.redhat."
+#~ "com/"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Jugoslávie"

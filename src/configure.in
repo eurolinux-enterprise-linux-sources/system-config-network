@@ -1,0 +1,45 @@
+AC_INIT([system-config-network], [1.6.0.el6.2])
+RPM_RELEASE=1
+AC_CONFIG_SRCDIR([src/netconf.py])
+AM_INIT_AUTOMAKE([1.9 tar-ustar no-define foreign dist-bzip2])
+
+AM_PATH_PYTHON
+if test -z "$PYTHON"; then
+  echo "*** Essential program python not found" 1>&2
+  exit 1
+fi
+
+GETTEXT_PACKAGE="system-config-network"
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
+IT_PROG_INTLTOOL([0.35.0], [no-xml])
+AM_PO_SUBDIRS
+AC_PROG_INSTALL
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+AC_PROG_AWK
+AC_PROG_MKDIR_P
+
+
+AC_SUBST(RPM_RELEASE)
+
+AC_CONFIG_FILES([
+Makefile
+m4/Makefile
+doc/Makefile
+doc/figs/Makefile
+doc/stylesheet-images/Makefile
+src/Makefile
+src/pixmaps/Makefile
+src/netconfpkg/Makefile
+src/netconfpkg/tests/Makefile
+src/netconfpkg/plugins/Makefile
+src/netconfpkg/gui/Makefile
+src/netconfpkg/tui/Makefile
+src/netconfpkg/conf/Makefile
+src/version.py
+system-config-network.spec
+po/Makefile.in
+])
+AC_CONFIG_FILES([po/Makefile], [AM_POSTPROCESS_PO_MAKEFILE])
+AC_OUTPUT

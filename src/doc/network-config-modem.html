@@ -1,0 +1,328 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Establishing a Modem Connection</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Establishing an ISDN Connection"
+HREF="network-config-isdn.html"><LINK
+REL="NEXT"
+TITLE="Establishing an xDSL Connection"
+HREF="network-config-xdsl.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-isdn.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-xdsl.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-CONFIG-MODEM"
+></A
+>Chapter 4. Establishing a Modem Connection</H1
+><P
+>	A modem can be used to configure an Internet connection over an active
+	phone line. An Internet Service Provider (ISP) account (also called a
+	dial-up account) is required.
+      </P
+><P
+>	To add a modem connection, follow these steps:
+      </P
+><P
+></P
+><OL
+TYPE="1"
+><LI
+><P
+>Click the <B
+CLASS="GUILABEL"
+>Devices</B
+> tab.</P
+></LI
+><LI
+><P
+>Click the <B
+CLASS="GUIBUTTON"
+>New</B
+> button on the
+	  toolbar.</P
+></LI
+><LI
+><P
+>Select <B
+CLASS="GUILABEL"
+>Modem connection</B
+> from the
+	    <B
+CLASS="GUILABEL"
+>Device Type</B
+> list, and click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+>. 
+	  </P
+></LI
+><LI
+><P
+>If there is a modem already configured in the hardware list (on
+	    the <B
+CLASS="GUILABEL"
+>Hardware</B
+> tab), the
+	    <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> assumes you want to use
+	    it to establish a modem connection. If there are no modems already
+	    configured, it tries to detect any modems in the system. This probe
+	    might take a while. If a modem is not found, a message is displayed
+	    to warn you that the settings shown are not values found from the
+	    probe.</P
+></LI
+><LI
+><P
+>After probing, the window in <A
+HREF="network-config-modem.html#NEAT-MODEM-SETTINGS-FIG"
+>Figure 4-1</A
+> appears. </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-MODEM-SETTINGS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-modem-settings.png"></P
+></DIV
+><P
+><B
+>Figure 4-1. Modem Settings</B
+></P
+></DIV
+></LI
+><LI
+><P
+>Configure the modem device, baud rate, flow control, and modem
+	  volume. If you do not know these values, accept the defaults if the
+	  modem was probed successfully. If you do not have touch tone dialing,
+	  uncheck the corresponding checkbox.  Click
+	  <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.
+	  </P
+></LI
+><LI
+><P
+>If your ISP is in the pre-configured list, select it. Otherwise,
+	  enter the required information about your ISP account. If you do not
+	    know these values, contact your ISP. Click
+	  <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.
+	  </P
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>IP Settings</B
+> page, select whether to
+	    obtain an IP address via DHCP or whether to set on statically. Click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+> when finished.</P
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>Create Dialup Connection</B
+> page, click
+	  <B
+CLASS="GUIBUTTON"
+>Apply</B
+>.</P
+></LI
+></OL
+><P
+>	After configuring the modem device, it appears in the device list with
+	the type <TT
+CLASS="COMPUTEROUTPUT"
+>Modem</TT
+> as shown in <A
+HREF="network-config-modem.html#NEAT-MODEM-FIG"
+>Figure 4-2</A
+>.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-MODEM-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-modem.png"></P
+></DIV
+><P
+><B
+>Figure 4-2. Modem Device</B
+></P
+></DIV
+><P
+>	Be sure to select <B
+CLASS="GUIMENU"
+>File</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>Save</B
+> to save the changes.
+      </P
+><P
+>	After adding the modem device, you can edit its configuration by
+	selecting the device from the device list and clicking
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+>. For example, when the device is added, it
+	is configured not to start at boot time by default. Edit its
+	configuration to modify this setting. Compression, PPP options, 
+	login name, password, and more can also be changed.
+      </P
+><P
+>	When the device is added, it is not activated immediately, as seen by
+	its <B
+CLASS="GUILABEL"
+>Inactive</B
+> status. To activate the device, select
+	it from the device list, and click the <B
+CLASS="GUIBUTTON"
+>Activate</B
+>
+	button. If the system is configured to activate the device when the
+	computer starts (the default), this step does not have to be performed
+	again.
+      </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-isdn.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-xdsl.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Establishing an ISDN Connection</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Establishing an xDSL Connection</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

@@ -1,0 +1,3533 @@
+# Ukrainian translation to system-config-network.
+# Copyright (C) 2002, Free Software Foundation
+# This file is distributed under the same license as the system-config-network package.
+# Maxim Dubovoy <max@mylinux.com.ua>, 2003.
+# Maxim Dzumanenko <dziumanenko@gmail.com>, 2002-2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-network\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"PO-Revision-Date: 2010-04-13 10:32+0200\n"
+"Last-Translator: Maxim Dzumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/netconf_cmd.py:73
+#, python-format
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.\n"
+"Please file a detailed bug report against the component %s at \n"
+"https://bugzilla.redhat.com/bugzilla\n"
+"using the text below.\n"
+msgstr ""
+"Виникла необроблена виняткова ситуація. Швидше за все це помилка у\n"
+"програмі. Збережіть повний текст помилки у файл та складіть звіт\n"
+"про помилку компоненти %s на  https://bugzilla.redhat.com/bugzilla/\n"
+
+#: ../src/netconf_cmd.py:108
+#, python-format
+msgid "%s - network configuration commandline tool"
+msgstr "%s - утиліта налаштовування мережі для командного рядка"
+
+#: ../src/netconf_cmd.py:110 ../src/netconf_control.py:167
+#: ../src/netconf_control.py:184 ../src/netconfpkg/gui/maindialog.py:1712
+#: ../src/netconfpkg/gui/maindialog.py:1728
+msgid "Copyright (c) 2001-2005 Red Hat, Inc."
+msgstr "Авторські права належать (c) 2001-2005 Red Hat, Inc."
+
+#: ../src/netconf_cmd.py:111 ../src/netconf_control.py:168
+#: ../src/netconfpkg/gui/maindialog.py:1713
+msgid ""
+"This software is distributed under the GPL. Please Report bugs to Red Hat's "
+"Bug Tracking System: http://bugzilla.redhat.com/"
+msgstr ""
+"Ця програма розповсюджується на умовах GPL. Про помилки повідомляйте у "
+"систему стеження за помилками http://bugzilla.redhat.com/"
+
+#: ../src/netconf_cmd.py:114
+#, python-format
+msgid "Usage: %s"
+msgstr "Використання: %s"
+
+#: ../src/netconf_cmd.py:116
+msgid "switch / activate profile"
+msgstr "перемикнути / активувати профіль"
+
+#: ../src/netconf_cmd.py:118
+msgid "export / import hardware list"
+msgstr "експортувати / імпортувати перелік обладнання"
+
+#: ../src/netconf_cmd.py:120
+msgid "export / import IPsec list"
+msgstr "експортувати / імпортувати список IPsec"
+
+#: ../src/netconf_cmd.py:122
+msgid "export / import device list (default)"
+msgstr "експортувати / імпортувати перелік пристроїв (типово)"
+
+#: ../src/netconf_cmd.py:124
+msgid "export / import profile list"
+msgstr "експортувати / імпортувати перелік профілів"
+
+#: ../src/netconf_cmd.py:126
+msgid "set the root directory"
+msgstr "встановити кореневий каталог"
+
+#: ../src/netconf_cmd.py:128
+msgid "export list (default)"
+msgstr "експортувати перелік (типово)"
+
+#: ../src/netconf_cmd.py:129
+msgid "import list"
+msgstr "імпортувати перелік"
+
+#: ../src/netconf_cmd.py:131
+msgid "clear existing list prior of importing"
+msgstr "очистити існуючий перелік перед імпортуванням"
+
+#: ../src/netconf_cmd.py:133
+msgid "import from file"
+msgstr "імпортувати з файлу"
+
+#: ../src/netconf_cmd.py:275
+#, python-format
+msgid "Unknown option %s\n"
+msgstr "Невідомий параметр %s\n"
+
+#: ../src/netconf_cmd.py:337
+#, python-format
+msgid "Unknown List %s\n"
+msgstr "Невідомий список %s\n"
+
+#: ../src/netconf_cmd.py:341
+#, python-format
+msgid "Error parsing line: %s"
+msgstr "Помилка при аналізі рядку: %s"
+
+#: ../src/netconf_control.py:57
+msgid ""
+"ERROR: Unable to initialize graphical environment. \n"
+"Most likely cause of failure is that the tool was not run using a graphical\n"
+"environment. Please either start your graphical user interface or set your\n"
+"DISPLAY variable.\n"
+msgstr ""
+"ПОМИЛКА: Не вдається ініціалізувати графічне оточення.\n"
+"Можлива причина -- утиліта не виконується у графічному оточенні.\n"
+"Перезапустіть графічний інтерфейс користувача або\n"
+"налаштуйте змінну DISPLAY.\n"
+
+#: ../src/netconf_control.py:192 ../src/netconfpkg/gui/maindialog.py:1732
+msgid ""
+"This software is distributed under the GPL. \n"
+"Please Report bugs to Red Hat's Bug Tracking \n"
+"System: http://bugzilla.redhat.com/"
+msgstr ""
+"Ця програма розповсюджується на умовах GPL. Про помилки повідомляйте у "
+"систему стеження за помилками Red Hat за адресою http://bugzilla.redhat.com/"
+
+#: ../src/netconf_control.py:250
+#, python-format
+msgid "Cannot configure network device %s"
+msgstr "Не вдається настроїти пристрій мережі %s"
+
+#: ../src/netconf_control.py:271
+msgid "Switching Profiles"
+msgstr "Перемикання профілів"
+
+#: ../src/netconf_control.py:272
+#, python-format
+msgid "Switching to profile %s"
+msgstr "Перемикання на профіль %s"
+
+#: ../src/netconf_control.py:273
+#, python-format
+msgid "Failed to switch to profile %s"
+msgstr "Не вдається перемкнутись на профіль %s"
+
+#. pylint: disable-msg=W0613
+#. TBD
+#: ../src/netconf_control.py:288
+msgid "To be rewritten!"
+msgstr "Буде перезаписаний!"
+
+#: ../src/netconf_control.py:422
+msgid " (active)"
+msgstr " (активне)"
+
+#. FIXME: change string
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose -d --debug"
+msgstr ""
+"system-config-network - утиліта налаштовування мережі\n"
+"\n"
+"Використання: system-config-network -v --verbose -d --debug"
+
+#: ../src/netconfpkg/exception.py:134
+msgid "_Debug"
+msgstr "На_лагодження"
+
+#: ../src/netconfpkg/exception.py:135
+msgid "_Save to file"
+msgstr "З_берегти у файл"
+
+#: ../src/netconfpkg/exception.py:150
+#, python-format
+msgid ""
+"An unhandled exception has occurred.  This is most likely a bug.  Please "
+"save the crash dump and file a detailed bug report against %s at https://"
+"bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Виникла необроблена виняткова ситуація. Швидше за все це помилка у програмі. "
+"Збережіть повний текст помилки або збережіть налагоджувальну інформацію та "
+"складіть звіт про помилку компоненти %s на  https://bugzilla.redhat.com/"
+"bugzilla/"
+
+#: ../src/netconfpkg/exception.py:247
+#, python-format
+msgid "Error: %s: %s"
+msgstr "Помилка: %s, %s"
+
+#: ../src/netconfpkg/exception.py:250
+#, python-format
+msgid ""
+"%s\n"
+"\n"
+"%s:\n"
+"%s"
+msgstr ""
+"%s\n"
+"\n"
+"%s:\n"
+"%s"
+
+#: ../src/netconfpkg/exception.py:312
+#, python-format
+msgid "%(progname)s - Exception Occurred"
+msgstr "%(progname)s - Виникла виключна ситуація"
+
+#: ../src/netconfpkg/exception.py:325
+msgid "Specify a file to save the dump"
+msgstr "Вкажіть файл, для збереження інформації"
+
+#: ../src/netconfpkg/exception.py:345
+#, python-format
+msgid "Failed to write to file %s."
+msgstr "Не вдається записати у файл %s."
+
+#: ../src/netconfpkg/exception.py:349
+#, python-format
+msgid ""
+"The application's state has been successfully\n"
+"written to the file '%s'."
+msgstr ""
+"Стан програми був успішно запущений\n"
+"у файл '%s'."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:1
+msgid "Allow dial on _demand"
+msgstr "Дозволити дзвінки зі _вимогою."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:2
+msgid "Allow the link come up on demand."
+msgstr "Дозволити встановлення з'єднання по вимозі."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:3
+msgid "Demand setting"
+msgstr "Умови встановлення з'єднання"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:4
+msgid "Enable synchronous PPP for the connection"
+msgstr "Дозволити синхронний PPP для з'єднання"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:5
+msgid ""
+"Enter the Access Concentrator name, if you have been given one by your ISP. "
+"In most cases you can leave this blank."
+msgstr ""
+"Ведіть назву концентратора доступу, якщо ваш постачальник Інтернет дав вам "
+"його. У більшості випадків його можна залишити незаповненим."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:6
+msgid ""
+"Enter the Service Name, if your ISP requires it. If you don't know it, "
+"please contact your ISP. In most cases you can leave this blank."
+msgstr ""
+"Введіть назву служби, якщо цього вимагає ваш постачальник Інтернет. Якщо ви "
+"його не знаєте зв'яжіться з постачальником Інтернет. У більшості випадків "
+"його можна залишити незаповненим."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:7
+msgid "Enter the idle time in seconds after which the link should be dropped."
+msgstr ""
+"Введіть час простою (у секундах), після якого з'єднання буде розірвано."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:8
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:10
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:19
+msgid "Enter the login name, that your ISP gave you here."
+msgstr "Введіть реєстраційне ім'я, що видав постачальник Інтернет."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:9
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
+msgstr ""
+"Введіть назву цього з'єднання, зазвичай це просто назва вашого постачальника "
+"Інтернет."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:12
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:21
+msgid ""
+"Enter the password for your account. If you do not know it, please contact "
+"your ISP."
+msgstr ""
+"Введіть пароль вашого реєстраційного запису. Якщо ви його не знаєте, "
+"зверніться до постачальника Інтернет."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:27
+msgid "Make this connection the default _route"
+msgstr "_Робити це з'єднання типовим маршрутом"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:12
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:19
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:35
+msgid "Pass_word:"
+msgstr "Пар_оль:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:39
+msgid "Restart if _connection dies"
+msgstr "Перезапускати при розриванні _зв'язку"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:14
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:44
+msgid "Use this form to enter your T-Online account data."
+msgstr "Введіть в цій формі ваші дані реєстраційного рахунку T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:15
+msgid "_AC-name:"
+msgstr "_AC-Name:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:16
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:46
+msgid "_Advanced"
+msgstr "_Додатково"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:17
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:54
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:2
+#: ../src/netconfpkg/gui/QethConfig.glade.h:6
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:7
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:26
+msgid "_General"
+msgstr "_Загальні"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:18
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:7
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:8
+msgid "_Hardware Device"
+msgstr "_Апаратний пристрій"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:19
+msgid "_IPsec"
+msgstr "_IPsec"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:20
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:20
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:26
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:56
+msgid "_Login name:"
+msgstr "_Реєстраційне ім'я:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:21
+msgid "_Maximum idle time:"
+msgstr "_Максимальний період простою:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:22
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:60
+msgid "_Provider"
+msgstr "П_ровайдер"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:23
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:22
+msgid "_Provider name:"
+msgstr "_Назва постачальника Інтернет:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:61
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:9
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:11
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:30
+msgid "_Route"
+msgstr "_Маршрут"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:25
+msgid "_Service-name:"
+msgstr "_Назва-служби:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:26
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:29
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:62
+msgid "_T-Online Account Setup"
+msgstr "Настройка реєстраційного рахунку _T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:27
+msgid "_Use synchronous PPP"
+msgstr "_Використовувати синхронний PPP"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:28
+msgid "xDSL Configuration"
+msgstr "Налаштовування xDSL"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:1
+msgid "<b>Account Type:</b>"
+msgstr "<b>Тип обл.запису:</b>"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/tonline.glade.h:3
+msgid "Associated T-Online _number:"
+msgstr "Асоційований _номер T-Online:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:3
+msgid "Configure DSL connection"
+msgstr "Налаштувати DSL з'єднання"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:4
+msgid "Create DSL connection"
+msgstr "Створити DSL з'єднання"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:8
+msgid "Enter the provider name for this account."
+msgstr "Введіть назву постачальника Інтернет цього реєстраційного запису."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:9
+msgid "Ethernet _device:"
+msgstr "Пристрій _Ethernet:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:10
+msgid "Normal"
+msgstr "Звичайний"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:11
+msgid ""
+"Normal\n"
+"T-Online"
+msgstr ""
+"Звичайний\n"
+"T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:14
+msgid "Password (_again):"
+msgstr "Пароль (_знову):"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:15
+msgid "Select the ethernet device connected to the DSL modem."
+msgstr "Виберіть пристрій Ethernet, що приєднаний до DSL модему."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:16
+msgid "Select the ethernet device for this account."
+msgstr "Виберіть Ethernet пристрій для цього реєстраційного запису."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:17
+msgid "T-Online"
+msgstr "T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:18
+#: ../src/netconfpkg/gui/tonline.glade.h:5
+msgid "_Adapter identifier:"
+msgstr "Ідентифікатор _Адаптеру:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:19
+#: ../src/netconfpkg/gui/tonline.glade.h:6
+msgid "_Concurrent user number/suffix:"
+msgstr "_Діючий номер/суфікс користувача:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:21
+#: ../src/netconfpkg/gui/tonline.glade.h:7
+msgid "_Personal password:"
+msgstr "_Персональний пароль:"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:1
+msgid "Choose a Provider"
+msgstr "Вибір постачальника Інтернет"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:2
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:15
+msgid "Internet Provider"
+msgstr "Постачальник Інтернет"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:1
+msgid "Allow all _users to enable and disable the device"
+msgstr "Дозволити всім _користувачам активувати та де-активувати цей пристрій"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:2
+msgid "Controlled by _NetworkManager"
+msgstr "Під керуванням _NetworkManager"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:2
+msgid "Enable IPv_6 configuration for this interface"
+msgstr "Введіть параметри IPv_6 для цього інтерфейсу"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:4
+msgid "_Activate device when computer starts"
+msgstr "Ак_тивувати пристрій при старті комп'ютера"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:5
+#: ../src/netconfpkg/gui/QethConfig.glade.h:5
+msgid "_Activate device when parent device starts"
+msgstr "_Активувати пристрій при старті батьківського пристрою"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:6
+#: ../src/netconfpkg/gui/editipsec.glade.h:38
+#: ../src/netconfpkg/gui/QethConfig.glade.h:8
+msgid "_Nickname:"
+msgstr "Пс_евдонім:"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.py:154
+#, python-format
+msgid ""
+"Nickname %s is already in use!\n"
+"Please choose another one.\n"
+msgstr ""
+"Псевдонім %s вже використовується!\n"
+"Будь ласка, виберіть інший.\n"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:1
+msgid "Choose Hardware Device Type"
+msgstr "Виберіть тип апаратного пристрою"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:2
+msgid "Please select the type of hardware device to add:"
+msgstr "Виберіть тип апаратного обладнання, що буде встановлено:"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:3
+msgid "_Device type:"
+msgstr "Тип _пристрою:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:1
+msgid "<b>Phone number</b>"
+msgstr "<b>Номер телефону</b>"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:2
+msgid "A_rea code:"
+msgstr "Код _міста:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:3
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:2
+msgid "Automatically obtain _DNS information from provider"
+msgstr "Автоматично отримувати _DNS від постачальника Інтернет"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:4
+msgid "Automatically obtain _IP address settings"
+msgstr "Автоматично одержувати параметри _IP адреси"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:5
+msgid "Create Dialup Connection"
+msgstr "Створити модемне з'єднання"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:6
+msgid "Default _gateway address:"
+msgstr "Адреса _шлюзу:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:7
+msgid "Encapsulation mode:"
+msgstr "Режим інкапсуляції:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:8
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:17
+msgid ""
+"Enter any numbers you need to dial before the normal phone number. For "
+"example, if you need to reach an outside line, or disable call waiting, put "
+"the necessary numbers here."
+msgstr ""
+"Введіть цифри, які слід вводити перед телефонним номером. Наприклад, для "
+"виходу до телефонної мережі з міні-АТС."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:9
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:18
+msgid "Enter the area code needed to reach your internet provider."
+msgstr "Введіть код міста."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:22
+msgid "Enter the phone number of your ISP (without prefix/area/country code)."
+msgstr "Введіть номер телефону вашого ISP (без префіксів міста та держави)."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:14
+msgid "IP Settings"
+msgstr "Параметри IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:16
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:17
+msgid "Manual IP Address Settings"
+msgstr "Використовувати наступну IP адресу"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:17
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:9
+msgid "New Interface"
+msgstr "Новий інтерфейс"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:18
+msgid "PPP Settings"
+msgstr "Параметри PPP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:20
+msgid "Prefi_x:"
+msgstr "Пре_фікс:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:21
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:38
+msgid "Provider _name:"
+msgstr "Назва прова_йдера:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:22
+msgid "Select Provider"
+msgstr "Вибір постачальника Інтернет"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:23
+msgid "Statically set IP addresses:"
+msgstr "Встановлювати IP адресу статично:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:25
+#: ../src/netconfpkg/gui/editadress.glade.h:2
+msgid "_Address:"
+msgstr "_Адреса:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:27
+msgid "_Phone number:"
+msgstr "Номер _телефону:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:28
+#: ../src/netconfpkg/gui/editadress.glade.h:4
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:47
+msgid "_Subnet mask:"
+msgstr "_Маска мережі:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:30
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:72
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:344
+msgid "raw IP"
+msgstr "raw IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:31
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:73
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:346
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:375
+msgid "sync PPP"
+msgstr "sync PPP"
+
+#. FIXME: Bad style for translation..
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/DialupDruid.py:240
+#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:203
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:331
+msgid "You have selected the following information:"
+msgstr "Ви ввели наступну інформацію:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:242
+msgid "Hardware:"
+msgstr "Обладнання:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:243
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:149
+msgid "Provider name:"
+msgstr "Назва постачальник Інтернет:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:245
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:151
+msgid "Login name:"
+msgstr "Реєстраційне ім'я:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:246
+msgid "Phone number:"
+msgstr "Номер телефону:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:1
+msgid "A_rea Code"
+msgstr "_Код міста"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:2
+msgid "Ca_llback"
+msgstr "_Зворотний виклик"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:3
+msgid "Callback MS_N:"
+msgstr "Зворотний виклик MS_N:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:4
+msgid "Callback _delay:"
+msgstr "З_атримка зворотного виклику:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:5
+msgid "Callback _mode:"
+msgstr "_Режим зворотного виклику:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:6
+msgid "Callback setting"
+msgstr "Параметри зворотного виклику"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:7
+msgid "Click here, if you want to choose a new provider from the ISP database."
+msgstr ""
+"Натисніть, щоб обрати постачальника Інтернет з бази даних постачальників."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:8
+msgid "Dial _mode:"
+msgstr "_Режим набору:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:9
+msgid "Dial-in _number:"
+msgstr "_Номер для вхідного дзвінка:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:242
+msgid "Dialup Configuration"
+msgstr "Налаштовування віддаленого з'єднання"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:11
+msgid "Enable VJ Connection-_ID Compression"
+msgstr "Дозволити стиснення VJ Connection-_ID"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:12
+msgid "Enable _Address/Control Compression"
+msgstr "Дозволити стиснення _Address/Control"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:13
+msgid "Enable _BSD Compression"
+msgstr "Дозволити стиснення _BSD"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:14
+msgid "Enable _CCP Compression Control Protocol"
+msgstr "Дозволити протокол керування стисненням _CCP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:15
+msgid "Enable _Protocol Field Compression"
+msgstr "Дозволити стиснення поля _протоколу"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:16
+msgid "Enable _VJ TCP/IP Header Compression"
+msgstr "Дозволити стиснення заголовків _VJ TCP/IP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:23
+msgid "Enter your local phone number. It's optional, if you use a modem."
+msgstr ""
+"Введіть власний номер телефону. Якщо ви використовуєте модем, це не "
+"обов'язково."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:24
+msgid "Han_gup timeout:"
+msgstr "Затримка _розривання зв'язку:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:25
+msgid "Let _PPP do all authentication"
+msgstr "Дозволити _ppp займатись автентифікацією"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:26
+msgid "MSN/EA_Z:"
+msgstr "MSN/EA_Z:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:28
+msgid "Modem _initialization string:"
+msgstr "Рядок _ініціалізації модему:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:29
+msgid "Modem p_ort:"
+msgstr "_Порт модему:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:30
+msgid "Modem0"
+msgstr "Модем0"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:31
+msgid "Modem1"
+msgstr "Модем1"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:32
+msgid "Modem2"
+msgstr "Модем2"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:33
+msgid "Modem3"
+msgstr "Модем3"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:34
+msgid "PPP Option List"
+msgstr "Перелік параметрів PPP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:36
+msgid "Phone Number"
+msgstr "Номер телефону"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:37
+msgid "Prefi_x"
+msgstr "Пре_фікс"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:40
+msgid "Select the authentication protocol used by your ISP."
+msgstr ""
+"Виберіть протокол автентифікації, що використовує постачальник Інтернет"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:41
+msgid "Show password"
+msgstr "Показати пароль"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:42
+msgid "Use _Callback Control Protocol (CBCP)"
+msgstr "Використовувати протокол керування з_воротним зв'язком (CBCP)"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:43
+msgid "Use _Channel Bundling"
+msgstr "Використовувати _Channel Bundling"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:45
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:36
+msgid "_Add..."
+msgstr "_Додати..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:47
+msgid "_Allow only above Dial-In Number"
+msgstr "_Дозволити лише вказаний номер Dial-In "
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:48
+msgid "_Authentication:"
+msgstr "_Автентифікація:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:49
+msgid "_Choose Provider..."
+msgstr "_Вибрати постачальника Інтернет..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:50
+msgid "_Compression"
+msgstr "С_тиснення"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
+#: ../src/netconfpkg/gui/maindialog.glade.h:31
+msgid "_Delete"
+msgstr "В_идалити"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:52
+msgid "_Dial mode:"
+msgstr "Режим _набору:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:53
+msgid "_Encapsulation mode:"
+msgstr "Режим _інкапсуляції:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:55
+msgid "_Hangup timeout:"
+msgstr "_Затримка розривання зв'язку:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:57
+msgid "_Options"
+msgstr "_Параметри"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:58
+msgid "_PPP option:"
+msgstr "Параметри _PPP:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:59
+msgid "_Phone Number"
+msgstr "Номер _телефону"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:63
+msgid "_Use Callback"
+msgstr "_Використовувати зворотний виклик"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:64
+#: ../src/netconfpkg/NCDialup.py:147
+msgid "auto"
+msgstr "авто"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:65
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:361
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:437
+msgid "chap"
+msgstr "chap"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:66
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:364
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:439
+msgid "chap+pap"
+msgstr "chap+pap"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:67
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:394
+msgid "in"
+msgstr "вхід"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:68
+#: ../src/netconfpkg/NCDialup.py:148
+msgid "manual"
+msgstr "вручну"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:69
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:366
+msgid "none"
+msgstr "немає"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:70
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+msgid "out"
+msgstr "вихід"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:71
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:359
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:435
+msgid "pap"
+msgstr "pap"
+
+#: ../src/netconfpkg/gui/editadress.glade.h:1
+msgid "Add / Edit IP Address"
+msgstr "Додати / Виправити IP адресу"
+
+#: ../src/netconfpkg/gui/editadress.glade.h:3
+msgid "_Gateway:"
+msgstr "_Шлюз:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:1
+msgid "Domain name:"
+msgstr "Назва домену:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:2
+msgid "Edit Domain Name"
+msgstr "Змінити назву домену"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:1
+msgid "Add / Edit Hosts entry"
+msgstr "Додати / Змінити елемент Hosts"
+
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/edithosts.glade.h:2
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:235
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:232
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:215
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:344
+msgid "Address:"
+msgstr "Адреса:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:3
+msgid "Aliases:"
+msgstr "Псевдоніми:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:4
+msgid "Hostname:"
+msgstr "Назва комп'ютера:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:2
+msgid "A_uthentication key:"
+msgstr "Ключ ав_тентифікації:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:3
+msgid "Automatic encryption mode selection via IKA (racoon)"
+msgstr "Вибір автоматичного режиму шифрування через IKA (racoon)"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:4
+msgid "Ge_nerate"
+msgstr "_Створити"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:5
+msgid "Host to Host encryption"
+msgstr "Шифрування комп'ютер-комп'ютер"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:6
+msgid "IPsec"
+msgstr "IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:7
+msgid "IPsec - Connection Type"
+msgstr "IPsec - тип з'єднання"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:8
+msgid "IPsec - Encryption Mode"
+msgstr "IPsec - режим шифрування"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:9
+msgid "IPsec - Keys"
+msgstr "IPsec - Ключі"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:10
+msgid "IPsec - Local Network"
+msgstr "IPsec - Локальна мережа"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:11
+msgid "IPsec - Nickname"
+msgstr "IPsec - Коротка назва"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:12
+msgid "IPsec - Remote Network"
+msgstr "IPsec - Віддалена мережа"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:13
+msgid "IPsec - Summary"
+msgstr "IPsec - Загальне"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:14
+msgid "IPsec Settings"
+msgstr "Параметри IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:15
+msgid "Local network _address:"
+msgstr "Ад_реса локальної мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:16
+msgid "Local network _gateway:"
+msgstr "_Шлюз локальної мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:17
+msgid "Local subnet _mask:"
+msgstr "_Маска локальної мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:18
+msgid "Manual encryption with a fixed key"
+msgstr "Ручне шифрування з фіксованим ключем"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:19
+msgid "Network to Network encryption (VPN)"
+msgstr "Шифрування мережа-мережа (VPN)"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:20
+msgid "Please enter a nickname for the connection:"
+msgstr "Введіть назву з'єднання:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:21
+msgid "Please enter a passphrase to generate the key."
+msgstr "Введіть пароль для створення ключа."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:22
+msgid "Please enter your local network settings:"
+msgstr "Введіть параметри локальної мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:23
+msgid "Please enter your remote network settings:"
+msgstr "Введіть параметри віддаленої мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:24
+msgid "Please select the type of connection:"
+msgstr "Виберіть тип з'єднання:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:25
+msgid "Please select the type of encryption:"
+msgstr "Виберіть тип шифрування:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:26
+msgid ""
+"Please specify your keys or generate them. \n"
+"The keys are symmetric, so your remote partner needs to have the same."
+msgstr ""
+"Вкажіть ваші ключі або згенеруйте їх. \n"
+"Ключі симетричні, тому ваш партнер повинен мати ті ж самі ключі."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:28
+msgid "Remote _IP address:"
+msgstr "Віддалена _IP адреса:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:29
+msgid "Remote network _address:"
+msgstr "Ад_реса віддаленої мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:30
+msgid "Remote network _gateway:"
+msgstr "_Шлюз віддаленої мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:31
+msgid "Remote subnet _mask:"
+msgstr "_Маска віддаленої мережі:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:32
+msgid "Security parameter index for authentication:"
+msgstr "Індекс параметра безпеки для автентифікації:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:33
+msgid "Security parameter index for encryption:"
+msgstr "Індекс параметра безпеки для шифрування:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:34
+msgid "You will now be guided through the setup of the IPsec connection."
+msgstr "Наразі вам буде запропоновано налаштувати IPsec з'єднання."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:35
+msgid "_Activate connection when computer starts"
+msgstr "_Активувати з'єднання при старті комп'ютера"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:36
+msgid "_Encryption key:"
+msgstr "Ключ _шифрування:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:37
+msgid "_Generate"
+msgstr "_Створити"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:39
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:40
+msgid "unique SPI for AH (256 - 4294967295), like a TCP/IP port number"
+msgstr "унікальний SPI для AH (256 - 4294967295); як номер порту TCP/IP"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:41
+msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
+msgstr "унікальний SPI для ESP (256 - 4294967295); як номер порту TCP/IP"
+
+#: ../src/netconfpkg/gui/editipsec.py:217
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
+msgstr ""
+"Введіть унікальний індекс параметру безпеки в діапазоні від 256 до "
+"4294967295."
+
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:3
+msgid "Ethernet Device"
+msgstr "Пристрій Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:8
+msgid "Select Ethernet Adapter"
+msgstr "Виберіть адаптер Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:2
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:2
+msgid "_Adapter:"
+msgstr "_Адаптер:"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:9
+#: ../src/netconfpkg/gui/QethHardware.glade.h:9
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:3
+msgid "_Device:"
+msgstr "_Пристрій:"
+
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:7
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:1
+msgid "Network Adapters Configuration"
+msgstr "Властивості адаптерів мережі"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:16
+msgid "Configure Network Settings"
+msgstr "Налаштовування параметрів мережі"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:2
+msgid "Create Ethernet Device"
+msgstr "Створити пристрій Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:4
+msgid "Ethernet card"
+msgstr "Карта Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:19
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:7
+msgid ""
+"Please enter the MTU parameter to set the maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Введіть параметр MTU, що встановлює Maximum Transfer Unit цього інтерфейсу. "
+"На s390/s390x типовий MTU зазвичай 1492"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:8
+msgid "Select Ethernet Device"
+msgstr "Вибір пристрою Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:9
+msgid "Select the ethernet card you want to configure:"
+msgstr "Виберіть Ethernet карту, яку слід настроїти:"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:99
+#, python-format
+msgid ""
+"Could not find file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+"Файл '%s' не знайдений.\n"
+"Перевірте встановлення\n"
+"виконавши 'rpm -V system-config-network'\n"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:108
+#, python-format
+msgid ""
+"Could not load the file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+"Не вдається завантажити файл '%s'.\n"
+"Перевірте встановлення\n"
+"виконати 'rpm -V system-config-network'\n"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:617
+#, python-format
+msgid ""
+"Failed to run:\n"
+"%s"
+msgstr ""
+"Неможливо запустити:\n"
+"%s"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:620
+msgid "Succeeded. Please read the output."
+msgstr "Виконано. Перегляньте вивід програми."
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:1
+msgid "Choose Hardware Type"
+msgstr "Вибір типу обладнання"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:2
+#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:3
+msgid "Hardware type:"
+msgstr "Тип обладнання:"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:4
+#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:5
+#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+msgid "Modem"
+msgstr "Модем"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:6
+msgid "Please select the hardware device type you want to create"
+msgstr "Виберіть тип апаратного пристрою"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:7
+msgid "Token Ring"
+msgstr "Token Ring"
+
+#: ../src/netconfpkg/gui/infodialog.glade.h:1
+#: ../src/netconfpkg/gui/maindialog.glade.h:9
+#: ../src/netconfpkg/gui/neat-control.glade.h:11
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:129
+#: ../src/netconfpkg/tui/NCTcpIp.py:114
+msgid "Device"
+msgstr "Пристрій"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:1
+msgid "1_TR6"
+msgstr "1_TR6"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:2
+msgid "<b>D-channel protocol</b>"
+msgstr "<b>Протокол D Channel</b>"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:1
+msgid "<b>Resources</b>"
+msgstr "<b>Ресурси</b>"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:4
+msgid "Eu_ro ISDN (EDSS1)"
+msgstr "Eu_ro ISDN (EDSS1)"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:5
+msgid "IO_1:"
+msgstr "IO_1:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:6
+msgid "IO_2:"
+msgstr "IO_2:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:7
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:7
+msgid "IR_Q:"
+msgstr "IR_Q:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:8
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:9
+msgid "ISDN _adapters:"
+msgstr "_Адаптери ISDN"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:10
+msgid "Select ISDN Adapter"
+msgstr "Вибір адаптера ISDN"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:10
+msgid "_IO:"
+msgstr "_IO:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:12
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:11
+msgid "_MEM:"
+msgstr "_MEM:"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:2
+msgid "<b>D channel protocol</b>"
+msgstr "<b>Протокол D Channel</b>"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:8
+msgid "ISDN Adapters Configuration"
+msgstr "Властивості адаптерів ISDN"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:1
+msgid "Activate the selected device, calling ifup <device>."
+msgstr "Активувати вибраний пристрій, шляхом виконання ifup <device>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:2
+msgid "Contents"
+msgstr "Зміст"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:3
+msgid "DNS search path:"
+msgstr "Шлях пошуку DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:4
+msgid "D_NS"
+msgstr "D_NS"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:5
+msgid "Deactivate the selected device, calling ifdown <device>."
+msgstr "Де-активувати вибраний пристрій, шляхом виконання ifdown <device>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:6
+msgid "Description"
+msgstr "Опис"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:7
+msgid "Destination"
+msgstr "Цільова мережа"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:8
+msgid "Dev_ices"
+msgstr "Пр_истрої"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:10
+msgid "Do_main:"
+msgstr "До_мен:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:11
+msgid "H_osts"
+msgstr "Ко_мп'ютери"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:12
+msgid "Hard_ware"
+msgstr "Об_ладнання"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:13
+msgid "IP_sec"
+msgstr "IP_sec"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:14
+msgid "List of devices which are currently configurable on your system."
+msgstr "Список пристроїв вашої системи, що можуть бути налаштовані зараз."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:15
+msgid "Monitor the selected device."
+msgstr "Спостерігати за вибраним пристроєм."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:16
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../system-config-network.desktop.in.h:3
+msgid "Network Configuration"
+msgstr "Налаштовування мережі"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:17
+msgid "New Profile"
+msgstr "Новий профіль"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:18
+#: ../src/netconfpkg/gui/neat-control.glade.h:13
+msgid "Nickname"
+msgstr "Назва пристрою"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:19
+msgid ""
+"Please enter the name for the profile. The name may only contain letters and "
+"digits."
+msgstr "Введіть назву профілю. Назва може містити лише літери та цифри."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:20
+msgid "Profile"
+msgstr "Профіль"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:21
+msgid "Show loopback"
+msgstr "Показати loopback"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:22
+#: ../src/netconfpkg/gui/neat-control.glade.h:15
+msgid "Status"
+msgstr "Стан"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:23
+msgid "Type"
+msgstr "Тип"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:24
+msgid "You may configure IPsec tunnels and host to host connections here."
+msgstr ""
+"Тут ви можете налаштувати IPsec тунелі та з'єднання комп'ютер-комп'ютер"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:25
+msgid ""
+"You may configure network devices associated with physical hardware here.  "
+"Multiple logical devices can be associated with a single piece of hardware."
+msgstr ""
+"Тут ви зможете налаштувати пристрої мережі, що пов'язані з апаратними "
+"пристроями. З одним апаратним пристроєм може бути пов'язано декілька "
+"логічних пристроїв."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:26
+msgid ""
+"You may configure network hardware physically attached to the computer here."
+msgstr "Тут ви можете налаштувати обладнання фізично приєднане до комп'ютера."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:27
+msgid ""
+"You may configure the system's hostname, domain, name servers, and search "
+"domain. Name servers are used to look up other hosts on the network."
+msgstr ""
+"Тут ви можете налаштувати назву комп'ютера, сервера доменних назв, та пошук "
+"в домені. Сервера доменних назв використовуються для пошуку інших "
+"комп'ютерів в мережі."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:28
+msgid ""
+"You may specify static computer hostname to IP address mappings here.  If "
+"DNS is in use, these settings will take precedence over any information it "
+"may provide."
+msgstr ""
+"Тут ви можете вказати статичну інформацію про перетворення назв комп'ютерів "
+"у IP адреси. Ця інформація має пріоритет над інформацією отримуваною з DNS."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:29
+#: ../src/netconfpkg/gui/neat-control.glade.h:17
+msgid "_Activate"
+msgstr "_Активувати"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:30
+#: ../src/netconfpkg/gui/neat-control.glade.h:19
+msgid "_Deactivate"
+msgstr "_Де-активувати"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:32
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:33
+msgid "_Hostname:"
+msgstr "Назва _комп'ютера:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:34
+#: ../src/netconfpkg/gui/neat-control.glade.h:21
+msgid "_Monitor"
+msgstr "_Індикатор"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:35
+msgid "_New..."
+msgstr "_Створити..."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:36
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:43
+msgid "_Primary DNS:"
+msgstr "_Головний DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:37
+msgid "_Profile"
+msgstr "П_рофіль"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:38
+msgid "_Secondary DNS:"
+msgstr "Др_угий DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:39
+msgid "_Tertiary DNS:"
+msgstr "_Третій DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.py:327
+msgid "Loading configuration..."
+msgstr "Завантаження параметрів..."
+
+#: ../src/netconfpkg/gui/maindialog.py:335
+msgid "Loading device configuration..."
+msgstr "Завантаження параметрів пристрою..."
+
+#: ../src/netconfpkg/gui/maindialog.py:340
+msgid "Loading hardware configuration..."
+msgstr "Завантаження параметрів обладнання..."
+
+#: ../src/netconfpkg/gui/maindialog.py:345
+msgid "Loading profile configuration..."
+msgstr "Завантаження параметрів профілю..."
+
+#: ../src/netconfpkg/gui/maindialog.py:352
+msgid "Loading IPsec configuration..."
+msgstr "Завантаження параметрів IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:357
+msgid "Testing configuration set..."
+msgstr "Перевірка набору параметрів..."
+
+#: ../src/netconfpkg/gui/maindialog.py:388
+#, python-format
+msgid "Active profile: %s (modified)"
+msgstr "Активний профіль: %s (змінений)"
+
+#: ../src/netconfpkg/gui/maindialog.py:392
+#, python-format
+msgid "Active profile: %s"
+msgstr "Активний профіль: %s"
+
+#: ../src/netconfpkg/gui/maindialog.py:406
+msgid "Saving configuration..."
+msgstr "Збереження параметрів..."
+
+#: ../src/netconfpkg/gui/maindialog.py:418
+#, python-format
+msgid ""
+"Error saving configuration!\n"
+"%s"
+msgstr ""
+"Помилка збереження параметрів!\n"
+"%s"
+
+#: ../src/netconfpkg/gui/maindialog.py:421
+msgid ""
+"Changes are saved. You may want to restart the network and network services "
+"or restart the computer."
+msgstr ""
+"Зміни було збережено. Можливо ви бажаєте перезапустити мережу та мережні "
+"служби або перезапустити комп'ютер."
+
+#: ../src/netconfpkg/gui/maindialog.py:430
+msgid "Saving device configuration..."
+msgstr "Збереження параметрів пристрою..."
+
+#: ../src/netconfpkg/gui/maindialog.py:437
+msgid "Saving hardware configuration..."
+msgstr "Збереження параметрів обладнання..."
+
+#: ../src/netconfpkg/gui/maindialog.py:444
+msgid "Saving profile configuration..."
+msgstr "Збереження параметрів профілю..."
+
+#: ../src/netconfpkg/gui/maindialog.py:450
+#: ../src/netconfpkg/gui/sharedtcpip.py:164
+msgid "Primary DNS is not in the correct format"
+msgstr "Неправильний формат первинного DNS"
+
+#: ../src/netconfpkg/gui/maindialog.py:454
+#: ../src/netconfpkg/gui/sharedtcpip.py:166
+msgid "Secondary DNS is not in the correct format"
+msgstr "Неправильний формат вторинного DNS"
+
+#: ../src/netconfpkg/gui/maindialog.py:458
+msgid "Tertiary DNS is not in the correct format"
+msgstr "Неправильний формат третинного DNS"
+
+#: ../src/netconfpkg/gui/maindialog.py:465
+msgid "Saving IPsec configuration..."
+msgstr "Збереження параметрів IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:484
+msgid "Updating devices..."
+msgstr "Оновлення пристроїв..."
+
+#: ../src/netconfpkg/gui/maindialog.py:548
+msgid "Updating hardware..."
+msgstr "Оновлення обладнання..."
+
+#: ../src/netconfpkg/gui/maindialog.py:624
+msgid "Updating profiles..."
+msgstr "Оновлення профілів..."
+
+#: ../src/netconfpkg/gui/maindialog.py:721
+msgid "Errors detected, do you really want to quit?"
+msgstr "Виявлено помилки, справді вийти?"
+
+#: ../src/netconfpkg/gui/maindialog.py:729
+#: ../src/netconfpkg/gui/maindialog.py:748
+msgid "Do you want to save your changes?"
+msgstr "Бажаєте зберегти зміни?"
+
+#: ../src/netconfpkg/gui/maindialog.py:931
+msgid "The Loopback device can not be edited!"
+msgstr "Параметри пристрою loopback змінювати неможливо!"
+
+#: ../src/netconfpkg/gui/maindialog.py:935
+msgid "Edit device..."
+msgstr "Змінити пристрій..."
+
+#: ../src/netconfpkg/gui/maindialog.py:972
+#, python-format
+msgid "The device type %s cannot be edited!"
+msgstr "Пристрій типу %s не можна редагувати!"
+
+#: ../src/netconfpkg/gui/maindialog.py:992
+msgid "The Loopback device can not be removed!"
+msgstr "Пристрій loopback видалити неможливо!"
+
+#: ../src/netconfpkg/gui/maindialog.py:996
+#, python-format
+msgid "Do you really want to delete device \"%s\"?"
+msgstr "Чи ви дійсно бажаєте видалити пристрій  \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1029
+#: ../src/netconfpkg/gui/maindialog.py:1064
+#: ../src/netconfpkg/gui/maindialog.py:1806
+#: ../src/netconfpkg/gui/maindialog.py:1834
+msgid "You have made some changes in your configuration."
+msgstr "Ви внесли зміни у конфігурацію. "
+
+#: ../src/netconfpkg/gui/maindialog.py:1030
+#, python-format
+msgid "To activate the network device %s, the changes have to be saved."
+msgstr "Щоб задіяти пристрій %s потрібно зберегти зміни."
+
+#: ../src/netconfpkg/gui/maindialog.py:1032
+#: ../src/netconfpkg/gui/maindialog.py:1067
+#: ../src/netconfpkg/gui/maindialog.py:1809
+#: ../src/netconfpkg/gui/maindialog.py:1837
+msgid "Do you want to continue?"
+msgstr "Бажаєте продовжувати?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1065
+#, python-format
+msgid "To deactivate the network device %s, the changes have to be saved."
+msgstr "Щоб вимкнути мережний пристрій %s, потрібно зберегти зміни."
+
+#: ../src/netconfpkg/gui/maindialog.py:1196
+msgid "The Loopback device can not be disabled!"
+msgstr "Пристрій loopback вимкнути неможливо!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1464
+#: ../src/netconfpkg/gui/maindialog.py:1542
+msgid "The name may only contain letters and digits!"
+msgstr "Назва може містити лише літери та цифри!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1469
+#: ../src/netconfpkg/gui/maindialog.py:1547
+#, python-format
+msgid "The profile can't be named \"%s\"!"
+msgstr "Профіль не може мати назву \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1475
+#: ../src/netconfpkg/gui/maindialog.py:1553
+msgid "The profile name already exists!"
+msgstr "Назва профілю вже існує!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1520
+#, python-format
+msgid "The \"%s\" profile can't be renamed!"
+msgstr "Неможливо змінити назву профілю \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1568
+#, python-format
+msgid "The \"%s\" Profile can not be deleted!"
+msgstr "Профіль \"%s\" видалити неможливо!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1574
+#, python-format
+msgid "Do you really want to delete profile \"%s\"?"
+msgstr "Чи ви дійсно бажаєте видалити профіль \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1649
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgstr ""
+"Вибачте, але немає що змінювати, або цей тип поки що змінити неможливо."
+
+#: ../src/netconfpkg/gui/maindialog.py:1667
+#, python-format
+msgid "Do you really want to delete \"%s\"?"
+msgstr "Чи ви дійсно бажаєте видалити \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1680
+#, python-format
+msgid "Do you want to delete all devices that used \"%s\"?"
+msgstr "Ви дійсно бажаєте видалити усі пристрої, що використовують \"%s\"?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1731
+msgid "translator_credits"
+msgstr "Максим Дзюманенко"
+
+#: ../src/netconfpkg/gui/maindialog.py:1807
+#, python-format
+msgid "To activate the IPsec connection %s, the changes have to be saved."
+msgstr "Щоб задіяти IPsec з'єднання %s потрібно зберегти зміни."
+
+#: ../src/netconfpkg/gui/maindialog.py:1835
+#, python-format
+msgid "To deactivate the IPsec connection %s, the changes have to be saved."
+msgstr "Щоб вимкнути IPsec з'єднання %s, потрібно зберегти зміни."
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:1
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:1
+msgid "<b>Modem properties</b>"
+msgstr "<b>Властивості модему</b>"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:2
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:2
+#: ../src/netconfpkg/NC_functions.py:141
+msgid "Hardware (CRTSCTS)"
+msgstr "Апаратно (CRTSCTS)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:3
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:3
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:132
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:190
+msgid "High"
+msgstr "Висока"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:4
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:4
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:128
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:186
+msgid "Low"
+msgstr "Низька"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:5
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:5
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:130
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:188
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:18
+msgid "Medium"
+msgstr "Середня"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:6
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:81
+msgid "Modem Configuration"
+msgstr "Налаштовування модему"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:7
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:6
+msgid "Modem _volume:"
+msgstr "Г_учність модему:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:8
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:7
+#: ../src/netconfpkg/NCDialup.py:151 ../src/netconfpkg/NC_functions.py:143
+msgid "None"
+msgstr "Немає"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:9
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:8
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:126
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:184
+msgid "Off"
+msgstr "Звук вимкнено"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:10
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:10
+#: ../src/netconfpkg/NC_functions.py:142
+msgid "Software (XON/XOFF)"
+msgstr "Програмно (XON/XOFF)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:11
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:11
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:134
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:192
+msgid "Very High"
+msgstr "Дуже висока"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:12
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:12
+msgid "_Baud rate:"
+msgstr "_Швидкість порту:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:13
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:13
+msgid "_Flow control:"
+msgstr "_Керування потоком:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:14
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:14
+msgid "_Modem device:"
+msgstr "Пристрій _модему:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:15
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:15
+msgid "_Use touch tone dialing"
+msgstr "Використовувати _тональний набір"
+
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:9
+msgid "Select Modem"
+msgstr "Вибір модему"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:95
+msgid "xDSL connection"
+msgstr "xDSL з'єднання"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:102
+msgid ""
+"Create an xDSL connection.  This is a connection that uses one of several "
+"types of broadband connections collective known as Digital Subscriber "
+"Lines.  This list includes ADSL (Asymmetric, faster downloads than uploads), "
+"IDSL (over an ISDN line for distance), SDSL (Symmetric, downloads and "
+"uploads at the same speed), and several others.  These types of connections "
+"are common in the United States, and are gaining acceptance elsewhere.  "
+"Speeds vary according to the technology used, but generally range from "
+"144kbps to 1.0Mbps."
+msgstr ""
+"Створення xDSL з'єднання. Це загальна назва декількох типів швидкісних "
+"з'єднань. До цього списку входять:  ADSL (несиметричне - завантаження швидше "
+"за відправлення), IDSL (по каналу ISDN),  SDSL (симетричне - завантаження та "
+"відправлення з однією швидкістю), та декілька інших. Цей тип зв'язку "
+"поширений у США, та також розповсюджується за їх межами. Швидкість залежить "
+"від типу технології, зазвичай значення швидкості знаходяться у межах від "
+"144кбіт/с до 1Мбіт/с ."
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:148
+msgid "Ethernet device:"
+msgstr "Пристрій Ethernet:"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:278
+msgid "ISDN Dialup Configuration"
+msgstr "Налаштовування віддаленого з'єднання ISDN"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:449
+msgid "Modem Dialup Configuration"
+msgstr "Параметри модемного віддаленого з'єднання"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetHardware.py:128
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
+#: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
+#: ../src/netconfpkg/NC_functions.py:414
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:129
+msgid "Ethernet connection"
+msgstr "З'єднання Ethernet"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:135
+msgid "Create a new ethernet connection."
+msgstr "Створення нового з'єднання Ethernet "
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:202
+msgid "Other Ethernet Card"
+msgstr "Інша Ethernet карта"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:222
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:219
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:204
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:332
+msgid "Device:"
+msgstr "Пристрій:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:236
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:233
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:216
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:345
+msgid "Subnet mask:"
+msgstr "Маска мережі:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:238
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:235
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:218
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:346
+msgid "Default gateway address:"
+msgstr "Адреса шлюзу:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:241
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:238
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:349
+msgid "Automatically obtain IP address settings with:"
+msgstr "Автоматично отримувати параметри IP адреси за допомогою:"
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:86
+msgid "ISDN connection"
+msgstr "З'єднання ISDN "
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:92
+msgid ""
+"Create a new ISDN connection. This is a connection that uses an Integrated "
+"Services Digital Network line to dial into to your Internet Service "
+"Provider. This type of technology requires a special phone line to be "
+"installed by your telephone company. It also requires a device known as a "
+"Terminal Adapter(TA) to terminate the ISDN connection from your ISP. This "
+"type of connection is popular in Europe and several other technologically "
+"advanced regions.  It is available but uncommon in the USA.  Speeds range "
+"from 64kbps to 128kbps."
+msgstr ""
+"Створення нового ISDN з'єднання. Цей тип з'єднання використовує лінію "
+"Integrated Services Digital Network для зв'язку з постачальником Інтернет. "
+"Ця технологія потребує встановлення спеціальної телефонної лінії та пристрою "
+"термінальний адаптер (TA). Цей тип зв'язку поширений у Європі та деяких "
+"інших розвинених регіонах, у США поширений менше. Швидкість у межах від "
+"64кбіт/с до 128кбіт/с."
+
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:99
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:168
+msgid "Generic Modem"
+msgstr "Звичайний модем"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:80
+msgid "Modem connection"
+msgstr "Модемне з'єднання"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:87
+msgid ""
+"Create a new Modem connection.  This is a connection that uses a serial "
+"analog modem to dial into to your Internet Service Provider. These modems "
+"use sound over a normal copper telephone line to transmit data. These types "
+"of connections are available just about anywhere in the world where there is "
+"a phone system."
+msgstr ""
+"Створення нового модемного з'єднання. Цей тип зв'язку використовує "
+"аналоговий модем для з'єднання з вашим постачальником Інтернет. Такі модеми "
+"передають дані звичайними телефонними лініями, перетворюючи їх у звуковий "
+"сигнал. Цей тип з'єднань діє майже всюди, де є телефонний зв'язок."
+
+#. FIXME: [165331] Can't detect external modem on /dev/ttyS0
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:120
+msgid "Modem probing..."
+msgstr "Пошук модему..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:125
+msgid "Probing for Modems, please wait..."
+msgstr "Триває пошук модемів, зачекайте, будь ласка..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:140
+msgid "No modem was found on your system."
+msgstr "У системі не знайдено жодного модему."
+
+#: ../src/netconfpkg/gui/NCPluginQethHardware.py:87
+#, python-format
+msgid ""
+"Do you want to deactive interface %s first?\n"
+"Otherwise saving changes may have unwanted side effects."
+msgstr ""
+"Спочатку рекомендується вимкнути інтерфейс %s.\n"
+"У іншому разі збереження змін може призвести до несподіваних результатів."
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
+msgid "Qeth connection"
+msgstr "З'єднання Qeth"
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:125
+msgid "Create a new qeth connection."
+msgstr "Створення нового з'єднання qeth."
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:197
+msgid "Other QETH Device"
+msgstr "Інший пристрій QETH"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:60
+msgid ""
+"The Token Ring card could not be initialized. Please verify your settings "
+"and try again."
+msgstr ""
+"Неможливо ініціалізувати карту мережі Token Ring. Перевірте параметри та "
+"спробуйте знову."
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:110
+msgid "Token Ring connection"
+msgstr "З'єднання Token Ring"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:116
+msgid "Create a new Token Ring connection."
+msgstr "Створення нового з'єднання Token Ring"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:182
+msgid "Other Tokenring Card"
+msgstr "Інша Token Ring карта"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:29
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:88
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:166
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:34
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:143
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:206
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:19
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:15
+msgid "Auto"
+msgstr "Авто"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:30
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:35
+msgid "Ad-Hoc"
+msgstr "Ad-Hoc"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:31
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:36
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:194
+msgid "Managed"
+msgstr "Керований"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:32
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:37
+msgid "Master"
+msgstr "Майстер"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:152
+msgid "Wireless connection"
+msgstr "Бездротове з'єднання"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:158
+msgid "Create a new wireless connection."
+msgstr "Створення нового бездротового з'єднання"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:245
+msgid "BitRate"
+msgstr "Бітрейт"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:309
+msgid "Other Wireless Card"
+msgstr "Інша карта бездротового зв'язку"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:352
+msgid "Mode:"
+msgstr "Режим:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:353
+msgid "ESSID (network ID):"
+msgstr "ESSID (мережний ID):"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:355
+msgid "Automatic"
+msgstr "Автоматично"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:359
+msgid "Channel:"
+msgstr "Канал:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:360
+msgid "Transmit rate:"
+msgstr "Швидкість передачі:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:361
+msgid "Key: "
+msgstr "Ключ: "
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:367
+msgid "encryption disabled"
+msgstr "шифрування вимкнено"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:1
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:1
+msgid "Waiting to connect to"
+msgstr "Очікується з'єднання з"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:2
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:2
+msgid "Waiting..."
+msgstr "Очікування..."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:1
+msgid "<b>Active profile</b>"
+msgstr "<b>Активний профіль</b>"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:2
+msgid "Ac_tivate"
+msgstr "Ак_тивувати"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:3
+msgid "Auto _Select"
+msgstr "Авто_вибір"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:4
+msgid "Click to activate the selected profile"
+msgstr "Натисніть, щоб активувати вибраний профіль"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:5
+msgid "Click to bring up the interface"
+msgstr "Натисніть, щоб активувати інтерфейсу"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:6
+msgid "Click to configure the interface"
+msgstr "Натисніть, щоб настроїти інтерфейс"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:7
+msgid "Click to get infos"
+msgstr "Натисніть, щоб отримати зведення"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:8
+msgid "Click to have the system automatically select and activate a profile"
+msgstr ""
+"Натисніть, щоб дозволити системі автоматично вибрати та активувати профіль"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:9
+msgid "Click to monitor the interface"
+msgstr "Натисніть, щоб відобразити індикатор інтерфейсу"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:10
+msgid "Click to shutdown the interface"
+msgstr "Натисніть, щоб де-активувати інтерфейсу"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:12
+#: ../system-control-network.desktop.in.h:2
+msgid "Network Device Control"
+msgstr "Керування пристроями мережі"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:14
+msgid "Select a profile"
+msgstr "Виберіть профіль"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:16
+msgid "The following network interfaces are configured in the active profile."
+msgstr "В активному профілі налаштовано наступні інтерфейси."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:18
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:3
+msgid "_Configure..."
+msgstr "Н_астроїти..."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:20
+msgid "_Info"
+msgstr "_Інформація"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:1
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:2
+msgid "Online time:"
+msgstr "Тривалість з'єднання:"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:3
+msgid "click the right mouse button for properties"
+msgstr "Натисніть праву кнопку миші для перегляду властивостей"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:1
+msgid "Connect to"
+msgstr "Приєднатись до"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:2
+msgid "Disconnect from"
+msgstr "Від'єднатись від"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:1
+msgid "$"
+msgstr "$"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:2
+msgid "0.00"
+msgstr "0.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:3
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:1
+msgid "1"
+msgstr "1"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:4
+msgid "1.00"
+msgstr "1.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:5
+msgid "Confirm _starting connection"
+msgstr "Підтверджувати вс_тановлення з'єднання"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:6
+msgid "Confirm stopping _connection"
+msgstr "Підтверджувати за_кінчення з'єднання"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:7
+msgid "Cos_t accumulated from the past connection:"
+msgstr "_Ціна за попереднє з'єднання:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:8
+msgid "Cost per:"
+msgstr "Тариф за:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:9
+msgid "Count:"
+msgstr "Рахувати:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:10
+msgid "M_inimum number of seconds charged:"
+msgstr "_Мінімальна оплачувана кількість секунд:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:11
+msgid "_Accumulate cost over multiple connections"
+msgstr "_Накопичувати загальну вартість з'єднань"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:12
+msgid "_Basic"
+msgstr "_Загальне"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:13
+msgid "_Cost"
+msgstr "_Вартість"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:14
+msgid "_Debug mode"
+msgstr "Режим на_лагодження"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:15
+msgid "_Extra cost to start a connection:"
+msgstr "_Додаткова ціна за встановлення з'єднання:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:16
+msgid "_Hour"
+msgstr "_Годину"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:17
+msgid "_Minute"
+msgstr "_Хвилину"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:18
+msgid "_Number of seconds in basic accounting unit:"
+msgstr "К_ількість секунд у одиниці підрахунку:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:19
+msgid "_Second"
+msgstr "_Секунду"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:20
+msgid "_Terminate connection when session closes"
+msgstr "_Завершувати з'єднання при закриванні сеансу"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:21
+msgid "_Time"
+msgstr "_Час"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:22
+msgid "redhat network control - Properties"
+msgstr "redhat network control - Властивості"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:1
+msgid "Add new Device Type"
+msgstr "Нове з'єднання"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:2
+msgid "Device Type"
+msgstr "Тип з'єднання"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:3
+msgid "Select Device Type"
+msgstr "Вибір типу з'єднання"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:2
+msgid "D_ata Device Bus ID:"
+msgstr "ID шини пристрою _даних:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethHardware.glade.h:3
+msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
+msgstr "Введіть стандартні параметри (наприклад, LAYER2=1 PORTNO=0)"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
+msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
+msgstr "Введіть MAC-адресу (наприклад, 00:13:A9:47:5A:B2)"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethHardware.glade.h:5
+msgid "For Example 0.0.0600"
+msgstr "Наприклад, 0.0.0600"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethHardware.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:5
+msgid "MAC Address:"
+msgstr "MAC-адреса:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethHardware.glade.h:8
+msgid "Options:"
+msgstr "Параметри:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:7
+msgid "Resource"
+msgstr "Ресурси"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:10
+#: ../src/netconfpkg/gui/QethHardware.glade.h:10
+msgid "_Read Device Bus ID:"
+msgstr "П_рочитати ID шини пристрою:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/QethHardware.glade.h:11
+msgid "_Write Device Bus ID:"
+msgstr "_Записати ID шини пристрою:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:1
+msgid "A_ddress:"
+msgstr "А_дреса:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:3
+msgid "Automatically obtain _IP address settings with:"
+msgstr "Автоматично отримувати _IP адресу використовуючи:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:4
+msgid "Bind to _MAC address:"
+msgstr "Прив'язуватись до _MAC адреси:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:5
+msgid "DHCP Settings"
+msgstr "Параметри DHCP"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:6
+msgid "Default ga_teway address:"
+msgstr "Адреса типового шл_юзу:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:7
+msgid "Destination Network"
+msgstr "Цільова мережа"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:8
+msgid "Device _alias number:"
+msgstr "Номер _псевдоніму пристрою:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:9
+msgid "Difficulty level:"
+msgstr "Рівень складності:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:10
+msgid ""
+"Each connection needs to be associated with a physical device which can be "
+"selected below."
+msgstr ""
+"Кожне з'єднання має бути пов'язаним з  фізичним пристроєм, який можна обрати "
+"нижче."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:11
+msgid "Easy"
+msgstr "Просто"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:12
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:13
+msgid "H_ostname (optional):"
+msgstr "_Назва комп'ютера (не обов'язково):"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:14
+msgid "Hardware device:"
+msgstr "Апаратний пристрій:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:15
+msgid "IPsec Tunnel Settings"
+msgstr "Параметри тунелю IPsec"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:16
+msgid "Local Network"
+msgstr "Локальна мережа"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:19
+msgid "Please select the level of security for this device."
+msgstr "Оберіть рівень безпеки цього пристрою."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:20
+msgid "Prefix (Netmask)"
+msgstr "Префікс (маска мережі)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:21
+msgid "Professional"
+msgstr "Професійний"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:22
+msgid "Remote Host / GW"
+msgstr "Віддалений комп'ютер /Шлюз"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:23
+msgid "Remote Network"
+msgstr "Віддалена мережа"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:24
+msgid "S_econdary DNS:"
+msgstr "Др_угий DNS:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:25
+msgid "Security Level"
+msgstr "Рівень безпеки"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:26
+msgid "Select the services you want to provide through this device"
+msgstr "Виберіть служби, роботу яких буде дозволено через цей пристрій"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:27
+msgid "Service"
+msgstr "Служба"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:28
+msgid "Service Description"
+msgstr "Опис служби"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:29
+msgid "Services"
+msgstr "Служби"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:30
+msgid "Set M_RU to:"
+msgstr "Встановити M_RU:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:31
+msgid "Set M_TU to:"
+msgstr "Встановити M_TU:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:32
+msgid "Static Network Routes"
+msgstr "Статичні маршрути мережі"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:33
+msgid "Staticall_y set IP addresses:"
+msgstr "Статично _вказати IP-адресу:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:34
+msgid "Tie to specific ethernet card"
+msgstr "Прив'язати до окремої ethernet карти"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:35
+msgid "Use ethernet device aliases"
+msgstr "Використовувати псевдоніми ethernet пристрою"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:37
+msgid "_Delete..."
+msgstr "В_идалити..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:38
+msgid "_Edit..."
+msgstr "_Правка..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:39
+msgid "_Hardware Address"
+msgstr "_Апаратна адреса"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:40
+msgid "_Hardware:"
+msgstr "_Обладнання:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:41
+msgid "_High Security (Internet)"
+msgstr "_Висока безпека (Інтернет)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:42
+msgid "_Low Security"
+msgstr "Ни_зька безпека"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:44
+msgid "_Probe"
+msgstr "_Визначити"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:45
+msgid "_Probe for Address..."
+msgstr "_Визначити адреси..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:46
+msgid "_Secure Device (LAN)"
+msgstr "_Безпечний пристрій (LAN)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:48
+msgid "bootp"
+msgstr "bootp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:49
+msgid "dhcp"
+msgstr "dhcp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:50
+msgid "dialup"
+msgstr "dialup"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:158
+msgid "IP address is not in the correct format"
+msgstr "Неправильний формат IP-адреси"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:160
+msgid "Network mask is not in the correct format"
+msgstr "Неправильний формат маски мережі"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:162
+msgid "Gateway is not in the correct format"
+msgstr "Неправильний формат шлюзу"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:446
+msgid "MAC address is not in the correct format"
+msgstr "Неправильний формат адреси MAC"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:1
+msgid "00:00:00:00:00:00"
+msgstr "00:00:00:00:00:00"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:2
+msgid ""
+"Each device needs to be attached to a physical device which can be selected "
+"below. Device Alias support allows you to use multiple virtual devices for "
+"one physical device."
+msgstr ""
+"Кожен пристрій має бути приєднаний до фізичного пристрою, який можна обрати "
+"нижче. Підтримка псевдонімів пристроїв дозволяє вам використовувати декілька "
+"віртуальних пристроїв для одного фізичного пристрою."
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:3
+msgid "Enable _Device Alias support"
+msgstr "Дозволити підтримку п_севдонімів"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:4
+msgid "Ha_rdware address:"
+msgstr "_Апаратна адреса:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:5
+msgid "Token Ring Device"
+msgstr "Пристрій Token Ring"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:6
+msgid "_Alias:"
+msgstr "_Псевдонім"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:9
+msgid "_Hardware device:"
+msgstr "_Апаратний пристрій:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:10
+msgid "_Probe for Address"
+msgstr "_Визначити адреси..."
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:12
+msgid "_Use Hardware Address"
+msgstr "Використовувати _апаратну адресу"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:13
+msgid "tr0"
+msgstr "tr0"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:14
+msgid "tr1"
+msgstr "tr1"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:15
+msgid "tr2"
+msgstr "tr2"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:16
+msgid "tr3"
+msgstr "tr3"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:17
+msgid "tr4"
+msgstr "tr4"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:18
+msgid "tr5"
+msgstr "tr5"
+
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:1
+msgid "Select Token Ring Adapter"
+msgstr "Виберіть Token Ring адаптер"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:2
+msgid "Create Token Ring Device"
+msgstr "Створення пристрою Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:21
+msgid ""
+"Please enter the MTU parameter to set the Maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Введіть параметр MTU, що встановлює Maximum Transfer Unit цього інтерфейсу. "
+"На s390/s390x типовий MTU зазвичай 1492"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:5
+msgid "Select Token Ring Device"
+msgstr "Вибір пристрою Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:6
+msgid "Select the token ring card you want to configure:"
+msgstr "Виберіть карту Token Ring для цього з'єднання:"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:7
+msgid "Token ring card"
+msgstr "Карта Token Ring"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:1
+msgid "<b>T-Online account</b>"
+msgstr "<b>Рахунок _T-Online</b>"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:2
+msgid "Account Setup"
+msgstr "Налаштовування рахунку"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:4
+msgid ""
+"Please enter here your personal account data. Without this data, access to T-"
+"Online is unfortunately not possible."
+msgstr ""
+"Введіть дані вашого облікового запису. Без цього доступ до T-Online буде "
+"неможливим."
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:2
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:2
+msgid "10"
+msgstr "10"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:3
+msgid "11"
+msgstr "11"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:4
+msgid "11M"
+msgstr "11M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:5
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:4
+msgid "12"
+msgstr "12"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:6
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:5
+msgid "13"
+msgstr "13"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:7
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:6
+msgid "14"
+msgstr "14"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:8
+msgid "1M"
+msgstr "1M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:9
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:7
+msgid "2"
+msgstr "2"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:10
+msgid "2M"
+msgstr "2M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:11
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:8
+msgid "3"
+msgstr "3"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:12
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:9
+msgid "4"
+msgstr "4"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:13
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:10
+msgid "5"
+msgstr "5"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:14
+msgid "5.5M"
+msgstr "5.5M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:15
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:11
+msgid "6"
+msgstr "6"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:16
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:12
+msgid "7"
+msgstr "7"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:17
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:13
+msgid "8"
+msgstr "8"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:18
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:14
+msgid "9"
+msgstr "9"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:20
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:20
+msgid "Network name (SSID):"
+msgstr "Назва мережі (SSID):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:21
+msgid ""
+"Set the operating mode of the device, which depends on the network topology. "
+"The mode can be Ad-Hoc (network composed of only one cell and without Access "
+"Point), Managed (node connects to a network composed of many Access Points, "
+"with roaming), Master (the node is the synchronization master or acts as an "
+"Access Point) or Auto."
+msgstr ""
+"Виберіть режим роботи пристрою у залежності від топології мережі. Режим може "
+"бути встановлено у \"Ad-Hoc\" (мережа складається з одного вузла без точок "
+"доступу), \"Керований\" (вузол підключається до мережі, що являє собою "
+"сукупність точок доступу з роумінгом), \"Майстер\" (вузол функціонує як "
+"майстер синхронізації або діє як точка доступу) або \"Авто\"."
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:22
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:24
+msgid ""
+"Used to manipulate encryption or scrambling keys and encryption mode. To set "
+"the current encryption key in hex digits enter the key with 0x prepended as "
+"0xXXXXXXXX."
+msgstr ""
+"Використовується для керування ключами в режимі шифрування. Щоб ввести "
+"поточний ключ шифрування у вигляді шістнадцяткових цифр введіть перед ними "
+"префікс 0x у вигляді 0xXXXXXXXX."
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:23
+msgid "Wireless Device Configuration"
+msgstr "Налаштовування пристрою бездротового зв'язку"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:24
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:25
+msgid "_Auto"
+msgstr "_Автоматично"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:25
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:26
+msgid "_Channel:"
+msgstr "_Канал:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:27
+msgid "_Hardware device"
+msgstr "_Апаратний пристрій"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:28
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:27
+msgid "_Key (use 0x for hex):"
+msgstr "К_люч (0х для 16-кових):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:29
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:28
+msgid "_Mode:"
+msgstr "_Режим:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:31
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:29
+msgid "_Specified:"
+msgstr "_Визначено:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:32
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:30
+msgid "_Transmit rate:"
+msgstr "_Швидкість передачі:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:33
+msgid "_Wireless Settings"
+msgstr "Параметри _бездротового зв'язку"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:17
+msgid "Configure Wireless Connection"
+msgstr "Параметри бездротового з'єднання"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:18
+msgid "Create Wireless Device"
+msgstr "Створення пристрою бездротового зв'язку"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:22
+msgid "Select Wireless Device"
+msgstr "Вибір пристрою бездротового зв'язку"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:23
+msgid "Select the wireless card you want to configure:"
+msgstr "Виберіть карту бездротового зв'язку для цього з'єднання:"
+
+#: ../src/netconfpkg/NCDeviceList.py:137
+msgid "Changed the following Nicknames due to the initscripts:\n"
+msgstr "Наступні псевдоніми змінено для сумісності зі сценаріями запуску:\n"
+
+#: ../src/netconfpkg/NCDeviceList.py:140
+msgid "Nicknames changed"
+msgstr "Псевдоніми змінені"
+
+#: ../src/netconfpkg/NCDevice.py:308 ../src/netconfpkg/NCDevice.py:314
+#, python-format
+msgid "%s, Device not specified or alias not a number!"
+msgstr "%s, Пристрій не вказаний або псевдонім не є числом!"
+
+#: ../src/netconfpkg/NCDevice.py:518
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:88
+msgid "Network device activating..."
+msgstr "Активація пристрою мережі..."
+
+#: ../src/netconfpkg/NCDevice.py:519
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:89
+#, python-format
+msgid "Activating network device %s, please wait..."
+msgstr "Активація пристрою мережі %s, зачекайте будь ласка..."
+
+#: ../src/netconfpkg/NCDevice.py:521
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:91
+#, python-format
+msgid "Cannot activate network device %s!\n"
+msgstr "Неможливо активувати мережний пристрій %s!\n"
+
+#: ../src/netconfpkg/NCDevice.py:538
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:112
+msgid "Network device deactivating..."
+msgstr "Де-активація мережного пристрою..."
+
+#: ../src/netconfpkg/NCDevice.py:539
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:113
+#, python-format
+msgid "Deactivating network device %s, please wait..."
+msgstr "Де-активація мережного пристрою %s, зачекайте, будь ласка..."
+
+#: ../src/netconfpkg/NCDevice.py:541
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:115
+#, python-format
+msgid "Cannot deactivate network device %s!\n"
+msgstr "Неможливо де-активувати пристрій мережі %s!\n"
+
+#: ../src/netconfpkg/NCDialup.py:152
+msgid "Afghanistan"
+msgstr "Афганістан"
+
+#: ../src/netconfpkg/NCDialup.py:153
+msgid "Albania"
+msgstr "Албанія"
+
+#: ../src/netconfpkg/NCDialup.py:154
+msgid "Algeria"
+msgstr "Алжир"
+
+#: ../src/netconfpkg/NCDialup.py:155
+msgid "American Samoa"
+msgstr "Американські Самоа"
+
+#: ../src/netconfpkg/NCDialup.py:156
+msgid "Andorra"
+msgstr "Андорра"
+
+#: ../src/netconfpkg/NCDialup.py:157
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: ../src/netconfpkg/NCDialup.py:158
+msgid "Australia"
+msgstr "Австралія"
+
+#: ../src/netconfpkg/NCDialup.py:159
+msgid "Austria"
+msgstr "Австрія"
+
+#: ../src/netconfpkg/NCDialup.py:160
+msgid "Belarus"
+msgstr "Білорусія"
+
+#: ../src/netconfpkg/NCDialup.py:161
+msgid "Belgium"
+msgstr "Бельгія"
+
+#: ../src/netconfpkg/NCDialup.py:162
+msgid "Bosnia and Hercegovina"
+msgstr "Боснія та Герцоговина"
+
+#: ../src/netconfpkg/NCDialup.py:163
+msgid "Brazil"
+msgstr "Бразилія"
+
+#: ../src/netconfpkg/NCDialup.py:164
+msgid "British Virgin Islands"
+msgstr "Британські Віржинські Острови"
+
+#: ../src/netconfpkg/NCDialup.py:165
+msgid "Bulgaria"
+msgstr "Болгарія"
+
+#: ../src/netconfpkg/NCDialup.py:166
+msgid "Canada"
+msgstr "Канада"
+
+#: ../src/netconfpkg/NCDialup.py:167
+msgid "Central African Republic"
+msgstr "Центрально-африканська Республіка"
+
+#: ../src/netconfpkg/NCDialup.py:168
+msgid "Chile"
+msgstr "Чилі"
+
+#: ../src/netconfpkg/NCDialup.py:169
+msgid "China"
+msgstr "Китай"
+
+#: ../src/netconfpkg/NCDialup.py:170
+msgid "Colombia"
+msgstr "Колумбія"
+
+#: ../src/netconfpkg/NCDialup.py:171
+msgid "Croatia"
+msgstr "Хорватія"
+
+#: ../src/netconfpkg/NCDialup.py:172
+msgid "Cuba"
+msgstr "Куба"
+
+#: ../src/netconfpkg/NCDialup.py:173
+msgid "Cyprus"
+msgstr "Кіпр"
+
+#: ../src/netconfpkg/NCDialup.py:174
+msgid "Czech Republic"
+msgstr "Чеська Республіка"
+
+#: ../src/netconfpkg/NCDialup.py:175
+msgid "Denmark"
+msgstr "Данія"
+
+#: ../src/netconfpkg/NCDialup.py:176
+msgid "Finland"
+msgstr "Фінляндія"
+
+#: ../src/netconfpkg/NCDialup.py:177
+msgid "France"
+msgstr "Франція"
+
+#: ../src/netconfpkg/NCDialup.py:178
+msgid "Germany"
+msgstr "Німеччина"
+
+#: ../src/netconfpkg/NCDialup.py:179
+msgid "Greece"
+msgstr "Греція"
+
+#: ../src/netconfpkg/NCDialup.py:180
+msgid "Hong Kong"
+msgstr "Гонг Конг"
+
+#: ../src/netconfpkg/NCDialup.py:181
+msgid "Hungary"
+msgstr "Угорщина"
+
+#: ../src/netconfpkg/NCDialup.py:182
+msgid "Iceland"
+msgstr "Ісландія"
+
+#: ../src/netconfpkg/NCDialup.py:183
+msgid "India"
+msgstr "Індія"
+
+#: ../src/netconfpkg/NCDialup.py:184
+msgid "Indonesia"
+msgstr "Індонезія"
+
+#: ../src/netconfpkg/NCDialup.py:185
+msgid "Ireland"
+msgstr "Ірландія"
+
+#: ../src/netconfpkg/NCDialup.py:186
+msgid "Israel"
+msgstr "Ізраїль"
+
+#: ../src/netconfpkg/NCDialup.py:187
+msgid "Italy"
+msgstr "Італія"
+
+#: ../src/netconfpkg/NCDialup.py:188
+msgid "Japan"
+msgstr "Японія"
+
+#: ../src/netconfpkg/NCDialup.py:189
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: ../src/netconfpkg/NCDialup.py:190
+msgid "Korea North"
+msgstr "Корейська Народно-Демократична Республіка"
+
+#: ../src/netconfpkg/NCDialup.py:191
+msgid "Korea Republic"
+msgstr "Республіка Корея"
+
+#: ../src/netconfpkg/NCDialup.py:192
+msgid "Liechtenstein"
+msgstr "Ліхтенштейн"
+
+#: ../src/netconfpkg/NCDialup.py:193
+msgid "Lithuania"
+msgstr "Литва"
+
+#: ../src/netconfpkg/NCDialup.py:194
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: ../src/netconfpkg/NCDialup.py:195
+msgid "Macedonia"
+msgstr "Македонія"
+
+#: ../src/netconfpkg/NCDialup.py:196
+msgid "Malaysia"
+msgstr "Малайзія"
+
+#: ../src/netconfpkg/NCDialup.py:197
+msgid "Malta"
+msgstr "Мальта"
+
+#: ../src/netconfpkg/NCDialup.py:198
+msgid "Mexico"
+msgstr "Мексика"
+
+#: ../src/netconfpkg/NCDialup.py:199
+msgid "Moldova"
+msgstr "Молдова"
+
+#: ../src/netconfpkg/NCDialup.py:200
+msgid "Monaco"
+msgstr "Монако"
+
+#: ../src/netconfpkg/NCDialup.py:201
+msgid "Netherlands"
+msgstr "Нідерланди"
+
+#: ../src/netconfpkg/NCDialup.py:202
+msgid "New Zealand"
+msgstr "Нова Зеландія"
+
+#: ../src/netconfpkg/NCDialup.py:203
+msgid "Norway"
+msgstr "Норвегія"
+
+#: ../src/netconfpkg/NCDialup.py:204
+msgid "Palestine"
+msgstr "Палестина"
+
+#: ../src/netconfpkg/NCDialup.py:205
+msgid "Philippines"
+msgstr "Філіппіни"
+
+#: ../src/netconfpkg/NCDialup.py:206
+msgid "Poland"
+msgstr "Польща"
+
+#: ../src/netconfpkg/NCDialup.py:207
+msgid "Portugal"
+msgstr "Португалія"
+
+#: ../src/netconfpkg/NCDialup.py:208
+msgid "Romania"
+msgstr "Румунія"
+
+#: ../src/netconfpkg/NCDialup.py:209
+msgid "Russia"
+msgstr "Росія"
+
+#: ../src/netconfpkg/NCDialup.py:210
+msgid "Singapore"
+msgstr "Сінгапур"
+
+#: ../src/netconfpkg/NCDialup.py:211
+msgid "Slovakia"
+msgstr "Словенія"
+
+#: ../src/netconfpkg/NCDialup.py:212
+msgid "Slovenia"
+msgstr "Словенія"
+
+#: ../src/netconfpkg/NCDialup.py:213
+msgid "Spain"
+msgstr "Іспанія"
+
+#: ../src/netconfpkg/NCDialup.py:214
+msgid "Sweden"
+msgstr "Швеція"
+
+#: ../src/netconfpkg/NCDialup.py:215
+msgid "Switzerland"
+msgstr "Швейцарія"
+
+#: ../src/netconfpkg/NCDialup.py:216
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: ../src/netconfpkg/NCDialup.py:217
+msgid "Thailand"
+msgstr "Таїланд"
+
+#: ../src/netconfpkg/NCDialup.py:218
+msgid "Turkey"
+msgstr "Туреччина"
+
+#: ../src/netconfpkg/NCDialup.py:219
+msgid "Ukraine"
+msgstr "Україна"
+
+#: ../src/netconfpkg/NCDialup.py:220
+msgid "United Kingdom"
+msgstr "Велика Британія"
+
+#: ../src/netconfpkg/NCDialup.py:221
+msgid "United States of America"
+msgstr "Сполучені Штати Америки"
+
+#: ../src/netconfpkg/NCDialup.py:222
+msgid "Vietnam"
+msgstr "В'єтнам"
+
+#: ../src/netconfpkg/NCDialup.py:223
+msgid "Serbia"
+msgstr "Сербія"
+
+#. FIXED: [175078] String (country name) change request
+#: ../src/netconfpkg/NCDialup.py:224
+msgid "Montenegro"
+msgstr "Чорногорія"
+
+#: ../src/netconfpkg/NC_functions.py:97
+msgid "Common"
+msgstr "Загальний"
+
+#. Removed for now, until we have a config dialog for infrared
+#. '^irlan[0-9]+(:[0-9]+)?$' : WIRELESS
+#: ../src/netconfpkg/NC_functions.py:133
+msgid "Active"
+msgstr "Активне"
+
+#: ../src/netconfpkg/NC_functions.py:134
+msgid "Inactive"
+msgstr "Не активне"
+
+#: ../src/netconfpkg/NC_functions.py:228
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
+msgstr "Чи слід встановити наступні пакети, що потрібні Вашій системі? "
+
+#: ../src/netconfpkg/NC_functions.py:240
+msgid ""
+"You have to install the following packages, which are needed on your system!"
+msgstr "Необхідно встановити наступні пакети, що потрібні Вашій системі!"
+
+#: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
+#, python-format
+msgid ""
+"Error removing\n"
+"%s:\n"
+"%s!"
+msgstr ""
+"Помилка видалення\n"
+"%s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:814
+#, python-format
+msgid ""
+"Error copying \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Помилка копіювання \n"
+"%s\n"
+"в %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:824
+#, python-format
+msgid ""
+"Error linking \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Помилка створення посилання \n"
+"%s\n"
+"на %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:834
+#, python-format
+msgid ""
+"Error renaming \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Помилка перейменування\n"
+"%s\n"
+"в %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:842
+#, python-format
+msgid ""
+"Error creating directory!\n"
+"%s"
+msgstr ""
+"Помилка створення каталогу!\n"
+"%s"
+
+#: ../src/netconfpkg/NC_functions.py:987
+#, python-format
+msgid "Linking %s to devices and putting it in profile %s."
+msgstr "Пов'язується %s з пристроєм та переноситься до профілю %s."
+
+#: ../src/netconfpkg/NCHardware.py:22
+msgid "inactive"
+msgstr "неактивне"
+
+#. not found in last config and not in actual system
+#: ../src/netconfpkg/NCHardware.py:23
+msgid "system"
+msgstr "системне"
+
+#. found in system
+#: ../src/netconfpkg/NCHardware.py:24
+msgid "configured"
+msgstr "налаштоване"
+
+#. found in config but not in system
+#: ../src/netconfpkg/NCHardware.py:25
+msgid "ok"
+msgstr "гаразд"
+
+#: ../src/netconfpkg/NCIPsec.py:240
+msgid "IPsec activating..."
+msgstr "Активація IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:241
+#, python-format
+msgid "Activating IPsec connection %s, please wait..."
+msgstr "Активація з'єднання IPsec %s, зачекайте, будь ласка..."
+
+#: ../src/netconfpkg/NCIPsec.py:243
+#, python-format
+msgid "Cannot activate IPsec connection %s!\n"
+msgstr "Неможливо активувати з'єднання IPsec %s!\n"
+
+#: ../src/netconfpkg/NCIPsec.py:260
+msgid "IPsec deactivating..."
+msgstr "Де-активація IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:261
+#, python-format
+msgid "Deactivating IPsec connection %s, please wait..."
+msgstr "Де-активація з'єднання IPsec %s, зачекайте, будь ласка..."
+
+#: ../src/netconfpkg/NCIPsec.py:263
+#, python-format
+msgid "Cannot deactivate IPsec connection %s!\n"
+msgstr "Неможливо де-активувати з'єднання IPsec %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:213
+#, python-format
+msgid "Device %s uses the same Hardware Device \"%s\" like %s!\n"
+msgstr ""
+"Пристрій %s використовує той самий апаратний пристрій \"%s\", що і %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:215
+msgid ""
+"Please select another Hardware Device or \n"
+"activate only one of them."
+msgstr ""
+"Виберіть інший апаратний пристрій\n"
+"або зробіть активним лише один з них."
+
+#: ../src/netconfpkg/NCProfileList.py:292
+msgid ""
+"You changed the hostname.\n"
+"\n"
+"Should the hostname be set to the system now?\n"
+"This may have the effect, that some X applications do not function "
+"properly.\n"
+"\n"
+"You may have to relogin."
+msgstr ""
+"Ви змінили назву вузла.\n"
+"\n"
+"Використовувати системну назву у якості назви вузла?\n"
+"Це може порушити функціональність деяких програм X.\n"
+"\n"
+"Може знадобитися повторна авторизація."
+
+#: ../src/netconfpkg/NCProfileList.py:538
+msgid "Error removing file %(file)s: %(errormsg)"
+msgstr "Помилка при видаленні файлу %(file)s: %(errormsg)"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+msgid "<New Device>"
+msgstr "<Новий пристрій>"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+msgid "Which device type do you want to add?"
+msgstr "Пристрій якого типу додати?"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+msgid "Add"
+msgstr "Додати"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDNS.py:69
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:154
+#: ../src/netconfpkg/tui/NCTcpIp.py:131
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+msgid "QETH"
+msgstr "QETH"
+
+#. li = self.Listbox(5, returnExit=1)
+#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+msgid "Select A Device"
+msgstr "Виберіть пристрій"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+msgid "Save"
+msgstr "Зберегти"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:55
+msgid "Hostname"
+msgstr "Назва вузла"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:56
+msgid "Primary DNS"
+msgstr "Головний DNS"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:57
+msgid "Secondary DNS"
+msgstr "Другий DNS:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:58
+msgid "Tertiary DNS"
+msgstr "Третій DNS:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:59
+msgid "DNS search path"
+msgstr "Шлях пошуку DNS"
+
+#. g2.setField(gwy, 1, 5, (1, 0, 0, 0))
+#. dynip.setCallback(useDynamicCheckBox)
+#: ../src/netconfpkg/tui/NCPluginDNS.py:68
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
+#: ../src/netconfpkg/tui/NCTcpIp.py:130
+msgid "Ok"
+msgstr "Гаразд"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+msgid "DNS configuration"
+msgstr "Налаштовування DNS"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:128
+#: ../src/netconfpkg/tui/NCTcpIp.py:113
+msgid "Name"
+msgstr "Назва"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:69
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:69
+msgid "ISP Phonenumber"
+msgstr "Номер телефону провайдера"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:70
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:70
+msgid "ISP Login"
+msgstr "Реєстраційне ім'я"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:71
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:71
+msgid "ISP Password"
+msgstr "Пароль"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:72
+msgid "MSN"
+msgstr "MSN"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:81
+msgid "ISDN Configuration"
+msgstr "Налаштовування ISDN"
+
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:72
+msgid "Modem Initstring"
+msgstr "Рядок ініціалізації модему"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:130
+#: ../src/netconfpkg/tui/NCTcpIp.py:115
+msgid "Use DHCP"
+msgstr "Використовувати DHCP"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:131
+#: ../src/netconfpkg/tui/NCTcpIp.py:116
+msgid "Static IP"
+msgstr "Статичний IP"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:132
+#: ../src/netconfpkg/tui/NCTcpIp.py:117
+msgid "Netmask"
+msgstr "Маска мережі"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:133
+#: ../src/netconfpkg/tui/NCTcpIp.py:118
+msgid "Default gateway IP"
+msgstr "Адреса основного шлюзу:"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:134
+msgid "Read Device Bus ID"
+msgstr "Прочитати ID шини пристрою"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:135
+msgid "Data Device Bus ID"
+msgstr "ID шини пристрою даних"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:136
+msgid "Write Device Bus ID"
+msgstr "ID шини пристрою запису"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:138
+msgid "Options"
+msgstr "Параметри"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:139
+msgid "MAC Address"
+msgstr "MAC Адреса"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+msgid "Devernet Configuration"
+msgstr "Налаштовування Devernet"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:119
+msgid "Primary DNS Server"
+msgstr "Головний сервер DNS:"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:120
+msgid "Secondary DNS Server"
+msgstr "Другий сервер DNS"
+
+#: ../src/netconf.py:63
+#, python-format
+msgid "Error: %s, %s!"
+msgstr "Помилка: %s, %s!"
+
+#: ../src/netconf.py:65
+msgid "Starting text version"
+msgstr "Запускається текстова версія"
+
+#: ../src/netconf.py:84
+msgid ""
+"ERROR: Unable to initialize graphical environment.Most likely cause of "
+"failure is that the tool was not run using a graphical environment. Please "
+"either start your graphical user interface or set your DISPLAY variable."
+msgstr ""
+"ПОМИЛКА: Не вдається ініціалізувати графічне оточення. Можливо, програму "
+"запущено не у графічному оточенні. Перезапустіть графічний інтерфейс "
+"користувача або вкажіть значення змінної DISPLAY."
+
+#: ../src/netconf.py:130
+msgid "Loading Network Configuration..."
+msgstr "Завантажуються параметри мережі..."
+
+#: ../src/netconf.py:143
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose"
+msgstr ""
+"system-config-network - утиліта налаштовування мережі\n"
+"\n"
+"Використання: system-config-network -v --verbose"
+
+#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+msgid "Please start system-config-network with root permissions!\n"
+msgstr "Перезапустіть system-config-network з правами адміністратора!\n"
+
+#: ../src/netconf_tui.py:127
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.  Please save "
+"the crash dump and file a detailed bug report against system-config-network "
+"at https://bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Виникла необроблена виняткова ситуація. Швидше за все це помилка у програмі. "
+"Будь ласка збережіть повний текст помилки у файл та складіть звіт про "
+"помилку компоненти system-config-network на  https://bugzilla.redhat.com/"
+"bugzilla/"
+
+#: ../src/netconf_tui.py:162
+msgid "Loading configuration"
+msgstr "Завантаження параметрів"
+
+#: ../src/netconf_tui.py:163
+msgid "Loading Device Configuration"
+msgstr "Завантаження параметрів пристрою"
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:169
+msgid "Loading Hardware Configuration"
+msgstr "Завантаження параметрів обладнання"
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:173
+msgid "Loading Profile Configuration"
+msgstr "Завантаження параметрів профілю"
+
+#. do this more inteligent - auto loading of new plugins??
+#: ../src/netconf_tui.py:255
+msgid "Device configuration"
+msgstr "Параметри пристрою"
+
+#: ../src/netconf_tui.py:264
+msgid "Select Action"
+msgstr "Виберіть дію"
+
+#: ../src/netconf_tui.py:265
+msgid "Save&Quit"
+msgstr "Зберегти та вийти"
+
+#: ../src/netconf_tui.py:265
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../system-config-network.desktop.in.h:1
+msgid "Configure network devices and connections"
+msgstr "Налаштовування мережних пристроїв та з'єднань"
+
+#: ../system-config-network.desktop.in.h:2
+msgid "Network"
+msgstr "Мережа"
+
+#: ../system-control-network.desktop.in.h:1
+msgid "Control and monitor network devices"
+msgstr "Керування мережними пристроями та стеження за мережею"

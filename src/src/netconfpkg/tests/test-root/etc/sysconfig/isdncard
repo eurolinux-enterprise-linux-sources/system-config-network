@@ -1,0 +1,5 @@
+RESOURCES='protocol=2 type=30 irq=5 id=HiSax io=0x300'
+NAME='ACER P10'
+MODULE=hisax
+VENDOR_ID=
+FIRMWARE=

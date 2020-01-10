@@ -1,0 +1,394 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Working with Profiles</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Activating Devices"
+HREF="network-config-activate.html"><LINK
+REL="NEXT"
+TITLE="Device Aliases"
+HREF="network-aliases.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-activate.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-aliases.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-PROFILES"
+></A
+>Chapter 12. Working with Profiles</H1
+><P
+>	Multiple logical network devices can be created for each physical
+	hardware device. For example, if you have one Ethernet card in your
+	system (eth0), you can create logical network devices with different
+	nicknames and different configuration options, all to be specifically
+	associated with eth0.
+      </P
+><P
+>	Logical network devices are different from device aliases. Logical
+	network devices associated with the same physical device must exist in
+	different profiles and cannot be activated simultaneously. Device
+	aliases are also associated with the same physical hardware device, but
+	device aliases associated with the same physical hardware can be
+	activated at the same time. Refer to <A
+HREF="network-aliases.html"
+>Chapter 13</A
+>
+	for details about creating device aliases.
+      </P
+><P
+>	<I
+CLASS="FIRSTTERM"
+>Profiles</I
+> can be used to create multiple
+	configuration sets for different networks. A configuration set can
+	include logical devices as well as hosts and DNS settings. After
+	configuring the profiles, you can use the
+	<B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> to switch back and forth
+	between them.
+      </P
+><P
+>	By default, there is one profile called <B
+CLASS="GUILABEL"
+>Common</B
+>. To
+	create a new profile, select <B
+CLASS="GUIMENU"
+>Profile</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>New</B
+> from the pull-down menu, and enter a
+	unique name for the profile.
+      </P
+><P
+>	You are now modifying the new profile as indicated by the status bar at
+	the bottom of the main window.
+      </P
+><P
+>	Click on an existing device already in the list, and click the
+	<B
+CLASS="GUIBUTTON"
+>Copy</B
+> button to copy the existing device to a
+	logical network device. If you use the <B
+CLASS="GUIBUTTON"
+>New</B
+>
+	button, a network alias will be created, which is incorrect. To change
+	the properties of the logical device, select it from the list and click
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+>. For example, the nickname can be changed to
+	a more descriptive name, such as <TT
+CLASS="USERINPUT"
+><B
+>eth0_office</B
+></TT
+>, so
+	that it can be recognized more easily.
+      </P
+><P
+>	In the list of devices, there is a column of checkboxes labeled
+	<B
+CLASS="GUILABEL"
+>Profile</B
+>. For each profile, you can check or uncheck
+	devices. Only the checked devices are included for the currently
+	selected profile. For example, if you create a logical device named
+	<TT
+CLASS="USERINPUT"
+><B
+>eth0_office</B
+></TT
+> in a profile called
+	<TT
+CLASS="USERINPUT"
+><B
+>Office</B
+></TT
+> and want to activate the logical device if
+	the profile is selected, uncheck the
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+> device and check the
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0_office</TT
+> device.
+      </P
+><P
+>	For example, <A
+HREF="network-profiles.html#NEAT-OFFICE-PROFILE-FIG"
+>Figure 12-1</A
+> shows a profile
+	called <B
+CLASS="GUILABEL"
+>Office</B
+> with the logical device
+	<B
+CLASS="GUILABEL"
+>eth0_office</B
+>. It is configured to activate the first
+	Ethernet card using DHCP.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-OFFICE-PROFILE-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-office-profile.png"></P
+></DIV
+><P
+><B
+>Figure 12-1. Office Profile</B
+></P
+></DIV
+><P
+>	Notice that the <B
+CLASS="GUILABEL"
+>Home</B
+> profile as shown in <A
+HREF="network-profiles.html#NEAT-HOME-PROFILE-FIG"
+>Figure 12-2</A
+> activates the
+	<B
+CLASS="GUILABEL"
+>eth0_home</B
+> logical device, which is associated with
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+>.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-HOME-PROFILE-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-home-profile.png"></P
+></DIV
+><P
+><B
+>Figure 12-2. Home Profile</B
+></P
+></DIV
+><P
+>	You can also configure <TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+> to activate
+	in the <B
+CLASS="GUILABEL"
+>Office</B
+> profile only and to activate a ppp
+	(modem) device in the <B
+CLASS="GUILABEL"
+>Home</B
+> profile only. Another
+	example is to have the <B
+CLASS="GUILABEL"
+>Common</B
+> profile activate
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+> and an <B
+CLASS="GUILABEL"
+>Away</B
+>
+	profile activate a ppp device for use while traveling.
+      </P
+><P
+>	A profile cannot be activated at boot time. Only the devices set to
+	activate at boot time in the <B
+CLASS="GUILABEL"
+>Common</B
+> profile (the
+	default profile) are activated at boot time. After the system as booted,
+	go to <B
+CLASS="GUIMENU"
+>Main Menu</B
+> (on the Panel) =&#62; <B
+CLASS="GUIMENU"
+>System
+	Tools</B
+> =&#62; <B
+CLASS="GUIMENUITEM"
+>Network Device Control</B
+> (or
+	type the command <TT
+CLASS="COMMAND"
+>system-control-network</TT
+>) to select a
+	profile and activate it. The activate profile section only appears in
+	the <B
+CLASS="APPLICATION"
+>Network Device Control</B
+> interface if more
+	than the default <B
+CLASS="GUILABEL"
+>Common</B
+> interface exists.
+      </P
+><P
+>      Alternatively, execute the following command to enable a profile (replace
+<TT
+CLASS="REPLACEABLE"
+><I
+>&#60;profilename&#62;</I
+></TT
+> with the name of the profile):
+      </P
+><TABLE
+CLASS="SCREEN"
+BGCOLOR="#DCDCDC"
+WIDTH="100%"
+><TR
+><TD
+><PRE
+CLASS="SCREEN"
+><TT
+CLASS="COMMAND"
+>system-config-network-cmd --profile <TT
+CLASS="REPLACEABLE"
+><I
+>&#60;profilename&#62;</I
+></TT
+> --activate</TT
+></PRE
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-activate.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-aliases.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Activating Devices</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Device Aliases</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

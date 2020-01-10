@@ -1,0 +1,1 @@
+connect "/usr/bin/wvdial --remotename 1net4you --chat '1net4you'"

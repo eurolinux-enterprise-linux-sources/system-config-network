@@ -1,0 +1,9 @@
+# Intel Corp.|82540EM Gigabit Ethernet Controller
+DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+TYPE=Ethernet
+USERCTL=no
+PEERDNS=yes
+IPV6INIT=no
+NM_CONTROLLED=no

@@ -1,0 +1,2833 @@
+[Begin]
+[Country] Austria
+[Flag]    at
+[City]    National
+[Name]    Easy_Internet_Lemon
+[Type]    isdn modem
+[Phone]   1002019088333
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Austria
+[Flag]    at
+[City]    National
+[Name]    Internet_Unlimited_Lemon
+[Type]    isdn modem
+[Phone]   1002019088390
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Austria
+[Flag]    at
+[City]    National
+[Name]    Compact_und_Classic_Pro
+[Type]    isdn modem
+[Phone]   1002019088311
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Austria
+[Flag]    at
+[City]    National
+[Name]    T-Online
+[Type]    isdn modem
+[Phone]   0804001910
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Austria
+[Flag]    at
+[City]    National
+[Name]    ViP
+[Type]    isdn modem
+[Phone]   080400019410
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    IQNET
+[Type]    isdn modem
+[Phone]   971101711
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[User]    iqnet
+[Pass]    registrace
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Fortech
+[Type]    isdn modem
+[Phone]   971202311
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    ApexNet
+[Type]    modem
+[Phone]   3449442
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    ASYS_IJD
+[Type]    isdn modem
+[Phone]   971202911
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Econnect
+[Type]    modem
+[Phone]   971205411
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Falco_computer
+[Type]    modem
+[Phone]   971200411
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    AICOM
+[Type]    modem
+[Phone]   971204211
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    SeverNET
+[Type]    modem isdn
+[Phone]   971206811
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    ITS
+[Type]    modem
+[Phone]   67132900
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    BohemiaNet-Setup
+[Type]    modem isdn
+[Phone]   971205211
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    ProfiNet
+[Type]    modem
+[Phone]   971215311
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Brailcom
+[Type]    modem
+[Phone]   971214011
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[User]    internet
+[Pass]    zababku
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    INTERNEXT_2000
+[Type]    modem isdn
+[Phone]   971207211
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    CITYNET
+[Type]    modem isdn
+[Phone]   971202611
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    M-soft
+[Type]    modem isdn
+[Phone]   971201611
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    ARsystem
+[Type]    modem
+[Phone]   971214111
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[User]    demo
+[Pass]    777
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Contactel
+[Type]    modem isdn
+[Phone]   971101211
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[User]    Raz
+[Pass]    Dva
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Centrum.cz
+[Type]    modem isdn
+[Phone]   971115611
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    KPNQuest
+[Type]    modem isdn
+[Phone]   971204611
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    INTERNET_On_Line
+[Type]    modem isdn
+[Phone]   971103311
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Nextra
+[Type]    modem isdn
+[Phone]   971100311
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Video_On_Line
+[Type]    modem isdn
+[Phone]   971200111
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[User]    internet
+[Pass]    zdarma
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Kiwwi
+[Type]    modem isdn
+[Phone]   971115911
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Quick
+[Type]    modem isdn
+[Phone]   971103333
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[User]    freequick
+[Pass]    freequick
+[End]
+
+[Begin]
+[Country] Czech Republic
+[Flag]    cs
+[City]    National
+[Name]    Internet_DA
+[Type]    modem isdn
+[Phone]   971213511
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[Layer2]  HDLC
+[User]    test
+[Pass]    Internet
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    1net4you
+[User]    web
+[Pass]    web
+[Type]    modem isdn
+[Phone]   019256252
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    1stlog
+[User]    1stlog
+[Pass]    internet
+[Type]    modem isdn
+[Phone]   019256336
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    1und1-Online
+[Type]    isdn
+[Prefix]  01910
+[Phone]   2323
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.24internet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    24internet
+[User]    surfen@24fast
+[Pass]    surfen
+[Type]    modem isdn
+[Phone]   019256210
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.aaxxess.net/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    aaxxess_net
+[User]    internet
+[Pass]    internet
+[Type]    modem isdn
+[Phone]   019256295
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    acn
+[Type]    isdn modem
+[User]    acn
+[Pass]    internet
+[Phone]   0192666500
+[Encaps]  syncPPP
+[DNS]     213.21.51.250
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.allesfair.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    Allesfair
+[Type]    isdn modem
+[User]    allesfair@internet
+[Pass]    allesfair
+[Phone]   019256222
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.privat.arcor.net/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    Arcor
+[Type]    isdn modem
+[User]    arcor-basis
+[Pass]    internet
+[Phone]   08001070800
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    ArgonSoft
+[Type]    isdn modem
+[User]    GlobalServe
+[Pass]    fastaccess
+[Phone]   01925892
+[DNS]     62.104.113.10
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.bycallnet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    bycallnet
+[Type]    isdn modem
+[User]    24bycallnet@24bycallnet.de
+[Pass]    24bycallnet
+[Phone]   02305353117
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    call2surf
+[Type]    isdn modem
+[User]    call2surf
+[Pass]    call2surf
+[Phone]   019256191
+[Encaps]  syncPPP
+[DNS]     195.182.96.28
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Callino
+[User]    callino
+[Pass]    internet
+[Prefix]  01075
+[Phone]   0192300
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.claranet.de
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    Claranet
+[Type]    isdn modem
+[User]    claranet
+[Pass]    claranet
+[Phone]   01930945
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    CompuServe
+[Type]    isdn modem 
+[Phone]   019160
+[Domain]  compuserve.de
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Name]    Comundo
+[Type]    isdn modem
+[Prefix]  01033
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[DNS]     193.189.224.2
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    corax
+[User]    corax
+[Pass]    corax
+[Prefix]  01019
+[Phone]   01928150
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    CTD
+[User]    preiswert
+[Pass]    net
+[Prefix]  019
+[Phone]   256315
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Cyberfun
+[User]    sdt
+[Pass]    sdt
+[Prefix]  01088
+[Phone]   01943020
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Drillisch
+[User]    drillisch
+[Pass]    internet
+[Prefix]  010050
+[Phone]   0192134
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.duell-net.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    duell-net
+[User]    duell-net@internet
+[Pass]    internet
+[Phone]   019256220
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.easy-call.net/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Easynet
+[User]    easycall@easy-call.net
+[Pass]    easynet
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.easysurf4you.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    easysurf4YOU
+[User]    surf@easysurf4you
+[Pass]    easysurf
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    ExpressNet
+[User]    internet@expressnet.de
+[Pass]    internet
+[Phone]   019193131
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://maxnet.fhd.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    FHD
+[User]    surf@0-problemo
+[Pass]    guenstig
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.flat4you.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Flat4You
+[User]    power@flat4you
+[Pass]    power
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.freenet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Freenet
+[User]    freenet
+[Pass]    freenet
+[Phone]   0190716716
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.gbo.net/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    GBO_NET
+[User]    gbo
+[Pass]    net
+[Phone]   01925855
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.geonet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Geonet
+[User]    geonet
+[Pass]    geonet
+[Phone]   01921790040
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]    http://www.globvill.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Global_Village
+[User]    cbc@global-village.de
+[Pass]    internet
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.freesurfday.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    freesurfday
+[User]    freesurfday
+[Pass]    xxl
+[Phone]   03561519787
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.germanybycall.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Germany_by_Call
+[User]    fun
+[Pass]    fun
+[Phone]   0190071238
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    GTS_Esprit
+[User]    gts
+[Pass]    internet
+[Prefix]  01040
+[Phone]   0192340
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.hlkomm.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    HL_komm
+[User]    sonntag
+[Pass]    sonntag
+[Prefix]  03493
+[Phone]   975998
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.htp-tel.net
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    htp
+[User]    htp4all
+[Pass]    htp4all
+[Prefix]  0511
+[Phone]   6006000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Knuut
+[User]    knuut
+[Pass]    knuut
+[Prefix]  01088
+[Phone]   0191955
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.040.komtel.net/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    KomTel
+[User]    KomTel
+[Pass]    sparsam
+[Prefix]  040
+[Phone]   55550666
+[Domain]  komtel.net
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.ln-online.de 
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Luebecker_Nachtrichten
+[User]    LN
+[Pass]    online
+[Phone]   0192361
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.magicspeed.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    MagicSpeed
+[User]    speed@magicspeed
+[Pass]    magic
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Matoma
+[User]    matoma
+[Pass]    matoma
+[Prefix]  01019
+[Phone]   019282799
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    MDS
+[User]    mds
+[Pass]    online
+[Prefix]  01075
+[Phone]   0192666120
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Mobilcom
+[User]    t0101901929
+[Pass]    mobilcom
+[Prefix]  01019
+[Phone]   01929
+[Domain]  01019freenet.de
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.mopower.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    mopower
+[User]    mo
+[Pass]    power
+[Phone]   01086021198969296
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.msn.de/easysurfer
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    MSN
+[User]    MSN
+[Pass]    MSN
+[Phone]   0192658
+[DNS]     192.76.144.66
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Nacamar
+[Prefix]  01024
+[Phone]   01924777
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Nordkom
+[Prefix]  01801
+[Phone]   638787
+[Domain]  nordkom.de
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Otelo
+[User]    otelo
+[Pass]    online
+[Prefix]  01011
+[Phone]   0191501
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    POP
+[User]    call
+[Pass]    POP
+[Prefix]  01040
+[Phone]   0192343
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    RNInet
+[Prefix]  01033
+[Phone]   0621166767
+[Domain]  rhein-neckar.de
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    RSL_COM
+[User]    clever
+[Pass]    surf
+[Phone]   0193034
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.rtl.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    RTLNET
+[User]    rtl@net.de
+[Pass]    rtlnet
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.smart79surfen.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Smart79
+[User]    smart79
+[Pass]    surfen
+[Phone]   01900790190079
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.speed21.de
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Speed21
+[User]    speed21
+[Pass]    speed21
+[Phone]   0193052
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Supernet
+[User]    SuperConnect@sc
+[Pass]    super
+[Prefix]  01088
+[Phone]   0193001
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.surf25.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]  	 Surf25
+[User]    gkas@gkas.de
+[Pass]    gkas
+[Phone]   0191795
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://surfdirect.news.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    surfdirect
+[User]    surfdirect@surfdirect3.de
+[Pass]    internet
+[Phone]   019161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.talknet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    talknet_by_call
+[User]    online
+[Pass]    talknet
+[Prefix]  01805
+[Phone]   004757
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.telediscount.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    telediscount
+[User]    telediscount
+[Pass]    telediscount
+[Phone]   0193656
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.t-link.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    tlink
+[User]    internet@tlink
+[Pass]    internet
+[Phone]   01937400568
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    T-Online
+[Prefix]  01930
+[Phone]   664982 
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+ 
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    T-Online-Flat
+[Prefix]  01910
+[Phone]   11
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Telepassport
+[User]    internet
+[Pass]    internet
+[Prefix]  01024
+[Phone]   01924924
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    UUNET
+[User]    knuut
+[Pass]    knuut
+[Prefix]  01088
+[Phone]   0191955
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    -pap +chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.versatel.de
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Versatel
+[User]    versatel
+[Pass]    internet
+[Prefix]  0231
+[Phone]   2268998
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    -pap +chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.ventelo.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Ventelo
+[User]    ventelo
+[Pass]    internet
+[Phone]   0192641
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    -pap +chap
+[Ipsetup] dynamic
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    VIAG-Interkom
+[User]    anonymer
+[Pass]    surfer
+[Prefix]  01090
+[Phone]   0191799
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.wel.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    wel_de
+[User]    wel@internet
+[Pass]    internet
+[Phone]   019389687
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    X9MEDIA
+[User]    internet
+[Pass]    internet
+[Prefix]  01019
+[Phone]   019282200
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    x-serv
+[User]    xserv
+[Pass]    internet
+[Prefix]  01075
+[Phone]   0192666310
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Web29
+[User]    lbz@lbz.de
+[Pass]    online
+[Phone]   0191797
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Yahoo
+[User]    yahoo
+[Pass]    yahoo
+[Prefix]  01070
+[Phone]   0192020
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.yellostrom.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Yello
+[User]    yello
+[Pass]    yello
+[Phone]   019256321
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Url]     http://www.younet.de/
+[Country] Germany
+[Flag]    de
+[City]    National
+[Type]    isdn modem
+[Name]    Younet
+[User]    younet
+[Pass]    internet
+[Phone]   019256140
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Aachen
+[Type]    isdn
+[Name]    Okaynet
+[Prefix]  0240
+[Phone]   814030
+[Encaps]  syncPPP
+[DNS]     194.152.32.1
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Aachen
+[Type]    isdn
+[Name]    RWTH_Aachen
+[Prefix]  0241
+[Phone]   88721
+[Encaps]  syncPPP
+[DNS]     137.226.144.3
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[City]    Ausburg
+[Flag]    de
+[Type]    isdn
+[Name]    Uni_Augsburg
+[Prefix]  0821
+[Phone]   257750
+[Encaps]  syncPPP
+[DNS]     137.250.1.254
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Berlin  
+[Type]    isdn
+[Name]    Okaynet
+[Prefix]  030
+[Phone]   2029680
+[Encaps]  syncPPP
+[DNS]     194.152.32.1
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Berlin
+[Type]    isdn
+[Name]    Snafu
+[Prefix]  030
+[Phone]   254420
+[Encaps]  syncPPP
+[DNS]     194.64.64.1
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Berlin
+[Type]    isdn
+[Name]    ZEDAT_Berlin
+[Prefix]  030
+[Phone]   8417258
+[Encaps]  syncPPP
+[DNS]     160.45.8.8
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Bielefeld
+[Type]    isdn
+[Name]    LanGate
+[Prefix]  0521
+[Phone]   911781
+[Encaps]  syncPPP
+[DNS]     129.70.5.16
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Berlin
+[Type]    isdn
+[Name]    ZRZ_TUBerlin
+[Prefix]  030
+[Phone]   31553500
+[Encaps]  syncPPP
+[DNS]     130.149.4.20
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Bielefeld
+[Type]    isdn
+[Name]    Uni_Bielefeld
+[Prefix]  0521
+[Phone]   911781
+[Encaps]  syncPPP
+[DNS]     129.70.5.16
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Bingen
+[Type]    isdn
+[Name]    Nacamar_Suedwest
+[Prefix]  06721
+[Phone]   9430
+[Domain]  tap.de
+[DNS]     194.162.200.10
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    CHAP
+[Ipsetup] dynamic
+[End] 
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Bochum
+[Type]    isdn
+[Name]    Uni_Bochum
+[Prefix]  0234
+[Phone]   97865
+[Encaps]  syncPPP
+[DNS]     134.147.222.4
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Brandenburg
+[Type]    isdn
+[Name]    IN
+[Prefix]  030
+[Phone]   315999666
+[Encaps]  syncPPP
+[DNS]     193.175.22.3
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Chemnitz
+[Type]    isdn
+[Name]    TU_Chemnitz
+[Prefix]  0371
+[Phone]   3670510
+[Encaps]  syncPPP
+[DNS]     134.109.2.2
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Duisburg
+[Type]    isdn
+[Name]    Uni_Duisburg
+[Prefix]  0203
+[Phone]   3796969
+[Encaps]  syncPPP
+[DNS]     134.91.4.3
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Frankfurt am Main
+[Type]    isdn
+[Name]    Metronet
+[Prefix]  069
+[Phone]   632332
+[Encaps]  syncPPP
+[DNS]     151.189.0.25
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Freiburg
+[Type]    isdn
+[Name]    Freiburg
+[Prefix]  0761
+[Phone]    2074722
+[Encaps]  syncPPP
+[DNS]     192.76.144.66
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Hamburg
+[Type]    isdn
+[Name]    Uni_Hamburg
+[Prefix]  040
+[Phone]   41532
+[Encaps]  syncPPP
+[Domain]  uni-hamburg.de
+[DNS]     134.100.33.240
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Hamburg
+[Type]    isdn
+[Name]    Nacamar
+[Prefix]  040
+[Phone]   69641534
+[Domain]  nacamar.de
+[DNS]     194.162.262.194
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End] 
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Hannover
+[Type]    isdn
+[Name]    Shiva
+[Prefix]  0511
+[Phone]   92973
+[Encaps]  syncPPP
+[DNS]     141.71.1.21
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Köln
+[Type]    isdn
+[Name]    NetColgne
+[Prefix]  0221
+[Phone]   9174510
+[Encaps]  syncPPP
+[DNS]     194.8.194.70
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Mainz
+[Type]    isdn
+[Name]    Nacamar Suedwest
+[Prefix]  06131
+[Phone]   32250
+[Domain]  tap.de
+[DNS]     194.162.200.10
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    CHAP
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Marburg
+[Type]    isdn
+[Name]    HRZ_Uni_Marburg_Mitarbeiter
+[Prefix]  06421
+[Phone]   99130
+[Domain]  uni-marburg.de
+[Encaps]  syncPPP
+[DNS]     137.248.1.8
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Marburg
+[Type]    isdn
+[Name]    Uni_Marburg
+[Prefix]  06421
+[Phone]   1790
+[Domain]  uni-marburg.de
+[DNS]     137.248.1.8
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Pforzheim
+[Type]    isdn
+[Name]    SWOL
+[Prefix]  07231
+[Phone]   13470
+[Encaps]  syncPPP
+[DNS]     195.238.142.100
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Germany
+[Flag]    de
+[City]    Wuppertal
+[Type]    isdn
+[Name]    Klaus_DatenTechnik
+[Prefix]  0202
+[Phone]   495295
+[Encaps]  syncPPP
+[DNS]     195.8.224.1
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    Nextra
+[Phone]   81007007
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    FriSurf
+[Phone]   81545000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    Enitel_Pluss
+[Phone]   81015000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    Enitel_Go
+[Phone]   1516 21004000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    Powertec
+[Phone]   22208500
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    National
+[Type]    isdn
+[Name]    Start
+[Phone]   22426051
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Norway
+[Flag]    no
+[City]    Halden
+[Type]    isdn
+[Name]    HaldenNet
+[Phone]   69175588
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    AmisNet
+[Prefix]  0889
+[Phone]   32410
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    Arnes
+[Prefix]  0889
+[Phone]   32330
+[Encaps]  syncPPP
+[DNS]     193.2.1.66
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    Kiss
+[Prefix]  0889
+[Phone]   32520
+[Encaps]  syncPPP
+[DNS]     193.2.98.10
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    MojNet
+[Prefix]  0889
+[Phone]   32440
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    SiolNet
+[Prefix]  0880
+[Phone]   32320
+[Encaps]  syncPPP
+[DNS]     193.189.160.11
+[Layer2]  HDLC
+[Auth]    CHAP
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] Slovenia
+[Flag]    si
+[City]    Ljubljana
+[Type]    isdn modem
+[Name]    Volja
+[Prefix]  0889
+[Phone]   32480
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    isdn modem
+[Name]    Totalise
+[Phone]   08453001470
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    isdn modem
+[Name]    Force9
+[Phone]   08451424000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[User]    signup
+[Pass]    signup
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    modem
+[Name]    Free_Net_Name
+[Phone]   08450800889
+[Encaps]  syncPPP
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    modem
+[Name]    Freeserve
+[Phone]   08450796699
+[Encaps]  syncPPP
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    modem
+[Name]    Vispa_Internet
+[Phone]   08453080125
+[Encaps]  syncPPP
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    modem isdn
+[Name]    Rebel_Networks
+[Phone]   08453535555
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[User]    signup
+[Pass]    rebel
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Type]    modem
+[Name]    Hotlinks_Internet_Services
+[Phone]   08453535555
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[User]    signup
+[Pass]    linux
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    0800_Dial
+[Type]    modem
+[Prefix]  0845
+[Phone]   6105114
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Abel_Gratis
+[Type]    modem
+[Prefix]  0845
+[Phone]   6601906
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    BowieNet
+[Type]    modem
+[Prefix]  0845
+[Phone]   0798777
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Callnet
+[Type]    modem
+[Prefix]  0845
+[Phone]   3011511
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Care4free
+[Type]    isdn modem
+[Prefix]  0845
+[Phone]   0884109
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    clara_net
+[Type]    modem
+[Prefix]  0845
+[Phone]   3534000
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Cymru_1
+[Type]    modem
+[Prefix]  0845
+[Phone]   0001340
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Dabsol
+[Type]    modem
+[Prefix]  0845
+[Phone]   1405000
+[DNS]     212.56.108.16
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Datanet
+[Type]    modem
+[Prefix]  0845
+[Phone]   6075721
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Netscalibur
+[Type]    modem
+[Prefix]  0845
+[Phone]   1177777
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    easynetdial_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   3331111
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    easynetdial_isdn
+[Type]    isdn
+[Prefix]  0845
+[Phone]   3331112
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    ecosse_net
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   6621534
+[Auth]    +pap -chap
+[Layer2]  HDLC
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    EidosNet_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   331612
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    EidosNet_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   3331611
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    fish_co_uk
+[Type]    modem
+[Prefix]  0845
+[Phone]   0795033
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    StayFree
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   2349878
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Free-Internet
+[Type]    modem
+[Prefix]  0845
+[Phone]   1400003
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    FreeISP
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   6671511
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    FreeNet
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   3530000
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Freeserve
+[Type]    modem
+[Prefix]  0845
+[Phone]   0796699
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    FreeUK
+[Type]    modem
+[Prefix]  0845
+[Phone]   3501122
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    FreeWire
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   0880088
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Freezone
+[Type]    modem ISDN
+[Prefix]  0845
+[Phone]   6621026
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GlobalNomad_standard_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   6621030
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GlobalNomad_K-Flex_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   6621130
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GlobalNomad_X2_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   6621230
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GlobalNomad_V_90_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   6621530
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GlobalNomad_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   6621130
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    GreatXscape
+[Type]    modem
+[Prefix]  0845
+[Phone]   2402244
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Griffin_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   0001160
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Griffin_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   0001161
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    interlynx_net
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   6671669
+[Auth]    +pap -chap
+[Layer2]  HDLC
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Internet-UK
+[Type]    modem
+[Prefix]  0845
+[Phone]   6621514
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    inWeb_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   0033333
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    inWeb_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   0033334
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Luna_internet
+[Type]    modem
+[Prefix]  0845
+[Phone]   6075702
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    madasafish
+[Type]    modem
+[Prefix]  0845
+[Phone]   3504005
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    NETCOM_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   0798888
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    NETCOM_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   0798555
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Netscape_Online
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   3001815
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Paston_Chase
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   6389828
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Poptel
+[Type]    modem
+[Prefix]  0845
+[Phone]   0554090
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    portland_communications
+[Type]    modem
+[Prefix]  0845
+[Phone]   1200001
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    RedNet_Ltd
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   0554646
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    SmartOne
+[Type]    modm
+[Prefix]  0845
+[Phone]   3530500
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Sniff_Out_Classic
+[Type]    modem
+[Prefix]  0845
+[Phone]   3600100
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Tesco_net
+[Type]    modem
+[Prefix]  0845
+[Phone]   7576169
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Themail
+[Type]    modem isdn
+[Prefix]  0845
+[Phone]   0555555
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    UK_Online_modem
+[Type]    modem
+[Prefix]  0845
+[Phone]   3331121
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    UK_Online_ISDN
+[Type]    isdn
+[Prefix]  0845
+[Phone]   3331122
+[Encaps]  syncPPP
+[Layer2]  HDLC
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    UnityNet
+[Type]    modem
+[Prefix]  0845
+[Phone]   3003760
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]
+
+[Begin]
+[Country] United Kingdom
+[Flag]    uk
+[City]    National
+[Name]    Xalt
+[Type]    modem
+[Prefix]  0845
+[Phone]   6105115
+[Auth]    +pap -chap
+[Ipsetup] dynamic
+[End]

@@ -1,0 +1,117 @@
+.oOo.  Netconf  .oOo.
+=====================
+
+Priorities
+----------
+There are 3 priorities:
+
+ 0: Mandatory. Without these, we're screwed.
+ 1: Optional but important. We should try to cover them as much as possible.
+ 2: Optional less important. Nice to have, but can wait till next release.
+
+Tasks
+-----
+ - Spec of overall design (mostly done: devhtml/os/todo/new-netconf.html) (0)
+ - Spec and impl. of new Profile setup (new design, needs changes) (0)
+ - Spec and impl. of new Device setup on the basic level (initscripts and
+   library).
+   Supported devices:
+    - Lan (Ethernet, Token ring) (0)
+    - Dialup (Modem/ISDN/(A)DSL) (0)
+    - Wireless                   (1)
+    - S390 QETH                  (2)
+   Configuration options:
+    - Basic setup                (0)
+    - Device spez. setup         (0)
+    - Routing                    (0)
+    - DNS                        (0)
+    - IP-Aliases                 (0)
+    - Security                   (1)
+    - Traffic shaper             (1)
+    - Accounting                 (1)
+ - GUI design and programming
+    - Python/GTK                 (0)
+    - Commandline                (0)
+    - Newt textmode              (1)
+ - Textmode profile switcher     (1)
+ - Alchemist data model          (1)
+ - Anaconda integration          (1)
+
+Team
+----
+
+Preston Brown:          Overall lead, initscripts, various GUI + core classes
+Phil Knirsch:           Project lead, Traffic shaper, Accounting, Data model
+Ngo Than:               Dialup devices
+Trond Glomsrød:         Lan devices, Python classes + Library
+Harald Hoyer:           Security (Firewall, NAT)
+Bernhard Rosenkraenzer: Commandline utility, firefighter ;)
+
+Project plan
+------------
+
+05/21/01:	Feature list soft freeze.
+05/23/01:	Basic GUI design first draft ready.
+05/28/01:	Feature list hard freeze.
+		Detailed Spec soft freeze.
+05/30/01:	Complete GUI finished.
+		Ethernet device configurable.
+		Initscripts working.
+06/06/01:	1st design review.
+		Detailed spec hard freeze.
+		Basic device setup complete.
+		Security setup finished.
+06/13/01:	Dialup devices finished.
+		Commandline tool finished.
+		Traffic shaper finished.
+		Accounting finished.
+06/20/01:	2nd design review.
+		Wireless device finished.
+		CIPE device finished.
+		Newt interface finished.
+		Profile switcher finished.
+06/27/01:	Internal QA done.
+		Code cleanup.
+		Final design review.
+07/03/01:	First 'offical' beta.
+
+Depending on problems or delays we can cut tasks from the last two weeks and
+use them to fix/stabilize the code.
+
+After begin of July we can solidify the codebase and do the usual qa/fix cycle.
+
+Detailed Task specs
+-------------------
+
+Design (partially repeated from devhtml):
+ - Keep it simple
+ - Consolidate most if not all existing NW setup tools
+ - Modular design (new device types, new configuration options)
+ - Profiles feature
+ - Firewalling and NAT support
+ - Backwards compatibility resp. migration of existing config
+ - Integrate all dialup services in one consistent database (Modem, ISDN)
+ - IPv6 support
+ - Use iproute for interface setup
+ - Command line tool for automatic/scriptable setup (see kickstart)
+ - Alchemist XML backend as well as native format read and write support
+
+Profiles:
+ - Need to separate between devices and profiles
+ - Global Profile (e.g. lo device)
+ - Profiles should be very simple to use and similar to the current setup
+ - Use a rc.d, init.d kind of link system for profiles and devices
+
+Devices:
+ - Virtual device names to make physical devices multi configurable
+ - Add/Edit a device once and use it in multiple profiles
+ - Device type specific setup (Ethernet, Modem, ISDN, ADSL, CTC etc.)
+
+GUI:
+ - Python/GTK using glade
+ - Consistent look of tool in all windows (GUI design guidelines), see
+   rhn_register or up2date clients.
+ - Separation between GUI and device/profile setup code (backend has to be
+   GUI independant for commandline tool!)
+ - Commandline tool does not necessarily need to support all config options
+

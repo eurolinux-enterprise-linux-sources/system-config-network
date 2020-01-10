@@ -1,0 +1,3982 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# pclouds <pclouds@gmx.net>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-network.pot VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-15 15:04+0100\n"
+"PO-Revision-Date: 2003-10-18 20:33+0700\n"
+"Last-Translator: pclouds <pclouds@gmx.net>\n"
+"Language-Team: GnomeVI <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/netconf_cmd.py:73
+#, python-format
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.\n"
+"Please file a detailed bug report against the component %s at \n"
+"https://bugzilla.redhat.com/bugzilla\n"
+"using the text below.\n"
+msgstr ""
+"Xảy ra lỗi không thể xử lý. Thông thường đây là bug. Vui lòng lưu crash dump "
+"và báo chi tiết lỗi của %s tại https://bugzilla.redhat.com/bugzilla\n"
+
+#: ../src/netconf_cmd.py:108
+#, python-format
+msgid "%s - network configuration commandline tool"
+msgstr "%s - công cụ cấu hình mạng bằng dòng lệnh"
+
+#: ../src/netconf_cmd.py:110 ../src/netconf_control.py:167
+#: ../src/netconf_control.py:184 ../src/netconfpkg/gui/maindialog.py:1712
+#: ../src/netconfpkg/gui/maindialog.py:1728
+#, fuzzy
+msgid "Copyright (c) 2001-2005 Red Hat, Inc."
+msgstr "Copyright (c) 2001-2003 Red Hat, Inc."
+
+#: ../src/netconf_cmd.py:111 ../src/netconf_control.py:168
+#: ../src/netconfpkg/gui/maindialog.py:1713
+msgid ""
+"This software is distributed under the GPL. Please Report bugs to Red Hat's "
+"Bug Tracking System: http://bugzilla.redhat.com/"
+msgstr ""
+"Phần mềm này được phân phối theo GPL. Vui lòng báo cáo lỗi cho Hệ thống Dò "
+"lỗi Red Hat: http://bugzilla.redhat.com/"
+
+#: ../src/netconf_cmd.py:114
+#, python-format
+msgid "Usage: %s"
+msgstr "Cách dùng: %s"
+
+#: ../src/netconf_cmd.py:116
+msgid "switch / activate profile"
+msgstr "chuyển / kích hoạt profile"
+
+#: ../src/netconf_cmd.py:118
+msgid "export / import hardware list"
+msgstr "xuất / nhập danh sách phần cứng"
+
+#: ../src/netconf_cmd.py:120
+#, fuzzy
+msgid "export / import IPsec list"
+msgstr "xuất / nhập danh sách profile"
+
+#: ../src/netconf_cmd.py:122
+msgid "export / import device list (default)"
+msgstr "xuất / nhập danh sách phần cứng (mặc định)"
+
+#: ../src/netconf_cmd.py:124
+msgid "export / import profile list"
+msgstr "xuất / nhập danh sách profile"
+
+#: ../src/netconf_cmd.py:126
+msgid "set the root directory"
+msgstr "đặt thư mục gốc"
+
+#: ../src/netconf_cmd.py:128
+msgid "export list (default)"
+msgstr "xuất danh sách (mặc định)"
+
+#: ../src/netconf_cmd.py:129
+msgid "import list"
+msgstr "nhập danh sách"
+
+#: ../src/netconf_cmd.py:131
+msgid "clear existing list prior of importing"
+msgstr "xóa danh sách đang có trước khi nhập"
+
+#: ../src/netconf_cmd.py:133
+msgid "import from file"
+msgstr "nhập từ tập tin"
+
+#: ../src/netconf_cmd.py:275
+#, python-format
+msgid "Unknown option %s\n"
+msgstr "Tùy chọn lạ %s\n"
+
+#: ../src/netconf_cmd.py:337
+#, python-format
+msgid "Unknown List %s\n"
+msgstr "Danh sách lạ %s\n"
+
+#: ../src/netconf_cmd.py:341
+#, python-format
+msgid "Error parsing line: %s"
+msgstr "Lỗi phân tích dòng: %s"
+
+#: ../src/netconf_control.py:57
+msgid ""
+"ERROR: Unable to initialize graphical environment. \n"
+"Most likely cause of failure is that the tool was not run using a graphical\n"
+"environment. Please either start your graphical user interface or set your\n"
+"DISPLAY variable.\n"
+msgstr ""
+
+#: ../src/netconf_control.py:192 ../src/netconfpkg/gui/maindialog.py:1732
+#, fuzzy
+msgid ""
+"This software is distributed under the GPL. \n"
+"Please Report bugs to Red Hat's Bug Tracking \n"
+"System: http://bugzilla.redhat.com/"
+msgstr ""
+"Phần mềm này được phân phối theo GPL. Vui lòng báo cáo lỗi cho Hệ thống Dò "
+"lỗi Red Hat: http://bugzilla.redhat.com/"
+
+#: ../src/netconf_control.py:250
+#, python-format
+msgid "Cannot configure network device %s"
+msgstr "Không thể cấu hình thiết bị %s"
+
+#: ../src/netconf_control.py:271
+msgid "Switching Profiles"
+msgstr "Chuyển Profile"
+
+#: ../src/netconf_control.py:272
+#, python-format
+msgid "Switching to profile %s"
+msgstr "Chuyển sang profile %s"
+
+#: ../src/netconf_control.py:273
+#, python-format
+msgid "Failed to switch to profile %s"
+msgstr "Lỗi chuyển sang profile %s"
+
+#. pylint: disable-msg=W0613
+#. TBD
+#: ../src/netconf_control.py:288
+msgid "To be rewritten!"
+msgstr "Cần được ghi lại!"
+
+#: ../src/netconf_control.py:422
+msgid " (active)"
+msgstr " (hoạt động)"
+
+#. FIXME: change string
+#: ../src/netconf_control.py:506 ../src/netconf_tui.py:183
+#, fuzzy
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose -d --debug"
+msgstr ""
+"system-config-network - công cụ cấu hình mạng\n"
+"\n"
+"Cách dùng: system-config-network -v --verbose"
+
+#: ../src/netconfpkg/exception.py:134
+#, fuzzy
+msgid "_Debug"
+msgstr "_Chế độ gỡ lỗi"
+
+#: ../src/netconfpkg/exception.py:135
+msgid "_Save to file"
+msgstr ""
+
+#: ../src/netconfpkg/exception.py:150
+#, fuzzy, python-format
+msgid ""
+"An unhandled exception has occurred.  This is most likely a bug.  Please "
+"save the crash dump and file a detailed bug report against %s at https://"
+"bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Xảy ra lỗi không thể xử lý. Thông thường đây là bug. Vui lòng lưu crash dump "
+"và báo chi tiết lỗi của system-config-network tại https://bugzilla.redhat."
+"com/bugzilla"
+
+#: ../src/netconfpkg/exception.py:247
+#, fuzzy, python-format
+msgid "Error: %s: %s"
+msgstr "Lỗi: %s, %s!"
+
+#: ../src/netconfpkg/exception.py:250
+#, python-format
+msgid ""
+"%s\n"
+"\n"
+"%s:\n"
+"%s"
+msgstr ""
+
+#: ../src/netconfpkg/exception.py:312
+#, python-format
+msgid "%(progname)s - Exception Occurred"
+msgstr ""
+
+#: ../src/netconfpkg/exception.py:325
+msgid "Specify a file to save the dump"
+msgstr ""
+
+#: ../src/netconfpkg/exception.py:345
+#, fuzzy, python-format
+msgid "Failed to write to file %s."
+msgstr "Lỗi chuyển sang profile %s"
+
+#: ../src/netconfpkg/exception.py:349
+#, python-format
+msgid ""
+"The application's state has been successfully\n"
+"written to the file '%s'."
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:1
+msgid "Allow dial on _demand"
+msgstr "Cho phép gọi theo _nhu cầu"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:2
+msgid "Allow the link come up on demand."
+msgstr "Cho phép bật liên kết theo nhu cầu."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:3
+msgid "Demand setting"
+msgstr "Thiết lập yêu cầu"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:4
+msgid "Enable synchronous PPP for the connection"
+msgstr "Bật kết nối PPP đồng bộ"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:5
+msgid ""
+"Enter the Access Concentrator name, if you have been given one by your ISP. "
+"In most cases you can leave this blank."
+msgstr ""
+"Hãy nhập Tên Access Concentrator, nếu ISP đưa bạn. Trong hầu hết trường hợp, "
+"bạn có thể để trống trường này."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:6
+msgid ""
+"Enter the Service Name, if your ISP requires it. If you don't know it, "
+"please contact your ISP. In most cases you can leave this blank."
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:7
+msgid "Enter the idle time in seconds after which the link should be dropped."
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:8
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:10
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:19
+msgid "Enter the login name, that your ISP gave you here."
+msgstr "hãy nhập tên đăng nhập mà ISP đưa cho bạn vào đây"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:9
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:20
+msgid ""
+"Enter the name of this configuration, usually just the name of your ISP."
+msgstr "Hãy nhập tên cấu hình này, thường là tên ISP của bạn."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:12
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:21
+msgid ""
+"Enter the password for your account. If you do not know it, please contact "
+"your ISP."
+msgstr ""
+"Hãy nhập mật khẩu cho tài khoản của bạn. Nếu bạn không biết, vui lòng liên "
+"hệ ISP của bạn."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:11
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:27
+msgid "Make this connection the default _route"
+msgstr "Dùng kết nối này là đường dẫn _mặc định"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:12
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:19
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:35
+msgid "Pass_word:"
+msgstr "_Mật khẩu:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:39
+msgid "Restart if _connection dies"
+msgstr "Khởi động lại nếu đứ_t kết nối"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:14
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:44
+msgid "Use this form to enter your T-Online account data."
+msgstr "Dùng mẫu này để nhập dữ liệu tài khoản T-Online."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:15
+msgid "_AC-name:"
+msgstr "_Tên AC:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:16
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:46
+msgid "_Advanced"
+msgstr "_Nâng cao"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:17
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:54
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:2
+#: ../src/netconfpkg/gui/QethConfig.glade.h:6
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:7
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:26
+msgid "_General"
+msgstr "_Chung"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:18
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:7
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:8
+msgid "_Hardware Device"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:19
+msgid "_IPsec"
+msgstr "_IPsec"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:20
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:20
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:26
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:56
+msgid "_Login name:"
+msgstr "_Tên đăng nhập:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:21
+msgid "_Maximum idle time:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:22
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:60
+msgid "_Provider"
+msgstr "_Nhà cung cấp"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:23
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:22
+msgid "_Provider name:"
+msgstr "_Tên nhà cung cấp:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:24
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:61
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:9
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:11
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:30
+msgid "_Route"
+msgstr "_Dẫn đường"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:25
+msgid "_Service-name:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:26
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:29
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:62
+msgid "_T-Online Account Setup"
+msgstr "Thiết lập Tài khoản _T-Online"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:27
+msgid "_Use synchronous PPP"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDialog.glade.h:28
+msgid "xDSL Configuration"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:1
+#, fuzzy
+msgid "<b>Account Type:</b>"
+msgstr "Profile hoạt động"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/tonline.glade.h:3
+msgid "Associated T-Online _number:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:3
+msgid "Configure DSL connection"
+msgstr "Cấu hình kết nối DSL"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:4
+msgid "Create DSL connection"
+msgstr "Tạo kết nối DSL"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:8
+msgid "Enter the provider name for this account."
+msgstr "Nhập tên nhà cung cấp cho tài khoản này."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:9
+msgid "Ethernet _device:"
+msgstr "Thiết bị _Ethernet:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:10
+#, fuzzy
+msgid "Normal"
+msgstr "Norway"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:11
+msgid ""
+"Normal\n"
+"T-Online"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:14
+msgid "Password (_again):"
+msgstr "Mật khẩu (_lần nữa):"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:15
+msgid "Select the ethernet device connected to the DSL modem."
+msgstr "Hãy chọn thiết bị ethernet kết nối với modem DSL."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:16
+msgid "Select the ethernet device for this account."
+msgstr "Hãy chọn thiết bị ethernet cho tài khoản này."
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:17
+#, fuzzy
+msgid "T-Online"
+msgstr "Thời gian trực tuyến:"
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:18
+#: ../src/netconfpkg/gui/tonline.glade.h:5
+msgid "_Adapter identifier:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:19
+#: ../src/netconfpkg/gui/tonline.glade.h:6
+msgid "_Concurrent user number/suffix:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ADSLInterfaceDruid.glade.h:21
+#: ../src/netconfpkg/gui/tonline.glade.h:7
+msgid "_Personal password:"
+msgstr "_Mật khẩu cá nhân:"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:1
+msgid "Choose a Provider"
+msgstr "Chọn Nhà cung cấp"
+
+#: ../src/netconfpkg/gui/ChooseProvider.glade.h:2
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:15
+msgid "Internet Provider"
+msgstr "Nhà cung cấp Internet"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:1
+msgid "Allow all _users to enable and disable the device"
+msgstr "Cho phép _mọi người bật/tắt thiết bị"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:2
+msgid "Controlled by _NetworkManager"
+msgstr ""
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:3
+#: ../src/netconfpkg/gui/QethConfig.glade.h:2
+#, fuzzy
+msgid "Enable IPv_6 configuration for this interface"
+msgstr "Nhấn để cấu hình giao diện"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:4
+#: ../src/netconfpkg/gui/QethConfig.glade.h:4
+msgid "_Activate device when computer starts"
+msgstr "_Kích hoạt thiết bị khi mở máy"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:5
+#: ../src/netconfpkg/gui/QethConfig.glade.h:5
+#, fuzzy
+msgid "_Activate device when parent device starts"
+msgstr "_Kích hoạt thiết bị khi mở máy"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.glade.h:6
+#: ../src/netconfpkg/gui/editipsec.glade.h:38
+#: ../src/netconfpkg/gui/QethConfig.glade.h:8
+msgid "_Nickname:"
+msgstr "_Tên hiệu:"
+
+#: ../src/netconfpkg/gui/DeviceConfigDialog.py:154
+#, python-format
+msgid ""
+"Nickname %s is already in use!\n"
+"Please choose another one.\n"
+msgstr ""
+"Tên hiệu %s đã được dùng rồi!\n"
+"Vui lòng chọn tên khác.\n"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:1
+msgid "Choose Hardware Device Type"
+msgstr "Chọn Kiểu Thiết bị Phần cứng"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:2
+msgid "Please select the type of hardware device to add:"
+msgstr "Vui lòng chọn kiểu thiết bị phần cứng cần thêm:"
+
+#: ../src/netconfpkg/gui/DeviceTypeDialog.glade.h:3
+msgid "_Device type:"
+msgstr "_Kiểu Thiết bị:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:1
+#, fuzzy
+msgid "<b>Phone number</b>"
+msgstr "Số điện thoại:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:2
+msgid "A_rea code:"
+msgstr "_Mã vùng:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:3
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:2
+msgid "Automatically obtain _DNS information from provider"
+msgstr "Tự động lấy thông tin _DNS từ nhà cung cấp"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:4
+msgid "Automatically obtain _IP address settings"
+msgstr "Tự động lấy thiết lập địa chỉ _IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:5
+msgid "Create Dialup Connection"
+msgstr "Tạo kết nối quay số"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:6
+msgid "Default _gateway address:"
+msgstr "Địa chỉ _Gateway mặc định:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:7
+msgid "Encapsulation mode:"
+msgstr "Kiểu đóng gói:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:8
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:17
+msgid ""
+"Enter any numbers you need to dial before the normal phone number. For "
+"example, if you need to reach an outside line, or disable call waiting, put "
+"the necessary numbers here."
+msgstr ""
+"Hãy nhập các số bạn cần quay số trước số điện thoại thông thường. Ví dụ, nếu "
+"bạn dùng mạng nội bộ, hoặc tắt chế độ đợi gọi, hãy đặt các số cần thiết vào "
+"đây."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:9
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:18
+msgid "Enter the area code needed to reach your internet provider."
+msgstr "Nhập mã vùng cần thiết để liên lạc với nhà cung cấp Internet của bạn."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:13
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:22
+msgid "Enter the phone number of your ISP (without prefix/area/country code)."
+msgstr ""
+"Nhập số điện thoại của nhà cung cấp Internet của bạn (không có các số mở đầu/"
+"mã vùng/mã quốc gia)."
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:14
+msgid "IP Settings"
+msgstr "Thiết lập IP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:16
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:17
+msgid "Manual IP Address Settings"
+msgstr "Thiết lập IP thủ công"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:17
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:9
+msgid "New Interface"
+msgstr "Giao tiếp mới"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:18
+msgid "PPP Settings"
+msgstr "Thiết lập PPP"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:20
+msgid "Prefi_x:"
+msgstr "_Số đầu:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:21
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:38
+msgid "Provider _name:"
+msgstr "_Tên nhà cung cấp:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:22
+msgid "Select Provider"
+msgstr "Chọn nhà cung cấp"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:23
+msgid "Statically set IP addresses:"
+msgstr "Đặt địa chỉ IP tĩnh:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:25
+#: ../src/netconfpkg/gui/editadress.glade.h:2
+msgid "_Address:"
+msgstr "Đị_a chỉ:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:27
+msgid "_Phone number:"
+msgstr "_Số điện thoại:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:28
+#: ../src/netconfpkg/gui/editadress.glade.h:4
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:47
+msgid "_Subnet mask:"
+msgstr "_Mặt nạ mạng con:"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:30
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:72
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:344
+msgid "raw IP"
+msgstr "IP thô"
+
+#: ../src/netconfpkg/gui/DialupDruid.glade.h:31
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:73
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:346
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:375
+msgid "sync PPP"
+msgstr "PPP đồng bộ"
+
+#. FIXME: Bad style for translation..
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/DialupDruid.py:240
+#: ../src/netconfpkg/gui/editipsec.py:286
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:147
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:218
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:203
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:331
+msgid "You have selected the following information:"
+msgstr "Bạn phải chọn thông tin sau:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:242
+msgid "Hardware:"
+msgstr "Phần cứng:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:243
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:149
+msgid "Provider name:"
+msgstr "Tên nhà cung cấp:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:245
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:151
+msgid "Login name:"
+msgstr "Tên đăng nhập:"
+
+#: ../src/netconfpkg/gui/DialupDruid.py:246
+msgid "Phone number:"
+msgstr "Số điện thoại:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:1
+msgid "A_rea Code"
+msgstr "_Mã vùng"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:2
+msgid "Ca_llback"
+msgstr "_Gọi lại"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:3
+#, fuzzy
+msgid "Callback MS_N:"
+msgstr "_Chế độ gọi lại:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:4
+msgid "Callback _delay:"
+msgstr "_Khoảng chờ gọi lại:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:5
+msgid "Callback _mode:"
+msgstr "_Chế độ gọi lại:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:6
+msgid "Callback setting"
+msgstr "Thiết lập gọi lại"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:7
+msgid "Click here, if you want to choose a new provider from the ISP database."
+msgstr "Nhấn vào đây, nếu bạn muốn chọn nhà cung cấp mới từ Cơ sở dữ liệu ISP."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:8
+msgid "Dial _mode:"
+msgstr "Kiểu _quay số:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:9
+msgid "Dial-in _number:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:10
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:242
+msgid "Dialup Configuration"
+msgstr "Cấu hình Quay số"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:11
+msgid "Enable VJ Connection-_ID Compression"
+msgstr "Bật Kết nối VJ-Kết nối _ID"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:12
+msgid "Enable _Address/Control Compression"
+msgstr "Bật _Nén Điều khiển/Địa chỉ"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:13
+msgid "Enable _BSD Compression"
+msgstr "Bật Nén _BSD"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:14
+msgid "Enable _CCP Compression Control Protocol"
+msgstr "Bật Giao thức Điều khiển Nén _CCP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:15
+msgid "Enable _Protocol Field Compression"
+msgstr "Bật Nén Trường _Giao thức"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:16
+msgid "Enable _VJ TCP/IP Header Compression"
+msgstr "Bật Nén Tiêu đề TCP/IP _VJ"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:23
+msgid "Enter your local phone number. It's optional, if you use a modem."
+msgstr ""
+"Nhập số điện thoại nội bộ của bạn. Đây là tùy chọn, nếu bạn dùng modem."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:24
+msgid "Han_gup timeout:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:25
+msgid "Let _PPP do all authentication"
+msgstr "Cho _PPP thực hiện mọi xác thực"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:26
+msgid "MSN/EA_Z:"
+msgstr "MSN/EA_Z:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:28
+msgid "Modem _initialization string:"
+msgstr "_Chuỗi khởi tạo Modem:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:29
+msgid "Modem p_ort:"
+msgstr "Cổng _Modem:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:30
+msgid "Modem0"
+msgstr "Modem0"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:31
+msgid "Modem1"
+msgstr "Modem1"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:32
+msgid "Modem2"
+msgstr "Modem2"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:33
+msgid "Modem3"
+msgstr "Modem3"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:34
+msgid "PPP Option List"
+msgstr "Danh sách Tùy chọn PPP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:36
+msgid "Phone Number"
+msgstr "Số điện thoại"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:37
+msgid "Prefi_x"
+msgstr "_Số đầu"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:40
+msgid "Select the authentication protocol used by your ISP."
+msgstr "Chọn giao thức xác thực được dùng bởi ISP của bạn."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:41
+#, fuzzy
+msgid "Show password"
+msgstr "Mật khẩu ISP"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:42
+msgid "Use _Callback Control Protocol (CBCP)"
+msgstr "Dùng _Giao thức Điều khiển Gọi lại (CBCP)"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:43
+msgid "Use _Channel Bundling"
+msgstr "Dùng _Bó Kênh"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:45
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:36
+msgid "_Add..."
+msgstr "_Thêm..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:47
+msgid "_Allow only above Dial-In Number"
+msgstr ""
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:48
+msgid "_Authentication:"
+msgstr "_Xác thực:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:49
+msgid "_Choose Provider..."
+msgstr "_Chọn Nhà cung cấp..."
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:50
+msgid "_Compression"
+msgstr "_Nén"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:51
+#: ../src/netconfpkg/gui/maindialog.glade.h:31
+msgid "_Delete"
+msgstr "_Xóa"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:52
+msgid "_Dial mode:"
+msgstr "_Kiểu quay số:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:53
+msgid "_Encapsulation mode:"
+msgstr "_Kiểu đóng gói:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:55
+msgid "_Hangup timeout:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:57
+msgid "_Options"
+msgstr "_Tùy chọn"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:58
+msgid "_PPP option:"
+msgstr "Tùy chọn _PPP:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:59
+msgid "_Phone Number"
+msgstr "Số điện _thoại:"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:63
+msgid "_Use Callback"
+msgstr "_Dùng Gọi lại"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:64
+#: ../src/netconfpkg/NCDialup.py:147
+msgid "auto"
+msgstr "tự động"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:65
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:361
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:437
+msgid "chap"
+msgstr "chap"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:66
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:364
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:439
+msgid "chap+pap"
+msgstr "chap+pap"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:67
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:394
+msgid "in"
+msgstr "vào"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:68
+#: ../src/netconfpkg/NCDialup.py:148
+msgid "manual"
+msgstr "thủ công"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:69
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:366
+msgid "none"
+msgstr "không"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:70
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:298
+msgid "out"
+msgstr "ra"
+
+#: ../src/netconfpkg/gui/DialupInterfaceDialog.glade.h:71
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:359
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:435
+msgid "pap"
+msgstr "pap"
+
+#: ../src/netconfpkg/gui/editadress.glade.h:1
+msgid "Add / Edit IP Address"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editadress.glade.h:3
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:1
+msgid "Domain name:"
+msgstr "_Tên Miền:"
+
+#: ../src/netconfpkg/gui/editdomain.glade.h:2
+msgid "Edit Domain Name"
+msgstr "Sửa Tên miền"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:1
+msgid "Add / Edit Hosts entry"
+msgstr "Thêm / Sửa mục nhập máy"
+
+#. FIXME: Bad style for translation
+#: ../src/netconfpkg/gui/edithosts.glade.h:2
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:235
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:232
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:215
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:344
+msgid "Address:"
+msgstr "Địa chỉ:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:3
+msgid "Aliases:"
+msgstr "Bí danh:"
+
+#: ../src/netconfpkg/gui/edithosts.glade.h:4
+msgid "Hostname:"
+msgstr "Tên máy:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:2
+msgid "A_uthentication key:"
+msgstr "Khoá _xác thực:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:3
+msgid "Automatic encryption mode selection via IKA (racoon)"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:4
+msgid "Ge_nerate"
+msgstr "_Phát sinh"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:5
+msgid "Host to Host encryption"
+msgstr "Mã hoá Máy-Máy"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:6
+msgid "IPsec"
+msgstr "IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:7
+msgid "IPsec - Connection Type"
+msgstr "IPsec - Kiểu kết nối"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:8
+msgid "IPsec - Encryption Mode"
+msgstr "IPsec - Kiểu mã hóa"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:9
+msgid "IPsec - Keys"
+msgstr "IPsec - Khóa"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:10
+msgid "IPsec - Local Network"
+msgstr "IPsec - Mạng nội bộ"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:11
+#, fuzzy
+msgid "IPsec - Nickname"
+msgstr "Tên hiệu"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:12
+msgid "IPsec - Remote Network"
+msgstr "IPsec - Mạng ở xa"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:13
+msgid "IPsec - Summary"
+msgstr "IPsec - Tóm tắt"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:14
+msgid "IPsec Settings"
+msgstr "Thiết lập IPsec"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:15
+msgid "Local network _address:"
+msgstr "Địa chỉ _mạng cục bộ:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:16
+msgid "Local network _gateway:"
+msgstr "_Gateway mạng nội bộ:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:17
+msgid "Local subnet _mask:"
+msgstr "Mặc nạ _mạng con cục bộ:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:18
+msgid "Manual encryption with a fixed key"
+msgstr "Mã hóa thủ công bằng khóa tĩnh"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:19
+msgid "Network to Network encryption (VPN)"
+msgstr "Mã hóa Mạng-Mạng (VPN)"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:20
+msgid "Please enter a nickname for the connection:"
+msgstr "Vui lòng nhập tên hiệu cho kết nối:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:21
+msgid "Please enter a passphrase to generate the key."
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:22
+msgid "Please enter your local network settings:"
+msgstr "Vui lòng nhập thiết lập mạng nội bộ:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:23
+msgid "Please enter your remote network settings:"
+msgstr "Vui lòng nhập thiết lập mạng ở xa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:24
+msgid "Please select the type of connection:"
+msgstr "Vui lòng nhập kiểu kết nối:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:25
+msgid "Please select the type of encryption:"
+msgstr "Vui lòng chọn kiểu kết nối:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:26
+#, fuzzy
+msgid ""
+"Please specify your keys or generate them. \n"
+"The keys are symmetric, so your remote partner needs to have the same."
+msgstr ""
+"Vui lòng xác định khóa hoặc phát sinh khóa mới.\n"
+"Đây là khóa đối xứng, vì thể máy ở xa cũng cần có cùng khóa."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:28
+msgid "Remote _IP address:"
+msgstr "Địa chỉ _IP từ xa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:29
+msgid "Remote network _address:"
+msgstr "Địa chỉ _mạng từ xa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:30
+msgid "Remote network _gateway:"
+msgstr "_Gateway mạng ở xa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:31
+msgid "Remote subnet _mask:"
+msgstr "Mặc nạ mạng con từ _xa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:32
+msgid "Security parameter index for authentication:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:33
+msgid "Security parameter index for encryption:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:34
+#, fuzzy
+msgid "You will now be guided through the setup of the IPsec connection."
+msgstr ""
+"Bạn sẽ được hướng dẫn thông qua quá\n"
+"trình thiết lập kết nối IPsec."
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:35
+msgid "_Activate connection when computer starts"
+msgstr "_Kích hoạt kết nối khi mở máy"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:36
+msgid "_Encryption key:"
+msgstr "_Khóa mã hóa:"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:37
+msgid "_Generate"
+msgstr "_Phát sinh"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:39
+#, fuzzy
+msgid "dialog1"
+msgstr "quay số"
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:40
+msgid "unique SPI for AH (256 - 4294967295), like a TCP/IP port number"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.glade.h:41
+msgid "unique SPI for ESP (256 - 4294967295), like a TCP/IP port number"
+msgstr ""
+
+#: ../src/netconfpkg/gui/editipsec.py:217
+msgid ""
+"Please enter a unique security parameter index between 256 and 4294967295."
+msgstr ""
+
+#: ../src/netconfpkg/gui/ethernetconfig.glade.h:1
+#: ../src/netconfpkg/gui/QethConfig.glade.h:3
+msgid "Ethernet Device"
+msgstr "Thiết bị Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:8
+msgid "Select Ethernet Adapter"
+msgstr "Chọn Bộ điều hợp Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:2
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:2
+msgid "_Adapter:"
+msgstr "_Bộ điều hợp:"
+
+#: ../src/netconfpkg/gui/EthernetHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:9
+#: ../src/netconfpkg/gui/QethHardware.glade.h:9
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:3
+msgid "_Device:"
+msgstr "_Thiết bị:"
+
+#: ../src/netconfpkg/gui/ethernethardware.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:7
+#: ../src/netconfpkg/gui/tokenringhardware.glade.h:1
+msgid "Network Adapters Configuration"
+msgstr "Cấu hình Bộ điều hợp Mạng"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:16
+msgid "Configure Network Settings"
+msgstr "Cấu hình Thiết lập Mạng"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:2
+msgid "Create Ethernet Device"
+msgstr "Tạo Thiết bị Mạng"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:4
+msgid "Ethernet card"
+msgstr "Card Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:19
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:7
+msgid ""
+"Please enter the MTU parameter to set the maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Vui lòng chọn tham số MTU để đặt Đơn vị Truyền Tối đa cho giao tiếp này. "
+"Trên s390/s390x, MTU mặc định là 1492."
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:8
+msgid "Select Ethernet Device"
+msgstr "Chọn Thiết bị Ethernet"
+
+#: ../src/netconfpkg/gui/EthernetInterfaceDruid.glade.h:7
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:9
+#, fuzzy
+msgid "Select the ethernet card you want to configure:"
+msgstr "Chọn Card Ethernet bạn muốn cấu hình:"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:99
+#, python-format
+msgid ""
+"Could not find file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+
+#: ../src/netconfpkg/gui/GUI_functions.py:108
+#, python-format
+msgid ""
+"Could not load the file '%s'.\n"
+"Please check your installation!\n"
+"Run: 'rpm -V system-config-network'\n"
+msgstr ""
+
+#: ../src/netconfpkg/gui/GUI_functions.py:617
+#, python-format
+msgid ""
+"Failed to run:\n"
+"%s"
+msgstr ""
+"Lỗi chạy:\n"
+"%s"
+
+#: ../src/netconfpkg/gui/GUI_functions.py:620
+#, fuzzy
+msgid "Succeeded. Please read the output."
+msgstr ""
+"\n"
+"Thành công. Vui lòng đọc kết xuất."
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:1
+msgid "Choose Hardware Type"
+msgstr "Chọn kiểu phần cứng"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:2
+#: ../src/netconfpkg/tui/NCPluginDevices.py:68
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:3
+msgid "Hardware type:"
+msgstr "Kiểu Phần cứng:"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:4
+#: ../src/netconfpkg/tui/NCPluginDevices.py:75
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:5
+#: ../src/netconfpkg/tui/NCPluginDevices.py:74
+msgid "Modem"
+msgstr "Modem"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:6
+msgid "Please select the hardware device type you want to create"
+msgstr "Vui lòng chọn kiểu thiết bị phần cứng bạn muốn tạo"
+
+#: ../src/netconfpkg/gui/hardwaretype.glade.h:7
+msgid "Token Ring"
+msgstr "Token Ring"
+
+#: ../src/netconfpkg/gui/infodialog.glade.h:1
+#: ../src/netconfpkg/gui/maindialog.glade.h:9
+#: ../src/netconfpkg/gui/neat-control.glade.h:11
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:68
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:129
+#: ../src/netconfpkg/tui/NCTcpIp.py:114
+msgid "Device"
+msgstr "Thiết bị"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:1
+msgid "1_TR6"
+msgstr "1_TR6"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:2
+#, fuzzy
+msgid "<b>D-channel protocol</b>"
+msgstr "Giao tiếp Kênh D"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:1
+#, fuzzy
+msgid "<b>Resources</b>"
+msgstr "Tài nguyên"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:4
+msgid "Eu_ro ISDN (EDSS1)"
+msgstr "ISDN _Châu Âu (EDSS1)"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:5
+msgid "IO_1:"
+msgstr "IO_1:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:6
+msgid "IO_2:"
+msgstr "IO_2:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:7
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:7
+msgid "IR_Q:"
+msgstr "IR_Q:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:8
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:9
+msgid "ISDN _adapters:"
+msgstr "Bộ điều hợp _ISDN:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:10
+msgid "Select ISDN Adapter"
+msgstr "Chọn Bộ điều hợp ISDN"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:10
+msgid "_IO:"
+msgstr "_IO:"
+
+#: ../src/netconfpkg/gui/IsdnHardwareDruid.glade.h:12
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:11
+msgid "_MEM:"
+msgstr "_MEM:"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:2
+#, fuzzy
+msgid "<b>D channel protocol</b>"
+msgstr "Giao tiếp Kênh D"
+
+#: ../src/netconfpkg/gui/isdnhardware.glade.h:8
+msgid "ISDN Adapters Configuration"
+msgstr "Cấu hình Bộ điều hợp ISDN"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:1
+msgid "Activate the selected device, calling ifup <device>."
+msgstr "Kích hoạt thiết bị được chọn, gọi ifup <device>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:2
+msgid "Contents"
+msgstr "Nội dung"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:3
+msgid "DNS search path:"
+msgstr "Đường dẫn tìm DNS:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:4
+msgid "D_NS"
+msgstr "D_NS"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:5
+msgid "Deactivate the selected device, calling ifdown <device>."
+msgstr "Ngừng kích hoạt thiết bị được chọn, gọi ifdown <device>."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:6
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:7
+msgid "Destination"
+msgstr "Đích"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:8
+msgid "Dev_ices"
+msgstr "_Thiết bị"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:10
+msgid "Do_main:"
+msgstr "_Miền:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:11
+msgid "H_osts"
+msgstr "_Máy"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:12
+msgid "Hard_ware"
+msgstr "_Phần cứng"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:13
+msgid "IP_sec"
+msgstr "IP_sec"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:14
+msgid "List of devices which are currently configurable on your system."
+msgstr "Danh sách thiết bị hiện có thể cấu hình trên hệ thống."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:15
+msgid "Monitor the selected device."
+msgstr "Theo dõi thiết bị được chọn."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:16
+#: ../src/netconfpkg/tui/NCPluginDevices.py:77
+#: ../src/netconfpkg/tui/NCTcpIp.py:133 ../src/netconf_tui.py:164
+#: ../system-config-network.desktop.in.h:3
+msgid "Network Configuration"
+msgstr "Cấu hình Mạng"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:17
+msgid "New Profile"
+msgstr "Tạo Profile mới"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:18
+#: ../src/netconfpkg/gui/neat-control.glade.h:13
+msgid "Nickname"
+msgstr "Tên hiệu"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:19
+#, fuzzy
+msgid ""
+"Please enter the name for the profile. The name may only contain letters and "
+"digits."
+msgstr ""
+"Vui lòng nhập tên cho profile.\n"
+"Tên chỉ có thể có chữ và số."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:20
+msgid "Profile"
+msgstr "Profile"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:21
+msgid "Show loopback"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:22
+#: ../src/netconfpkg/gui/neat-control.glade.h:15
+msgid "Status"
+msgstr "Trạng thái"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:23
+msgid "Type"
+msgstr "Loại"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:24
+msgid "You may configure IPsec tunnels and host to host connections here."
+msgstr "Bạn có thể cấu hình tunnel IPsec và kết nối máy với máy ở đây."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:25
+msgid ""
+"You may configure network devices associated with physical hardware here.  "
+"Multiple logical devices can be associated with a single piece of hardware."
+msgstr ""
+"Bạn có thể cấu hình thiết bị mạng gắn với phần cứng vật lý ở đây. Nhiều "
+"thiết bị logic có thể được gắn với single piece of phần cứng."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:26
+msgid ""
+"You may configure network hardware physically attached to the computer here."
+msgstr "Bạn có thể cấu hình phần cứng mạng được gắn vào máy tính ở đây."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:27
+msgid ""
+"You may configure the system's hostname, domain, name servers, and search "
+"domain. Name servers are used to look up other hosts on the network."
+msgstr ""
+"Bạn có thể cấu hình tên máy, tên miền, máy chủ tên và tên miền tìm kiếm của "
+"hệ thống. Máy chủ tên được dùng để tra cứu các máy khác trong mạng."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:28
+msgid ""
+"You may specify static computer hostname to IP address mappings here.  If "
+"DNS is in use, these settings will take precedence over any information it "
+"may provide."
+msgstr ""
+"Bạn có thể xác định ánh xạ tên máy tĩnh và địa chỉ IP ở đây. Nếu DNS được "
+"dùng, những thiết lập này sẽ được ưu tiên hôn bất kỳ thông tin nào của DNS."
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:29
+#: ../src/netconfpkg/gui/neat-control.glade.h:17
+msgid "_Activate"
+msgstr "_Kích hoạt"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:30
+#: ../src/netconfpkg/gui/neat-control.glade.h:19
+msgid "_Deactivate"
+msgstr "_Ngừng kích hoạt"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:32
+msgid "_Edit"
+msgstr "_Hiệu chỉnh"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:33
+msgid "_Hostname:"
+msgstr "_Tên máy:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:34
+#: ../src/netconfpkg/gui/neat-control.glade.h:21
+msgid "_Monitor"
+msgstr "_Theo dõi"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:35
+#, fuzzy
+msgid "_New..."
+msgstr "Tạ_o mới"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:36
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:43
+msgid "_Primary DNS:"
+msgstr "DNS _chính:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:37
+msgid "_Profile"
+msgstr "_Profile"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:38
+msgid "_Secondary DNS:"
+msgstr "DNS thứ _hai:"
+
+#: ../src/netconfpkg/gui/maindialog.glade.h:39
+msgid "_Tertiary DNS:"
+msgstr "DNS thứ _ba:"
+
+#: ../src/netconfpkg/gui/maindialog.py:327
+msgid "Loading configuration..."
+msgstr "Đang nạp cấu hình..."
+
+#: ../src/netconfpkg/gui/maindialog.py:335
+msgid "Loading device configuration..."
+msgstr "Đang nạp Cấu hình Thiết bị..."
+
+#: ../src/netconfpkg/gui/maindialog.py:340
+msgid "Loading hardware configuration..."
+msgstr "Đang nạp Cấuh hình Phần cứng..."
+
+#: ../src/netconfpkg/gui/maindialog.py:345
+msgid "Loading profile configuration..."
+msgstr "Đang nạp cấu hình Profile..."
+
+#: ../src/netconfpkg/gui/maindialog.py:352
+msgid "Loading IPsec configuration..."
+msgstr "Đang nạp Cấu hình IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:357
+msgid "Testing configuration set..."
+msgstr "Đang kiểm tra tập cấu hình..."
+
+#: ../src/netconfpkg/gui/maindialog.py:388
+#, python-format
+msgid "Active profile: %s (modified)"
+msgstr "Profile hoạt động: %s (đã hiệu chỉnh)"
+
+#: ../src/netconfpkg/gui/maindialog.py:392
+#, python-format
+msgid "Active profile: %s"
+msgstr "Profile hoạt động: %s"
+
+#: ../src/netconfpkg/gui/maindialog.py:406
+msgid "Saving configuration..."
+msgstr "Đang lưu cấu hình..."
+
+#: ../src/netconfpkg/gui/maindialog.py:418
+#, python-format
+msgid ""
+"Error saving configuration!\n"
+"%s"
+msgstr ""
+"Lỗi lưu cấu hình!\n"
+"%s"
+
+#: ../src/netconfpkg/gui/maindialog.py:421
+#, fuzzy
+msgid ""
+"Changes are saved. You may want to restart the network and network services "
+"or restart the computer."
+msgstr ""
+"Đã lưu các thay đổi.\n"
+"Bạn có thể cần khởi động lại\n"
+"mạng và dịch vụ mạng\n"
+"hoặc khởi động lại máy tính."
+
+#: ../src/netconfpkg/gui/maindialog.py:430
+msgid "Saving device configuration..."
+msgstr "Đang lưu cấu hình thiết bị..."
+
+#: ../src/netconfpkg/gui/maindialog.py:437
+msgid "Saving hardware configuration..."
+msgstr "Đang lưu cấu hình phần cứng..."
+
+#: ../src/netconfpkg/gui/maindialog.py:444
+msgid "Saving profile configuration..."
+msgstr "Đang lưu cấu hình Profile..."
+
+#: ../src/netconfpkg/gui/maindialog.py:450
+#: ../src/netconfpkg/gui/sharedtcpip.py:164
+msgid "Primary DNS is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.py:454
+#: ../src/netconfpkg/gui/sharedtcpip.py:166
+msgid "Secondary DNS is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.py:458
+msgid "Tertiary DNS is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.py:465
+msgid "Saving IPsec configuration..."
+msgstr "Đang lưu cấu hình IPsec..."
+
+#: ../src/netconfpkg/gui/maindialog.py:484
+msgid "Updating devices..."
+msgstr "Đang cập nhật thiết bị..."
+
+#: ../src/netconfpkg/gui/maindialog.py:548
+msgid "Updating hardware..."
+msgstr "Đang cập nhật phần cứng..."
+
+#: ../src/netconfpkg/gui/maindialog.py:624
+msgid "Updating profiles..."
+msgstr "Đang cập nhật Profile..."
+
+#: ../src/netconfpkg/gui/maindialog.py:721
+msgid "Errors detected, do you really want to quit?"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.py:729
+#: ../src/netconfpkg/gui/maindialog.py:748
+msgid "Do you want to save your changes?"
+msgstr "Bạn có muốn lưu các thay đổi không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:931
+msgid "The Loopback device can not be edited!"
+msgstr "Không thể hiệu chỉnh cấu hình thiết bị Loopback!"
+
+#: ../src/netconfpkg/gui/maindialog.py:935
+msgid "Edit device..."
+msgstr "Sửa Thiết bị..."
+
+#: ../src/netconfpkg/gui/maindialog.py:972
+#, fuzzy, python-format
+msgid "The device type %s cannot be edited!"
+msgstr "Không thể hiệu chỉnh cấu hình loại thiết bị %s!\n"
+
+#: ../src/netconfpkg/gui/maindialog.py:992
+msgid "The Loopback device can not be removed!"
+msgstr "Không thể loại bỏ thiết bị Loopback!"
+
+#: ../src/netconfpkg/gui/maindialog.py:996
+#, python-format
+msgid "Do you really want to delete device \"%s\"?"
+msgstr "Bạn có thực sự muốn xóa thiết bị \"%s\" không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1029
+#: ../src/netconfpkg/gui/maindialog.py:1064
+#: ../src/netconfpkg/gui/maindialog.py:1806
+#: ../src/netconfpkg/gui/maindialog.py:1834
+msgid "You have made some changes in your configuration."
+msgstr "Bạn đã thay đổi vài chỗ trong cấu hình của bạn."
+
+#: ../src/netconfpkg/gui/maindialog.py:1030
+#, python-format
+msgid "To activate the network device %s, the changes have to be saved."
+msgstr "Để kích hoạt thiết bị mạng %s, phải lưu các thay đổi đã tạo."
+
+#: ../src/netconfpkg/gui/maindialog.py:1032
+#: ../src/netconfpkg/gui/maindialog.py:1067
+#: ../src/netconfpkg/gui/maindialog.py:1809
+#: ../src/netconfpkg/gui/maindialog.py:1837
+msgid "Do you want to continue?"
+msgstr "Bạn có muốn tiếp tục không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1065
+#, fuzzy, python-format
+msgid "To deactivate the network device %s, the changes have to be saved."
+msgstr "Để kích hoạt thiết bị mạng %s, phải lưu các thay đổi đã tạo."
+
+#: ../src/netconfpkg/gui/maindialog.py:1196
+msgid "The Loopback device can not be disabled!"
+msgstr "Không thể tắt thiết bị Loopback!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1464
+#: ../src/netconfpkg/gui/maindialog.py:1542
+msgid "The name may only contain letters and digits!"
+msgstr "Tên chỉ có thể chứa ký tự và chữ số!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1469
+#: ../src/netconfpkg/gui/maindialog.py:1547
+#, python-format
+msgid "The profile can't be named \"%s\"!"
+msgstr "Không thể đặt tên profile là \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1475
+#: ../src/netconfpkg/gui/maindialog.py:1553
+msgid "The profile name already exists!"
+msgstr "Profile tên này đã có rồi!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1520
+#, python-format
+msgid "The \"%s\" profile can't be renamed!"
+msgstr "Không thể đổi tên profile \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1568
+#, python-format
+msgid "The \"%s\" Profile can not be deleted!"
+msgstr "Không thể xóa profile \"%s\"!"
+
+#: ../src/netconfpkg/gui/maindialog.py:1574
+#, python-format
+msgid "Do you really want to delete profile \"%s\"?"
+msgstr "Bạn có thật sự muốn xóa profile \"%s\" không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1649
+#, fuzzy
+msgid ""
+"Sorry, there is nothing to be edited, or this type cannot be edited yet."
+msgstr ""
+"Rất tiếc, không có gì để hiệu chỉnh,\n"
+"hoặc không thể hiệu chỉnh loại này."
+
+#: ../src/netconfpkg/gui/maindialog.py:1667
+#, python-format
+msgid "Do you really want to delete \"%s\"?"
+msgstr "Bạn có thật sự muốn xóa \"%s\" không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1680
+#, python-format
+msgid "Do you want to delete all devices that used \"%s\"?"
+msgstr "Bạn có thật sự muốn xóa tất cả thiết bị dùng  \"%s\" không?"
+
+#: ../src/netconfpkg/gui/maindialog.py:1731
+msgid "translator_credits"
+msgstr ""
+
+#: ../src/netconfpkg/gui/maindialog.py:1807
+#, python-format
+msgid "To activate the IPsec connection %s, the changes have to be saved."
+msgstr "Để kích hoạt kết nối IPsec %s, cần phải lưu lại các thay đổi."
+
+#: ../src/netconfpkg/gui/maindialog.py:1835
+#, fuzzy, python-format
+msgid "To deactivate the IPsec connection %s, the changes have to be saved."
+msgstr "Để kích hoạt kết nối IPsec %s, cần phải lưu lại các thay đổi."
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:1
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:1
+#, fuzzy
+msgid "<b>Modem properties</b>"
+msgstr "Thuộc tính Modem"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:2
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:2
+#: ../src/netconfpkg/NC_functions.py:141
+msgid "Hardware (CRTSCTS)"
+msgstr "Phần cứng (CRTSCTS)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:3
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:3
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:132
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:190
+msgid "High"
+msgstr "Cao"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:4
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:4
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:128
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:186
+msgid "Low"
+msgstr "Thấp"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:5
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:5
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:130
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:188
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:18
+msgid "Medium"
+msgstr "Vừa"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:6
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:81
+msgid "Modem Configuration"
+msgstr "Cấu hình Modem"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:7
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:6
+msgid "Modem _volume:"
+msgstr "Âm lượng _Modem:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:8
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:7
+#: ../src/netconfpkg/NCDialup.py:151 ../src/netconfpkg/NC_functions.py:143
+msgid "None"
+msgstr "Không"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:9
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:8
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:126
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:184
+msgid "Off"
+msgstr "Tắt"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:10
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:10
+#: ../src/netconfpkg/NC_functions.py:142
+msgid "Software (XON/XOFF)"
+msgstr "Phần mềm (XON/XOFF)"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:11
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:11
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:134
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:192
+msgid "Very High"
+msgstr "Rất cao"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:12
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:12
+msgid "_Baud rate:"
+msgstr "Mức _Baud:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:13
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:13
+msgid "_Flow control:"
+msgstr "Điều khiển _luồng:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:14
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:14
+msgid "_Modem device:"
+msgstr "Thiết bị _Modem:"
+
+#: ../src/netconfpkg/gui/modemconfig.glade.h:15
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:15
+msgid "_Use touch tone dialing"
+msgstr ""
+
+#: ../src/netconfpkg/gui/ModemDruid.glade.h:9
+msgid "Select Modem"
+msgstr "Chọn Modem:"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:95
+msgid "xDSL connection"
+msgstr "Kết nối xDSL"
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:102
+msgid ""
+"Create an xDSL connection.  This is a connection that uses one of several "
+"types of broadband connections collective known as Digital Subscriber "
+"Lines.  This list includes ADSL (Asymmetric, faster downloads than uploads), "
+"IDSL (over an ISDN line for distance), SDSL (Symmetric, downloads and "
+"uploads at the same speed), and several others.  These types of connections "
+"are common in the United States, and are gaining acceptance elsewhere.  "
+"Speeds vary according to the technology used, but generally range from "
+"144kbps to 1.0Mbps."
+msgstr ""
+"Tạo kết nối xDSL. Đây là kết nối dùng một trong vài loại kết nối băng thông "
+"rộng được gọi là Digtial Subscriber Lines (DSL), bao gồm ADSL (không đối "
+"xứng, tải về nhanh nhưng tải lên chậm), IDSL (vượt qua đường ISDN về khoảng "
+"cách), SDSL (đối xứng, tải về và tải lên cùng tốc độ), và vài loại khác. "
+"Những loại kết nối này thường được dùng ở Mỹ, và được chấp nhận ở các nơi "
+"khác. Tốc độ khác nhau tùy thuộc vào kỹ thuật được dùng, nhưng nói chung "
+"trong khoảng từ 144kbps đến 1.0Mbps."
+
+#: ../src/netconfpkg/gui/NCPluginADSLInterfaceDruid.py:148
+msgid "Ethernet device:"
+msgstr "Thiết bị Ethernet:"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:278
+msgid "ISDN Dialup Configuration"
+msgstr "Cấu hình Quay số ISDN"
+
+#: ../src/netconfpkg/gui/NCPluginDialupInterfaceDialog.py:449
+msgid "Modem Dialup Configuration"
+msgstr "Cấu hình Quay số Modem"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetHardware.py:128
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:103
+#: ../src/netconfpkg/NCDeviceList.py:76 ../src/netconfpkg/NCDevice.py:328
+#: ../src/netconfpkg/NC_functions.py:414
+#: ../src/netconfpkg/NCHardwareList.py:432 ../src/netconfpkg/NCHardware.py:131
+msgid "Unknown"
+msgstr "Không biết"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:129
+msgid "Ethernet connection"
+msgstr "Kết nối Ethernet"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:135
+msgid "Create a new ethernet connection."
+msgstr "Tạo kết nối Ethernet mới."
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:202
+msgid "Other Ethernet Card"
+msgstr "Card Ethernet khác"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:222
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:219
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:204
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:332
+msgid "Device:"
+msgstr "Thiết bị:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:236
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:233
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:216
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:345
+msgid "Subnet mask:"
+msgstr "Mặc nạ mạng con:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:238
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:235
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:218
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:346
+msgid "Default gateway address:"
+msgstr "Địa chỉ Gateway mặc định:"
+
+#: ../src/netconfpkg/gui/NCPluginEthernetInterface.py:241
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:238
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:221
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:349
+msgid "Automatically obtain IP address settings with:"
+msgstr "Tự động lấy địa chỉ bằng:"
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:86
+msgid "ISDN connection"
+msgstr "Kết nối ISDN"
+
+#: ../src/netconfpkg/gui/NCPluginIsdnInterface.py:92
+msgid ""
+"Create a new ISDN connection. This is a connection that uses an Integrated "
+"Services Digital Network line to dial into to your Internet Service "
+"Provider. This type of technology requires a special phone line to be "
+"installed by your telephone company. It also requires a device known as a "
+"Terminal Adapter(TA) to terminate the ISDN connection from your ISP. This "
+"type of connection is popular in Europe and several other technologically "
+"advanced regions.  It is available but uncommon in the USA.  Speeds range "
+"from 64kbps to 128kbps."
+msgstr ""
+"Tạo kết nối ISDN. Đây là kết nối dùng đường Mạng Số Dịch vụ Tích hợp "
+"(Integrated Services Digital Network) để quay số đến ISP. Kỹ thuật này cần "
+"một đường điện thoại đặc biệt được cung cấp bởi công ty điện thoại của bạn. "
+"Nó còn cần một thiết bị gọi là Terminal Adapter(TA) để kết thúc kết nối ISDN "
+"từ ISP. Loại kết nối này phổ biến ở Châu Âu và những vùng kỹ thuật cao khác. "
+"Nó có nhưng không thông dụng tại Mỹ. Tốc độ vào khoảng 64kbps đến 128kbps."
+
+#: ../src/netconfpkg/gui/NCPluginModemConfig.py:99
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:168
+msgid "Generic Modem"
+msgstr "Modem thường"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:80
+msgid "Modem connection"
+msgstr "Kết nối Modem"
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:87
+#, fuzzy
+msgid ""
+"Create a new Modem connection.  This is a connection that uses a serial "
+"analog modem to dial into to your Internet Service Provider. These modems "
+"use sound over a normal copper telephone line to transmit data. These types "
+"of connections are available just about anywhere in the world where there is "
+"a phone system."
+msgstr ""
+"Tạo kết nối Modem. Đây là kết nối dùng modem analog tuần tự để gọi đến ISP "
+"của bạn. Những modem này dùng âm thanh để truyền dữ liệu qua đường dây điện "
+"thoại bằng đồng thông thường. Loại kết nối này có mặt khắp nơi trên thế "
+"giới, nơi nào có hệ thống điện thoại."
+
+#. FIXME: [165331] Can't detect external modem on /dev/ttyS0
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:120
+msgid "Modem probing..."
+msgstr "Đang dò modem..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:125
+msgid "Probing for Modems, please wait..."
+msgstr "Đang dò tìm modem, vui lòng chờ..."
+
+#: ../src/netconfpkg/gui/NCPluginModemInterface.py:140
+msgid "No modem was found on your system."
+msgstr "Không tìm thấy modem trên hệ thống."
+
+#: ../src/netconfpkg/gui/NCPluginQethHardware.py:87
+#, python-format
+msgid ""
+"Do you want to deactive interface %s first?\n"
+"Otherwise saving changes may have unwanted side effects."
+msgstr ""
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:119
+#, fuzzy
+msgid "Qeth connection"
+msgstr "kết nối %s"
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:125
+#, fuzzy
+msgid "Create a new qeth connection."
+msgstr "Tạo kết nối Ethernet mới."
+
+#: ../src/netconfpkg/gui/NCPluginQethInterfaceDruid.py:197
+#, fuzzy
+msgid "Other QETH Device"
+msgstr "Thiết bị Ethernet"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingHardware.py:60
+#, fuzzy
+msgid ""
+"The Token Ring card could not be initialized. Please verify your settings "
+"and try again."
+msgstr ""
+"Không thể khởi tạo Card Token Ring.\n"
+"Vui lòng kiểm tra lại thiết lập và thử lại."
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:110
+msgid "Token Ring connection"
+msgstr "Kết nối Token Ring"
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:116
+msgid "Create a new Token Ring connection."
+msgstr "Tạo kết nối Token Ring mới."
+
+#: ../src/netconfpkg/gui/NCPluginTokenRingInterface.py:182
+msgid "Other Tokenring Card"
+msgstr "Card Token Ring khác"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:29
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:88
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:166
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:34
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:143
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:206
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:19
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:15
+msgid "Auto"
+msgstr "Tự động"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:30
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:35
+msgid "Ad-Hoc"
+msgstr "Ad-Hoc"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:31
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:36
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:194
+#, fuzzy
+msgid "Managed"
+msgstr "Canada"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessConfig.py:32
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:37
+msgid "Master"
+msgstr ""
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:152
+msgid "Wireless connection"
+msgstr "Kết nối không dây"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:158
+msgid "Create a new wireless connection."
+msgstr "Tạo kết nối không dây mới."
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:245
+msgid "BitRate"
+msgstr ""
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:309
+msgid "Other Wireless Card"
+msgstr "Card không dây khác"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:352
+#, fuzzy
+msgid "Mode:"
+msgstr "_Chế độ:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:353
+msgid "ESSID (network ID):"
+msgstr "ESSID (ID Mạng):"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:355
+#, fuzzy
+msgid "Automatic"
+msgstr "Tự động"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:359
+#, fuzzy
+msgid "Channel:"
+msgstr "_Kênh:"
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:360
+#, fuzzy
+msgid "Transmit rate:"
+msgstr "Tần số gửi: "
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:361
+msgid "Key: "
+msgstr "Khóa: "
+
+#: ../src/netconfpkg/gui/NCPluginWirelessInterface.py:367
+#, fuzzy
+msgid "encryption disabled"
+msgstr "_Khóa mã hóa:"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:1
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:1
+msgid "Waiting to connect to"
+msgstr "Đang đợi kết nối tới"
+
+#: ../src/netconfpkg/gui/neat-control-debugdialog.glade.h:2
+#: ../src/netconfpkg/gui/neat-control-statusdialog.glade.h:2
+msgid "Waiting..."
+msgstr "Đang đợi"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:1
+#, fuzzy
+msgid "<b>Active profile</b>"
+msgstr "Profile hoạt động"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:2
+msgid "Ac_tivate"
+msgstr "_Kích hoạt"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:3
+msgid "Auto _Select"
+msgstr "Tự động _chọn"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:4
+msgid "Click to activate the selected profile"
+msgstr "Nhấn để kích hoạt profile được chọn"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:5
+msgid "Click to bring up the interface"
+msgstr "Nhấn để bật giao diện"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:6
+msgid "Click to configure the interface"
+msgstr "Nhấn để cấu hình giao diện"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:7
+msgid "Click to get infos"
+msgstr "Nhấn để lấy thông tin"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:8
+msgid "Click to have the system automatically select and activate a profile"
+msgstr "Nhấn để hệ thống tự động chọn và kích hoạt profile"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:9
+msgid "Click to monitor the interface"
+msgstr "Nhấn để theo dõi giap tiếp"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:10
+msgid "Click to shutdown the interface"
+msgstr "Nhấn để tắt giao tiếp"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:12
+#: ../system-control-network.desktop.in.h:2
+msgid "Network Device Control"
+msgstr "Điều khiển Thiết bị Mạng"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:14
+msgid "Select a profile"
+msgstr "Chọn profile"
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:16
+msgid "The following network interfaces are configured in the active profile."
+msgstr "Các giao tiếp mạng sau được cấu hình trong profile hoạt động."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:18
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:3
+msgid "_Configure..."
+msgstr "_Cấu hình..."
+
+#: ../src/netconfpkg/gui/neat-control.glade.h:20
+#, fuzzy
+msgid "_Info"
+msgstr "_Thông tin\t"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:1
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:2
+msgid "Online time:"
+msgstr "Thời gian trực tuyến:"
+
+#: ../src/netconfpkg/gui/neat-control-monitordialog.glade.h:3
+msgid "click the right mouse button for properties"
+msgstr "nhấn chuột phải để chỉnh thuộc tính"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:1
+msgid "Connect to"
+msgstr "Kết nối tới"
+
+#: ../src/netconfpkg/gui/neat-control-popupmenu.glade.h:2
+msgid "Disconnect from"
+msgstr "Ngắt kết nối từ"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:1
+msgid "$"
+msgstr "$"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:2
+msgid "0.00"
+msgstr "0.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:3
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:1
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:1
+msgid "1"
+msgstr "1"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:4
+msgid "1.00"
+msgstr "1.00"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:5
+msgid "Confirm _starting connection"
+msgstr "Xác nhận _khởi động kết nối"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:6
+msgid "Confirm stopping _connection"
+msgstr "Xác nhận _ngắt kết nối"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:7
+msgid "Cos_t accumulated from the past connection:"
+msgstr "_Chi phí tích lũy từ kết nối quá khứ:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:8
+msgid "Cost per:"
+msgstr "Chi phí mổi:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:9
+msgid "Count:"
+msgstr "Đếm:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:10
+msgid "M_inimum number of seconds charged:"
+msgstr "_Số giây tối thiểu trả tiền:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:11
+msgid "_Accumulate cost over multiple connections"
+msgstr "_Tích lũy chi phí đa kết nối"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:12
+msgid "_Basic"
+msgstr "_Cơ bản"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:13
+msgid "_Cost"
+msgstr "_Chi phí"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:14
+msgid "_Debug mode"
+msgstr "_Chế độ gỡ lỗi"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:15
+msgid "_Extra cost to start a connection:"
+msgstr "_Chi phí bổ sung để khởi động kết nối:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:16
+msgid "_Hour"
+msgstr "_Giờ"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:17
+msgid "_Minute"
+msgstr "_Phút"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:18
+msgid "_Number of seconds in basic accounting unit:"
+msgstr "_Số giây trong đơn vị tính cơ bản:"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:19
+msgid "_Second"
+msgstr "_Giây"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:20
+msgid "_Terminate connection when session closes"
+msgstr "_Ngắt kết nối khi đóng phiên làm việc"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:21
+msgid "_Time"
+msgstr "_Thời gian"
+
+#: ../src/netconfpkg/gui/neat-control-propertiesdialog.glade.h:22
+msgid "redhat network control - Properties"
+msgstr "điều khiển mạng redhat - Thuộc tính"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:1
+msgid "Add new Device Type"
+msgstr "Thêm Kiểu thiết bị mới"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:2
+msgid "Device Type"
+msgstr "Kiểu thiết bị"
+
+#: ../src/netconfpkg/gui/NewInterfaceDruid.glade.h:3
+msgid "Select Device Type"
+msgstr "Chọn Kiểu thiết bị"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:1
+#: ../src/netconfpkg/gui/QethHardware.glade.h:2
+msgid "D_ata Device Bus ID:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:2
+#: ../src/netconfpkg/gui/QethHardware.glade.h:3
+msgid "Enter generic options (i.e. LAYER2=1 PORTNO=0)"
+msgstr ""
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:3
+#: ../src/netconfpkg/gui/QethHardware.glade.h:4
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:3
+msgid "Enter the MAC address (i.e. 00:13:A9:47:5A:B2)"
+msgstr ""
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:4
+#: ../src/netconfpkg/gui/QethHardware.glade.h:5
+msgid "For Example 0.0.0600"
+msgstr ""
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:5
+#: ../src/netconfpkg/gui/QethHardware.glade.h:6
+#: ../src/netconfpkg/gui/QethInterfaceDruid.glade.h:5
+#, fuzzy
+msgid "MAC Address:"
+msgstr "Địa chỉ:"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:6
+#: ../src/netconfpkg/gui/QethHardware.glade.h:8
+#, fuzzy
+msgid "Options:"
+msgstr "_Tùy chọn"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:7
+msgid "Resource"
+msgstr "Tài nguyên"
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:10
+#: ../src/netconfpkg/gui/QethHardware.glade.h:10
+msgid "_Read Device Bus ID:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/QethHardwareDruid.glade.h:11
+#: ../src/netconfpkg/gui/QethHardware.glade.h:11
+msgid "_Write Device Bus ID:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:1
+#, fuzzy
+msgid "A_ddress:"
+msgstr "Địa chỉ:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:3
+msgid "Automatically obtain _IP address settings with:"
+msgstr "Tự động lấy thiết lập địa chỉ _IP với:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:4
+msgid "Bind to _MAC address:"
+msgstr "Gắn với địa chỉ _MAC:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:5
+msgid "DHCP Settings"
+msgstr "Thiết lập DHCP"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:6
+#, fuzzy
+msgid "Default ga_teway address:"
+msgstr "Địa chỉ Gateway mặc định:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:7
+msgid "Destination Network"
+msgstr "Mạng đích"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:8
+msgid "Device _alias number:"
+msgstr "_Số bí danh thiết bị:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:9
+msgid "Difficulty level:"
+msgstr "Mức độ khó:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:10
+msgid ""
+"Each connection needs to be associated with a physical device which can be "
+"selected below."
+msgstr "Mỗi kết nối cần được gắn với một thiết bị vật lý được chọn bên dưới."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:11
+msgid "Easy"
+msgstr "Dễ"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:12
+msgid "Gateway"
+msgstr "Gateway"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:13
+#, fuzzy
+msgid "H_ostname (optional):"
+msgstr "_Tên máy (tùy chọn):"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:14
+msgid "Hardware device:"
+msgstr "Thiết bị Phần cứng:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:15
+msgid "IPsec Tunnel Settings"
+msgstr "Thiết lập Tunnel IPsec"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:16
+msgid "Local Network"
+msgstr "Mạng Cục bộ"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:19
+msgid "Please select the level of security for this device."
+msgstr "Vui lòng chọn mức an ninh cho thiết bị này."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:20
+msgid "Prefix (Netmask)"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:21
+msgid "Professional"
+msgstr "Chuyên nghiệp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:22
+msgid "Remote Host / GW"
+msgstr "Máy từ xa / GW"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:23
+msgid "Remote Network"
+msgstr "Mạng ở xa"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:24
+#, fuzzy
+msgid "S_econdary DNS:"
+msgstr "DNS thứ _hai:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:25
+msgid "Security Level"
+msgstr "Mức an ninh"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:26
+msgid "Select the services you want to provide through this device"
+msgstr "Chọn dịch vụ bạn muốn cung cấp thông qua thiết bị này"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:27
+msgid "Service"
+msgstr "Dịch vụ"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:28
+msgid "Service Description"
+msgstr "Mô tả dịch vụ"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:29
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:30
+msgid "Set M_RU to:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:31
+msgid "Set M_TU to:"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:32
+msgid "Static Network Routes"
+msgstr "Dẫn đường mạng tĩnh"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:33
+#, fuzzy
+msgid "Staticall_y set IP addresses:"
+msgstr "Đặt địa chỉ IP tĩnh:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:34
+msgid "Tie to specific ethernet card"
+msgstr "Buộc với Card Ethernet xác định"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:35
+msgid "Use ethernet device aliases"
+msgstr "Dùng Bí danh Thiết bị Ethernet"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:37
+msgid "_Delete..."
+msgstr "_Xoá..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:38
+msgid "_Edit..."
+msgstr "_Sửa..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:39
+msgid "_Hardware Address"
+msgstr "Đị_a chỉ Phần cứng"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:40
+msgid "_Hardware:"
+msgstr "_Phần cứng:"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:41
+msgid "_High Security (Internet)"
+msgstr "An ninh _cao (Internet)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:42
+msgid "_Low Security"
+msgstr "An ninh _thấp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:44
+msgid "_Probe"
+msgstr "_Dò tìm"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:45
+msgid "_Probe for Address..."
+msgstr "_Dò tìm địa chỉ..."
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:46
+msgid "_Secure Device (LAN)"
+msgstr "_Thiết bị an toàn (LAN)"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:48
+msgid "bootp"
+msgstr "bootp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:49
+msgid "dhcp"
+msgstr "dhcp"
+
+#: ../src/netconfpkg/gui/sharedtcpip.glade.h:50
+msgid "dialup"
+msgstr "quay số"
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:158
+msgid "IP address is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:160
+msgid "Network mask is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:162
+msgid "Gateway is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/sharedtcpip.py:446
+msgid "MAC address is not in the correct format"
+msgstr ""
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:1
+msgid "00:00:00:00:00:00"
+msgstr "00:00:00:00:00:00"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:2
+msgid ""
+"Each device needs to be attached to a physical device which can be selected "
+"below. Device Alias support allows you to use multiple virtual devices for "
+"one physical device."
+msgstr ""
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:3
+msgid "Enable _Device Alias support"
+msgstr "Bật Hỗ trợ _Bí danh Thiết bị"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:4
+msgid "Ha_rdware address:"
+msgstr "Địa chỉ _Phần cứng:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:5
+msgid "Token Ring Device"
+msgstr "Thiết bị Token Ring"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:6
+msgid "_Alias:"
+msgstr "_Bí danh:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:9
+msgid "_Hardware device:"
+msgstr "_Thiết bị Phần cứng:"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:10
+msgid "_Probe for Address"
+msgstr "_Dò tìm địa chỉ"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:12
+msgid "_Use Hardware Address"
+msgstr "_Dùng Địa chỉ phần cứng"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:13
+msgid "tr0"
+msgstr "tr0"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:14
+msgid "tr1"
+msgstr "tr1"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:15
+msgid "tr2"
+msgstr "tr2"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:16
+msgid "tr3"
+msgstr "tr3"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:17
+msgid "tr4"
+msgstr "tr4"
+
+#: ../src/netconfpkg/gui/tokenringconfig.glade.h:18
+msgid "tr5"
+msgstr "tr5"
+
+#: ../src/netconfpkg/gui/TokenRingHardwareDruid.glade.h:1
+msgid "Select Token Ring Adapter"
+msgstr "Chọn Bộ điều hợp Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:2
+#, fuzzy
+msgid "Create Token Ring Device"
+msgstr "Tạo Thiết bị Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:4
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:21
+#, fuzzy
+msgid ""
+"Please enter the MTU parameter to set the Maximum Transfer Unit of this "
+"interface. On s390/s390x the MTU has 1492 as default setting"
+msgstr ""
+"Vui lòng chọn tham số MTU để đặt Đơn vị Truyền Tối đa cho giao tiếp này. "
+"Trên s390/s390x, MTU mặc định là 1492."
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:5
+#, fuzzy
+msgid "Select Token Ring Device"
+msgstr "Chọn Thiết bị Token Ring"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:6
+#, fuzzy
+msgid "Select the token ring card you want to configure:"
+msgstr "Chọn Card Token Ring bạn muốn cấu hình"
+
+#: ../src/netconfpkg/gui/TokenRingInterfaceDruid.glade.h:7
+#, fuzzy
+msgid "Token ring card"
+msgstr "Card Token Ring"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:1
+#, fuzzy
+msgid "<b>T-Online account</b>"
+msgstr "Thiết lập Tài khoản _T-Online"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:2
+msgid "Account Setup"
+msgstr "Thiết lập Tài khoản"
+
+#: ../src/netconfpkg/gui/tonline.glade.h:4
+msgid ""
+"Please enter here your personal account data. Without this data, access to T-"
+"Online is unfortunately not possible."
+msgstr ""
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:2
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:2
+msgid "10"
+msgstr "10"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:3
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:3
+msgid "11"
+msgstr "11"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:4
+msgid "11M"
+msgstr "11M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:5
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:4
+msgid "12"
+msgstr "12"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:6
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:5
+msgid "13"
+msgstr "13"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:7
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:6
+msgid "14"
+msgstr "14"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:8
+msgid "1M"
+msgstr "1M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:9
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:7
+#, fuzzy
+msgid "2"
+msgstr "2M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:10
+msgid "2M"
+msgstr "2M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:11
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:8
+msgid "3"
+msgstr "3"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:12
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:9
+msgid "4"
+msgstr "4"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:13
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:10
+msgid "5"
+msgstr "5"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:14
+msgid "5.5M"
+msgstr "5.5M"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:15
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:11
+msgid "6"
+msgstr "6"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:16
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:12
+msgid "7"
+msgstr "7"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:17
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:13
+msgid "8"
+msgstr "8"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:18
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:14
+msgid "9"
+msgstr "9"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:20
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:20
+msgid "Network name (SSID):"
+msgstr "Tên mạng (SSID):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:21
+msgid ""
+"Set the operating mode of the device, which depends on the network topology. "
+"The mode can be Ad-Hoc (network composed of only one cell and without Access "
+"Point), Managed (node connects to a network composed of many Access Points, "
+"with roaming), Master (the node is the synchronization master or acts as an "
+"Access Point) or Auto."
+msgstr ""
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:22
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:24
+msgid ""
+"Used to manipulate encryption or scrambling keys and encryption mode. To set "
+"the current encryption key in hex digits enter the key with 0x prepended as "
+"0xXXXXXXXX."
+msgstr ""
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:23
+msgid "Wireless Device Configuration"
+msgstr "Cấu hình Thiết bị không dây"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:24
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:25
+msgid "_Auto"
+msgstr "_Tự động"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:25
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:26
+msgid "_Channel:"
+msgstr "_Kênh:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:27
+#, fuzzy
+msgid "_Hardware device"
+msgstr "_Thiết bị Phần cứng:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:28
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:27
+msgid "_Key (use 0x for hex):"
+msgstr "_Khoá (dùng 0x cho thập lục phân):"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:29
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:28
+msgid "_Mode:"
+msgstr "_Chế độ:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:31
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:29
+msgid "_Specified:"
+msgstr "_Xác định:"
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:32
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:30
+msgid "_Transmit rate:"
+msgstr "Tần số _gửi: "
+
+#: ../src/netconfpkg/gui/wirelessconfig.glade.h:33
+msgid "_Wireless Settings"
+msgstr "Thiết lập _không dây"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:17
+msgid "Configure Wireless Connection"
+msgstr "Cấu hình Kết nối Không dây"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:18
+msgid "Create Wireless Device"
+msgstr "Tạo Thiết bị Không dây"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:22
+msgid "Select Wireless Device"
+msgstr "Chọn Thiết bị không dây"
+
+#: ../src/netconfpkg/gui/WirelessInterfaceDruid.glade.h:23
+#, fuzzy
+msgid "Select the wireless card you want to configure:"
+msgstr "Chọn Card không dây bạn muốn cấu hình:"
+
+#: ../src/netconfpkg/NCDeviceList.py:137
+msgid "Changed the following Nicknames due to the initscripts:\n"
+msgstr "Đã đổi tên hiệu sau do initscripts:\n"
+
+#: ../src/netconfpkg/NCDeviceList.py:140
+msgid "Nicknames changed"
+msgstr "Tên hiệu đã thay đổi"
+
+#: ../src/netconfpkg/NCDevice.py:308 ../src/netconfpkg/NCDevice.py:314
+#, python-format
+msgid "%s, Device not specified or alias not a number!"
+msgstr "%s, Chưa xác định thiết bị, hoặc bí danh không phải là số!"
+
+#: ../src/netconfpkg/NCDevice.py:518
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:88
+msgid "Network device activating..."
+msgstr "Kích hoạt thiết bị mạng..."
+
+#: ../src/netconfpkg/NCDevice.py:519
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:89
+#, python-format
+msgid "Activating network device %s, please wait..."
+msgstr "Đang kích hoạt thiết bị mạng %s, vui lòng chờ..."
+
+#: ../src/netconfpkg/NCDevice.py:521
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:91
+#, python-format
+msgid "Cannot activate network device %s!\n"
+msgstr "Không thể kích hoạt thiết bị mạng %s!\n"
+
+#: ../src/netconfpkg/NCDevice.py:538
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:112
+msgid "Network device deactivating..."
+msgstr "Đang ngừng kích hoạt thiết bị mạng..."
+
+#: ../src/netconfpkg/NCDevice.py:539
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:113
+#, python-format
+msgid "Deactivating network device %s, please wait..."
+msgstr "Đang ngừng kích hoạt thiết bị mạng %s, vui lòng chờ..."
+
+#: ../src/netconfpkg/NCDevice.py:541
+#: ../src/netconfpkg/plugins/NCPluginDevIsdn.py:115
+#, python-format
+msgid "Cannot deactivate network device %s!\n"
+msgstr "Không thể ngừng kích hoạt thiết bị mạng %s!\n"
+
+#: ../src/netconfpkg/NCDialup.py:152
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: ../src/netconfpkg/NCDialup.py:153
+msgid "Albania"
+msgstr "Albania"
+
+#: ../src/netconfpkg/NCDialup.py:154
+msgid "Algeria"
+msgstr "Algeria"
+
+#: ../src/netconfpkg/NCDialup.py:155
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: ../src/netconfpkg/NCDialup.py:156
+msgid "Andorra"
+msgstr "Andorra"
+
+#: ../src/netconfpkg/NCDialup.py:157
+msgid "Argentina"
+msgstr "Argentina"
+
+#: ../src/netconfpkg/NCDialup.py:158
+msgid "Australia"
+msgstr "Úc"
+
+#: ../src/netconfpkg/NCDialup.py:159
+msgid "Austria"
+msgstr "Austria"
+
+#: ../src/netconfpkg/NCDialup.py:160
+msgid "Belarus"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:161
+msgid "Belgium"
+msgstr "Belgium"
+
+#: ../src/netconfpkg/NCDialup.py:162
+msgid "Bosnia and Hercegovina"
+msgstr "Bosnia and Hercegovina"
+
+#: ../src/netconfpkg/NCDialup.py:163
+msgid "Brazil"
+msgstr "Brazil"
+
+#: ../src/netconfpkg/NCDialup.py:164
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+#: ../src/netconfpkg/NCDialup.py:165
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: ../src/netconfpkg/NCDialup.py:166
+msgid "Canada"
+msgstr "Canada"
+
+#: ../src/netconfpkg/NCDialup.py:167
+msgid "Central African Republic"
+msgstr "Trung Phi"
+
+#: ../src/netconfpkg/NCDialup.py:168
+msgid "Chile"
+msgstr "Chi Lê"
+
+#: ../src/netconfpkg/NCDialup.py:169
+msgid "China"
+msgstr "Trung Quốc"
+
+#: ../src/netconfpkg/NCDialup.py:170
+msgid "Colombia"
+msgstr "Colombia"
+
+#: ../src/netconfpkg/NCDialup.py:171
+msgid "Croatia"
+msgstr "Croatia"
+
+#: ../src/netconfpkg/NCDialup.py:172
+msgid "Cuba"
+msgstr "Cuba"
+
+#: ../src/netconfpkg/NCDialup.py:173
+msgid "Cyprus"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:174
+msgid "Czech Republic"
+msgstr "Cộng Hòa Sec"
+
+#: ../src/netconfpkg/NCDialup.py:175
+msgid "Denmark"
+msgstr "Đan Mạch"
+
+#: ../src/netconfpkg/NCDialup.py:176
+msgid "Finland"
+msgstr "Finland"
+
+#: ../src/netconfpkg/NCDialup.py:177
+msgid "France"
+msgstr "Pháp"
+
+#: ../src/netconfpkg/NCDialup.py:178
+msgid "Germany"
+msgstr "Đức"
+
+#: ../src/netconfpkg/NCDialup.py:179
+msgid "Greece"
+msgstr "Hy Lạp"
+
+#: ../src/netconfpkg/NCDialup.py:180
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: ../src/netconfpkg/NCDialup.py:181
+msgid "Hungary"
+msgstr "Hungary"
+
+#: ../src/netconfpkg/NCDialup.py:182
+msgid "Iceland"
+msgstr "Iceland"
+
+#: ../src/netconfpkg/NCDialup.py:183
+msgid "India"
+msgstr "India"
+
+#: ../src/netconfpkg/NCDialup.py:184
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: ../src/netconfpkg/NCDialup.py:185
+msgid "Ireland"
+msgstr "Ireland"
+
+#: ../src/netconfpkg/NCDialup.py:186
+msgid "Israel"
+msgstr "Israel"
+
+#: ../src/netconfpkg/NCDialup.py:187
+msgid "Italy"
+msgstr "Ý"
+
+#: ../src/netconfpkg/NCDialup.py:188
+msgid "Japan"
+msgstr "Nhật Bản"
+
+#: ../src/netconfpkg/NCDialup.py:189
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:190
+msgid "Korea North"
+msgstr "Korea North"
+
+#: ../src/netconfpkg/NCDialup.py:191
+msgid "Korea Republic"
+msgstr "Korea Republic"
+
+#: ../src/netconfpkg/NCDialup.py:192
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:193
+msgid "Lithuania"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:194
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: ../src/netconfpkg/NCDialup.py:195
+msgid "Macedonia"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:196
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: ../src/netconfpkg/NCDialup.py:197
+#, fuzzy
+msgid "Malta"
+msgstr "Malaysia"
+
+#: ../src/netconfpkg/NCDialup.py:198
+msgid "Mexico"
+msgstr "Mexico"
+
+#: ../src/netconfpkg/NCDialup.py:199
+msgid "Moldova"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:200
+msgid "Monaco"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:201
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: ../src/netconfpkg/NCDialup.py:202
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: ../src/netconfpkg/NCDialup.py:203
+msgid "Norway"
+msgstr "Norway"
+
+#: ../src/netconfpkg/NCDialup.py:204
+msgid "Palestine"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:205
+msgid "Philippines"
+msgstr "Philippines"
+
+#: ../src/netconfpkg/NCDialup.py:206
+#, fuzzy
+msgid "Poland"
+msgstr "Finland"
+
+#: ../src/netconfpkg/NCDialup.py:207
+msgid "Portugal"
+msgstr ""
+
+#: ../src/netconfpkg/NCDialup.py:208
+msgid "Romania"
+msgstr "Rumani"
+
+#: ../src/netconfpkg/NCDialup.py:209
+#, fuzzy
+msgid "Russia"
+msgstr "Austria"
+
+#: ../src/netconfpkg/NCDialup.py:210
+msgid "Singapore"
+msgstr "Singapore"
+
+#: ../src/netconfpkg/NCDialup.py:211
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: ../src/netconfpkg/NCDialup.py:212
+#, fuzzy
+msgid "Slovenia"
+msgstr "Slovakia"
+
+#: ../src/netconfpkg/NCDialup.py:213
+msgid "Spain"
+msgstr "Tây Ban Nha"
+
+#: ../src/netconfpkg/NCDialup.py:214
+msgid "Sweden"
+msgstr "Sweden"
+
+#: ../src/netconfpkg/NCDialup.py:215
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: ../src/netconfpkg/NCDialup.py:216
+msgid "Taiwan"
+msgstr "Đài Loan"
+
+#: ../src/netconfpkg/NCDialup.py:217
+msgid "Thailand"
+msgstr "Thái Lan"
+
+#: ../src/netconfpkg/NCDialup.py:218
+msgid "Turkey"
+msgstr "Thổ Nhĩ Kỳ"
+
+#: ../src/netconfpkg/NCDialup.py:219
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: ../src/netconfpkg/NCDialup.py:220
+msgid "United Kingdom"
+msgstr "Anh"
+
+#: ../src/netconfpkg/NCDialup.py:221
+msgid "United States of America"
+msgstr "Mỹ"
+
+#: ../src/netconfpkg/NCDialup.py:222
+msgid "Vietnam"
+msgstr "Việt Nam"
+
+#: ../src/netconfpkg/NCDialup.py:223
+#, fuzzy
+msgid "Serbia"
+msgstr "Algeria"
+
+#. FIXED: [175078] String (country name) change request
+#: ../src/netconfpkg/NCDialup.py:224
+msgid "Montenegro"
+msgstr ""
+
+#: ../src/netconfpkg/NC_functions.py:97
+msgid "Common"
+msgstr "Chung"
+
+#. Removed for now, until we have a config dialog for infrared
+#. '^irlan[0-9]+(:[0-9]+)?$' : WIRELESS
+#: ../src/netconfpkg/NC_functions.py:133
+msgid "Active"
+msgstr "Hoạt động"
+
+#: ../src/netconfpkg/NC_functions.py:134
+msgid "Inactive"
+msgstr "Không hoạt động"
+
+#: ../src/netconfpkg/NC_functions.py:228
+msgid ""
+"Shall the following packages, which are needed on your system, be installed?"
+msgstr "Sẽ cài đặt những gói sau đây (cần thiết cho hệ thống) chứ?"
+
+#: ../src/netconfpkg/NC_functions.py:240
+msgid ""
+"You have to install the following packages, which are needed on your system!"
+msgstr "Bạn phải cài đặt các gói sau, cần thiết cho hệ thống!"
+
+#: ../src/netconfpkg/NC_functions.py:774 ../src/netconfpkg/NC_functions.py:785
+#, python-format
+msgid ""
+"Error removing\n"
+"%s:\n"
+"%s!"
+msgstr ""
+"Lỗi loại bỏ\n"
+"%s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:814
+#, python-format
+msgid ""
+"Error copying \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Lỗi sao chép\n"
+"%s\n"
+"thành %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:824
+#, python-format
+msgid ""
+"Error linking \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Lỗi liên kết\n"
+"%s\n"
+"thành %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:834
+#, python-format
+msgid ""
+"Error renaming \n"
+"%s\n"
+"to %s:\n"
+"%s!"
+msgstr ""
+"Lỗi đổi tên\n"
+"%s\n"
+"thành %s:\n"
+"%s!"
+
+#: ../src/netconfpkg/NC_functions.py:842
+#, python-format
+msgid ""
+"Error creating directory!\n"
+"%s"
+msgstr ""
+"Lỗi tạo thư mục!\n"
+"%s"
+
+#: ../src/netconfpkg/NC_functions.py:987
+#, fuzzy, python-format
+msgid "Linking %s to devices and putting it in profile %s."
+msgstr "Đang chép %s vaò thiết bị và đặt nó vào profile mặc định."
+
+#: ../src/netconfpkg/NCHardware.py:22
+msgid "inactive"
+msgstr "không hoạt động"
+
+#. not found in last config and not in actual system
+#: ../src/netconfpkg/NCHardware.py:23
+msgid "system"
+msgstr "hệ thống"
+
+#. found in system
+#: ../src/netconfpkg/NCHardware.py:24
+msgid "configured"
+msgstr "đã cấu hình"
+
+#. found in config but not in system
+#: ../src/netconfpkg/NCHardware.py:25
+msgid "ok"
+msgstr "đồng ý"
+
+#: ../src/netconfpkg/NCIPsec.py:240
+msgid "IPsec activating..."
+msgstr "Đang kích hoạt IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:241
+#, python-format
+msgid "Activating IPsec connection %s, please wait..."
+msgstr "Đang kích hoạt kết nối IPsec %s, vui lòng chờ..."
+
+#: ../src/netconfpkg/NCIPsec.py:243
+#, python-format
+msgid "Cannot activate IPsec connection %s!\n"
+msgstr "Không thể kích hoạt kết nối IPsec %s!\n"
+
+#: ../src/netconfpkg/NCIPsec.py:260
+msgid "IPsec deactivating..."
+msgstr "Đang ngừng kích hoạt IPsec..."
+
+#: ../src/netconfpkg/NCIPsec.py:261
+#, python-format
+msgid "Deactivating IPsec connection %s, please wait..."
+msgstr "Đang ngừng kích hoạt kết nối IPsec %s, vui lòng chờ..."
+
+#: ../src/netconfpkg/NCIPsec.py:263
+#, python-format
+msgid "Cannot deactivate IPsec connection %s!\n"
+msgstr "Không thể ngừng kích hoạt kết nối IPsec %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:213
+#, python-format
+msgid "Device %s uses the same Hardware Device \"%s\" like %s!\n"
+msgstr "Thiết bị %s dùng cùng Thiết bị Phần cứng \"%s\" với %s!\n"
+
+#: ../src/netconfpkg/NCProfileList.py:215
+msgid ""
+"Please select another Hardware Device or \n"
+"activate only one of them."
+msgstr ""
+"Vui lòng chọn Thiết bị Phần cứng khác\n"
+"hoặc chỉ kích hoạt một cái."
+
+#: ../src/netconfpkg/NCProfileList.py:292
+msgid ""
+"You changed the hostname.\n"
+"\n"
+"Should the hostname be set to the system now?\n"
+"This may have the effect, that some X applications do not function "
+"properly.\n"
+"\n"
+"You may have to relogin."
+msgstr ""
+
+#: ../src/netconfpkg/NCProfileList.py:538
+#, fuzzy
+msgid "Error removing file %(file)s: %(errormsg)"
+msgstr ""
+"Lỗi loại bỏ\n"
+"%s:\n"
+"%s!"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:58
+#, fuzzy
+msgid "<New Device>"
+msgstr "Thiết bị"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:65
+#, fuzzy
+msgid "Which device type do you want to add?"
+msgstr "Không thể hiệu chỉnh cấu hình loại thiết bị %s!\n"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#, fuzzy
+msgid "Add"
+msgstr "_Thêm..."
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:66
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+#: ../src/netconfpkg/tui/NCPluginDNS.py:69
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:154
+#: ../src/netconfpkg/tui/NCTcpIp.py:131
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:72
+msgid "QETH"
+msgstr ""
+
+#. li = self.Listbox(5, returnExit=1)
+#: ../src/netconfpkg/tui/NCPluginDevices.py:105
+#, fuzzy
+msgid "Select A Device"
+msgstr "Chọn Thiết bị"
+
+#: ../src/netconfpkg/tui/NCPluginDevices.py:106
+msgid "Save"
+msgstr ""
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:55
+#, fuzzy
+msgid "Hostname"
+msgstr "Tên máy:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:56
+#, fuzzy
+msgid "Primary DNS"
+msgstr "DNS _chính:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:57
+#, fuzzy
+msgid "Secondary DNS"
+msgstr "DNS thứ _hai:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:58
+#, fuzzy
+msgid "Tertiary DNS"
+msgstr "DNS thứ _ba:"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:59
+#, fuzzy
+msgid "DNS search path"
+msgstr "Đường dẫn tìm DNS:"
+
+#. g2.setField(gwy, 1, 5, (1, 0, 0, 0))
+#. dynip.setCallback(useDynamicCheckBox)
+#: ../src/netconfpkg/tui/NCPluginDNS.py:68
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:80
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:79
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:153
+#: ../src/netconfpkg/tui/NCTcpIp.py:130
+msgid "Ok"
+msgstr "Đồng ý"
+
+#: ../src/netconfpkg/tui/NCPluginDNS.py:71 ../src/netconf_tui.py:256
+#, fuzzy
+msgid "DNS configuration"
+msgstr "Cấu hình ISDN"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:67
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:128
+#: ../src/netconfpkg/tui/NCTcpIp.py:113
+msgid "Name"
+msgstr "Tên"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:69
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:69
+msgid "ISP Phonenumber"
+msgstr "Số điện thoại ISp"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:70
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:70
+msgid "ISP Login"
+msgstr "Đăng nhập ISP"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:71
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:71
+msgid "ISP Password"
+msgstr "Mật khẩu ISP"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:72
+msgid "MSN"
+msgstr "MSN"
+
+#: ../src/netconfpkg/tui/NCPluginIsdnInterface.py:81
+msgid "ISDN Configuration"
+msgstr "Cấu hình ISDN"
+
+#: ../src/netconfpkg/tui/NCPluginModemInterface.py:72
+msgid "Modem Initstring"
+msgstr "Chuỗi khởi tạo Modem"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:130
+#: ../src/netconfpkg/tui/NCTcpIp.py:115
+msgid "Use DHCP"
+msgstr "Dùng DHCP"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:131
+#: ../src/netconfpkg/tui/NCTcpIp.py:116
+msgid "Static IP"
+msgstr "IP Tĩnh"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:132
+#: ../src/netconfpkg/tui/NCTcpIp.py:117
+msgid "Netmask"
+msgstr "Mặt nạ mạng"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:133
+#: ../src/netconfpkg/tui/NCTcpIp.py:118
+msgid "Default gateway IP"
+msgstr "IP Gateway mặc định"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:134
+msgid "Read Device Bus ID"
+msgstr ""
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:135
+msgid "Data Device Bus ID"
+msgstr ""
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:136
+#, fuzzy
+msgid "Write Device Bus ID"
+msgstr "Tạo Thiết bị"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:138
+#, fuzzy
+msgid "Options"
+msgstr "_Tùy chọn"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:139
+#, fuzzy
+msgid "MAC Address"
+msgstr "Địa chỉ:"
+
+#: ../src/netconfpkg/tui/NCPluginQethInterface.py:156
+#, fuzzy
+msgid "Devernet Configuration"
+msgstr "Cấu hình Ethernet"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:119
+#, fuzzy
+msgid "Primary DNS Server"
+msgstr "DNS _chính:"
+
+#: ../src/netconfpkg/tui/NCTcpIp.py:120
+#, fuzzy
+msgid "Secondary DNS Server"
+msgstr "DNS thứ _hai:"
+
+#: ../src/netconf.py:63
+#, python-format
+msgid "Error: %s, %s!"
+msgstr "Lỗi: %s, %s!"
+
+#: ../src/netconf.py:65
+msgid "Starting text version"
+msgstr "Khởi động chế độ văn bản"
+
+#: ../src/netconf.py:84
+msgid ""
+"ERROR: Unable to initialize graphical environment.Most likely cause of "
+"failure is that the tool was not run using a graphical environment. Please "
+"either start your graphical user interface or set your DISPLAY variable."
+msgstr ""
+
+#: ../src/netconf.py:130
+msgid "Loading Network Configuration..."
+msgstr "Đang nạp cấu hình mạng..."
+
+#: ../src/netconf.py:143
+msgid ""
+"system-config-network - network configuration tool\n"
+"\n"
+"Usage: system-config-network -v --verbose"
+msgstr ""
+"system-config-network - công cụ cấu hình mạng\n"
+"\n"
+"Cách dùng: system-config-network -v --verbose"
+
+#: ../src/netconf.py:259 ../src/netconf_tui.py:238
+#, fuzzy
+msgid "Please start system-config-network with root permissions!\n"
+msgstr "Vui lòng chạy system-config-network bằng root!\n"
+
+#: ../src/netconf_tui.py:127
+msgid ""
+"An unhandled exception has occured.  This is most likely a bug.  Please save "
+"the crash dump and file a detailed bug report against system-config-network "
+"at https://bugzilla.redhat.com/bugzilla"
+msgstr ""
+"Xảy ra lỗi không thể xử lý. Thông thường đây là bug. Vui lòng lưu crash dump "
+"và báo chi tiết lỗi của system-config-network tại https://bugzilla.redhat."
+"com/bugzilla"
+
+#: ../src/netconf_tui.py:162
+#, fuzzy
+msgid "Loading configuration"
+msgstr "Đang nạp cấu hình..."
+
+#: ../src/netconf_tui.py:163
+#, fuzzy
+msgid "Loading Device Configuration"
+msgstr "Đang nạp Cấu hình Thiết bị..."
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:169
+#, fuzzy
+msgid "Loading Hardware Configuration"
+msgstr "Đang nạp Cấuh hình Phần cứng..."
+
+#. pylint: disable-msg=W0612
+#: ../src/netconf_tui.py:173
+#, fuzzy
+msgid "Loading Profile Configuration"
+msgstr "Đang nạp cấu hình Profile..."
+
+#. do this more inteligent - auto loading of new plugins??
+#: ../src/netconf_tui.py:255
+#, fuzzy
+msgid "Device configuration"
+msgstr "Cấu hình ISDN"
+
+#: ../src/netconf_tui.py:264
+#, fuzzy
+msgid "Select Action"
+msgstr "Chọn Thiết bị"
+
+#: ../src/netconf_tui.py:265
+msgid "Save&Quit"
+msgstr ""
+
+#: ../src/netconf_tui.py:265
+msgid "Quit"
+msgstr ""
+
+#: ../system-config-network.desktop.in.h:1
+msgid "Configure network devices and connections"
+msgstr "Cấu hình kết nối và thiết bị mạng"
+
+#: ../system-config-network.desktop.in.h:2
+msgid "Network"
+msgstr "Mạng"
+
+#: ../system-control-network.desktop.in.h:1
+msgid "Control and monitor network devices"
+msgstr "Điều khiển và theo dõi thiết bị mạng"
+
+#~ msgid "ERROR: Unable to initialize graphical environment. "
+#~ msgstr "LỖI: Không thể khởi tạo môi trườnd đồ họa."
+
+#~ msgid ""
+#~ "Most likely cause of failure is that the tool was not run using a "
+#~ "graphical environment. "
+#~ msgstr ""
+#~ "Lỗi này thường là do công cụ này không được chạy trong môi trường đồ họa."
+
+#~ msgid ""
+#~ "Please either start your graphical user interface or set your DISPLAY "
+#~ "variable.\n"
+#~ msgstr ""
+#~ "Vui lòng, hoặc khởi động chương trình trong chế độ đồ hoạ, hoặc đặt biến "
+#~ "DISPLAY.\n"
+
+#, fuzzy
+#~ msgid "Qeth Device"
+#~ msgstr "Tạo Thiết bị"
+
+#~ msgid "Card"
+#~ msgstr "Card"
+
+#~ msgid "Create Device"
+#~ msgstr "Tạo Thiết bị"
+
+#~ msgid "MT_U:"
+#~ msgstr "_MTU:"
+
+#~ msgid "Select the card you want to configure:"
+#~ msgstr "Chọn Card bạn muốn cấu hình:"
+
+#~ msgid "_Point to Point (IP):"
+#~ msgstr "Điểm-Điể_m (IP):"
+
+#~ msgid "Point to Point (IP):"
+#~ msgstr "Điểm-Điểm (IP):"
+
+#, fuzzy
+#~ msgid ""
+#~ "Command failed: %s\n"
+#~ "\n"
+#~ "Output:\n"
+#~ "%s\n"
+#~ msgstr "Lệnh gặp lỗi: "
+
+#~ msgid "Wireless card"
+#~ msgstr "Card Không dây"
+
+#, fuzzy
+#~ msgid "Error loading file %s"
+#~ msgstr "Lỗi phân tích dòng: %s"
+
+#~ msgid "Command failed: "
+#~ msgstr "Lệnh gặp lỗi: "
+
+#~ msgid "Output:\n"
+#~ msgstr "Kết quả:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Ethernet card could not be initialized. Please verify your settings "
+#~ "and try again."
+#~ msgstr ""
+#~ "Không thể khởi tạo Card Ethernet.\n"
+#~ "Vui lòng kiểm tra lại thiết lập và thử lại."
+
+#~ msgid "%s connection"
+#~ msgstr "kết nối %s"
+
+#~ msgid "Create a new %s connection."
+#~ msgstr "Tạo kết nối %s mới."
+
+#~ msgid "This wizard still has to be written."
+#~ msgstr "Wizard này vẫn phải được ghi."
+
+#~ msgid "Press Finish to get the standard configuration dialog."
+#~ msgstr "Nhấn Hoàn tất để vào hộp thoại cấu hình chuẩn."
+
+#~ msgid "Then, at first, enter the nickname for the device."
+#~ msgstr "Sau đó nhập vào tên hiệu của thiết bị "
+
+#~ msgid "This device can not be edited with this tool!"
+#~ msgstr "Không thể thiết bị này bằng công cụ này!"
+
+#~ msgid "CIPE Configuration"
+#~ msgstr "Cấu hình CIPE"
+
+#~ msgid "Configuration for your remote partner"
+#~ msgstr "Cấu hình cho máy partner ở xa"
+
+#~ msgid "Lo_cal virtual address:"
+#~ msgstr "Địa chỉ ảo _cục bộ:"
+
+#~ msgid "Remote _virtual address:"
+#~ msgstr "Địa chỉ ảo ở _xa:"
+
+#~ msgid "Remote peer p_ort:"
+#~ msgstr "_Cổng ngang hành từ xa:"
+
+#~ msgid "_Local port:"
+#~ msgstr "_Cổng cục bộ:"
+
+#~ msgid "_Remote peer address:"
+#~ msgstr "Địa chỉ ngang hàng từ _xa:"
+
+#~ msgid "_Secret key:"
+#~ msgstr "_Khóa bảo mật:"
+
+#~ msgid "_Tunnel Settings"
+#~ msgstr "_Thiết lập Tunnel"
+
+#~ msgid "_Tunnel through device:"
+#~ msgstr "_Tunnel thông qua Thiết bị:"
+
+#~ msgid "_auto"
+#~ msgstr "_tự động"
+
+#~ msgid "cipcb0"
+#~ msgstr "cipcb0"
+
+#~ msgid "cipcb1"
+#~ msgstr "cipcb1"
+
+#~ msgid "cipcb2"
+#~ msgstr "cipcb2"
+
+#~ msgid "cipcb3"
+#~ msgstr "cipcb3"
+
+#~ msgid "cipcb4"
+#~ msgstr "cipcb4"
+
+#~ msgid "eth0"
+#~ msgstr "eth0"
+
+#~ msgid "eth1"
+#~ msgstr "eth1"
+
+#~ msgid "eth2"
+#~ msgstr "eth2"
+
+#~ msgid "eth3"
+#~ msgstr "eth3"
+
+#~ msgid "eth4"
+#~ msgstr "eth4"
+
+#~ msgid "None - Server Mode"
+#~ msgstr "Không - Chế độ Server"
+
+#~ msgid " (dynamic)"
+#~ msgstr " (động)"
+
+#~ msgid "Server Mode"
+#~ msgstr "Chế độ Server"
+
+#~ msgid "(own choice)"
+#~ msgstr "(tự chọn)"
+
+#~ msgid "IP address of tunnel device: "
+#~ msgstr "Địa chỉ IP của Thiết bị Tunnel:"
+
+#~ msgid "Local port: "
+#~ msgstr "Cổng cục bộ: "
+
+#~ msgid "Remote peer address: "
+#~ msgstr "Địa chỉ ngang hàng từ xa: "
+
+#~ msgid "Remote virtual address: "
+#~ msgstr "Địa chỉ ảo từ xa: "
+
+#~ msgid "Local virtual address: "
+#~ msgstr "Địa chỉ ảo cục bộ: "
+
+#~ msgid "Secret key: "
+#~ msgstr "Khóa bảo mật: "
+
+#, fuzzy
+#~ msgid "<b>Configuration for your remote partner</b>"
+#~ msgstr "Cấu hình cho máy partner ở xa"
+
+#~ msgid "Configure Tunnel"
+#~ msgstr "Cấu hình Tunnel"
+
+#~ msgid "Create Cipe Connection"
+#~ msgstr "Tạo kết nối CIPE"
+
+#~ msgid "CIPE (VPN) connection"
+#~ msgstr "Kết nối CIPE (VPN)"
+
+#~ msgid "Create a new virtual private network connection with CIPE."
+#~ msgstr "Tạo kết nối mạng riêng ảo (VPN) mới với CIPE."
+
+#~ msgid "Tunnel through device:"
+#~ msgstr "Tunnel thông qua Thiết bị:"
+
+#~ msgid "Local port:"
+#~ msgstr "Cổng cục bộ:"
+
+#~ msgid "Remote peer address:"
+#~ msgstr "Địa chỉ ngang hàng từ xa:"
+
+#~ msgid "Remote peer port:"
+#~ msgstr "Cổng ngang hành từ xa:"
+
+#~ msgid "Remote virtual address:"
+#~ msgstr "Địa chỉ ảo ở xa:"
+
+#~ msgid "Local virtual address:"
+#~ msgstr "Địa chỉ ảo cục bộ:"
+
+#, fuzzy
+#~ msgid "IP address of tunnel device:"
+#~ msgstr "Địa chỉ IP của Thiết bị Tunnel:"
+
+#, fuzzy
+#~ msgid "Secret key:"
+#~ msgstr "Khóa bảo mật: "
+
+#, fuzzy
+#~ msgid "You must enter a secret key or generate one"
+#~ msgstr ""
+#~ "Bạn phải nhập khóa mật\n"
+#~ "hoặc phát sinh khóa mới"
+
+#~ msgid ""
+#~ "Directory %s is missing!\n"
+#~ "Will create it for you!\n"
+#~ "You should install the cipe rpm package!\n"
+#~ msgstr ""
+#~ "Thiếu thư mục %s!\n"
+#~ "Chương trình sẽ tạo thư mục mới!\n"
+#~ "Bạn nên cài đặt gói cipe!\n"
+
+#~ msgid ""
+#~ "Could not create\n"
+#~ "directory %s!"
+#~ msgstr ""
+#~ "Không thể tạo\n"
+#~ "thư mục %s!"
+
+#~ msgid "IUCV connection"
+#~ msgstr "Kết nối IUCV"
+
+#~ msgid "Create a new IUCV connection."
+#~ msgstr "Tạo kết nối IUCV mới."
+
+#~ msgid "IUCV Device"
+#~ msgstr "Thiết bi IUCV"
+
+#~ msgid "CTC Device"
+#~ msgstr "Thiết bi CTC"
+
+#~ msgid "CTC connection"
+#~ msgstr "kết nối CTC"
+
+#~ msgid "Create a new CTC connection."
+#~ msgstr "Tạo kết nối CTC mới."
+
+#~ msgid "Aliases"
+#~ msgstr "Bí danh"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Static routes file %s is invalid"
+#~ msgstr "Tập tin dẫn đường tĩnh %s không hợp lệ"
+
+#~ msgid "What do you want to configure?"
+#~ msgstr "Bạn muốn cấu hình cái gì?"
+
+#~ msgid "Configure"
+#~ msgstr "Cấu hình"
+
+#~ msgid "Exit"
+#~ msgstr "Thoát"
+
+#~ msgid ""
+#~ "This software is distributed under the GPL. Please report bugs to Red "
+#~ "Hat's bug tracking system: http://bugzilla.redhat.com/"
+#~ msgstr ""
+#~ "Phần mềm này được phân phối theo GPL. Vui lòng báo cáo lỗi cho Hệ thống "
+#~ "Dò lỗi Red Hat: http://bugzilla.redhat.com/"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Nam Tư"
+
+#~ msgid "DMA0:"
+#~ msgstr "DMA0:"
+
+#~ msgid "DMA1:"
+#~ msgstr "DMA1:"
+
+#~ msgid "Configure your connection to the Internet"
+#~ msgstr "Cấu hình kết nối Internet"
+
+#~ msgid "Internet Configuration Wizard"
+#~ msgstr "Thuật sĩ Cấu hình Internet"
+
+#~ msgid "Enter the login name for this account."
+#~ msgstr "Hãy nhập tên đăng nhập cho tài khoản này."
+
+#~ msgid "Enter the password for this account."
+#~ msgstr "Hãy nhập mật khẩu cho tài khoản này."
+
+#, fuzzy
+#~ msgid "Copying %s to profile %s."
+#~ msgstr "Đang chép %s thành profile mặc định."
+
+#, fuzzy
+#~ msgid "Linking %s to profile %s."
+#~ msgstr "Chuyển sang profile %s"
+
+#~ msgid "Mode: "
+#~ msgstr "Chế độ: "
+
+#~ msgid "Channel: "
+#~ msgstr "Kênh: "
+
+#~ msgid ""
+#~ "Error linking %s\n"
+#~ "to\n"
+#~ "%s:\n"
+#~ "%s!"
+#~ msgstr ""
+#~ "Lỗi liên kết %s\n"
+#~ "thành\n"
+#~ "%s:\n"
+#~ "%s!"
+
+#~ msgid "15"
+#~ msgstr "15"
+
+#~ msgid "eth5"
+#~ msgstr "eth5"
+
+#~ msgid "eth6"
+#~ msgstr "eth6"
+
+#~ msgid "eth7"
+#~ msgstr "eth7"
+
+#~ msgid "/dev/modem"
+#~ msgstr "/dev/modem"
+
+#~ msgid "/dev/ttyI0"
+#~ msgstr "/dev/ttyI0"
+
+#~ msgid "/dev/ttyI1"
+#~ msgstr "/dev/ttyI1"
+
+#~ msgid "/dev/ttyI2"
+#~ msgstr "/dev/ttyI2"
+
+#~ msgid "/dev/ttyS0"
+#~ msgstr "/dev/ttyS0"
+
+#~ msgid "/dev/ttyS1"
+#~ msgstr "/dev/ttyS1"
+
+#~ msgid "/dev/ttyS2"
+#~ msgstr "/dev/ttyS2"
+
+#~ msgid "/dev/ttyS3"
+#~ msgstr "/dev/ttyS3"
+
+#~ msgid "115200"
+#~ msgstr "115200"
+
+#~ msgid "1200"
+#~ msgstr "1200"
+
+#~ msgid "19200"
+#~ msgstr "19200"
+
+#~ msgid "230400"
+#~ msgstr "230400"
+
+#~ msgid "2400"
+#~ msgstr "2400"
+
+#~ msgid "300"
+#~ msgstr "300"
+
+#~ msgid "38400"
+#~ msgstr "38400"
+
+#~ msgid "460800"
+#~ msgstr "460800"
+
+#~ msgid "4800"
+#~ msgstr "4800"
+
+#~ msgid "57600"
+#~ msgstr "57600"
+
+#~ msgid "9600"
+#~ msgstr "9600"
+
+#~ msgid "tr6"
+#~ msgstr "tr6"
+
+#~ msgid "tr7"
+#~ msgstr "tr7"
+
+#~ msgid "_Nickname: "
+#~ msgstr "_Tên hiệu: "
+
+#~ msgid "%P %%"
+#~ msgstr "%P %%"

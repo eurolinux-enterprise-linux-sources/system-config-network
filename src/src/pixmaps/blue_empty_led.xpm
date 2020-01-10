@@ -1,0 +1,14 @@
+static char *blue_empty_led_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"5 5 4 1",
+"  c None",
+"o      c #005800",
+"X      c #024304",
+".      c #023304",
+/* pixels */
+" ooo ",
+"oXXX.",
+"oXXX.",
+"oXXX.",
+" ... "
+};

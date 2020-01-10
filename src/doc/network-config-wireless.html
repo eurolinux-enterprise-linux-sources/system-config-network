@@ -1,0 +1,380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Establishing a Wireless Connection</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Establishing a CIPE Connection"
+HREF="network-config-cipe.html"><LINK
+REL="NEXT"
+TITLE="Managing DNS Settings"
+HREF="network-config-dns.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-cipe.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-dns.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-CONFIG-WIRELESS"
+></A
+>Chapter 8. Establishing a Wireless Connection</H1
+><P
+>	Wireless Ethernet devices are becoming increasingly popular. The
+	configuration is similar to the Ethernet configuration except that it
+	allows you to configure settings such as the SSID and key for the
+	wireless device.
+      </P
+><P
+>	To add a wireless Ethernet connection, follow these steps:
+      </P
+><P
+></P
+><OL
+TYPE="1"
+><LI
+><P
+>Click the <B
+CLASS="GUILABEL"
+>Devices</B
+> tab.</P
+></LI
+><LI
+><P
+>Click the <B
+CLASS="GUIBUTTON"
+>New</B
+> button on the
+	  toolbar.</P
+></LI
+><LI
+><P
+>Select <B
+CLASS="GUILABEL"
+>Wireless connection</B
+> from the
+	    <B
+CLASS="GUILABEL"
+>Device Type</B
+> list and click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.</P
+></LI
+><LI
+><P
+>If you have already added the wireless network interface card to
+	    the hardware list, select it from the <B
+CLASS="GUILABEL"
+>Ethernet
+	    card</B
+> list. Otherwise, select <B
+CLASS="GUILABEL"
+>Other Wireless
+	    Card</B
+> to add the hardware device.</P
+><DIV
+CLASS="NOTE"
+><P
+></P
+><TABLE
+CLASS="NOTE"
+WIDTH="90%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/note.png"
+HSPACE="5"
+ALT="Note"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Note</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>	      The installation program usually detects supported wireless
+	      Ethernet devices and prompts you to configure them. If you
+	      configured them during the installation, they are displayed in the
+	      hardware list on the <B
+CLASS="GUILABEL"
+>Hardware</B
+> tab.
+	    </P
+></TD
+></TR
+></TABLE
+></DIV
+></LI
+><LI
+><P
+>If you selected <B
+CLASS="GUILABEL"
+>Other Wireless Card</B
+>, the
+	    <B
+CLASS="GUILABEL"
+>Select Ethernet Adapter</B
+> window appears.  Select
+	    the manufacturer and model of the Ethernet card and the device. If
+	    this is the first Ethernet card for the system, select
+	    <B
+CLASS="GUILABEL"
+>eth0</B
+>; if this is the second Ethernet card for
+	    the system, select <B
+CLASS="GUILABEL"
+>eth1</B
+> (and so on). The
+	    <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> also allows
+	    the user to configure the resources for the wireless network
+	    interface card. Click <B
+CLASS="GUIBUTTON"
+>Forward</B
+> to continue.
+	  </P
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>Configure Wireless Connection</B
+> page
+	    as shown in <A
+HREF="network-config-wireless.html#NEAT-WIRELESS-SETTINGS-FIG"
+>Figure 8-1</A
+>, configure
+	    the settings for the wireless device.
+	  </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-WIRELESS-SETTINGS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-wireless-settings.png"></P
+></DIV
+><P
+><B
+>Figure 8-1. Wireless Settings</B
+></P
+></DIV
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>Configure Network Settings</B
+> page,
+	    choose between DHCP and static IP address.  You may specify a
+	    hostname for the device. If the device receives a dynamic IP address
+	    each time the network is started, do not specify a hostname. Click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+> to continue.
+	  </P
+></LI
+><LI
+><P
+>Click <B
+CLASS="GUIBUTTON"
+>Apply</B
+> on the <B
+CLASS="GUILABEL"
+>Create
+	  Wireless Device</B
+> page.
+	  </P
+></LI
+></OL
+><P
+>	After configuring the wireless device, it appears in the device list as
+	shown in <A
+HREF="network-config-wireless.html#NEAT-WIRELESS-FIG"
+>Figure 8-2</A
+>.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-WIRELESS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-wireless.png"></P
+></DIV
+><P
+><B
+>Figure 8-2. Wireless Device</B
+></P
+></DIV
+><P
+>	Be sure to select <B
+CLASS="GUIMENU"
+>File</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>Save</B
+> to save the changes.
+      </P
+><P
+>	After adding the wireless device, you can edit its configuration by
+	selecting the device from the device list and clicking
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+>. For example, you can configure the device
+	to activate at boot time.
+      </P
+><P
+>	When the device is added, it is not activated immediately, as seen by
+	its <B
+CLASS="GUILABEL"
+>Inactive</B
+> status. To activate the device, select
+	it from the device list, and click the <B
+CLASS="GUIBUTTON"
+>Activate</B
+>
+	button. If the system is configured to activate the device when the
+	computer starts (the default), this step does not have to be performed
+	again.
+      </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-cipe.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-dns.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Establishing a CIPE Connection</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Managing DNS Settings</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

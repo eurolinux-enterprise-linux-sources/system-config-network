@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Establishing an ISDN Connection</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Establishing an Ethernet Connection"
+HREF="network-config-ethernet.html"><LINK
+REL="NEXT"
+TITLE="Establishing a Modem Connection"
+HREF="network-config-modem.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-ethernet.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-modem.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-CONFIG-ISDN"
+></A
+>Chapter 3. Establishing an ISDN Connection</H1
+><P
+>	An ISDN connection is an Internet connection established with a ISDN
+	modem card through a special phone line installed by the phone
+	company. ISDN connections are popular in Europe.
+      </P
+><P
+>	To add an ISDN connection, follow these steps:
+      </P
+><P
+></P
+><OL
+TYPE="1"
+><LI
+><P
+>Click the <B
+CLASS="GUILABEL"
+>Devices</B
+> tab.</P
+></LI
+><LI
+><P
+>Click the <B
+CLASS="GUIBUTTON"
+>New</B
+> button on the
+	  toolbar.</P
+></LI
+><LI
+><P
+>Select <B
+CLASS="GUILABEL"
+>ISDN connection</B
+> from the
+	    <B
+CLASS="GUILABEL"
+>Device Type</B
+> list, and click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.</P
+></LI
+><LI
+><P
+>Select the ISDN adapter from the pulldown menu. Then configure the
+	    resources and D channel protocol for the adapter. Click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+> to continue.</P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-ISDN-SETTINGS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-isdn-settings.png"></P
+></DIV
+><P
+><B
+>Figure 3-1. ISDN Settings</B
+></P
+></DIV
+></LI
+><LI
+><P
+>If your Internet Service Provider (ISP) is in the pre-configured
+	  list, select it. Otherwise, enter the required information about your
+	  ISP account. If you do not know the values, contact your ISP. Click
+	  <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.
+	  </P
+></LI
+><LI
+><P
+>In the <B
+CLASS="GUILABEL"
+>IP Settings</B
+> window, select the
+	  <B
+CLASS="GUILABEL"
+>Encapsulation Mode</B
+> and whether to obtain an IP
+	    address via DHCP or whether to set one statically. Click
+	  <B
+CLASS="GUIBUTTON"
+>Forward</B
+> when finished.</P
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>Create Dialup Connection</B
+> page, click
+	  <B
+CLASS="GUIBUTTON"
+>Apply</B
+>.</P
+></LI
+></OL
+><P
+>	After configuring the ISDN device, it appears in the device list as a
+	device with type <B
+CLASS="GUILABEL"
+>ISDN</B
+> as shown in
+	<A
+HREF="network-config-isdn.html#NEAT-ISDN-FIG"
+>Figure 3-2</A
+>.
+      </P
+><P
+>	Be sure to select <B
+CLASS="GUIMENU"
+>File</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>Save</B
+> to save the changes.
+      </P
+><P
+>	After adding the ISDN device, you can edit its configuration by
+	selecting the device from the device list and clicking
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+>. For example, when the device is added, it
+	is configured not to start at boot time by default. Edit its
+	configuration to modify this setting. Compression, PPP options, 
+	login name, password, and more can be changed.
+      </P
+><P
+>	When the device is added, it is not activated immediately, as seen by
+	its <B
+CLASS="GUILABEL"
+>Inactive</B
+> status. To activate the device, select
+	it from the device list, and click the <B
+CLASS="GUIBUTTON"
+>Activate</B
+>
+	button. If the system is configured to activate the device when the
+	computer starts (the default), this step does not have to be performed
+	again.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-ISDN-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-isdn.png"></P
+></DIV
+><P
+><B
+>Figure 3-2. ISDN Device</B
+></P
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-ethernet.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-modem.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Establishing an Ethernet Connection</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Establishing a Modem Connection</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

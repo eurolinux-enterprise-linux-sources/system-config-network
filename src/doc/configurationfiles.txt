@@ -1,0 +1,98 @@
+Work In Progress - please add the files you're working on here
+
+************************************************************************
+This is meant to be a short description of what files are used by the
+network configuration the information they contain they contain.
+
+PROFILES.
+
+The network configuration system is profiled - this means that
+multiple configuration are available, and can be selected when needed.
+Information can be shared between all profiles by being global.
+Profiles contain separate versions of complete files.
+
+*) The global files are stored in /etc/sysconfig/networking/devices/<FILENAME>
+
+*) The files for the default profile are softlinked from
+   /etc/sysconfig/networking/profiles/default
+
+*) Files for other profiles are softlinked from
+   /etc/sysconfig/networking/profiles/<name-of-profile>/
+
+*) The startup files will be softlinked to
+   /etc/sysconfig/network-scripts/ifcfg-<kerneldevicename>
+
+
+FILES:
+
+*1* resolv.conf
+
+This file is copied to /etc/resolv.conf when the profile 
+is activated (if necesarry... if the file is identical, why bother).
+The format is the standard one, but we'll omit domain... search does
+the same thing.
+
+1) A list of up to six domains in which to resolve hostnames:
+   search foo.com bar.org ...
+2) Up to three lines of the form "nameserver 192.168.0.1" with the DNS
+   servers the system will use for name resolution
+
+*2* hosts
+
+Again, this file will be copied to /etc/hosts from the activated profile, but
+only if it is different.
+
+*3* network 
+
+This replaces the old /etc/sysconfig/network, and contains at least
+the following information in the name=value ("shell") format:
+
+HOSTNAME (FQDN), NETWORKING ("yes","no"), GATEWAY (no need for
+GATEWAYDEV, if you already have routes and interfaces configured,
+right?), NISDOMAINNAME (or should we just move this kindof information 
+somewhere else, so LDAP etc, can be configured in the same file), 
+Additionally it may contain CURRENT_PROFILE (and maybe DEFAULT_PROFILE).
+
+All IPX is gone
+
+*4* staticroute
+
+Format not yet here, but it's NOT going to be the same as earlier,
+which just listed the commands to the route command... ipv4 and 6
+should be in the same file.
+
+*5* ifcfg-<identifier>
+
+For the devices in networking/devices/ we will drop the notion of using the
+sick way of storing semantic information about the devices in the filename
+but rather use the netconf device names here and do the 'conversion' to the
+old style upon exit of netconf and/or via the profile selection tool.
+
+We might even want to adapt the initscripts to do the right thing if time
+permits.
+
+This will vary slightly for different kinds of devices... they are in
+name=value format. Here are the ones common for all devices:
+
+NAME, DESCRIPTION, ENABLED, IDENTIFIER, TYPE
+
+*5.1* Ethernet
+
+MACADDRESS - this is the address to match to: You can specify that a
+device has a certain mac address so you can map a network device to a
+NIC without depending on the order of module insertions or other
+kernel initialization issues.
+
+BOOTPROTO - if set to DHCP, the system will get its configuration from
+a DHCP server.
+
+A list of adresses, which contains DEVICE, ADDRESS, PREFIX, SCOPE and BROADCAST -
+since this is a list, add the number of the device in the name - e.g, DEVICE0, SCOPE2 
+etc.
+
+*6* ppp, provider and wvdial
+
+For dialup configuration we have to additionally store the corresponding ppp,
+wvdial and provider information. this will be done under the
+networking/devices/devicename.d directory where we can keep any of these link
+specific files/directories.

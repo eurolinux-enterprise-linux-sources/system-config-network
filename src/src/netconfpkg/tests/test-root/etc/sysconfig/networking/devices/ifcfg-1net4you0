@@ -1,0 +1,27 @@
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+TYPE=ISDN
+DEVICE=ippp0
+BOOTPROTO=dialup
+ONBOOT=no
+USERCTL=yes
+PEERDNS=yes
+AUTH='+pap -chap'
+DIALMODE=manual
+USER=web
+PHONE_OUT=019256252
+ENCAP=syncppp
+PROVIDER=1net4you
+DEMAND=no
+HUPTIMEOUT=600
+DEFROUTE=yes
+PERSIST=off
+SECURE=off
+BUNDLING=off
+CALLBACK=off
+AC=off
+BSDCOMP=off
+VJCCOMP=off
+CCP=off
+PC=off
+VJ=off

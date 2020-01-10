@@ -1,0 +1,147 @@
+.oOo.  Netconf  Detailed Specification .oOo.
+============================================
+
+1. Framework
+------------
+
+The framework, as described in devhtml/os/todo/new-netconf.html, separates the
+new network configuration tool in a couple of logical modules:
+
+ - Backend: Reading and writing native config files, new initscripts.
+ - Library: List of hardware devices, python class struture for devices etc,
+   tied together with the Alchemist for XML backend usage.
+ - Profiles: In order to have multiple network setups.
+ - GUI: Python/Glade/GTK and commandline frontend.
+
+
+2. How does it work?
+--------------------
+
+2.1 Netconf devices and kernel/hardware devices
+-----------------------------------------------
+
+The current tools we have for network setup will now be integrated into one.
+The basic principle is that we will configure devices. A device in netconf can
+be tied to one of the following hardware devices:
+
+ - Lan network card (Ethernet, TokenRing, Arcnet, etc).
+ - Modem
+ - ISDN-Card
+ - Wireless Card
+ - PLIP
+
+The Hardware related setup will be done separately from the pure device setup.
+That way we can achive to a single hardware device in multiple netconf devices.
+
+Each netconf device will then be tied to one of the configured hardware
+devices. Each netconf device will have a unique name, beginning with a letter
+followed by letters and numbers. No other characters are allowed for netconf
+device names.
+
+A netconf device can then be configured in respect to it's network setup,
+namely:
+
+ - netconf device name
+ - device specific link information (e.g. dialup or wireless cards)
+ - bootup activation
+ - user enabled start/stop
+ - TCP/IP address setup (bootp, dhcp, dialup, manual), manual with ip/netmask
+ - Host information (manual or via provider/dialup)
+ - Routing (default route or network routes)
+ - Security (easy, advanced and expert setup)
+ - Traffic control: ip/port, min-in, max-in, min-out, max-out configurable
+ - Accounting
+
+The device specific link information can be very simple as for Lan devices,
+but e.g. for ISDN or Modems we will provide the selection of a provider,
+telephone number and various other access information. There will be a general
+dialup configuration for Modems and ISDN, using a merged provider database
+of rp3 and isdn/adsl-config.
+
+All configured devices will be stored in
+
+ /etc/sysconfig/networking/devices/$netconfdevname
+
+and may contain a subdirectory called
+
+ /etc/sysconfig/networking/devices/ifcgf-${netconfdevname}.d
+
+for dialup or netconf device specific information (e.g. ppp or others)
+
+
+2.2 Profile management and setup
+--------------------------------
+
+Profiles will be implemented using directories. A profile may contain any
+number of netconf devices as well as one DNS information (and maybe more
+'global' information later, to be defined).
+The only restriction for the devies is that only one unique kernel device per
+profile may be active (no two eth0 devices may be active at the same time).
+
+Each profile will be created under
+
+ /etc/sysconfig/networking/profiles/$profilename
+
+and will contain softlinks to the active devices in ../../devices/.
+
+A special profile will exist called default which will contain all netconf
+devices that are enabled in all profiles (e.g. lo). It's location is
+
+ /etc/sysconfig/networking/profiles/default/
+
+Each profile directory will additionally contain a resolv.conf file with the
+corresponding DNS setup.
+
+After quitting netconf will create soft links from the active profiles (starting
+with default and using the devices from the active profile) to
+
+ /etc/sysconfig/network-scripts/ifcfg-${kerneldevicename}
+
+This will allow us to use the old initscripts, thus maintaining compatibility
+while still being able to use the new profile feature.
+
+
+3. Middle layer
+---------------
+
+The middle layer of netconf will consist of a clearly defined XML data
+structure and the generated Python classes from that. It will be used for the
+general data manipulation from the GUI. The classes provide Python style
+access to data as well as commit/rollback features for larger changes (see:
+parsing a dialog or hitting the cancel button).
+
+Another set of classes will handle the native file parsing and writing. That
+way be basically use the Alchemist for data handling and manipulation and use
+the native file formats as 'final' data representation instead of XML (yet?).
+
+The names of the various native files and the contents we are able to configure
+with netconf will be kept up to date in doc/configurationfiles.txt.
+
+
+4. GUI
+------
+
+The GUI will be again Python/GTK based. It will start up with a list of
+devices, possibly containing detected but unconfigured ones. Another tab will
+allow hardware setup or manual addition of hardware. A third tab is for DNS
+setup and a forth for the profile management/selection/setup.
+The hardware setup will look different for each type of hardware while still
+trying to look very much like we had in the previous tools.
+Device setup will be completely new but all tabs will resemble strongly the
+things presented in anaconda and other tools again.
+
+
+5. Commandline
+--------------
+
+The commandline tool will allow scripted setup of devices. It's not decided
+wether we will support hardware setup and/or complex dialup setup, probably not
+(as time permits).
+
+
+6. Textmode
+-----------
+
+The textmode utility will allow the basic setup of devices, no special stuff.
+It is basically used as a bootstrap utility to get networking up and running.
+

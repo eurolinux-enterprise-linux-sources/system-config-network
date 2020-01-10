@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Establishing an xDSL Connection</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Establishing a Modem Connection"
+HREF="network-config-modem.html"><LINK
+REL="NEXT"
+TITLE="Establishing a Token Ring Connection"
+HREF="network-config-tokenring.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-modem.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-tokenring.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-CONFIG-XDSL"
+></A
+>Chapter 5. Establishing an xDSL Connection</H1
+><P
+>	DSL stands for Digital Subscriber Lines. There are different types of
+	DSL such as ADSL, IDSL, and SDSL. The
+	<B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> uses the term xDSL to mean
+	all types of DSL connections.
+      </P
+><P
+>	Some DSL providers require that the system is configured to obtain an IP
+	address through DHCP with an Ethernet card. Some DSL providers require
+	you to configure a PPPoE (Point-to-Point Protocol over Ethernet)
+	connection with an Ethernet card. Ask your DSL provider which method to
+	use.
+      </P
+><P
+>	If you are required to use DHCP, refer to <A
+HREF="network-config-ethernet.html"
+>Chapter 2</A
+> to configure your Ethernet card.
+      </P
+><P
+>	If you are required to use PPPoE, follow these steps:
+      </P
+><P
+></P
+><OL
+TYPE="1"
+><LI
+><P
+>Click the <B
+CLASS="GUILABEL"
+>Devices</B
+> tab.</P
+></LI
+><LI
+><P
+>Click the <B
+CLASS="GUIBUTTON"
+>Add</B
+> button.</P
+></LI
+><LI
+><P
+>Select <B
+CLASS="GUILABEL"
+>xDSL connection</B
+> from the
+	    <B
+CLASS="GUILABEL"
+>Device Type</B
+> list, and click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+>.</P
+></LI
+><LI
+><P
+>If your Ethernet card is in the hardware list, select
+	    the <B
+CLASS="GUILABEL"
+>Ethernet Device</B
+> from the pulldown menu
+	    from the page shown in <A
+HREF="network-config-xdsl.html#NEAT-XDSL-SETTINGS-FIG"
+>Figure 5-1</A
+>.
+	    Otherwise, the <B
+CLASS="GUILABEL"
+>Select Ethernet Adapter</B
+> window
+	    appears.
+	  </P
+><DIV
+CLASS="NOTE"
+><P
+></P
+><TABLE
+CLASS="NOTE"
+WIDTH="90%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/note.png"
+HSPACE="5"
+ALT="Note"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Note</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>	      The installation program detects supported Ethernet devices and
+	      prompts you to configure them. If you configured any Ethernet
+	      devices during the installation, they are displayed in the
+	      hardware list on the <B
+CLASS="GUILABEL"
+>Hardware</B
+> tab.
+	    </P
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-XDSL-SETTINGS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-xdsl-settings.png"></P
+></DIV
+><P
+><B
+>Figure 5-1. xDSL Settings</B
+></P
+></DIV
+></LI
+><LI
+><P
+>If the <B
+CLASS="GUILABEL"
+>Select Ethernet Adapter</B
+> window appears,
+	    select the manufacturer and model of the Ethernet card. Select the
+	    device name. If this is the system's first Ethernet card, select
+	    <B
+CLASS="GUILABEL"
+>eth0</B
+> as the device name; if this is the second
+	    Ethernet card, select <B
+CLASS="GUILABEL"
+>eth1</B
+> (and so on). The
+	    <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> also allows
+	    you to configure the resources for the NIC. Click
+	    <B
+CLASS="GUIBUTTON"
+>Forward</B
+> to continue.
+	  </P
+></LI
+><LI
+><P
+>Enter the <B
+CLASS="GUILABEL"
+>Provider Name</B
+>, <B
+CLASS="GUILABEL"
+>Login
+	      Name</B
+>, and <B
+CLASS="GUILABEL"
+>Password</B
+>.  If you have a
+	      T-Online account, instead of entering a <B
+CLASS="GUILABEL"
+>Login
+	      Name</B
+> and <B
+CLASS="GUILABEL"
+>Password</B
+> in the default
+	      window, click the <B
+CLASS="GUIBUTTON"
+>T-Online Account Setup</B
+>
+	      button and enter the required information. Click
+	      <B
+CLASS="GUIBUTTON"
+>Forward</B
+> to continue.
+	  </P
+></LI
+><LI
+><P
+>On the <B
+CLASS="GUILABEL"
+>Create DSL Connection</B
+> page, click
+	  <B
+CLASS="GUIBUTTON"
+>Apply</B
+>.</P
+></LI
+></OL
+><P
+>	After configuring the DSL connection, it appears in the device list as
+	shown in <A
+HREF="network-config-modem.html#NEAT-MODEM-FIG"
+>Figure 4-2</A
+>.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-XDSL-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-xdsl.png"></P
+></DIV
+><P
+><B
+>Figure 5-2. xDSL Device</B
+></P
+></DIV
+><P
+>	Be sure to select <B
+CLASS="GUIMENU"
+>File</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>Save</B
+> to save the changes.
+      </P
+><P
+>	After adding the xDSL connection, you can edit its configuration by
+	selecting the device from the device list and clicking
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+>. For example, when the device is added, it
+	is configured not to start at boot time by default. Edit its
+	configuration to modify this setting.
+      </P
+><P
+>	When the device is added, it is not activated immediately, as seen by
+	its <B
+CLASS="GUILABEL"
+>Inactive</B
+> status. To activate the device, select
+	it from the device list, and click the <B
+CLASS="GUIBUTTON"
+>Activate</B
+>
+	button. If the system is configured to activate the device when the
+	computer starts (the default), this step does not have to be performed
+	again.
+      </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-modem.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-tokenring.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Establishing a Modem Connection</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Establishing a Token Ring Connection</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

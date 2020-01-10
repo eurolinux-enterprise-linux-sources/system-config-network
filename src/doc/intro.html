@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Introduction</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="NEXT"
+TITLE="Establishing an Ethernet Connection"
+HREF="network-config-ethernet.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="index.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-ethernet.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="INTRO"
+></A
+>Chapter 1. Introduction</H1
+><P
+>      To communicate with other computers, computers need a network
+      connection. This is accomplished by having the operating system recognize
+      an interface card (such as Ethernet, ISDN modem, or token ring) and
+      configuring the interface to connect to the network.
+    </P
+><P
+>      The <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+> can be
+      used to configure the following types of network interfaces:
+    </P
+><P
+></P
+><UL
+><LI
+><P
+>Ethernet</P
+></LI
+><LI
+><P
+>ISDN</P
+></LI
+><LI
+><P
+>modem</P
+></LI
+><LI
+><P
+>xDSL</P
+></LI
+><LI
+><P
+>token ring</P
+></LI
+><LI
+><P
+>CIPE</P
+></LI
+><LI
+><P
+>wireless devices</P
+></LI
+></UL
+><P
+>      To use the <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+>, you must have root
+      privileges.  To start the application, go to the <B
+CLASS="GUIMENU"
+>Main Menu
+      Button</B
+> (on the Panel) =&#62; <B
+CLASS="GUIMENU"
+>System Settings</B
+> =&#62;
+      <B
+CLASS="GUIMENUITEM"
+>Network</B
+>, or type the command
+      <TT
+CLASS="COMMAND"
+>system-config-network</TT
+> at a shell prompt (for example,
+      in an <B
+CLASS="APPLICATION"
+>XTerm</B
+> or a <B
+CLASS="APPLICATION"
+>GNOME
+      terminal</B
+>). If you type the command, the graphical version is
+      displayed if X is running, otherwise, the text-based version is
+      displayed. To force the text-based version to run, use the
+      <TT
+CLASS="COMMAND"
+>system-config-network-tui</TT
+> command.
+    </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="FIG-NETWORK-CONFIG-MAIN"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat.png"></P
+></DIV
+><P
+><B
+>Figure 1-1. <B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+></B
+></P
+></DIV
+><P
+>      If you prefer modifying the configuration files directly, refer to the
+      <I
+CLASS="CITETITLE"
+>Red Hat Linux Reference Guide</I
+> for information on their locations and
+      contents. 
+    </P
+><DIV
+CLASS="TIP"
+><P
+></P
+><TABLE
+CLASS="TIP"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/tip.png"
+HSPACE="5"
+ALT="Tip"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Tip</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>Go to the Red Hat Hardware Compatibility List (<A
+HREF="http://hardware.redhat.com/hcl/"
+TARGET="_top"
+>http://hardware.redhat.com/hcl/</A
+>)
+	to determine if Red Hat Linux supports your hardware device.
+      </P
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="SECT1"
+><H1
+CLASS="SECT1"
+><A
+NAME="NETWORK-CONFIG-OVERVIEW"
+></A
+>Overview</H1
+><P
+>	To configure a network connection with the
+	<B
+CLASS="APPLICATION"
+>Network Administration Tool</B
+>, perform the following steps:
+      </P
+><P
+></P
+><OL
+TYPE="1"
+><LI
+><P
+>Add the physical hardware device to the hardware list.</P
+></LI
+><LI
+><P
+>Add a network device associated with the physical hardware
+	    device.</P
+></LI
+><LI
+><P
+>Configure the hostname and DNS settings.</P
+></LI
+><LI
+><P
+>Configure any hosts that cannot be looked up through DNS.</P
+></LI
+></OL
+><P
+>	This chapter discusses each of these steps for each type of network
+	connection.
+      </P
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-ethernet.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Network Administration Tool</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Establishing an Ethernet Connection</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

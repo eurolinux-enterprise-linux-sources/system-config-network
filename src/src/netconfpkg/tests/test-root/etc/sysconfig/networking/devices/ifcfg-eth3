@@ -1,0 +1,18 @@
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+TYPE=Wireless
+DEVICE=eth3
+HWADDR=
+BOOTPROTO=dhcp
+NETMASK=
+DHCP_HOSTNAME=
+IPADDR=
+DOMAIN=
+ONBOOT=no
+USERCTL=no
+PEERDNS=yes
+IPV6INIT=no
+ESSID=
+CHANNEL=1
+MODE=Auto
+RATE=auto

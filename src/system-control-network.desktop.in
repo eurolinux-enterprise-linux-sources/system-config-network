@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Network Device Control
+_GenericName=Network Device Control
+_Comment=Control and monitor network devices
+Exec=/usr/bin/system-control-network
+Categories=Network;
+Terminal=false
+Type=Application
+Icon=neat-control
+Encoding=UTF-8

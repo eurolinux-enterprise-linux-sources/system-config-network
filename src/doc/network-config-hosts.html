@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Managing Hosts</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Managing DNS Settings"
+HREF="network-config-dns.html"><LINK
+REL="NEXT"
+TITLE="Activating Devices"
+HREF="network-config-activate.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-config-dns.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="network-config-activate.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-CONFIG-HOSTS"
+></A
+>Chapter 10. Managing Hosts</H1
+><P
+>	The <B
+CLASS="GUILABEL"
+>Hosts</B
+> tab allows you to add, edit, or remove
+	hosts from the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file. This file contains
+	IP addresses and their corresponding hostnames. 
+      </P
+><P
+>	When your system tries to resolve a hostname to an IP address or
+	determine the hostname for an IP address, it refers to the
+	<TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file before using the name
+	servers (if you are using the default Red Hat Linux configuration). If the IP
+	address is listed in the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file, the name
+	servers are not used. If your network contains computers whose IP
+	addresses are not listed in DNS, it is recommended that you add them to
+	the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file.
+      </P
+><P
+>	To add an entry to the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file, go to the
+	<B
+CLASS="GUILABEL"
+>Hosts</B
+> tab, click the <B
+CLASS="GUIBUTTON"
+>New</B
+>
+	button on the toolbar, provide the requested information, and click
+	<B
+CLASS="GUILABEL"
+>OK</B
+>. Select <B
+CLASS="GUIMENU"
+>File</B
+> =&#62;
+	<B
+CLASS="GUIMENUITEM"
+>Save</B
+> or press <SPAN
+CLASS="KEYCAP"
+><KEYCAP
+>[Ctrl]</KEYCAP
+></SPAN
+>-<SPAN
+CLASS="KEYCAP"
+><KEYCAP
+>[S]</KEYCAP
+></SPAN
+> to save the changes
+	to the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file. The network or network
+	services do not need to be restarted since the current version of the
+	file is referred to each time an address is resolved.
+      </P
+><DIV
+CLASS="WARNING"
+><P
+></P
+><TABLE
+CLASS="WARNING"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/warning.png"
+HSPACE="5"
+ALT="Warning"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Warning</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>	  Do not remove the <TT
+CLASS="COMPUTEROUTPUT"
+>localhost</TT
+>
+	  entry. Even if the system does not have a network connection or have a
+	  network connection running constantly, some programs need to connect
+	  to the system via the localhost loopback interface.
+	</P
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="FIGURE"
+><A
+NAME="NEAT-HOSTS-FIG"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-hosts.png"></P
+></DIV
+><P
+><B
+>Figure 10-1. Hosts Configuration</B
+></P
+></DIV
+><DIV
+CLASS="TIP"
+><P
+></P
+><TABLE
+CLASS="TIP"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/tip.png"
+HSPACE="5"
+ALT="Tip"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Tip</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>	  To change lookup order, edit the <TT
+CLASS="FILENAME"
+>/etc/host.conf</TT
+>
+	file. The line <TT
+CLASS="COMPUTEROUTPUT"
+>order hosts, bind</TT
+>
+	specifies that the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> takes precedence over
+	the name servers. Changing the line to <TT
+CLASS="FILENAME"
+>order bind,
+	hosts</TT
+> configures the system to resolve hostnames and IP
+	addresses using the name servers first. If the IP address cannot be
+	resolved through the name servers, the system then looks for the IP
+	address in the <TT
+CLASS="FILENAME"
+>/etc/hosts</TT
+> file.
+	</P
+></TD
+></TR
+></TABLE
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-config-dns.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="network-config-activate.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Managing DNS Settings</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Activating Devices</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

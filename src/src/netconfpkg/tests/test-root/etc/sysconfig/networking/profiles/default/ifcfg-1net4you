@@ -1,0 +1,23 @@
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+TYPE=Modem
+DEVICE=ppp0
+BOOTPROTO=dialup
+ONBOOT=no
+USERCTL=yes
+PEERDNS=yes
+AC=off
+BSDCOMP=off
+VJCCOMP=off
+CCP=off
+PC=off
+VJ=off
+LINESPEED=115200
+MODEMPORT=/dev/modem
+PROVIDER=1net4you
+DEFROUTE=yes
+PERSIST=no
+PAPNAME=web
+WVDIALSECT=1net4you
+MODEMNAME=Modem0
+DEMAND=no

@@ -1,0 +1,9 @@
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+TYPE='TokenRing'
+DEVICE=tr0
+BOOTPROTO=dhcp
+ONBOOT=yes
+USERCTL=no
+PEERDNS=yes
+IPV6INIT=no

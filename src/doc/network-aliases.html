@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML
+><HEAD
+><TITLE
+>Device Aliases</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.76b+
+"><LINK
+REL="HOME"
+TITLE="Network Administration Tool"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Working with Profiles"
+HREF="network-profiles.html"></HEAD><link rel="stylesheet" type="text/css" href="rhdocs-man.css"
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Network Administration Tool</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="network-profiles.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+>&nbsp;</TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="NETWORK-ALIASES"
+></A
+>Chapter 13. Device Aliases</H1
+><P
+>	<I
+CLASS="FIRSTTERM"
+>Device aliases</I
+> are virtual devices associated
+	with the same physical hardware, but they can be activated at the same
+	time to have different IP addresses. They are commonly represented as
+	the device name followed by a colon and a number (for example,
+	eth0:1). They are useful if you want to have multiple IP address for a
+	system, but the system only has one network card.
+      </P
+><P
+>	After configuring the Ethernet device, such as
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+>, to use a static IP address (DHCP
+	does not work with aliases), go to the <B
+CLASS="GUILABEL"
+>Devices</B
+> tab
+	and click <B
+CLASS="GUIBUTTON"
+>New</B
+>. Select the Ethernet card to
+	configure with an alias, set the static IP address for the alias, and
+	click <B
+CLASS="GUIBUTTON"
+>Apply</B
+> to create it. Since a device already
+	exists for the Ethernet card, the one just created is the alias such as
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0:1</TT
+>.
+      </P
+><DIV
+CLASS="WARNING"
+><P
+></P
+><TABLE
+CLASS="WARNING"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="./stylesheet-images/warning.png"
+HSPACE="5"
+ALT="Warning"></TD
+><TH
+ALIGN="LEFT"
+VALIGN="CENTER"
+><B
+>Warning</B
+></TH
+></TR
+><TR
+><TD
+>&nbsp;</TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>	  If you are configuring an Ethernet device to have an alias, neither
+	  the device nor the alias can be configured to use DHCP. You must
+	  configure the IP addresses manually.
+	</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>	<A
+HREF="network-aliases.html#FIG-NETWORK-ALIASES"
+>Figure 13-1</A
+> shows an example of one alias for
+	the <TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+> device. Notice the
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0:1</TT
+> device &#8212; the first alias
+	for <TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+>. The second alias for
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0</TT
+> would have the device name
+	<TT
+CLASS="COMPUTEROUTPUT"
+>eth0:2</TT
+>, and so on. To modify the
+	settings for the device alias such as whether to activate it at boot
+	time and the alias number, select it from the list and click the
+	<B
+CLASS="GUIBUTTON"
+>Edit</B
+> button.
+      </P
+><DIV
+CLASS="FIGURE"
+><A
+NAME="FIG-NETWORK-ALIASES"
+></A
+><DIV
+CLASS="MEDIAOBJECT"
+><P
+><IMG
+SRC="./figs/neat-aliases.png"></P
+></DIV
+><P
+><B
+>Figure 13-1. Network Device Alias Example</B
+></P
+></DIV
+><P
+>	Select the alias and click the <B
+CLASS="GUIBUTTON"
+>Activate</B
+> button to
+	activate the alias. If you have configured multiple profiles, select
+	which profiles in which to include it.
+      </P
+><P
+>	To verify that the alias has been activated, use the
+	command <TT
+CLASS="COMMAND"
+>/sbin/ifconfig</TT
+>. The output should show the
+	device and the device alias with different IP address:
+      </P
+><TABLE
+CLASS="SCREEN"
+BGCOLOR="#DCDCDC"
+WIDTH="100%"
+><TR
+><TD
+><PRE
+CLASS="SCREEN"
+><TT
+CLASS="COMPUTEROUTPUT"
+>eth0      Link encap:Ethernet  HWaddr 00:A0:CC:60:B7:G4
+          inet addr:192.168.100.5  Bcast:192.168.100.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:161930 errors:1 dropped:0 overruns:0 frame:0
+          TX packets:244570 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:475 txqueuelen:100
+          RX bytes:55075551 (52.5 Mb)  TX bytes:178108895 (169.8 Mb)
+          Interrupt:10 Base address:0x9000
+
+eth0:1    Link encap:Ethernet  HWaddr 00:A0:CC:60:B7:G4
+          inet addr:192.168.100.42  Bcast:192.168.100.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:10 Base address:0x9000
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:5998 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5998 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:1627579 (1.5 Mb)  TX bytes:1627579 (1.5 Mb)</TT
+></PRE
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="network-profiles.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>&nbsp;</TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Working with Profiles</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>&nbsp;</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>
